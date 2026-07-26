@@ -1,0 +1,38 @@
+name: Refresh deal book
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 05:00 UTC daily
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull sources and rebuild deals.json
+        env:
+          # SEC requires a real contact address in the User-Agent.
+          INGEST_USER_AGENT: "MA-Tracker/1.0 (contact: you@example.com)"
+          RETENTION_DAYS: "1825"
+        run: python3 ingest.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "deal-book-bot"
+          git config user.email "actions@github.com"
+          git add deals.json
+          if git diff --staged --quiet; then
+            echo "No new deals."
+          else
+            git commit -m "Refresh deal book ($(date -u +%Y-%m-%d))"
+            git push
+          fi
