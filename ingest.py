@@ -36,15 +36,32 @@ UA = os.environ.get(
 # 1. Sources
 # --------------------------------------------------------------------------
 
-GOOGLE_NEWS_QUERIES = [
-    '"to acquire" (deal OR acquisition) when:7d',
-    '"agrees to acquire" when:7d',
-    '"agrees to buy" when:7d',
-    '"merger agreement" when:7d',
-    '"completes acquisition" when:7d',
-    '"acquisition of" billion when:7d',
-    '"take-private" OR "take private" deal when:7d',
-    'private equity acquires when:7d',
+# Google News caps each query at roughly 100 items, so volume comes from running
+# many narrow queries across several editions rather than one broad query.
+WINDOW = os.environ.get("WINDOW", "30d")   # set to 90d or 1y for a one-off backfill
+
+GLOBAL_QUERIES = [
+    '"to acquire"', '"agrees to acquire"', '"agrees to buy"', '"has acquired"',
+    '"merger agreement"', '"completes acquisition"', '"completes the acquisition"',
+    '"closes acquisition"', '"acquisition of" billion', '"to buy" billion deal',
+    '"take-private" OR "take private"', '"all-cash deal"', '"all-stock deal"',
+    '"definitive agreement" acquire', 'private equity acquires',
+    '"acquires majority stake"', '"buys stake in"', '"to merge with"',
+    '"carve-out" OR "divestiture" sale', '"terminates merger" OR "scraps acquisition"',
+]
+
+INDIA_QUERIES = [
+    'acquisition crore', '"to acquire" crore', '"acquires" stake crore',
+    'CCI approves acquisition', 'CCI approves merger', 'NCLT approves merger',
+    '"open offer" acquisition SEBI', 'India acquisition deal', 'Indian startup acquired',
+    '"to acquire" India company', 'merger Indian company crore',
+]
+
+# (label, hl, gl, ceid, queries)
+NEWS_EDITIONS = [
+    ("US", "en-US", "US", "US:en", GLOBAL_QUERIES),
+    ("IN", "en-IN", "IN", "IN:en", GLOBAL_QUERIES + INDIA_QUERIES),
+    ("GB", "en-GB", "GB", "GB:en", GLOBAL_QUERIES[:10]),
 ]
 
 # Regulator feeds: authoritative, structured, and free.
@@ -107,11 +124,15 @@ def parse_feed(xml_bytes):
         date_raw = txt("pubDate", "updated", "published")
         source = txt("source") or ""
 
+        src_el = it.find("source")
+        publisher_url = src_el.get("url", "") if src_el is not None else ""
+
         items.append({
             "title": _unescape(title),
             "link": link,
             "date": normalise_date(date_raw),
             "source": source,
+            "publisherUrl": publisher_url,
         })
     return items
 
@@ -142,19 +163,25 @@ def normalise_date(raw):
 
 
 def pull_google_news():
-    out = []
-    for q in GOOGLE_NEWS_QUERIES:
-        url = ("https://news.google.com/rss/search?q="
-               + urllib.parse.quote(q)
-               + "&hl=en-US&gl=US&ceid=US:en")
-        print(f"  google news: {q}")
-        body = fetch(url)
-        if not body:
-            continue
-        for item in parse_feed(body):
-            item["feed"] = "Google News"
-            out.append(item)
-        time.sleep(1)
+    out, seen = [], set()
+    for label, hl, gl, ceid, queries in NEWS_EDITIONS:
+        print(f"  google news [{label}]: {len(queries)} queries")
+        for q in queries:
+            url = ("https://news.google.com/rss/search?q="
+                   + urllib.parse.quote(f"{q} when:{WINDOW}")
+                   + f"&hl={hl}&gl={gl}&ceid={ceid}")
+            body = fetch(url)
+            if not body:
+                continue
+            for item in parse_feed(body):
+                sig = (item["title"] or "").lower()[:90]
+                if sig in seen:
+                    continue
+                seen.add(sig)
+                item["feed"] = "Google News"
+                item["edition"] = label
+                out.append(item)
+            time.sleep(0.6)
     return out
 
 
@@ -220,6 +247,7 @@ VERBS = r"(?:to acquire|acquires|acquired|to buy|buys|to purchase|purchases|" \
         r"agrees to acquire|agrees to buy|has agreed to acquire|will acquire|" \
         r"completes acquisition of|completes purchase of|closes acquisition of|" \
         r"to take over|takes over|snaps up|to merge with|merges with|" \
+        r"completes merger with|completes its merger with|" \
         r"(?:scraps|abandons|terminates|calls off|ends|drops)\s+" \
         r"(?:its\s+|the\s+|planned\s+|proposed\s+|\$?[\d.]+\s?\w*\s+)*" \
         r"(?:acquisition|takeover|merger|purchase|bid)\s+(?:of|for|with))"
@@ -232,6 +260,13 @@ PATTERNS = [
                r"agrees to be acquired by|agrees to sell itself to)\s+"
                r"(?P<a>.{2,60}?)(?:\s+(?:for|in)\s+(?P<v>.{2,30}?))?"
                r"(?:\s*[-–—|,]\s*.*)?$", re.I),
+    # "CCI approves Zomato acquisition of Blinkit" / "EU clears Microsoft takeover of X"
+    re.compile(r"^(?:cci|sebi|nclt|rbi|eu|ec|cma|ftc|doj|regulators?|"
+               r"[\w .&']{2,28}?)\s+(?:approves|approved|clears|cleared|greenlights)\s+"
+               r"(?P<a>.{2,50}?)(?:'s)?\s+"
+               r"(?:proposed\s+)?(?:acquisition|takeover|purchase|buyout)\s+of\s+"
+               r"(?P<t>.{2,60}?)(?:\s+(?:for|in|at)\s+(?P<v>.{2,30}))?"
+               r"(?:\s*[-–—|]\s*.*)?$", re.I),
 ]
 
 VALUE = re.compile(
@@ -298,16 +333,104 @@ COMPANY_SECTORS = {
 }
 
 REGIONS = {
-    "India": ["india", "indian", "mumbai", "bengaluru", "delhi", "crore", "sebi", "nse "],
-    "United Kingdom": ["uk ", "britain", "british", "london", "cma"],
-    "Europe": ["germany", "france", "european", "eu ", "netherlands", "spain",
-               "italy", "nordic", "swiss", "sweden"],
-    "Asia-Pacific": ["china", "chinese", "japan", "japanese", "korea", "singapore",
-                     "australia", "hong kong", "taiwan"],
-    "Middle East & Africa": ["saudi", "uae", "dubai", "abu dhabi", "qatar", "israel",
-                             "africa", "nigeria", "egypt"],
-    "Latin America": ["brazil", "mexico", "chile", "colombia", "argentina", "latin america"],
+    "United Kingdom": ["uk ", " uk", "britain", "british", "london", "ftse", "plc"],
+    "Europe": ["germany", "german", "france", "french", "european", "eu ",
+               "netherlands", "dutch", "spain", "spanish", "italy", "italian",
+               "nordic", "swiss", "switzerland", "sweden", "denmark", "norway"],
+    "Asia-Pacific": ["china", "chinese", "japan", "japanese", "korea", "korean",
+                     "singapore", "australia", "australian", "hong kong", "taiwan",
+                     "indonesia", "malaysia", "vietnam", "thailand", "new zealand"],
+    "Middle East & Africa": ["saudi", "uae", "dubai", "abu dhabi", "qatar", "kuwait",
+                             "israel", "israeli", "africa", "african", "nigeria",
+                             "egypt", "south africa"],
+    "Latin America": ["brazil", "brazilian", "mexico", "mexican", "chile",
+                      "colombia", "argentina", "latin america", "peru"],
+    "North America": ["us ", " u.s.", "american", "wall street", "nasdaq", "nyse",
+                      "canada", "canadian", "toronto", "silicon valley", "sec filing"],
 }
+
+# --- India signals -------------------------------------------------------
+# India was previously only detected when a headline literally said "india",
+# which almost never happens. These three independent signals fix that.
+
+INDIA_TERMS = [
+    "india", "indian", "mumbai", "bengaluru", "bangalore", "delhi", "chennai",
+    "hyderabad", "kolkata", "pune", "gurugram", "gurgaon", "noida", "ahmedabad",
+    "crore", "lakh", "rupee", "₹", " sebi", " cci ", "nclt", "nse ", "bse ",
+    "reserve bank of india", "dalal street", "nifty", "sensex", "irdai",
+    "competition commission of india", "open offer",
+]
+
+INDIA_DOMAINS = [
+    "economictimes.indiatimes.com", "indiatimes.com", "livemint.com", "mint.com",
+    "business-standard.com", "moneycontrol.com", "thehindubusinessline.com",
+    "thehindu.com", "financialexpress.com", "businesstoday.in", "ndtvprofit.com",
+    "cnbctv18.com", "zeebiz.com", "bqprime.com", "vccircle.com", "inc42.com",
+    "entrackr.com", "yourstory.com", "medianama.com", "hindustantimes.com",
+    "timesofindia.indiatimes.com", "deccanherald.com", "thewire.in", "scroll.in",
+]
+
+INDIA_COMPANIES = [
+    "reliance", "tata ", "adani", "birla", "mahindra", "bajaj", "godrej",
+    "wipro", "infosys", "hcl", "tcs", "hdfc", "icici", "axis bank", "kotak",
+    "sbi ", "state bank of india", "yes bank", "idfc", "bandhan",
+    "jio", "airtel", "bharti", "vodafone idea", "zomato", "swiggy", "paytm",
+    "flipkart", "ola ", "oyo", "byju", "phonepe", "nykaa", "policybazaar",
+    "dr reddy", "cipla", "sun pharma", "lupin", "torrent pharma", "zydus",
+    "biocon", "glenmark", "aurobindo", "divis", "piramal",
+    "l&t", "larsen & toubro", "ultratech", "ambuja", "acc ", "jsw", "vedanta",
+    "hindalco", "sail ", "ntpc", "ongc", "indian oil", "bpcl", "hpcl",
+    "asian paints", "britannia", "dabur", "marico", "itc ", "hul ",
+    "hindustan unilever", "titan", "dmart", "avenue supermarts", "jubilant",
+]
+
+DOMAIN_REGIONS = {
+    "United Kingdom": ["bbc.co.uk", "theguardian.com", "telegraph.co.uk", "ft.com",
+                       "thetimes.co.uk", "cityam.com", "sky.com"],
+    "Europe": ["handelsblatt.com", "lesechos.fr", "elpais.com", "dw.com",
+               "euronews.com", "politico.eu"],
+    "Asia-Pacific": ["scmp.com", "nikkei.com", "japantimes.co.jp", "straitstimes.com",
+                     "afr.com", "koreaherald.com", "channelnewsasia.com"],
+    "Middle East & Africa": ["thenationalnews.com", "arabnews.com", "gulfnews.com",
+                             "businesslive.co.za"],
+    "Latin America": ["valor.globo.com", "eluniversal.com.mx", "batimes.com.ar"],
+    "North America": ["wsj.com", "bloomberg.com", "cnbc.com", "nytimes.com",
+                      "prnewswire.com", "businesswire.com", "globenewswire.com",
+                      "sec.gov", "axios.com", "forbes.com", "barrons.com"],
+}
+
+
+def _urls_of(item):
+    return " ".join(filter(None, [
+        (item or {}).get("link", ""),
+        (item or {}).get("publisherUrl", ""),
+        (item or {}).get("source", ""),
+    ])).lower()
+
+
+def detect_region(title, item=None, parties=""):
+    """India first, then domain of the publisher, then headline keywords."""
+    hay = f" {title.lower()} {parties.lower()} "
+    urls = _urls_of(item)
+
+    if any(t in hay for t in INDIA_TERMS):
+        return "India"
+    if any(d in urls for d in INDIA_DOMAINS):
+        return "India"
+    if any(c in hay for c in INDIA_COMPANIES):
+        return "India"
+    if (item or {}).get("edition") == "IN" and "crore" in hay:
+        return "India"
+
+    for label, domains in DOMAIN_REGIONS.items():
+        if any(d in urls for d in domains):
+            return label
+
+    for label, keys in REGIONS.items():
+        if any(k in hay for k in keys):
+            return label
+
+    return "Unspecified"
 
 NOISE = re.compile(r"^(exclusive|update \d|breaking|analysis|opinion|report)[:\-–—]\s*", re.I)
 TRAIL = re.compile(r"\s*[-–—|]\s*[A-Z][\w .&']{2,30}$")  # " - Reuters"
@@ -323,7 +446,7 @@ def clean_party(s):
     s = _unescape(s or "").strip(" ,.:;\"'“”")
     s = TAIL_VALUE.sub("", s)
     s = TAIL_WORDS.sub("", s)
-    s = re.sub(r"^(the|us|u\.s\.|uk|indian|chinese|japanese)\s+", "", s, flags=re.I)
+    s = re.sub(r"^the\s+", "", s, flags=re.I)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
@@ -359,7 +482,7 @@ def detect_status(title):
     if re.search(r"\b(terminat|scraps|scrapped|abandons|calls off|walks away|"
                  r"collapses|drops bid)\b", t):
         return "Terminated"
-    if re.search(r"\b(approv|clears|cleared|greenlight|regulatory nod)\b", t):
+    if re.search(r"\b(approv\w*|clear(?:s|ed)|greenlight\w*|regulatory nod)\b", t):
         return "Pending"
     return "Announced"
 
@@ -424,7 +547,7 @@ def extract(item):
             "dealType": detect_type(title),
             "industry": (classify(title, INDUSTRIES)
                          or classify(f"{acquirer} {target}", COMPANY_SECTORS, "Other")),
-            "region": classify(title, REGIONS, "North America"),
+            "region": detect_region(title, item, f"{acquirer} {target}"),
             "headline": title,
             "sourceName": item.get("source") or item.get("feed") or "News",
             "sourceUrl": item.get("link", ""),
