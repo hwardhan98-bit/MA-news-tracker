@@ -21,7 +21,7 @@ jobs:
       - name: Pull sources and rebuild deals.json
         env:
           # SEC requires a real contact address in the User-Agent.
-          INGEST_USER_AGENT: "MA-Tracker/1.0 (contact: you@example.com)"
+          INGEST_USER_AGENT: "MA-Tracker/1.0 (contact: ai.wardhan.9@gmail.com)"
           RETENTION_DAYS: "1825"
         run: python3 ingest.py
 
