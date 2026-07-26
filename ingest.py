@@ -163,26 +163,55 @@ def normalise_date(raw):
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def pull_google_news():
+def _news_url(q, hl, gl, ceid, since=None, until=None):
+    if since and until:
+        q = f"{q} after:{since} before:{until}"
+    else:
+        q = f"{q} when:{WINDOW}"
+    return ("https://news.google.com/rss/search?q=" + urllib.parse.quote(q)
+            + f"&hl={hl}&gl={gl}&ceid={ceid}")
+
+
+def _slices(months, step_days):
+    """Consecutive date windows, newest first."""
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=int(months * 30.44))
+    out, cur = [], end
+    while cur > start:
+        prev = max(cur - timedelta(days=step_days), start)
+        out.append((prev.isoformat(), cur.isoformat()))
+        cur = prev
+    return out
+
+
+def pull_google_news(months=0, step_days=7):
+    """Each Google News query returns at most ~100 items no matter how broad
+    it is. Volume therefore comes from many narrow queries, and history comes
+    from slicing the date range — not from asking for more results."""
     out, seen = [], set()
-    for label, hl, gl, ceid, queries in NEWS_EDITIONS:
-        print(f"  google news [{label}]: {len(queries)} queries")
-        for q in queries:
-            url = ("https://news.google.com/rss/search?q="
-                   + urllib.parse.quote(f"{q} when:{WINDOW}")
-                   + f"&hl={hl}&gl={gl}&ceid={ceid}")
-            body = fetch(url)
-            if not body:
-                continue
-            for item in parse_feed(body):
-                sig = (item["title"] or "").lower()[:90]
-                if sig in seen:
+    windows = _slices(months, step_days) if months else [(None, None)]
+
+    for since, until in windows:
+        label_span = f"{since}..{until}" if since else WINDOW
+        for label, hl, gl, ceid, queries in NEWS_EDITIONS:
+            if months and label == "GB":
+                continue                      # keep backfill request count sane
+            for q in queries:
+                body = fetch(_news_url(q, hl, gl, ceid, since, until))
+                if not body:
                     continue
-                seen.add(sig)
-                item["feed"] = "Google News"
-                item["edition"] = label
-                out.append(item)
-            time.sleep(0.6)
+                fresh = 0
+                for item in parse_feed(body):
+                    sig = (item["title"] or "").lower()[:90]
+                    if sig in seen:
+                        continue
+                    seen.add(sig)
+                    item["feed"] = "Google News"
+                    item["edition"] = label
+                    out.append(item)
+                    fresh += 1
+                time.sleep(0.5)
+            print(f"  [{label}] {label_span}: {len(out)} headlines so far")
     return out
 
 
@@ -474,7 +503,7 @@ JURISDICTION_SIGNALS = {
               "india", "indian", "mumbai", "bengaluru", "bangalore", "new delhi",
               "chennai", "hyderabad", "kolkata", "gurugram", "noida", "dalal street"],
     "United Kingdom": ["\u00a3", "pence", "takeover panel", "competition and markets authority",
-                       "britain", "british", "uk-based", "uk based", "london-listed",
+                       "britain", "british", "uk", "u.k.", "uk-based", "uk based", "london-listed",
                        "london-based", "ftse", "scotland", "wales"],
     "Europe": ["\u20ac", "european commission", "brussels", "eurozone", "germany", "german",
                "france", "french", "netherlands", "dutch", "spain", "spanish",
@@ -535,8 +564,9 @@ def jurisdiction_region(text):
 def detect_region(title, item=None, acquirer="", target=""):
     """Where the deal is, in priority order. The publisher is never a signal."""
     return (company_region(target)
-            or jurisdiction_region(title)
+            or jurisdiction_region(target)
             or company_region(acquirer)
+            or jurisdiction_region(title)
             or "Unspecified")
 
 
@@ -550,6 +580,10 @@ TAIL_WORDS = re.compile(
     r"\s+(?:deal|transaction|all-cash deal|cash deal|stock deal)$", re.I)
 TAIL_FROM = re.compile(
     r"\s+from\s+(?:the\s+)?[\w .&'-]{2,40}$", re.I)
+DISPLAY_SUFFIX = re.compile(
+    r"[,\s]+(?:inc|inc\.|incorporated|corp|corp\.|corporation|ltd|ltd\.|"
+    r"limited|llc|llp|plc|pvt|pvt\.|co\.|s\.a\.|n\.v\.|ag|gmbh|"
+    r"sa|nv|bv|ab|pte|pty)\.?$", re.I)
 
 
 # A trade word is always garnish ("chipmaker Broadcom"). A country word is
@@ -561,6 +595,14 @@ TRADE_WORDS = {
     "insurer", "retailer", "miner", "brewer", "telco", "conglomerate",
     "startup", "unicorn", "fintech", "biotech", "giant", "major", "firm",
     "billionaire", "tycoon", "group", "maker", "producer", "operator",
+}
+# Sector adjectives follow the same rule as country adjectives: garnish when
+# they modify a trade word ("tech giant Amazon"), part of the name otherwise
+# ("Tech Mahindra").
+SECTOR_WORDS = {
+    "tech", "retail", "software", "energy", "oil", "gas", "media", "pharma",
+    "auto", "banking", "financial", "industrial", "telecom", "aerospace",
+    "mining", "logistics", "insurance", "healthcare", "chemical",
 }
 COUNTRY_WORDS = {
     "us", "usa", "american", "uk", "british", "indian", "india", "chinese",
@@ -581,7 +623,7 @@ def _strip_descriptors(s):
 
         if word in TRADE_WORDS:
             tokens.pop(0)
-        elif word in COUNTRY_WORDS and (possessive or nxt in TRADE_WORDS):
+        elif word in (COUNTRY_WORDS | SECTOR_WORDS) and (possessive or nxt in TRADE_WORDS):
             tokens.pop(0)
         else:
             break
@@ -594,6 +636,8 @@ def clean_party(s):
     s = TAIL_VALUE.sub("", s)
     s = TAIL_FROM.sub("", s)
     s = TAIL_WORDS.sub("", s)
+    for _ in range(2):                    # "Foo Ltd, Inc." -> "Foo"
+        s = DISPLAY_SUFFIX.sub("", s).strip(" ,.")
     s = re.sub(r"^the\s+", "", s, flags=re.I)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
@@ -798,44 +842,87 @@ def fold(items):
     out["acquirer"] = consensus("acquirer")
     out["target"] = consensus("target")
 
-    others = [i.get("sourceUrl") for i in items if i.get("sourceUrl") and i.get("sourceUrl") != out.get("sourceUrl")]
-    out["alsoReported"] = len(others)
+    out["alsoReported"] = len(items) - 1
     return out
 
 
-def _same_party(a, b):
-    """True when two acquirer names plausibly refer to one company."""
-    if not a or not b:
+def _similar(x, y):
+    """True when two canonical names plausibly refer to the same company."""
+    if not x or not y:
         return False
-    if a == b:
+    if x == y:
         return True
-    if a.startswith(b + " ") or b.startswith(a + " "):
+    if x.startswith(y + " ") or y.startswith(x + " "):
         return True
-    at, bt = a.split(), b.split()
-    return len(at[0]) > 3 and at[0] == bt[0]
+
+    xt, yt = x.split(), y.split()
+    if not xt or not yt:
+        return False
+
+    sx, sy = set(xt), set(yt)
+    shared = sx & sy
+    if not shared:
+        return False
+    if len(shared) / len(sx | sy) >= 0.5:
+        return True
+    # One distinctive token in the same position carries a lot of weight:
+    # "activision" vs "activision blizzard", "metro" vs "metro cash carry".
+    return xt[0] == yt[0] and len(xt[0]) >= 4
+
+
+class _DSU:
+    def __init__(self, n):
+        self.p = list(range(n))
+
+    def find(self, i):
+        while self.p[i] != i:
+            self.p[i] = self.p[self.p[i]]
+            i = self.p[i]
+        return i
+
+    def union(self, i, j):
+        a, b = self.find(i), self.find(j)
+        if a != b:
+            self.p[b] = a
 
 
 def dedupe(deals):
-    """Cluster on the target, then on the acquirer within each target group."""
-    by_target = {}
-    for d in deals:
-        if not d.get("acquirer") or not d.get("target"):
-            continue
-        by_target.setdefault(core(d["target"]), []).append(d)
+    """Union records whose acquirer AND target both look like the same company.
 
-    out = []
-    for group in by_target.values():
-        clusters = []
-        for d in group:
-            a = core(d["acquirer"])
-            for c in clusters:
-                if _same_party(a, c["a"]):
-                    c["items"].append(d)
-                    break
-            else:
-                clusters.append({"a": a, "items": [d]})
-        out.extend(fold(c["items"]) for c in clusters)
-    return out
+    Both sides are matched fuzzily. The previous version keyed on an exact
+    target string, so "Activision" and "Activision Blizzard" were never even
+    compared and survived as two rows.
+    """
+    recs = [d for d in deals if d.get("acquirer") and d.get("target")]
+    if not recs:
+        return []
+
+    keys = [(core(d["acquirer"]), core(d["target"])) for d in recs]
+    dsu = _DSU(len(recs))
+
+    # Block on the leading token of either party so we only compare plausible
+    # pairs rather than every record against every other record.
+    blocks = {}
+    for i, (ca, ct) in enumerate(keys):
+        for name in (ca, ct):
+            tok = name.split()[0] if name else ""
+            if len(tok) >= 3:
+                blocks.setdefault(tok, []).append(i)
+
+    for idxs in blocks.values():
+        if len(idxs) > 600:      # a token this common is not discriminating
+            continue
+        for n, i in enumerate(idxs):
+            for j in idxs[n + 1:]:
+                if dsu.find(i) == dsu.find(j):
+                    continue
+                if _similar(keys[i][0], keys[j][0]) and _similar(keys[i][1], keys[j][1]):
+                    dsu.union(i, j)
+
+    groups = {}
+    for i, d in enumerate(recs):
+        groups.setdefault(dsu.find(i), []).append(d)
+    return [fold(g) for g in groups.values()]
 
 
 def merge(existing, fresh):
@@ -871,14 +958,32 @@ def rebuild(path):
         print(f"  {r:22} {n}")
 
 
+def _arg(flag, default=0):
+    if flag in sys.argv:
+        i = sys.argv.index(flag)
+        if i + 1 < len(sys.argv):
+            try:
+                return float(sys.argv[i + 1])
+            except ValueError:
+                pass
+        return default
+    return 0
+
+
 def main():
     if "--rebuild" in sys.argv:
         rebuild(OUT_FILE)
         return
 
+    months = _arg("--backfill", 12)
+    step = int(_arg("--step", 7) or 7)
+
+    if months:
+        print(f"Backfilling {months:g} months in {step}-day slices. "
+              f"This makes many requests and will take a while.")
     print("Pulling sources...")
     items = []
-    items += pull_google_news()
+    items += pull_google_news(months=months, step_days=step)
     items += pull_regulators()
     try:
         items += pull_sec()
@@ -917,7 +1022,11 @@ def main():
     with open(OUT_FILE, "w") as f:
         json.dump(payload, f, indent=1, ensure_ascii=False)
 
-    print(f"Wrote {OUT_FILE}: {len(merged)} deals ({added:+d} this run).")
+    collapsed = len(fresh) + len(existing) - len(merged)
+    print(f"Wrote {OUT_FILE}: {len(merged)} deals ({added:+d} this run, "
+          f"{collapsed} duplicate records folded).")
+    for r, n in Counter(d.get("region") for d in merged).most_common():
+        print(f"  {r:22} {n}")
 
 
 if __name__ == "__main__":
