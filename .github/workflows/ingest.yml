@@ -3,14 +3,28 @@ name: Refresh deal book
 on:
   schedule:
     - cron: "0 5 * * *"   # 05:00 UTC daily
-  workflow_dispatch:       # lets you run it by hand from the Actions tab
+  workflow_dispatch:
+    inputs:
+      backfill_months:
+        description: "Months of history to backfill (0 = normal nightly top-up)"
+        required: false
+        default: "0"
+      step_days:
+        description: "Days per slice when backfilling. Smaller = more deals, slower."
+        required: false
+        default: "7"
 
 permissions:
   contents: write
 
+# A nightly run only fetches recent news, so on day one the book holds a few
+# weeks. Run this workflow manually once with backfill_months set to 12 or 24
+# to load history, then let the schedule top it up.
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -21,9 +35,17 @@ jobs:
       - name: Pull sources and rebuild deals.json
         env:
           # SEC requires a real contact address in the User-Agent.
-          INGEST_USER_AGENT: "MA-Tracker/1.0 (contact: ai.wardhan.9@gmail.com)"
-          RETENTION_DAYS: "1825"
-        run: python3 ingest.py
+          INGEST_USER_AGENT: "MA-Tracker/1.0 (contact: you@example.com)"
+          RETENTION_DAYS: "3650"   # keep 10 years
+          WINDOW: "45d"            # overlaps the nightly cadence so a failed run loses nothing
+        run: |
+          MONTHS="${{ github.event.inputs.backfill_months }}"
+          STEP="${{ github.event.inputs.step_days }}"
+          if [ -n "$MONTHS" ] && [ "$MONTHS" != "0" ]; then
+            python3 ingest.py --backfill "$MONTHS" --step "${STEP:-7}"
+          else
+            python3 ingest.py
+          fi
 
       - name: Commit if anything changed
         run: |
