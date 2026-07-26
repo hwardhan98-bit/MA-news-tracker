@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-07-26T17:52:51+00:00",
- "dealCount": 922,
+ "updatedAt": "2026-07-26T17:55:52+00:00",
+ "dealCount": 945,
  "sources": [
   "Google News RSS",
   "UK CMA",
@@ -1192,6 +1192,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Providence Equity Nears $3.4 Billion",
+   "target": "Out Casey Wasserman",
+   "dealValue": "$3.4B",
+   "valueUsdM": 3400.0,
+   "announcedDate": "2026-07-24",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Providence Equity Nears $3.4 Billion Deal To Buy Out Casey Wasserman",
+   "sourceName": "CelebrityAccess",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMFdPR2d4UUx2dVdfa3J2bnY0dTZUM0hKdl9zMDN3bUk3SEVWeWZaQzVNSTZyVnd0Z29UYk94LTNfYWdRdjFxZFU1cGFIMzFWV1ROTE4yWkFUbnhUcFJXM1NzWU9NUUdtdk5Bdm9lSGlPV0trc29oNlRPVjhGNHV0c2V6ZVdLdTZVWW14ZFRGaW1MMjNaVF9nNUp2dVA3SmJOSlZ6UlI2OTA4WVBsUWJmZndWcms?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Symrise signs a put option agreement",
    "target": "Floral Concept",
    "dealValue": null,
@@ -2069,7 +2085,7 @@
    "sourceName": "The New Indian Express",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQzVQTlRhazlkcXZWS1hua0hiWkViYUc3YVFKVy1VeUYxZWRrV1hTS2tocHdSOWdzbVl0MklhbFVXZmV3ZXM3WjY4MnEtSlZhMGYzMW8yVXBiWkE0MFoyaDMydzRIR3laMGJMcTBwZDdQdnBkdmVVV29ONDh4V1ZfNjBWMUJXRklNZ1hjNVN4b0sxRENRZHI1S3k5emZmRVJ4VmpPQVg0bzlwZ2xHbTZLQWowRUZtUUhkZnU1WGtrbklXLURnZnJoQ1k0NNIBywFBVV95cUxPQzVQTlRhazlkcXZWS1hua0hiWkViYUc3YVFKVy1VeUYxZWRrV1hTS2tocHdSOWdzbVl0MklhbFVXZmV3ZXM3WjY4MnEtSlZhMGYzMW8yVXBiWkE0MFoyaDMydzRIR3laMGJMcTBwZDdQdnBkdmVVV29ONDh4V1ZfNjBWMUJXRklNZ1hjNVN4b0sxRENRZHI1S3k5emZmRVJ4VmpPQVg0bzlwZ2xHbTZLQWowRUZtUUhkZnU1WGtrbklXLURnZnJoQ1k0NA?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Burgess Pigment",
@@ -2516,6 +2532,70 @@
    "headline": "BDR Thermea Completes Acquisition of G.I. Holding - news.brgbuildingsolutions.com",
    "sourceName": "news.brgbuildingsolutions.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUHJOZGVaY3Y1bEsxVVhFdk1sWmNNazZ2SlZHeDlkV0VZTVZqMU9WOWNvWUxpQkZwMGU5R2R6TEdWUUpreHgyZGt4VHJJdDMzcXVZQ2g0Qnd5VVVYZWhNZXdvWnJpN3pZZmtRc3RTQ2dkVDd2cG9fZjlqRU5pRW5vVjVxd2ZqTHpLajRzbFhCM1NVRHVUQWc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "One of state's largest private companies",
+   "target": "by private equity firm",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-22",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "One of state's largest private companies acquired by private equity firm",
+   "sourceName": "The Business Journals",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0X0UyUE1yUVpKOTl6a280NUhTMnhtU29ReUExN2J5c2EzTVA3dlhmVU1mbGlfeWk5MTBQMWdmN2dhUUhVR2c1MFdRWjZmMjdJbm1PU3hEMFRWaHZaUnBObU5tN09MRGRPdVZQRkJ1MjZnZ1h1TWVYZGFn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "AEGIS Hedging to Be",
+   "target": "by Private Equity",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-22",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "AEGIS Hedging to Be Acquired by Private Equity at Goldman Sachs Alternatives",
+   "sourceName": "Business Wire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWElPR0hQbDhlMHVKT0llbGpsUkJMVy1vTnhVZjNpVmF6ajZQVGRLd0NpS2NTc2JZRllTenNERmVLOTZCSGMyTDVCS3g2UHlsUDl4U0JWOUpYUHhGSmlTWG1uYkw0LTFmRVZ6OUZXdFJvOU9BY0FwS2hmaGVqem9lZHBEWE03RGRWRzFiakI0cmxVVXVvUWhqdkNUSzR3b2RrcVExd2ZUUXhoSjV3WjhhcXNjbnFUR05kZ1ZVTmEwcURQdGZaX1JxRlNzOTJYQQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "Lyons Magnus",
+   "target": "by private equity firm",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-22",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Lyons Magnus acquired by private equity firm",
+   "sourceName": "Food Business News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc3JBdGM4VFgyTlJOUFZ2bS1GN3lZcXE0STNnd0xjX0ViYlZna1B0dzlZb2lYZUtTRFdBZ05OZ01aUUpWMFVraFI5TzBsX05aa3RlcDJPOVFZRmRITzNxejZKc0I2MkN6SDF4QmpmQnhMcUFpajlaRV9PWFlpYnA5T240MWlFWTBQdWlMYnZ6MDk2YTFTUFJn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Press Release: AEGIS Hedging to Be",
+   "target": "by Private Equity",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-22",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Press Release: AEGIS Hedging to Be Acquired by Private Equity at Goldman Sachs Alternatives",
+   "sourceName": "Moomoo",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGJFX0VBUTJRd3ltZVAzZVlOd25tYk85b1BRVnFKTm5vMXpnMUxYWmlCYldBSF9qak9lNGEwNmxUQ1NSdjBtbGNqN2lRRzFjYlVTZHhlQ1RhSTQtWWxvbVpBLWx6NDBSdlFTdUtJTUdrVk12WFBBV2V3UVdGYWVybDU0T1otdllGNy0tRTlla1NYX3FsSnFwbGRkVlBIcEh3UjV4Zw?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -3224,70 +3304,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "One of state's largest private companies",
-   "target": "by private equity firm",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-22",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "One of state's largest private companies acquired by private equity firm",
-   "sourceName": "The Business Journals",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0X0UyUE1yUVpKOTl6a280NUhTMnhtU29ReUExN2J5c2EzTVA3dlhmVU1mbGlfeWk5MTBQMWdmN2dhUUhVR2c1MFdRWjZmMjdJbm1PU3hEMFRWaHZaUnBObU5tN09MRGRPdVZQRkJ1MjZnZ1h1TWVYZGFn?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "AEGIS Hedging to Be",
-   "target": "by Private Equity",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-22",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "AEGIS Hedging to Be Acquired by Private Equity at Goldman Sachs Alternatives",
-   "sourceName": "Business Wire",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWElPR0hQbDhlMHVKT0llbGpsUkJMVy1vTnhVZjNpVmF6ajZQVGRLd0NpS2NTc2JZRllTenNERmVLOTZCSGMyTDVCS3g2UHlsUDl4U0JWOUpYUHhGSmlTWG1uYkw0LTFmRVZ6OUZXdFJvOU9BY0FwS2hmaGVqem9lZHBEWE03RGRWRzFiakI0cmxVVXVvUWhqdkNUSzR3b2RrcVExd2ZUUXhoSjV3WjhhcXNjbnFUR05kZ1ZVTmEwcURQdGZaX1JxRlNzOTJYQQ?oc=5",
-   "feed": "Google News",
-   "alsoReported": 1
-  },
-  {
-   "acquirer": "Lyons Magnus",
-   "target": "by private equity firm",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-22",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Lyons Magnus acquired by private equity firm",
-   "sourceName": "Food Business News",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc3JBdGM4VFgyTlJOUFZ2bS1GN3lZcXE0STNnd0xjX0ViYlZna1B0dzlZb2lYZUtTRFdBZ05OZ01aUUpWMFVraFI5TzBsX05aa3RlcDJPOVFZRmRITzNxejZKc0I2MkN6SDF4QmpmQnhMcUFpajlaRV9PWFlpYnA5T240MWlFWTBQdWlMYnZ6MDk2YTFTUFJn?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "Press Release: AEGIS Hedging to Be",
-   "target": "by Private Equity",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-22",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Press Release: AEGIS Hedging to Be Acquired by Private Equity at Goldman Sachs Alternatives",
-   "sourceName": "Moomoo",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGJFX0VBUTJRd3ltZVAzZVlOd25tYk85b1BRVnFKTm5vMXpnMUxYWmlCYldBSF9qak9lNGEwNmxUQ1NSdjBtbGNqN2lRRzFjYlVTZHhlQ1RhSTQtWWxvbVpBLWx6NDBSdlFTdUtJTUdrVk12WFBBV2V3UVdGYWVybDU0T1otdllGNy0tRTlla1NYX3FsSnFwbGRkVlBIcEh3UjV4Zw?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Monterro",
    "target": "majority stake in Finnish regtech Mors Software",
    "dealValue": null,
@@ -3813,7 +3829,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQXVoTDMxai1FY1c0S3VDMnBFSXVoQTN6Q0NfVWhxR1ktX1lkY05sWVdCMkQxWlVveDRHcG9PWDA1alFQeUxfeEw5RUZEUFM4NndXcUtIdEVDQ2NaR00welBVYnNxV3ZDRUZIRWUyeF9xYnlVSTRzOHRiVy1FdTktbVRoVG5ZaVJyZ3ctNXVYaDF3WU1ETm11WFBkYVF2X2FFekZKY1ZZWkxCTThZeVcyOHZQam9DOHozZ3ZUM1BKSUJxVzdBMlVWSW1LUWo?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 3
   },
   {
    "acquirer": "Des Moines-based Krause Group",
@@ -4213,7 +4229,7 @@
    "sourceName": "Moomoo",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmo2d3A2LXlBY3hHck1nMlZ5b0ZQTU80dGhFTUNDb0R3OWdLdk5xX2hKb1ExUVFrMFY2bFJWeGhmd0dnZEZjOUJld1N2emM3QWc2VEJHX3JVUlN6RHZzLXpOR1B0NHRKMnJaS1NLRkZiY3ZTQlBQem1NdlgtcHRfT0Q5eW03XzZId1ZMWEZqOC1FcFRaYU1nanhxUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 5
+   "alsoReported": 4
   },
   {
    "acquirer": "Swedish freight tech firm Einride",
@@ -4278,6 +4294,22 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTGZiOXdaazZ3b01ablRGVUtaN19BRmZrOXN1R1NKeHloVmRaNmhaNVdtc25QMElzODAtMWJENDRiS1FUVXpUVlAwTFM0OVNDa3pobllPcnlyTDZ3NDVNdzVuMGR6dWFlUVpUNVNHZTZYMjUxeGlaWkMyZ3JLWVoyQ3g5bVRkTmpVajgwWFhkRHJkbkRZVnpFdS1iT21WaWZJUnVVTGd5N2h0RDR1dE5FbWtfQ2RpNHN1WE1KWElzSDM0c2pnczlSb0JuUWhCVVg3N0p5OEZyRU9VOEJ4Y2syT2ZVWTE4cHc?oc=5",
    "feed": "Google News",
    "alsoReported": 1
+  },
+  {
+   "acquirer": "Private equity firm",
+   "target": "East Hampton campground",
+   "dealValue": "$10M",
+   "valueUsdM": 9.5,
+   "announcedDate": "2026-07-21",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private equity firm buys East Hampton campground for $9.52M",
+   "sourceName": "Hartford Business Journal",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbS1INUFkSzM5dUFvcW1fM3NQdGxSV1doVjRfcHIxWm1ZR2p4dklRaUlyQTVCTVZ0WjNMRXdHY01TbXVCaGhXRzdvV3RtdUlxUGFQbmRRVFhwWkdfZHBMNTlRUkY3UkU5aUNUX3l0U2g0cHRyM3o5TGltX0NVOUROdjUtbG44aTVnVlB4VGhOeXhDZXlKLUtZLXNCVF8?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
   },
   {
    "acquirer": "Private equity firm",
@@ -5912,6 +5944,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "SBI Holdings",
+   "target": "Majority Stake in Singapore’s Coinhako",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-20",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Asia-Pacific",
+   "headline": "SBI Holdings Acquires Majority Stake in Singapore’s Coinhako",
+   "sourceName": "LeapRate",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYWMzNGFNWTRqeDh2SFpGRHNZVnduRkRWc0lXOXpsNFEwOGpyVzlyVFduVEo4VVpCY3JMWlhZYUl4UjJzSDRyTzRtOFJKT2E1Sks5VXdiRzBKa2NFVnRkNDdfaTVjZ0hyOTczd3JSWGZKdFpMZk9Fd2NWckkwUlJJVTZlUHNid1JrOGN6ODkxbkhVVFh5dFZvVFVBQUUyUTFVY3NSeldSei0?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "SBI Holdings",
+   "target": "Majority Stake in Coinhako After Singapore Approval",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-19",
+   "status": "Pending",
+   "dealType": "Majority stake",
+   "industry": "Technology & Software",
+   "region": "Asia-Pacific",
+   "headline": "SBI Holdings Acquires Majority Stake in Coinhako After Singapore Approval",
+   "sourceName": "CryptoRank",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenluQ0VscGhZNzNVZUlGMTR1cWQweUhXVU9FNVVFWGhJRXZsR3JQNGNlMWJzYjBuc2dNbFVMQUZPa21McmozejQwM24zSUd1SkgxU0x0cnZXR0ZGTEpFZjlqRHljaGx6MVh0YkxKeHNhdFpVNDJGc0FGVE1sNjVBUHpaT2NkSU9jbC03Wnk1XzItSHBTNG5CM3RmbFpKdGQ2SjlJM2dvZU00OEVpUFRzbg?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Press Release: RB Global",
    "target": "BigIron",
    "dealValue": null,
@@ -5940,22 +6004,6 @@
    "headline": "A $1.7 Billion Reason to Buy Bloom Energy Stock Now",
    "sourceName": "Barchart.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMUVnX3dtandMbGxmYk1qdmNQY0VYeEVJa0tWaGF2b1lsRzROTW51cnMwTDFGR3V2Yjdlei1DOUx6WS1XMW5KUlpxbmdzSndORy1HYjdkeUpUdnlINTVkYlVYcTlScHZud1oyMkt3UXNvZWtMUWx1cWVtRnZRYWhtc2ZGdzZUbW13OU1tbUtnNjh0NWNJNmxCX3RB?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "SBI Holdings",
-   "target": "Majority Stake in Coinhako After Singapore Approval",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-19",
-   "status": "Pending",
-   "dealType": "Majority stake",
-   "industry": "Technology & Software",
-   "region": "Asia-Pacific",
-   "headline": "SBI Holdings Acquires Majority Stake in Coinhako After Singapore Approval",
-   "sourceName": "CryptoRank",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenluQ0VscGhZNzNVZUlGMTR1cWQweUhXVU9FNVVFWGhJRXZsR3JQNGNlMWJzYjBuc2dNbFVMQUZPa21McmozejQwM24zSUd1SkgxU0x0cnZXR0ZGTEpFZjlqRHljaGx6MVh0YkxKeHNhdFpVNDJGc0FGVE1sNjVBUHpaT2NkSU9jbC03Wnk1XzItSHBTNG5CM3RmbFpKdGQ2SjlJM2dvZU00OEVpUFRzbg?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -6116,6 +6164,38 @@
    "headline": "Truecaller enters into an agreement to acquire US-based TextPlus Inc.",
    "sourceName": "Yahoo Finance UK",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1lFNW1kS2tkNldDa1E0VU9WOHZSWnhIcExIQk5kMnMyUjVOWWphdERQNHlTTllVSFZhYl9MYW40ZldRUzR3V1ZwdWpaNkVQQXk4QjZyZUVXSFE5NURLLW1PVGxocE1KR0Jwa0lMN3lCc25jUUFQVjZITWhqbEQ4N1N2MHNqdXdkOUl4M3ZrNFE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "United Petfood",
+   "target": "stake in Germany’s SmartPetPro",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-17",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Consumer & Retail",
+   "region": "Europe",
+   "headline": "United Petfood buys stake in Germany’s SmartPetPro",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWU1EbzlsVkQxMmsxMkUwaXBkYkJXODM3LWZHSWlnWjREODNQcTlCWWhHSnhtSVVSOWJHREFHLXFRcHhOaVBOWFNwUXF5ZzBWazMwd3VpS0xXdTZRbDBxRHViejM0QlJwY0t2NFIxWWVIMEJnNTV1cUVzSlVFc3RUNEgybk8yNS05dFZxTktJN21UdGVZSzRjWFdzaGItU0E?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Vireo Growth Inc",
+   "target": "Pennsylvania Dispensary License",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-17",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Vireo Growth Inc. Completes Acquisition of Pennsylvania Dispensary License Transaction",
+   "sourceName": "GlobeNewswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM1NINTBVWEsyMzRiTWdmalBCREpEaXF4dF9ZdHBZcmlKNlVsRy1qc3p1RDB4Y2RsaDlsYVQyYlI2V1lsZmZ6R1pGTThLV2Q3UmFCellQN19ldDIxdExDLWJjR2ZldVFDOEltTU5xX1lPVjZSNkNjekh5SVZiUWNIRmd0VGRyWFJoN000R0J0LTdQMWxHVXQ1X1c5R3BRVWZBLWdiRGxBSDlsSl9RdXhUdWNUVGVBZ0pVbzdkaUtZNHRGRGNfRUlEaF9fdVNnckxHd0NoRVhzV2ZsXzZyeEVVT1Z5anh6N2NWenpVNW9R?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -6408,22 +6488,6 @@
    "alsoReported": 2
   },
   {
-   "acquirer": "Vireo Growth Inc",
-   "target": "Pennsylvania Dispensary License",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-17",
-   "status": "Completed",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Vireo Growth Inc. Completes Acquisition of Pennsylvania Dispensary License Transaction",
-   "sourceName": "GlobeNewswire",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM1NINTBVWEsyMzRiTWdmalBCREpEaXF4dF9ZdHBZcmlKNlVsRy1qc3p1RDB4Y2RsaDlsYVQyYlI2V1lsZmZ6R1pGTThLV2Q3UmFCellQN19ldDIxdExDLWJjR2ZldVFDOEltTU5xX1lPVjZSNkNjekh5SVZiUWNIRmd0VGRyWFJoN000R0J0LTdQMWxHVXQ1X1c5R3BRVWZBLWdiRGxBSDlsSl9RdXhUdWNUVGVBZ0pVbzdkaUtZNHRGRGNfRUlEaF9fdVNnckxHd0NoRVhzV2ZsXzZyeEVVT1Z5anh6N2NWenpVNW9R?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Flowserve",
    "target": "Trillium Flow Technologies’ Valves Division",
    "dealValue": null,
@@ -6520,22 +6584,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "United Petfood",
-   "target": "stake in Germany’s SmartPetPro",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-17",
-   "status": "Announced",
-   "dealType": "Majority stake",
-   "industry": "Consumer & Retail",
-   "region": "Europe",
-   "headline": "United Petfood buys stake in Germany’s SmartPetPro",
-   "sourceName": "Yahoo Finance",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWU1EbzlsVkQxMmsxMkUwaXBkYkJXODM3LWZHSWlnWjREODNQcTlCWWhHSnhtSVVSOWJHREFHLXFRcHhOaVBOWFNwUXF5ZzBWazMwd3VpS0xXdTZRbDBxRHViejM0QlJwY0t2NFIxWWVIMEJnNTV1cUVzSlVFc3RUNEgybk8yNS05dFZxTktJN21UdGVZSzRjWFdzaGItU0E?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "A look inside Dominion Energy's historic application",
    "target": "NextEra",
    "dealValue": null,
@@ -6597,7 +6645,7 @@
    "sourceName": "Railway PRO",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JV0tla21IQkVYUXJnTnlDY1pRekk1Ti1NZzJLUFJSd1FMOEdDaGhzQllURGdHYzlQa215T2h0SW9YMGFhY29uaTZ5NVV5aHNoSHJBN01JN0RVWHI2SEZsVU9mRzFnRnNuTUJpOGdxMlFCeWlzNkE?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "After buying PropTiger, Aurum PropTech",
@@ -6760,18 +6808,50 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Lilly",
-   "target": "AtaiBeckley to advance therapies",
+   "acquirer": "Q&A with Patricio Remon: Definitive Agreement",
+   "target": "Círculo de Crédito",
    "dealValue": null,
    "valueUsdM": null,
-   "announcedDate": "2026-07-16",
+   "announcedDate": "2026-07-17",
    "status": "Announced",
    "dealType": "Acquisition",
-   "industry": "Healthcare & Pharmaceuticals",
+   "industry": "Other",
    "region": "Unspecified",
-   "headline": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions",
-   "sourceName": "PR Newswire",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPaFBnWWZZNFc0NjRKbll6YjVJazJ4RWtueG9EVzlFc3pUdk5PTndXQmNlZTlvaWNJNmNQMXBYWkt4bzg2anRoX2J1YjRHSjVJaDFidkMwM2ZVaUZfQkFBcGtkUzVjcE9famx1ZHNGall6bnIwaG9qbnE1MC1ONU5CeTVuSzdfd19XbHd5alRhejlCOWp0NEpZakpsQkt2cEtYSzVNM2pzOG8zOEZoNmY5alhZZE04Rzh6ajU0Y1NZc285ZDlJVEVMRTNkUUN1dzIwbmctanlOY3REdV8tcXp1dUxtODEyTEs2am8zcW9uZzJHX01IUGhVRTBIcEtSVlh6ejNIRDhR?oc=5",
+   "headline": "Q&A with Patricio Remon: Definitive Agreement to Acquire Círculo de Crédito - marketscreener.com",
+   "sourceName": "marketscreener.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbmJoTEpqV21uODczWU14YXRFRGltb05nQnRKNW82VlczdTFHZ3Zlb2txRlN4Zk1jT1k4RWhDZ0Zkdk5HSXZ2eENUZ0FQQ3hOMml6ZC1ZN2lieVVCbWZJT2dDcW0zZWVPVnlPUFFzMkR2Z1lkNWJDSzNSWFY1WUp1eUt4MFhVeFVFN0lva0w1bHY2R3FjUG5ZUnc5S1BULXpzbmFVck9tQWpQSnNyMWQ2MVJkcHJ2TEd5UGRKQlZxb0pFZXY0TUE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "SBI",
+   "target": "majority stake in crypto platform Coinhako",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-17",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "SBI acquires majority stake in crypto platform Coinhako",
+   "sourceName": "FX News Group",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQUwxTUg5UXpaNTZiVjNheFI2WXB2Wm5ZbUMzNHlWeTNmOTdDNFVRbVFmbWZzQmtQYXQzSE0wUndrOXNQenRrVXdMSnhVRGZETDZOVDRUTFA0UDl3UmZWV0FtLVFNMVlJdWlHV1loeEZPQVRZMUVpRXRtRGlVVUJBVU5CNV9VZXZwZnd6d2w3Y3FGNlM2b2t0ZmdNaGdweW9hR0dTRTFJakJvUQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Omio Group",
+   "target": "Rail Europe: 22 Million Train Tickets Sold Annually",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-17",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Transport & Logistics",
+   "region": "Unspecified",
+   "headline": "Omio Group Acquires Rail Europe: 22 Million Train Tickets Sold Annually - News and Statistics",
+   "sourceName": "IndexBox",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXR4YnlhSGFYcXh2d3dvbnk2SmNkcXp5N05LNDZ1MDNHNUEteU42X29MZWhyeks4ZXhLa2E3TjRmejA3U3BrdC1mQlE2UF8wS192cnJ3M3ZKQWVTbVZoQXBfcEhKU3Y5UUVrQ0Nzdk9lR19iVWJkSnVScmhMcmhpQXZYd0ZRNEdXd1gzSkhBMUdSRUR1MUt6MzVzQW5heENVOGVqNnJGZXdnMlVX?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -6790,6 +6870,54 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOakdkaVh0VUxjQkVZWXRuTURXNFNRN3J3T3pFdjJwaWMwUmdSRGpyU0NJR2lkcDRuVm4tVFRQMnZkTUItVUFMVFpGZzMtdnBacGtPaFIyem5XeXJubFNoOHphZUlBTnV4bmVwbVpHcUVBRndKeXo4bG44NVM2bmdvVzFSVjFWZkdqWG5ZWHBWOERKOFV3TWhINGxQalU?oc=5",
    "feed": "Google News",
    "alsoReported": 1
+  },
+  {
+   "acquirer": "Mumbai-based Aurum PropTech",
+   "target": "Housing.com",
+   "dealValue": "$55M",
+   "valueUsdM": 55.0,
+   "announcedDate": "2026-07-16",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "Mumbai-based Aurum PropTech acquires Housing.com for ₹458 crore — Here's all we know about the deal - livemint.com",
+   "sourceName": "livemint.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPM0JHV2VZZTVKOUZWYTJBcDNUZXNFVW5nVkdVUHIwLUJPODZqa3BlZlpzTldKWjFacENSb05kOW9zMTl2MEFrNWJ1UjQ4MWE1bWpjaU0ydmhqYjRRVk44bnFDNmtxRkNYb0lVQ0hVOTVtbTI4QmluMmExYnYzYnV0MV9UMFpkeTRzbTBzY2hjc0NMRWFncTZSS3pGYTE5cThoaVIzTF9fS3ZZbGRVMUM4S1lQVHdPdlozU0Q3S18xX2hSMTRlWUNBbmtsRjBHWnJRUVR2a3lUeXlFSTFHVGNWY1VBbXRzMElWdTk5eFBhQk9TODFIZU9IZ3VwQ0VyTkNnSy02TVloT3J2TGPSAZACQVVfeXFMUHpPZnVJWVFlN3hqZHpYTW5FN2swTmtYSDI5U3o5VTAybzJEMXdjUXNqSGxMMUZORHlFVWxKa2dROFlpdFZmZ0dRcjY5eW9HRlMyT2o5SFhnZWk5YWRHMk9sUFd1SWxFVWotYTlVcU13OUcyc0ZaRlZscDR0eUJlbmI4ejZNNXlXS0sxNjFpUlhqWHBmV0xveV9FLTdmZWRzX282VWJxMXZydlN5Y19nLUQwUmEwejhBcTA0eEdkbVlMUV85cUtLc2JrTTJJeTVtLV9RMG5ybi1sYl9Oa0xkOGJBTDM1S05PTWZfa0Y1V1AwQ1otUFVmWjVhX0pTQll3YXhoeFZULXNsZHI0VFJnUzY?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Aurum PropTech",
+   "target": "Housing.com",
+   "dealValue": "$55M",
+   "valueUsdM": 55.0,
+   "announcedDate": "2026-07-16",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "Aurum PropTech to acquire Housing.com for Rs 458 crore",
+   "sourceName": "Moneycontrol.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd1oteUZiWmV0WHE3NGVGbXNoVjg2blhhbTlVMk85Rld2SFgzNEw0UFlMV09GS3ktNmp6MmMzYTRVdVprXzV3c0tpZ2ZvOE8yRXhwTEZPWlJHWkhkZEhzT3dZWTdnY2lKRUNkbGNIUmE2QzJvdnVhLXZkaTZ5UDdLT2NVYnBMbkZXNjJpdTlfZmRZRWlWQVYtOUkyeHk5aWFkV3dMMllFQzdkczE1RUhYX9IBtgFBVV95cUxOc1JRRGx4eDd5YkVzM3dQZUVRRGEwODE0ZXpvT2dJUUhIY2p4Uk9YZWdmd3Bjc3RzQkoyUGlRa05zSlVCSzBiSm5EVW9KZUJzWlI2Vi15VmY0c3NSZWM5RnFCaEJtV0phc2EyTnYwcVVuN3dtM1Y5dm1VQzFZSUlUUVpHR0FHT3Q4Wnk1dVFBR0J0VXJDb2M0TzNRSkg2NjN0M3lLZzdUdTBFTUp1RU8wMWNNMW90UQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 4
+  },
+  {
+   "acquirer": "Lilly",
+   "target": "AtaiBeckley to advance therapies",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-16",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Healthcare & Pharmaceuticals",
+   "region": "Unspecified",
+   "headline": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions",
+   "sourceName": "PR Newswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPaFBnWWZZNFc0NjRKbll6YjVJazJ4RWtueG9EVzlFc3pUdk5PTndXQmNlZTlvaWNJNmNQMXBYWkt4bzg2anRoX2J1YjRHSjVJaDFidkMwM2ZVaUZfQkFBcGtkUzVjcE9famx1ZHNGall6bnIwaG9qbnE1MC1ONU5CeTVuSzdfd19XbHd5alRhejlCOWp0NEpZakpsQkt2cEtYSzVNM2pzOG8zOEZoNmY5alhZZE04Rzh6ajU0Y1NZc285ZDlJVEVMRTNkUUN1dzIwbmctanlOY3REdV8tcXp1dUxtODEyTEs2am8zcW9uZzJHX01IUGhVRTBIcEtSVlh6ejNIRDhR?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
   },
   {
    "acquirer": "ARRAY Technologies",
@@ -7432,38 +7560,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Mumbai-based Aurum PropTech",
-   "target": "Housing.com",
-   "dealValue": "$55M",
-   "valueUsdM": 55.0,
-   "announcedDate": "2026-07-16",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Technology & Software",
-   "region": "India",
-   "headline": "Mumbai-based Aurum PropTech acquires Housing.com for ₹458 crore — Here's all we know about the deal - livemint.com",
-   "sourceName": "livemint.com",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPM0JHV2VZZTVKOUZWYTJBcDNUZXNFVW5nVkdVUHIwLUJPODZqa3BlZlpzTldKWjFacENSb05kOW9zMTl2MEFrNWJ1UjQ4MWE1bWpjaU0ydmhqYjRRVk44bnFDNmtxRkNYb0lVQ0hVOTVtbTI4QmluMmExYnYzYnV0MV9UMFpkeTRzbTBzY2hjc0NMRWFncTZSS3pGYTE5cThoaVIzTF9fS3ZZbGRVMUM4S1lQVHdPdlozU0Q3S18xX2hSMTRlWUNBbmtsRjBHWnJRUVR2a3lUeXlFSTFHVGNWY1VBbXRzMElWdTk5eFBhQk9TODFIZU9IZ3VwQ0VyTkNnSy02TVloT3J2TGPSAZACQVVfeXFMUHpPZnVJWVFlN3hqZHpYTW5FN2swTmtYSDI5U3o5VTAybzJEMXdjUXNqSGxMMUZORHlFVWxKa2dROFlpdFZmZ0dRcjY5eW9HRlMyT2o5SFhnZWk5YWRHMk9sUFd1SWxFVWotYTlVcU13OUcyc0ZaRlZscDR0eUJlbmI4ejZNNXlXS0sxNjFpUlhqWHBmV0xveV9FLTdmZWRzX282VWJxMXZydlN5Y19nLUQwUmEwejhBcTA0eEdkbVlMUV85cUtLc2JrTTJJeTVtLV9RMG5ybi1sYl9Oa0xkOGJBTDM1S05PTWZfa0Y1V1AwQ1otUFVmWjVhX0pTQll3YXhoeFZULXNsZHI0VFJnUzY?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "Aurum PropTech",
-   "target": "Housing.com",
-   "dealValue": "$55M",
-   "valueUsdM": 55.0,
-   "announcedDate": "2026-07-16",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Technology & Software",
-   "region": "India",
-   "headline": "Aurum PropTech to acquire Housing.com for Rs 458 crore",
-   "sourceName": "Moneycontrol.com",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd1oteUZiWmV0WHE3NGVGbXNoVjg2blhhbTlVMk85Rld2SFgzNEw0UFlMV09GS3ktNmp6MmMzYTRVdVprXzV3c0tpZ2ZvOE8yRXhwTEZPWlJHWkhkZEhzT3dZWTdnY2lKRUNkbGNIUmE2QzJvdnVhLXZkaTZ5UDdLT2NVYnBMbkZXNjJpdTlfZmRZRWlWQVYtOUkyeHk5aWFkV3dMMllFQzdkczE1RUhYX9IBtgFBVV95cUxOc1JRRGx4eDd5YkVzM3dQZUVRRGEwODE0ZXpvT2dJUUhIY2p4Uk9YZWdmd3Bjc3RzQkoyUGlRa05zSlVCSzBiSm5EVW9KZUJzWlI2Vi15VmY0c3NSZWM5RnFCaEJtV0phc2EyTnYwcVVuN3dtM1Y5dm1VQzFZSUlUUVpHR0FHT3Q4Wnk1dVFBR0J0VXJDb2M0TzNRSkg2NjN0M3lLZzdUdTBFTUp1RU8wMWNNMW90UQ?oc=5",
-   "feed": "Google News",
-   "alsoReported": 4
-  },
-  {
    "acquirer": "Cristiano Ronaldo has",
    "target": "a 25% stake in Spanish club “Almeria",
    "dealValue": null,
@@ -7557,7 +7653,7 @@
    "sourceName": "Indian Chemical News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkVuVDkwdkVmRlA5OEtSTlJNQmp1ZlN1RWYyNjNGc0JyS2I0ZHRQN3RNVHlSNjdncUVPb1VFWXZPcmNDMlZCU2tLSUhySFNMcmlqNnR0OW1yZ1FSaV9xd081VVppcm1lVkNEYjRlYzhKaHEyUWp2RzFyQm5kU3NtUzRnRFpGLU5RM1BpbzdRQWgwTy1sUm9XMm02SdIBogFBVV95cUxOVHp1T2t3RTl4Q1E4R053a0VmZU05TGdnV2RqcTZpYXh4bl9hMXlVOUtLNmFoc0U1Tjk2WDc0Z1FSTXhUQVdsVzd4WjREcWxBX09RM2piTzlDdmlyVVlQVkY5djlXb1BILU1CRFZ4WE9adWJzRXZYSFpEUmRUZmktU2xVZjhfT1NOS0J2RDczQkkzY2t2UldvQjJMdjlmeGZEdHc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Uber",
@@ -7845,7 +7941,7 @@
    "sourceName": "Business Standard",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPX2FUTmY2OW5zY212YW5oaUxrNU1FMU1DWHRCczNqNkxLdThxYnp4Q1NOMU10OUtIWHAtLXcxUkJ2MHJ4UkhZUmJoaXE5YjVjMGFuZ1RZeld4c2NJSWNRSHBqR1lYaXhJSHdBTjQ1OWl2VHRpM1U0MmduTHlmS3RvNElBdlA2eWprU05YejRkM1kxSGpNcXpZZWk5MDVTYnM0Qld1aDd4OEpwSUZYNVR5ZlF3cDR0OVdaZXVWeUVBbkdOZ0tvNEM3Mm04bVhxMlVXajlMU3RQY9IB3AFBVV95cUxPUlVQM00wTWFkc0wtSmN6a0h4LWx3UDQ1OVpqOXh3V2JhUjdwQjI1c0piQVhfS3hhS1lOSDNDM3NkQTVDdmVIbkY3MlZ5Ynd1QWd2QWlFTW8xTTNjUFRuTGlaMnc3c0FDS1RUdWMyN2pjMkEwQ2RZWU5QWHpsdHc0NTRsb1hMbHNfbEtobUUtcXlianhfUVBZbWZDdjB4QVRFQXpBTldfMTU4YXpZQWZXemhHdW5fcWZNRVB6OUZ3NDg4WmhVQnprVU83cXdCcWZDOFlSbVFUaHA1QzN6?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "HCLTech",
@@ -7924,6 +8020,22 @@
    "headline": "Baker Hughes completes acquisition of Chart Industries By Investing.com",
    "sourceName": "Investing.com UK",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLTZrOThoWjVGZTlpSGpUWkhUeWUzMWRoaExpMG9WZEhrNllneVNRMEloTjZld1JQY29EcXAxUE1xYWlncXRQdGZ1dzhlLXlsQjd5R2Rva2xCVW9YTEs4WW41YklMdWsxSHh1Q2xaMVlMcWcyeUNVMUU5TTlCazd5ZWNyeFpoZjMzeDF0bjdnV2pCNVA5NldzQ18yVm1CU0hWVTFUM1FnM3MwRXB4MlVtLUdXNUhKQQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Nurix AI",
+   "target": "Verloop.io",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-16",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Unspecified",
+   "headline": "Nurix AI to Acquire Verloop.io, Expanding Conversational AI Platform Across Voice and Chat",
+   "sourceName": "India Technology News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcDg3ZzVLenkxU2R6SEk3Y2VDVHN2T1dEdFZkelBLTkNmVEcyZlhxWmtLbE5aRTZvMVZOYkRYM1BLS0ZLVm90TzlCXzFrUFBmMlgyTVpTT3JGZmV4dFFEMmFpMnNtY0o4RURoUkU2UUNKQWlsckhJWmE4azdDVHhNNFhXcmhUYVZWRlNYMFhydWtMLWs0MU5ZREJIOTAwYXROWnRWa09ib0NBY0cyM0E1QUtGZFBleHVHWTlpQWxB?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -8696,6 +8808,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Ukrainian firm SoftServe has",
+   "target": "Indian company NewVision Software",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-14",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "Ukrainian firm SoftServe has acquired the Indian company NewVision Software – the team will grow by more than",
+   "sourceName": "Mezha",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOFFYWHRMMkQxT21jSi0ySTZQR1htZm9tSUNoS0pGdHhyaU9XQXlranRHSHFWVVZLOU43dXF0S29kN3JBWnJRT1dxdVdqcnFVLWFEbVJUeUdGT2NyY25lN2xpN1duNmFnYWhFdlJKQm9wVHlHeXMtdzN3NzZ0MjRoN08xbVlNTnhrdWEwSDkteGxYd191dUw0azRXQXk4bHdSc05LQ0xpTnNRR2N4bFB1NFlaZC1WdC12blRIVFE3aVVWMkl0a29BTEVpYk5zQXBmQi1TMFRn0gHbAUFVX3lxTE9nMklROUZhOE0wM3lPYkdESldESURrdWZnbDctZDg2ejRvbGNscG4zalZqTUZrMjluUkp0WnVXcjg0cTRzQ2ZYVVNVNlhTWHNMQXdFVHVBN2xfUGRJOVpLNVJWY21aTGdSZFh0clNwMHJwOEZTSmh5ZFVxRTRsUHJLX0ZTSmZUeU5tbFV1Tl9SMHNOVHdTNjZoS04zbUJnR3ZJYVNwRHFIR3BpMFZDLXlFR0FhNlJvX0Zod0NRZllxam9BUXBqcGdkcU9MclBneGJ5VnJvLUJLY19hUQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Uber",
    "target": "Delivery Hero",
    "dealValue": "$15.0B",
@@ -8709,7 +8837,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZldpUnNMbzhMcmw0WjBWZk5nMmptTjlDbXRob3ZYaVFEUVpLNkNkY3U2N1hZbUEwYXFHUEpoTUdYOC1PbVhtcVhDUnlZZUN2RndjVkRucXJaT0RFc1ZDU3lWMy14UlVLRDhKMHczSnhJV3pBcWg4SlFreVRUTWdpNmZXdTFRN3d4TTZtaUwzUW4zdGtoRDI5RjFfb3BITFIzNTJTLW1oT3R5dkE?oc=5",
    "feed": "Google News",
-   "alsoReported": 16
+   "alsoReported": 15
   },
   {
    "acquirer": "Global Infrastructure Partners",
@@ -8820,22 +8948,6 @@
    "headline": "22,727 Shares in Hasbro, Inc. $HAS Acquired by Procyon Advisors LLC",
    "sourceName": "MarketBeat",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3gxeDkzNHZMODRNYkRXMGV5NUhHNUdQdlVnSjBwdldnaUdreGNRcmVPbXRBZmY3cTVsRDIzVUN0RjVicTJoUVd3UmE0N1JjYUpmWGFWUU45RUdSN3pnV3FnTi1uNmZ3N1dTZzE5THhvSlVJb09OREZXQjlSOXZ5Ri0tczJNM0JCSDNfbVhoNWl4M0dnakt4WDdVU1dvYXhVV0pGa1d1OUd2OHIxeWpRRXc2NmIwcWJPdUlETDhJclFzUQ?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "Ukrainian firm SoftServe has",
-   "target": "Indian company NewVision Software",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-14",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Technology & Software",
-   "region": "India",
-   "headline": "Ukrainian firm SoftServe has acquired the Indian company NewVision Software – the team will grow by more than",
-   "sourceName": "Mezha",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOFFYWHRMMkQxT21jSi0ySTZQR1htZm9tSUNoS0pGdHhyaU9XQXlranRHSHFWVVZLOU43dXF0S29kN3JBWnJRT1dxdVdqcnFVLWFEbVJUeUdGT2NyY25lN2xpN1duNmFnYWhFdlJKQm9wVHlHeXMtdzN3NzZ0MjRoN08xbVlNTnhrdWEwSDkteGxYd191dUw0azRXQXk4bHdSc05LQ0xpTnNRR2N4bFB1NFlaZC1WdC12blRIVFE3aVVWMkl0a29BTEVpYk5zQXBmQi1TMFRn0gHbAUFVX3lxTE9nMklROUZhOE0wM3lPYkdESldESURrdWZnbDctZDg2ejRvbGNscG4zalZqTUZrMjluUkp0WnVXcjg0cTRzQ2ZYVVNVNlhTWHNMQXdFVHVBN2xfUGRJOVpLNVJWY21aTGdSZFh0clNwMHJwOEZTSmh5ZFVxRTRsUHJLX0ZTSmZUeU5tbFV1Tl9SMHNOVHdTNjZoS04zbUJnR3ZJYVNwRHFIR3BpMFZDLXlFR0FhNlJvX0Zod0NRZllxam9BUXBqcGdkcU9MclBneGJ5VnJvLUJLY19hUQ?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -8968,22 +9080,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "KKR joins US consortium",
-   "target": "Australia's Steadfast",
-   "dealValue": "$5.3B",
-   "valueUsdM": 5300.0,
-   "announcedDate": "2026-07-14",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Financial Services",
-   "region": "Asia-Pacific",
-   "headline": "KKR joins US consortium to buy Australia's Steadfast in $5.3 billion deal",
-   "sourceName": "Reuters",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGdZMFRtLUJ2OHJyXzU5UVJ3MHZIUjBqSzVsaDl3MGoxU3ZWaXlBMnRWTUhkLWhDUE40RVZLdTFoMTNiTzU3NHV3ZU9WUG5ESDBJekVvOVJFa1A1Y01aalBYejZNZHJJeG5aamplWkhaSnd3OUFXNXVhRHlTdl9xWW10cDJ1bzhIei1xY3BNYlZSTWhaZlRZX2tqb0JYSmxJVE1kWHIzcndtN01MaGtTMzZHWUZJby15NXFxOQ?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Francisco Partners nears $1.3 billion",
    "target": "construction software maker Command Alkon",
    "dealValue": "$1.3B",
@@ -8996,22 +9092,6 @@
    "headline": "Francisco Partners nears $1.3 billion deal to buy construction software maker Command Alkon- Bloomberg News",
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeUgybGVfT2Jlcy1aSmR3TmxKZ0tsVmE5WTRUUm5iOHp6emExTEs4T1hVQ3pGTVRVX2t2bEJVQnF3OW9RSlB4VjQyOG9CYWRfQ29uM013MHFWbEY2UGZmaDR1dHB0OEpvSkMwM0cwejVTTHpGazdtX0JwVE83TTB0TG5SZUhUTFo5a2gza3Q4ZkZ5QVlvellIWkpyMW5iaXFyWE40UG9oc3MzaUFhZkpzN0ZMaWxuWi1KVUxpMGdMUC1VeEZveGx0cjl5YlhIRmZsY1Rna2tjel9zamdYRlhxNmhHeVVWakRnclMxTHNBbHNGcFhyVXpoNDdzNnlMUHItdWs5YWNR?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "Korn Ferry Announces Definitive Agreement",
-   "target": "AMS",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-14",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS",
-   "sourceName": "HRO Today",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ3RiMzBHc2hUdWRuTUtfaGdTZHU5bmotOHhrU05yQkdaemJGbThYVk9YeDQxMmhnTENuQzY2clNmVXhfdWZtVE9nNjVHLUpKZVRsOWFtNFVsb0QyYjRlTFJMd3Q0THZSbTljcGNsTXBFRmRLQ0tIdFEzbTdfSVg0a3RjV2VURVV6SFRsczBnekpiMkpaRkhWdzgxcXU?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -9045,7 +9125,7 @@
    "sourceName": "ACCESS Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVTlsdS1VNms0UUZtNjJjamlwejBadXFDSGplMkRtNU14ckRwcklxSkkzLXVtSS1teFRVenltVW91Z09MeFZrYlF0bHVBNjF4VFRPazFsUVZ2SXEtNWR2NDdLNUNtckJ3MHp2a0dSa2ktYUZjTjdkN3pnS0JpWm1IRlF3TDJ0TjFqTXRobGxCQXFfa0xtOThfLXNZYXlac1FjSXktN3ltTDdDQ3FieVZ6WWlJcnlLVG5EV0pPYkJOWTlMcTRFdmJBYkJ2TmhyanpqMzQ5bWFvNGE0dnM?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Inflexion",
@@ -9496,6 +9576,70 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Strategic Storage Trust VI",
+   "target": "Strategic Storage Growth Trust III in Stock",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-14",
+   "status": "Announced",
+   "dealType": "Merger",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Strategic Storage Trust VI to Acquire Strategic Storage Growth Trust III in Stock-for-Stock Merger",
+   "sourceName": "TradingView",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZFRDV25EaTNSbzhHazJSa3BUSHh6OVd2dEpsRWV0cVpJV19HcmZKQnBKa2gzZ0ZlX2hyWW44SXY4NnVLcEYxSEotbHh1OHdOeEFjeEZGNzNPbjk2MFNSMkh1WDRLQ20wSndhY0hFN3RQSUh6TDBSS0g3dHBOaFFlTnJRWTR6NWozRlltRWVXMUdsQU00ak55aEU1aXVFeEdiUUl5elVVYXplU0R5WVFpZ0kwU0I4VEhQM3RkV0YwbFF3cHQ3WEc5TXNvcHVJOHZabE55enZWN0dTa0pzSUp4RVotLXp2YzhhZXR0cEdWV3FaUQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Aditya Birla Group",
+   "target": "Sprng Energy",
+   "dealValue": "$2.1B",
+   "valueUsdM": 2064.0,
+   "announcedDate": "2026-07-13",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Energy & Utilities",
+   "region": "India",
+   "headline": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise",
+   "sourceName": "Bar and Bench",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaHZiSFhYVF9Cb2lKSEdIcWdyNlRaU3dsY0g4VXlBUlBRVkloS1VZNkJtajFfcEpCRGVJQWJEQU0xVlB1clZ6bWZESjFwX0M2eEF0UllfZjFweXFrcnVPZURqRDlTVG9neUd0akswZWpQTkswUUxHTzhneDlMRWNWN1BDVnBES2NmUHhtZTc1d3lTM1NZY0VFRWswaWdkcEZqMWdpQ0Q4TWpFMExtQWljTDVjaDJ0R01UZXpVdDkxRm1CNjQ0?oc=5",
+   "feed": "Google News",
+   "alsoReported": 4
+  },
+  {
+   "acquirer": "AV Birla Group",
+   "target": "Sprng Energy",
+   "dealValue": "$2.1B",
+   "valueUsdM": 2064.0,
+   "announcedDate": "2026-07-13",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Energy & Utilities",
+   "region": "India",
+   "headline": "AV Birla Group to acquire Sprng Energy from Shell for Rs 17,200 crore",
+   "sourceName": "The New Indian Express",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS14RXJYYkt6VU1ra3Q1eGtBSnBBd0hFcEYwendtS1dHTXU2cXhWU3pZS1RDOEY4ZnNSWFJxWFNGVUVFM1dONDdqd001bW1yeWY4UUdrS3JXTm1RdzdlMnZQdV82cG5MYm5FcEh4b0tRRDN3bEsyU3dzaE5yVGhVR2gtNngtNWpnTUJwSWVaTVJWR2hjeXVBQ3hTY1pvTnBaNkRPTTF1U1JKNDE5VnJiLXJIcGdLeEhfQzVycWoyRdIBzAFBVV95cUxOcUg0UndrcGRTVnRQY0k0S1M1aEpKUDZ5aXBTZ2FUbHBZbTczY0lfbksyRGxYRkhPT2NiNUVZSXBqbTVLVTZUU0RrTkRhNGxiRlVQNXZNMjJfTkpxZXo4U0xCbTl4LV82NzhXQklNRWFPSFBGZDRRamxEOTZfajVZSGtWbXJZQUhSQ29EY2ZHZ3RtM3E4bDljQ1BNcnBSamdFYU5lMVhLcHRvdVZCcGZhMlY1NFJBZV9LdHplMVRYeXVWOF9rcmM2SVh5by0?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "KKR joins US consortium",
+   "target": "Australia's Steadfast",
+   "dealValue": "$5.3B",
+   "valueUsdM": 5300.0,
+   "announcedDate": "2026-07-13",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Financial Services",
+   "region": "Asia-Pacific",
+   "headline": "KKR joins US consortium to buy Australia's Steadfast in $5.3 billion deal",
+   "sourceName": "Reuters",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGdZMFRtLUJ2OHJyXzU5UVJ3MHZIUjBqSzVsaDl3MGoxU3ZWaXlBMnRWTUhkLWhDUE40RVZLdTFoMTNiTzU3NHV3ZU9WUG5ESDBJekVvOVJFa1A1Y01aalBYejZNZHJJeG5aamplWkhaSnd3OUFXNXVhRHlTdl9xWW10cDJ1bzhIei1xY3BNYlZSTWhaZlRZX2tqb0JYSmxJVE1kWHIzcndtN01MaGtTMzZHWUZJby15NXFxOQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
    "acquirer": "Warburg Pincus-Led Investor Group",
    "target": "Controlling Interest in PANTHERx® Rare",
    "dealValue": null,
@@ -9525,7 +9669,7 @@
    "sourceName": "The Business Journals",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXIyV2l2bjNKOHB6ZVBCVjNEQXU5bkZIRjVtTjV4RG4wbS14RlJYN3VULTZOMVpVRUxnVi1vLU5MWl9salliQ01fVHU1OWQ1QUxFX0ZuMUNGV0w1eHRjZFZmWU1MaDlUZzJ1cTF0TE1GYVdPWnJnOHd6UUpoRVp3VDZlQVprOWszLUo4ZUNkSmhlNFZ5cUJ5eUk2SWJGVE5kZC0wek94Yw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Paramount Made A Bid",
@@ -9557,7 +9701,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU0s4a1dIUEd2aGR2b3pCTmg0bExMX0lxb0dKY05YczFfalhlOWhWZFdWUEZ2eUpXUkNNT05JeU9rWmRzTFBhLXgzWDlHcnZLTHNzNWR2b01Ia0NOTGF5dWVpV1ZYTzhSOVlRTFpCNHhNZEFoTDhybk54el9zTUMzWGNiT0p0QkZYOWxv?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Voyager",
@@ -9813,7 +9957,7 @@
    "sourceName": "marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ19VNEVQUXJjNEFWQ0wzN0hNY1d6TklxbXBkUWllcWo5bXlyRV9UYS1PUWR2eGd0VUttejl3ekRMS3NMNjhTS1lvMlJDMU5oUldhWnlaVFVNQ1ItR242V0NQZjdfel9FNmUtaUJUTmNUY05jOWVUdHRHaGQ4TXloSTBXdzVLbUdwOG5oeEN0RE9mMHhxbnZUalRXYmp6U1k3NEdTNDVpb3N6LWRtS3hHcTc4TEZaclVJZ2pDdml3UFFWVUJSdllrRjJES0ZCbGJ0Y05pLTdFYTlTTW9rVjFRNkxQXzRWQ3hi?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Greenfire Resources Ltd. entered into a definitive agreement",
@@ -9958,38 +10102,6 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOR1hKb0dWY18zMVo1am9VaXRqVnM1eGR5ZUlLXzM4bVVVUkhwekVTQUVETlJyc1RnNmtXRV9FZDhIUGY3NFdJSEl4OTZCb2w0elNWWWF4TllRRlBRVHdDSFJWMUFaQXJNNFIwM3BFOW9nMVZZZjU4Y2lTS3FKY2dBdDkzcTMwWWhnVnREZUtZcG9JbmlDaFpOdFYyTnNUVmZMTnUyNE9FaUhaUk5SeDV5LVM4UGsxTnVzSGIyREdIdl9PYmg0d1B1dEVzRGZRVlY4ck80U05HOFc3eEVESC0yemU2dFpGQUtndHRNaExmaw?oc=5",
    "feed": "Google News",
    "alsoReported": 3
-  },
-  {
-   "acquirer": "Aditya Birla Group",
-   "target": "Sprng Energy",
-   "dealValue": "$2.1B",
-   "valueUsdM": 2064.0,
-   "announcedDate": "2026-07-13",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Energy & Utilities",
-   "region": "India",
-   "headline": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise",
-   "sourceName": "Bar and Bench",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaHZiSFhYVF9Cb2lKSEdIcWdyNlRaU3dsY0g4VXlBUlBRVkloS1VZNkJtajFfcEpCRGVJQWJEQU0xVlB1clZ6bWZESjFwX0M2eEF0UllfZjFweXFrcnVPZURqRDlTVG9neUd0akswZWpQTkswUUxHTzhneDlMRWNWN1BDVnBES2NmUHhtZTc1d3lTM1NZY0VFRWswaWdkcEZqMWdpQ0Q4TWpFMExtQWljTDVjaDJ0R01UZXpVdDkxRm1CNjQ0?oc=5",
-   "feed": "Google News",
-   "alsoReported": 4
-  },
-  {
-   "acquirer": "AV Birla Group",
-   "target": "Sprng Energy",
-   "dealValue": "$2.1B",
-   "valueUsdM": 2064.0,
-   "announcedDate": "2026-07-13",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Energy & Utilities",
-   "region": "India",
-   "headline": "AV Birla Group to acquire Sprng Energy from Shell for Rs 17,200 crore",
-   "sourceName": "The New Indian Express",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS14RXJYYkt6VU1ra3Q1eGtBSnBBd0hFcEYwendtS1dHTXU2cXhWU3pZS1RDOEY4ZnNSWFJxWFNGVUVFM1dONDdqd001bW1yeWY4UUdrS3JXTm1RdzdlMnZQdV82cG5MYm5FcEh4b0tRRDN3bEsyU3dzaE5yVGhVR2gtNngtNWpnTUJwSWVaTVJWR2hjeXVBQ3hTY1pvTnBaNkRPTTF1U1JKNDE5VnJiLXJIcGdLeEhfQzVycWoyRdIBzAFBVV95cUxOcUg0UndrcGRTVnRQY0k0S1M1aEpKUDZ5aXBTZ2FUbHBZbTczY0lfbksyRGxYRkhPT2NiNUVZSXBqbTVLVTZUU0RrTkRhNGxiRlVQNXZNMjJfTkpxZXo4U0xCbTl4LV82NzhXQklNRWFPSFBGZDRRamxEOTZfajVZSGtWbXJZQUhSQ29EY2ZHZ3RtM3E4bDljQ1BNcnBSamdFYU5lMVhLcHRvdVZCcGZhMlY1NFJBZV9LdHplMVRYeXVWOF9rcmM2SVh5by0?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
   },
   {
    "acquirer": "Aditya Birla Renewables",
@@ -10248,6 +10360,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Apple",
+   "target": "observability startup SigScalr",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-13",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "North America",
+   "headline": "Apple acquires observability startup SigScalr - 9to5Mac",
+   "sourceName": "9to5Mac",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPemUwb1h1WGNKYjBCLThFemQ2ZlUxOEZ3MDdEc25ORWNaZEY1VWVvOS1iMlBoRzN5c0FnLTUtTGp0QXBWYzdtYXFfWmpvU2hNUVdRb1RxTzh6blJyQWdRMHFWMGhsOGJGYWh2N3VWaUZFUzZ3d3dVWHpoM0s2T0ItOE8xQQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Vinod Khosla",
+   "target": "Seahawks in record $9.6B NFL",
+   "dealValue": "$9.6B",
+   "valueUsdM": 9600.0,
+   "announcedDate": "2026-07-13",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Vinod Khosla to buy Seahawks in record $9.6B NFL deal",
+   "sourceName": "MSN",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNmRDeG5vc1FnakpXYlBjU2dpY0FDbjdqYjZtLV9uejBUUkU5bEhwQmpFdVREUnUzN0gzcFd0c3JRNU4weFBLUUJ2UTR1U2ZPTkk0MWdsU1hGTUNwamtlY2pSMmxJSU8yVGh3RjJMUmJ4S3RwdU9tcjlWb3B6LS01eDBFeXZhRGI5T3Y0TllXZGN6WDh6ZFM0akVYdGsyNDB5Ml91VUVxUE9Nb1BzakhWYjF5QllkYmRxLWZON3hhc013bHZZSmxFUXdYbXRPbEdxWU9HVnlwNTUzeDg5dDRnZnhzRjAycTRsMWc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Gray Media (GTN)",
    "target": "6 TV Stations",
    "dealValue": "$50M",
@@ -10392,22 +10536,6 @@
    "alsoReported": 1
   },
   {
-   "acquirer": "B Capital-led consortium",
-   "target": "Russell Investments",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-10",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "B Capital-led consortium agrees to acquire Russell Investments",
-   "sourceName": "Yahoo Finance",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1Jab080Q3I2MDhjdUM4RlJ1c1JrZmxjRHc3dkoyTzJURDZKV1o1d3F5bmVBRDhCT2FjeW1lNi1GUkhqY25ia2VTVklBcEZDaEJJeTItQVliZVFub1M4dUQ1VVNPcjMwVm8zZ1BGYzBKWVVYVzd1d3hlcDZQQkhmLWhLdkRmR2U0bjJqbHotUHBDUEM0UjVvVExaWHI?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Garware Fulflex",
    "target": "300",
    "dealValue": null,
@@ -10420,6 +10548,22 @@
    "headline": "Garware Fulflex Completes Acquisition of 300,000-Square-Foot Fully Automated Medical Products Manufacturing Facility in The United States",
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMVE4YWpMUGdqYy01ZGVWZXFkWEh1MkxFOEphZE1aZjM0TFlvSm9UcGRuUXR2dXFYRFpXTk05aEsxMHdKa2V0c0U5b3Y2UFoxZ2VSZU1uUFZfVW44LUNZOHRmZUFkTmM3ZGh6NFFJN2plOW5VeVExdW94OFJjLVFRSUZTTEtxVG5XTlpORDcxYk5xc2RtS0lsbzl3QkMtbU5Ld1BQSw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "B Capital-led consortium",
+   "target": "Russell Investments",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "B Capital-led consortium agrees to acquire Russell Investments",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1Jab080Q3I2MDhjdUM4RlJ1c1JrZmxjRHc3dkoyTzJURDZKV1o1d3F5bmVBRDhCT2FjeW1lNi1GUkhqY25ia2VTVklBcEZDaEJJeTItQVliZVFub1M4dUQ1VVNPcjMwVm8zZ1BGYzBKWVVYVzd1d3hlcDZQQkhmLWhLdkRmR2U0bjJqbHotUHBDUEM0UjVvVExaWHI?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -10744,6 +10888,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Germany",
+   "target": "US Tomahawk Missiles",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-09",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Europe",
+   "headline": "Germany Agrees to Acquire US Tomahawk Missiles, Closes Strategic Gap",
+   "sourceName": "Global Banking & Finance Review",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUVUakcwa1pqSXVoRTNyLXQ2TUpINnVWaTJKYk5TY0o3T0RWZVVsSVJLZjg5MEtlSmZob0M5cmp2ZkdlRmhTdnVoSlV4SU1BU2RZWldZUW1GNWpBbWFHa28wOS1xdjNubk5yTjBnZWlXdy1qelROS25Sa19lYmVEdGt2cWRPYmtudVc1dTVYY3FFQW8?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Oeneo",
    "target": "Lamouroux",
    "dealValue": null,
@@ -10788,6 +10948,22 @@
    "headline": "Måsøval rallies 14% after SalMar agrees to buy 70% stake",
    "sourceName": "Investing.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeDQzaGR4SHd0TndRVUZYYzI2c2RrZmZJc2QzZ3FlWDZsR0c2SGFKVndtTUozMkk1X3VSYnM3ckJKMHdHcUM1YmxMV3VBSE9XLWxITXMyT000ZTlMOUhCYTNDWVBMVGYzd1EwN0U2SWozemdCRVhOSG5RN3p1a2RkOEhXcFNhLXRIekhsLTBfWjQ1a0xOcDZDOVBlNUlnQUY0OHJ4SUhWVG1VUGktd1RZ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Germany",
+   "target": "US Tomahawk cruise missiles",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-09",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Aerospace & Defence",
+   "region": "Europe",
+   "headline": "Germany agrees to buy US Tomahawk cruise missiles, closing a critical Nato defence gap",
+   "sourceName": "The Times of India",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPa1d3MkFZc2R4NnlGenlaTTRjYi04QlJqdm9lOUlHbGVMcWY3UVRCM1h2c0dha1dSUDNPcWZKTjZFNDQzQm9raWNKZVEwY2pGZ3Yxb0pmTmlIMmotRXJLTktMUG11X21FdVA4WUFzRTJtZ0NKZUJRNS1JVk56ZENLUkVjZFJOQ28yVXAzSjhrYzhwOXlWZDBROWZiQ0lVeTFXZVlXNWFWYkplUU52dnZqZGZQb0RKaEM1ODMwd2Zyc0lBZ1N3ZkxDTXRwVkVocS1kRXdLMEZBcWpDRTFHSk9HRVFyMUw1Q01KN2F2TEw2bG5zQ0JfTE0wcmtSb3NXQdIBgwJBVV95cUxOcmxycl9xSlNGc2RNX2Z6TGN3azhZRENpNmlyY3Ftd3dBelhleUJlLXdZdGowbkNSR3JRbFE5a1lad3pwb3puV1VUelJPTHVRZFh2aUhfRTV3QThiRV8wcUwxZ2dqUUhBZjR2U2FtVVZoWmU2M2pwMTNiaHJobmhxQndPczRQTjFwR0ItMjhqT1VZSDduOENpXzJ0Ynd0MU1Hbi04U0hPeVJnX3V1ZnR5V3UtUG40T19neDlueXg2Q1M3b0VnTEJLVVZzZVdySVJQMVhSSF9kU2kyQWFEcEpYZGZSSFNfMENRUlZrYTJFb09ZdjAtNGVjeTZDZWJWWVRzMGFr?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -11092,6 +11268,54 @@
    "headline": "Blacksoil to acquire solar financier Credit Fair",
    "sourceName": "The Times of India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZlBjN3lkelJ2eEQyaTVxTmhfQUJVR3lVT2lzWDg4ajZuRkJoVFdEeWhmR2s5d1JFX2g5eTRjb1hMSE5lWmJCRGZrQTZZTXJHQVpFSHU3RXVuX1VHYkY1ZlFhRDR2aG9ORmMyVV9rOGZxUVF4cmZZSkcySDJ1N2pCdmhPYzZYWjVJQUJIVHJkcTVwT1pld1NadG9HbjJBcVUtTFZVZDhobmNBRUxvOXhIZ0FhRk5seGxKbkZvQkxtQXl0MVFkQ2dGZU13SHI2dnPSAdQBQVVfeXFMT3R3bzVBd3c5aEtsOTk3Vnd2WWVZWmFsVHd0VjhSeUY5YWdzY0V2RnREUGgzQWJYc0tCSjVGNkhHd19NMElubG5OR21lc0cxMk9JOWI1ZFhVNDhvZDFTYkdneUdWZFFiYmJ2eTVDTDFNUVdhRm5XU3E2ZkJaNHM1XzRFbXNQQ2RlX3FFclp2Uml2aElMV00tVWhyT3hGSjlvd1ZFSmVzTVNDbDM2WFNaWm44TThyM1ZSb3NuNTQxR0NRb1JCZmIwQU8zYmM5YmU4MFFiRVc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Latin music party giant BRESH Global",
+   "target": "majority stake in Argentina’s Grupo Polenta",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-09",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Latin America",
+   "headline": "Latin music party giant BRESH Global acquires majority stake in Argentina’s Grupo Polenta, known for its DJ-driven music experiences",
+   "sourceName": "Music Business Worldwide",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMlpxNnpnUXNiN3R5dHRZb3RMcm5RX3dTeXNoRHFObm5PWnpwUVBwdGdmcjkwV21peGVFRDl6YWIxWkY5TzVjU18wQjFxVVYwQmpzaUpSM0lCU2JjeFY5Ung0emRkdlNITklkNTBOaXJaVGNFaVYwQ0ZRQl9zUF9MWjA4YXdLSTVNWTktVHZaV2taWjBDVmxISS1YV0FJRWg2RjZGTTlaeUtnVTJVN1JBYlo5X1BYOWxkZ2NXUWFUdUVtM2dNa2gzTlVUai10cE16SklLcTllajIzZE91NXFqYklienRTSk5FOFg2Q19VdXY3TXdTa1lnT2h0dTJBQ28?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "August Equity",
+   "target": "majority stake in UK insurer Starpeak",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-09",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Insurance",
+   "region": "Unspecified",
+   "headline": "August Equity acquires majority stake in UK insurer Starpeak",
+   "sourceName": "EU.COM",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObnJxYlQ5RXVhLXl2ZEdDUm5HRkxRUEpidlhhdmx5ajlHdnJybE5NR05kZldRSTRHcURmUnhWZFUzcXMwcks4cGlWbHhFR2MycFpNdHRvNzBjdlpTaEZsT2U1YjQ2b3Z3andrcjd0cnNDcmw1US1iV0ZQWDBfcnh5dm1vendtTkpHcWtrblZQQk9SUkNoSzR4WWFhTXlhbG1sX0t3Wmxn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Noble Polymers open offer",
+   "target": "26%",
+   "dealValue": "$60M",
+   "valueUsdM": 60.0,
+   "announcedDate": "2026-07-09",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Noble Polymers open offer to acquire 26% at ₹5 per share - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPXzF4Zmo2dTBMa0Y1LXV1aC1tZ2xDVGQzNHZLS1piZDFKR1A5MWF2QVVGQUFVTjVyUzBmMko4aExKckRQckplWXdiU1lXZHlUd3QyM3RFbFJmSTNLWS1FQ3JBQThFdXZITnZNb1UtXzZxczd2TndOMURIV0lBdFp3NldIcUpLUkc2MFF4dmxaMHpEekpsYjFwUXAzS2tMNWh4TTdxdnE5blc5QjRZdWRDeA?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -11560,6 +11784,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Private equity firm",
+   "target": "K&L Freight Management",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-07",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Transport & Logistics",
+   "region": "Unspecified",
+   "headline": "Private equity firm acquires K&L Freight Management",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbTdLaXB6VnpXSmFCenhxaS1BZzVXekJIcXdOU3JZWlNvRWI4OTFPazdUVXc3UU9TRlZqeDdZend5U2FFbzJSMDRveGZEQTczTGVjbXNPejFQc2tiV3M1bTNIamhpMnJwS3hGN202MUwxSkpjZDdoQUZ5VE85cFJ2WThPMDcwZ0xmbEJNdE5vb0Nyb1E4Q0Q2YWNVWQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Global",
    "target": "majority stake in Aberdeen",
    "dealValue": null,
@@ -11672,22 +11912,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Lockheed Martin",
-   "target": "Ultra Maritime",
-   "dealValue": "$3.5B",
-   "valueUsdM": 3450.0,
-   "announcedDate": "2026-07-06",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Aerospace & Defence",
-   "region": "North America",
-   "headline": "Lockheed Martin to Acquire Ultra Maritime in $3.45 Billion Deal",
-   "sourceName": "WSJ",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3BZVEJMQU9fOG85eGkwTkJsV1VaQk5IOUJLWkQ3YzdvdUtYSnZFYk1UcGJiT0dEdkw4aUU3VHFmdzNxU2JxcmZGNlBfd0JySHFLOFNoVDQ3U19nazRfekNObFFMY2NHLW9HTTI4UWhBaFQ5NWwtSVc4dTVYX3RDNkxCSWtaZGF3bWM0QlZIaElrTE9XMjVQZzBGaEZhbFlkcTZ5T2FoQnE2dw?oc=5",
-   "feed": "Google News",
-   "alsoReported": 1
-  },
-  {
    "acquirer": "Novartis",
    "target": "UK",
    "dealValue": "$1.5B",
@@ -11702,6 +11926,54 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcEp2RTZaSW5Ec0dVNndBLS1RbTFLVVExTnB0a2FWa1I2R2JHalE0WEJ6bUx4aHhHS2dTUlpMbll1dVZnZktQWlRqYk9mSVFRaElYQW1BZGFxbFhzSGRPLXJaQmJKSVFqTTNHSkxSNG8zMjFlYnFDZk5ob0JRZGV3cjZ5MVFNTlN4SkFqdXJUWFFwUE5ucVdNOGtDdVRDdmtOSllRNGNn?oc=5",
    "feed": "Google News",
    "alsoReported": 0
+  },
+  {
+   "acquirer": "H.I.G. Capital Signs Definitive Agreement",
+   "target": "TERRAS",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "H.I.G. Capital Signs Definitive Agreement to Acquire TERRAS",
+   "sourceName": "PR Newswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGJya01RQ2FCbk5kZmdVT3NHbGg3RGRKZDhSWS1HTmFCM0J1Qjd4c2pFMmRMb1NneTgwOThnaEpsaWxXYkFMbi1qVFpydFRyMkVrOEcwbjhkd25heGdMODgtaDd5M043Q0lIZ3hRdDk3NVpQNkp0WjdlSmxFS0RsUF85Y0hpeWFySUZ5VkJDZ0Rhd1l4WFhYaGhEdnQ5NGpWYVhUMGdkLU9wUmJyVXlHQ3ln?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "EXEC: Safilo",
+   "target": "Spy+ and Serengeti",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-06",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "EXEC: Safilo Completes Acquisition of Spy+ and Serengeti",
+   "sourceName": "SGB Media",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPbjE5a0V4Q015dF9uT01wdTV4WnpWZzRtZU44cTJmdUE1VEtqUlhwakE1TDAyTHRUVGdPdlNMWmVFd1BUNG1jNERHbmhGU1lOd0s5a1o5bWh4RzNjSmo2LVlzdkFWSVBrdWVpbTBEdHc0QVh0SFk5R2RBUVY?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Lockheed Martin",
+   "target": "Ultra Maritime",
+   "dealValue": "$3.5B",
+   "valueUsdM": 3450.0,
+   "announcedDate": "2026-07-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Aerospace & Defence",
+   "region": "North America",
+   "headline": "Lockheed Martin to Acquire Ultra Maritime in $3.45 Billion Deal",
+   "sourceName": "WSJ",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3BZVEJMQU9fOG85eGkwTkJsV1VaQk5IOUJLWkQ3YzdvdUtYSnZFYk1UcGJiT0dEdkw4aUU3VHFmdzNxU2JxcmZGNlBfd0JySHFLOFNoVDQ3U19nazRfekNObFFMY2NHLW9HTTI4UWhBaFQ5NWwtSVc4dTVYX3RDNkxCSWtaZGF3bWM0QlZIaElrTE9XMjVQZzBGaEZhbFlkcTZ5T2FoQnE2dw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
   },
   {
    "acquirer": "Vertex",
@@ -11925,7 +12197,7 @@
    "sourceName": "MSN",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZG5laVczc1VzOURmX1FEblFSanZ0LUpCNElkQW1vQzJkenFYZVJFRWdjS0dPWmFwYjlnQzZ3a280MHBvTEFBM2ZqWmh2bHRlWlROSmR5a0hNM0ZuYVBQVkQ1NHpuaU1VSUh6Wmx2ODd6Wjd2TEdlWHZzZzE2eFl4WFpjQ3RoYXVfbkxsdVFhM0IwdUV3TFJrTWkyeFF2V3hOR0l1aW9MSlJwUnlMRzdRRm1kR1EtUkFCdVBmRUdTaDVsUHVQdnBLT2JPTzNVVlBQRW1uY2p3?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "SAP",
@@ -12040,22 +12312,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "EXEC: Safilo",
-   "target": "Spy+ and Serengeti",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-06",
-   "status": "Completed",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "EXEC: Safilo Completes Acquisition of Spy+ and Serengeti",
-   "sourceName": "SGB Media",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPbjE5a0V4Q015dF9uT01wdTV4WnpWZzRtZU44cTJmdUE1VEtqUlhwakE1TDAyTHRUVGdPdlNMWmVFd1BUNG1jNERHbmhGU1lOd0s5a1o5bWh4RzNjSmo2LVlzdkFWSVBrdWVpbTBEdHc0QVh0SFk5R2RBUVY?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "SiTime",
    "target": "Renesas’ Timing Business",
    "dealValue": null,
@@ -12084,22 +12340,6 @@
    "headline": "Vertex to buy Crinetics in an all-cash deal valued at $10 billion",
    "sourceName": "CNBC",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc3Jia0UxWC1DOU1CcDFzZmlXRVdqbmhVdjJrWXN6aEVYTlJHbkdJbUJ5LWVwdHZTRTVqV2hBQVpjM19zSUN1RTZXTnN1QS1mUWlidWZKQnEwUWdEbXkzZllRR3FqWnB1TldLdEZMQUNuMWdyUk53VUx1TkM4OEJvQzFJMnZhbDI5SEVsdXV5Skl0UkowSnM3ZmhyY0IyOFFsU1R1NkRTLXhRTUE?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "H.I.G. Capital Signs Definitive Agreement",
-   "target": "TERRAS",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-07-06",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "H.I.G. Capital Signs Definitive Agreement to Acquire TERRAS",
-   "sourceName": "PR Newswire",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGJya01RQ2FCbk5kZmdVT3NHbGg3RGRKZDhSWS1HTmFCM0J1Qjd4c2pFMmRMb1NneTgwOThnaEpsaWxXYkFMbi1qVFpydFRyMkVrOEcwbjhkd25heGdMODgtaDd5M043Q0lIZ3hRdDk3NVpQNkp0WjdlSmxFS0RsUF85Y0hpeWFySUZ5VkJDZ0Rhd1l4WFhYaGhEdnQ5NGpWYVhUMGdkLU9wUmJyVXlHQ3ln?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -12552,22 +12792,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Alcoa (AA)",
-   "target": "South32 bauxite",
-   "dealValue": "$3.1B",
-   "valueUsdM": 3100.0,
-   "announcedDate": "2026-07-02",
-   "status": "Announced",
-   "dealType": "Asset purchase",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Alcoa (AA) to acquire South32 bauxite, alumina and smelter assets for $3.1B plus equity",
-   "sourceName": "Stock Titan",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFljSl9mc2hzc21ldGRScHIxWl93X3JENDU4QW9MWC12czMtaHhBUDg2a20wWnlGUURTMkJEWUlqVUNCTDVmS3hqaHRXbk1tTW9kLVFrWjRoRFF3aDJCbmZlNV9oN2lBZkJteExiM1Fkd29yREl5MEN4Zi1UaHdmOFpnZjhJU20yellJeGhIdXZpMVgzVkdpb2sycVFpeV9Pc01GQzdaOGt4Qm9vOEE?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Sun Life",
    "target": "Bell Partners",
    "dealValue": null,
@@ -12808,6 +13032,54 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Faraday Copper Signs a Definitive Agreement",
+   "target": "BHP's San Manuel Property in Arizona",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-02",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Real Estate",
+   "region": "United Kingdom",
+   "headline": "Faraday Copper Signs a Definitive Agreement to Acquire BHP's San Manuel Property in Arizona, Creating a Multi-Asset Copper District in the USA",
+   "sourceName": "ACCESS Newswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQa3pLR20yU2ZYZm1ReEZYakR2SjZncDJhS0FFYWN4ajFRRVk1OU5KVnhybGRreGEzT09uXzRpWThaXzdpclBPLUFoNzVCOXJBZnBtWFV3X1RucXRBWmo0dWhhM05VTTUtMnF3WlVFdFZYWHZpV3VUamFkT0NaeEJqS0h6R0t5cTd5WXpnajZ6V0VvcHQ1N044enltMmlaRVpYNHRScHk4UkZUd2RFTHZfMU9yVnljNGVWcWRCLUtldmtQZUxPa2ZzVkJfeXlzYmRfNkNsc3ZCQnd5VnVuWjNuMzJRUTU?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Nuvve",
+   "target": "BESS Sibiu; €420K",
+   "dealValue": "$453.6B",
+   "valueUsdM": 453600.0,
+   "announcedDate": "2026-07-02",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Nuvve Agrees to Buy BESS Sibiu; €420K at Closing, €1.26M on COD, Plus RON 946K Loans",
+   "sourceName": "TradingView",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMzFWbGtiNHFTS2I5b0VyOEhCbzJUMUdUMkVaUXp6NXhwZUlqNkFwLXEwWklnMjJHVDNKRy1Td19wT1ZVU3dZeGl4TnVSWkxwTHRMeERMY0JBZDNpWW01SWY3cU13UkVQXzNVTzdRak9wbmNKUDZrczRZbnJxakxkeUlRajlLOVNjTmszYlBndXBfemdaVEJBR2JiSG9OQXlOWGFUSGNOZnFtaFJYOHFoUndJOEUybUFUdzNKR1V6V2J6Mnl4UlJzdHdDOFl5YWpPejRBcDBudUs?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Alcoa (AA)",
+   "target": "South32 bauxite",
+   "dealValue": "$3.1B",
+   "valueUsdM": 3100.0,
+   "announcedDate": "2026-07-01",
+   "status": "Announced",
+   "dealType": "Asset purchase",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Alcoa (AA) to acquire South32 bauxite, alumina and smelter assets for $3.1B plus equity",
+   "sourceName": "Stock Titan",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFljSl9mc2hzc21ldGRScHIxWl93X3JENDU4QW9MWC12czMtaHhBUDg2a20wWnlGUURTMkJEWUlqVUNCTDVmS3hqaHRXbk1tTW9kLVFrWjRoRFF3aDJCbmZlNV9oN2lBZkJteExiM1Fkd29yREl5MEN4Zi1UaHdmOFpnZjhJU20yellJeGhIdXZpMVgzVkdpb2sycVFpeV9Pc01GQzdaOGt4Qm9vOEE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
    "acquirer": "Kroger",
    "target": "Eagle",
    "dealValue": "$1.6B",
@@ -12869,7 +13141,7 @@
    "sourceName": "FOX 4 News Dallas-Fort Worth",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbWc2cVNZT1ZpY0FtR3NWS1IzRjVwRDBBcGVpcklnci1VclJqZWFmQ2hCb1BXUlJYck84ZTBnSXVyWDAzRkxOYm9RdGlDUURrSmVtVzdZM29FTTBTY05jYW82TmVsUkNCS1NIQWV0S2RzQkhqaUZVOVZDVXN6MEJ2b183b1RYcXRIMHhteWFhVndWVHFBaTdmWjZyVUVyRm9OOXpLLWRTaw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Gray Media",
@@ -12984,6 +13256,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "ZAWYA: BlueFive Capital",
+   "target": "substantial stake in Sidra Capital",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-07-01",
+   "status": "Completed",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "ZAWYA: BlueFive Capital closes acquisition of substantial stake in Sidra Capital, forming BlueFiveSidra",
+   "sourceName": "TradingView",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZE5tQVhadGo0b1IyYU43dkxRV2h1TVVQWGtSeDk4Q0x4aHJwaDRNSzhjMlBPdnZfTmxBQTk5Y05iOTE0Uk9YSUNaQ0NvTFc2bldaRUlZSzhENlVZa29JOHZpTzUxdXdBZG14TVdsanFWOHhTRmt6c1dydnlCWU1tLWtkb1NFekJSclJqaUJPazZqbXpJa0JKYTVzWmZIWnRkX1N5WjRMSnE5d29COTZEeFFpMDkwY1p6N0hlV0duMnZXcUdHeVVNMkNiMFk1ckRKcHZkbzlyaG9lb0NQTU1xQzV5NUEzb2tYS19EMFdIRHYwWUhqS3hpR3BoT2dZSUJRNUx2cVpGUDQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Rocket Lab CEO on company's $8 billion",
    "target": "satellite communications provider Iridium",
    "dealValue": "$8.0B",
@@ -13012,6 +13300,22 @@
    "headline": "Alcoa's CEO on company's deal to buy Australia's South32 for $5.6 billion",
    "sourceName": "CNBC",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON19kUEZ1VXBONDJPdWZSd1NnT0lhbi0tZ2doSGh6UG9id3JnYlI0aVJjWWVVdlRPOXFWT0MxRXdaTE02MGZPX2dtb19Za0xqcXRPNjFLeGJqdGJyMjJIRmxyMTJUdHQzbGZMeWppZUU5ODd5WDJDdTVqV3Vnc3BnQnI4ZjlnajFSc2NURGxla1R6V21tbkluUnFqR1NjMUIzTXg3UkhreDNteFE3OXZicGtQbGpGRUE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Private equity firm",
+   "target": "natural gas storage business",
+   "dealValue": "$650M",
+   "valueUsdM": 650.0,
+   "announcedDate": "2026-07-01",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Energy & Utilities",
+   "region": "Unspecified",
+   "headline": "Private equity firm buys natural gas storage business for $650 million",
+   "sourceName": "The Business Journals",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUEhiNHMxSF9Yd2dUbDhxakwyaWlET0lrMUlMeG5nWUFycnVLQjNYU2lCR1lPbndWajRSeXFLX3ZSMDdvLXVYRU1TVDAzdWJUMmtlV25xeFZ5aVlZSnF5Tm9ZWm10NkFsYU5lX0NZMml5UkFyUUJxck9CWUgzLWJFUzhFTThNenRwSTlKNFZVbG1sR0gyLUE?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -13288,6 +13592,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Utility and infrastructure specialist, Network Plus",
+   "target": "by private equity firm",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-06-30",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Energy & Utilities",
+   "region": "Unspecified",
+   "headline": "Utility and infrastructure specialist, Network Plus, acquired by private equity firm",
+   "sourceName": "TheBusinessDesk.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVlOa2UzYzRiSndNZnQ4MHVVc0dPbXVlQ09GR1U3bHJmcXpINlV2OGFUaXpSdWZneVdwSGlzRk5vc2pENWotMkZMS1pXZDVOUTFMZUUzSUZFTnRTaFE1NjVDZFYzT3hUbE1pdzF2S2RNTmJzM2hNZURhTHNoaGtiN0JBWWVPRU0tWXlFbEFXdEh6VnV1cVFuRFVUdlVBajJfa0xOdnJkRDJMOExkX2tGSHlCVHc4bXFpSVZ6R0pxcjRwcU90MkxITHRDQlA1cHdUWkJV?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Schneider Electric",
+   "target": "Cognite",
+   "dealValue": "$3.1B",
+   "valueUsdM": 3100.0,
+   "announcedDate": "2026-06-30",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Europe",
+   "headline": "Schneider Electric to acquire Cognite in $3.1B all-cash deal",
+   "sourceName": "MSN",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUHdjYjgzYkxvZFRHZDFNNEJKN2tTMk1LU1Q2bHYzZ3R1V1d6cGc4NEhzM3ViMG9KaHktb24tSVMzSTk4REFiZ2NBYU9sQkY4VFc3dEU0aWpQbG5sU2Z6VEdjUmZ2bFFVbUhXR3pTY3dlWEpWZ1hYVS1DT1ZzeFpwRzBNeDZxNndXd1BzekczWURxQ0YxemIyamJrb3ZsN2Vid240MzhQN1hianJiTzJpSTNpVFlMMllWZGY4SEt0bWZNX016eExNSjBoQ2cxVFBFbkFDcVNjREhqZlcxOGw0c2I5VHlvUlMwQ2dhUWNqUkJWaDA?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
    "acquirer": "KKR",
    "target": "EDF Power Solutions’ North American Operations",
    "dealValue": "$4.2B",
@@ -13332,22 +13668,6 @@
    "headline": "Zymeworks agrees to buy Theravance Biopharma for $929m",
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaFNfZ2FxeHBMTVZFenVsNHlwSVVGbmdOeEZqUGRvaUhNTEJxSl91M0d5S1ZkbXFVSzk3eVpSenF0Wi1IMGxqQ1hHMWNhSHVsOXpOcTBqNGlhcTdmR0s1VWNzRnZQV0ZvdXJmWUw2QlhxRDBRdkxmT0N1TFF3bV9mNlJ5SWRZX3pjbnBrNFZaWXdmMjRuQmlvN3lxM0NyZXlsUXN5Vw?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
-   "acquirer": "Schneider Electric",
-   "target": "Cognite",
-   "dealValue": "$3.1B",
-   "valueUsdM": 3100.0,
-   "announcedDate": "2026-06-30",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Europe",
-   "headline": "Schneider Electric to acquire Cognite in $3.1B all-cash deal",
-   "sourceName": "MSN",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUHdjYjgzYkxvZFRHZDFNNEJKN2tTMk1LU1Q2bHYzZ3R1V1d6cGc4NEhzM3ViMG9KaHktb24tSVMzSTk4REFiZ2NBYU9sQkY4VFc3dEU0aWpQbG5sU2Z6VEdjUmZ2bFFVbUhXR3pTY3dlWEpWZ1hYVS1DT1ZzeFpwRzBNeDZxNndXd1BzekczWURxQ0YxemIyamJrb3ZsN2Vid240MzhQN1hianJiTzJpSTNpVFlMMllWZGY4SEt0bWZNX016eExNSjBoQ2cxVFBFbkFDcVNjREhqZlcxOGw0c2I5VHlvUlMwQ2dhUWNqUkJWaDA?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -13592,22 +13912,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Utility and infrastructure specialist, Network Plus",
-   "target": "by private equity firm",
-   "dealValue": null,
-   "valueUsdM": null,
-   "announcedDate": "2026-06-30",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Energy & Utilities",
-   "region": "Unspecified",
-   "headline": "Utility and infrastructure specialist, Network Plus, acquired by private equity firm",
-   "sourceName": "TheBusinessDesk.com",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVlOa2UzYzRiSndNZnQ4MHVVc0dPbXVlQ09GR1U3bHJmcXpINlV2OGFUaXpSdWZneVdwSGlzRk5vc2pENWotMkZMS1pXZDVOUTFMZUUzSUZFTnRTaFE1NjVDZFYzT3hUbE1pdzF2S2RNTmJzM2hNZURhTHNoaGtiN0JBWWVPRU0tWXlFbEFXdEh6VnV1cVFuRFVUdlVBajJfa0xOdnJkRDJMOExkX2tGSHlCVHc4bXFpSVZ6R0pxcjRwcU90MkxITHRDQlA1cHdUWkJV?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "ACON Investments",
    "target": "Better",
    "dealValue": null,
@@ -13654,6 +13958,22 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWtkR3djektRRUdqLXJsODVSRzR0VzZ5VzV5VWVOOWlfVHZseTFvTU5NNmFMZ1ZuRVp6b2RnT2J4WDMzOWMxcUtDanYxQVJacGN3RlVGT19oZGVVX1MybWI4RU1LZ2UtMkdRZ2Y3WWRLelJyT1dVcTRxNVJhTVdFR2NYUGtDSEtJOUwyaUYzWW12YXh6Q0RWenNDSFlXellfOGVod044ZWpSeHVFZjI1aU9wNnk0akNpeU9uRg?oc=5",
    "feed": "Google News",
    "alsoReported": 1
+  },
+  {
+   "acquirer": "Private equity firm",
+   "target": "Italian ingredients business",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-06-30",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Europe",
+   "headline": "Private equity firm buys Italian ingredients business",
+   "sourceName": "Food Manufacture",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX1FaMEZ1RVVERHZSSlJkQWFTYkhEcEkweXc1SDZ5TzFMYUhORzM2M3JIYWdhOG12U2hfdzdVWTRlbjB1ZzZHQmYzMkZod0o2bkFyQ1lfNFRqMTZkak56RmJ6b2IwUENxbHhaNTZDQnlfTFBvQ0dIcDViNklMNUpkNjQzREhLc04yZnRGQ2ZkZy1rblJKaldIWTk2NjY3czhaQkloZnFseWh0dWQyb3F2SWZRNEZ0b3FDUEZ1WmRFbw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
   },
   {
    "acquirer": "Private equity firm",
@@ -13992,22 +14312,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Rocket Lab",
-   "target": "Iridium",
-   "dealValue": "$8.0B",
-   "valueUsdM": 8000.0,
-   "announcedDate": "2026-06-29",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Other",
-   "region": "Unspecified",
-   "headline": "Rocket Lab to acquire Iridium",
-   "sourceName": "SpaceNews",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvRkctclRfM21MZFV2TVB0anpFVk1PX1phWGFKdVJSblZhbXF4YTBHZ2dVb0V0cC1uOVZ2YUl2RVg5MlF5YV9XNTRleUhxNEVSU081ekJ6QTZlVDhNSnB4dDdn?oc=5",
-   "feed": "Google News",
-   "alsoReported": 1
-  },
-  {
    "acquirer": "Persistent bids",
    "target": "German company",
    "dealValue": "$1.3B",
@@ -14022,6 +14326,38 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSWtqclJKMmVhRlVtWWliaElDREpsOUkxTVV0YllsTVR1Vmd0dTI5RURPRXAwYVgxSVBZR1dSUnBKN3d6Q3lMSVpQeG1UcHdEaXA5dXVlRWhaVmU1Y1ZlM01CWkJVMnVFTDJFNWNGWm9ZeDFhVW96eDFJOTZraGxoUFVDcFBDZGg5RGlfNDdiSkZ1LXIyazFhUl9LVU9hRjhFemNrcVgxbE41b0k0X2hFVEZ1bzlZWTBKUGg0ZHdZSnhWN29VaGFZS0Zma2szQ1RweVpWSmJn0gHbAUFVX3lxTE14ampMLXVGNHh6VTFvTmhmc1RUY1hfVU91NFVOVEpKWjQ2eWxkT3IwSS1DMk9zU1cxbW1JZk4tMHZ3UmZXQ25EMHZVV0RZTE82M0dQZVhEOVdicGIwdHJuODVJcFpwdko2Yl9fdnZSNEFIaW42SHZoWFpBN3R3OWF0dW4xTTRORmRXWlZ4ZHVHMldrYzZHSHJOUEp1djJPMzM2UGZKQjBfUGE5bWRvZHh1NGxoVHBQNVFlbVRoTnp4SmRQWHFNaXZrY3RHM24tdmF0WDFPNXFOWkZxTQ?oc=5",
    "feed": "Google News",
    "alsoReported": 0
+  },
+  {
+   "acquirer": "Korn Ferry Announces Definitive Agreement",
+   "target": "AMS",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-06-29",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS",
+   "sourceName": "HRO Today",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ3RiMzBHc2hUdWRuTUtfaGdTZHU5bmotOHhrU05yQkdaemJGbThYVk9YeDQxMmhnTENuQzY2clNmVXhfdWZtVE9nNjVHLUpKZVRsOWFtNFVsb0QyYjRlTFJMd3Q0THZSbTljcGNsTXBFRmRLQ0tIdFEzbTdfSVg0a3RjV2VURVV6SFRsczBnekpiMkpaRkhWdzgxcXU?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "Rocket Lab",
+   "target": "Iridium",
+   "dealValue": "$8.0B",
+   "valueUsdM": 8000.0,
+   "announcedDate": "2026-06-29",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Rocket Lab to acquire Iridium",
+   "sourceName": "SpaceNews",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvRkctclRfM21MZFV2TVB0anpFVk1PX1phWGFKdVJSblZhbXF4YTBHZ2dVb0V0cC1uOVZ2YUl2RVg5MlF5YV9XNTRleUhxNEVSU081ekJ6QTZlVDhNSnB4dDdn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
   },
   {
    "acquirer": "Rocket Lab",
@@ -14264,6 +14600,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Private Equity Firm",
+   "target": "Luna Innovations",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-06-29",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private Equity Firm to Acquire Luna Innovations | Business | Jun 2026",
+   "sourceName": "Photonics Spectra",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYWd0LWdmU196OFZKVlYzNHNnMUN3dVZSM0tid0dwS0Nrclp3OFJmb0ViMjIwMlM2al9makl0YmMxVnR3NnUwY0JHYUUtdjNDak5VWEFJWUFoQjRzTDRfWXFuV2dpU2JsYUpwaFVGZE1CWjlYbWZVdzFQTmhEZk5TZU03WWFLNWdxSzVfYmM0UkxGN2s?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Bain Capital",
    "target": "Majority Stake In Everllence",
    "dealValue": null,
@@ -14436,6 +14788,22 @@
    "headline": "REC To Merge With PFC, Creating ₹11 Lakh Crore Power Finance Giant",
    "sourceName": "SolarQuarter",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS2U3S1lHYkY5Sm1nb29vMWdrWWNSUl9tbUQxZzJYdWVyYnQ4SWZvckRnaFdrQjhzMHZ5OGthNkRIMVlkZkpuM0c4Wl9DeFRZRGN1RW9qYkRMTWtKdl9iTExQUUk5T0s1VVVpaG95S0Ywa2RZRlJZN0xuU0ZXbFM0ZE1EanJYdHp4amEwQ2VRakdwM3ZPQmtVNHhPU0pWbDhVLWtRX1lBeS1oTVFRd3Mw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "PharmaCorp Announces Definitive Agreement",
+   "target": "Western Canada PharmaChoice Bannered Pharmacy",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-06-29",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Healthcare & Pharmaceuticals",
+   "region": "North America",
+   "headline": "PharmaCorp Announces Definitive Agreement to Acquire Western Canada PharmaChoice Bannered Pharmacy",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORjI3MEFHMzhYazNEY1FrNFpkQW1UWUJMNnh4MXNyelZ0Q3FSQjRsdTNIZE9BWkM4b21JbWtxWkpnRDhrZ1pNX19QN2RxM0N1X2FkOTRKV1U5Q3FXWXpRV0VwTVgxYlBRLWdWdlAtVDdfbk00WjlLakhIOXNzSjBiN2RuNnF1MkFBYm9PbzBFVUJvWGVWaGtFSFlaYm9uOGNhdjZDVThnZ3RYOFZaMXFR?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
