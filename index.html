@@ -119,6 +119,13 @@
   .source:hover { border-bottom-color:var(--accent); }
   .source .domain { color:var(--ink-faint); }
 
+  .more-bar { display:flex; align-items:center; justify-content:center; gap:18px;
+              padding:22px 0 6px; }
+  .btn-more { font-family:var(--display); font-size:14px; font-weight:600; color:#fff;
+              background:var(--accent); border:1px solid var(--accent); border-radius:2px;
+              padding:11px 26px; cursor:pointer; transition:background .15s; }
+  .btn-more:hover { background:var(--accent-dk); }
+
   .state { text-align:center; padding:60px 20px; }
   .state h2 { font-family:var(--display); font-weight:600; font-size:21px; letter-spacing:-.02em; margin:0 0 8px; }
   .state p { color:var(--ink-soft); margin:0 auto; max-width:48ch; }
@@ -216,12 +223,12 @@ const SEED = { sample:true, updatedAt:null, sources:["Seed data"], deals:[
  {"acquirer": "Pfizer", "target": "Seagen", "dealValue": "$43.0B", "valueUsdM": 43000.0, "announcedDate": "2023-12-14", "status": "Completed", "dealType": "Acquisition", "industry": "Healthcare & Pharmaceuticals", "region": "North America", "headline": "Pfizer completes acquisition of Seagen for $43 billion", "sourceName": "https://www.prnewswire.com/", "sourceUrl": "https://www.prnewswire.com/", "alsoReported": 0},
  {"acquirer": "Chevron", "target": "Hess", "dealValue": "$53.0B", "valueUsdM": 53000.0, "announcedDate": "2023-10-23", "status": "Pending", "dealType": "Acquisition", "industry": "Energy & Utilities", "region": "North America", "headline": "Chevron to acquire Hess in an all-stock transaction valued at $53 billion", "sourceName": "https://www.reuters.com/", "sourceUrl": "https://www.reuters.com/", "alsoReported": 0},
  {"acquirer": "Exxon Mobil", "target": "Pioneer Natural Resources", "dealValue": "$59.5B", "valueUsdM": 59500.0, "announcedDate": "2023-10-11", "status": "Completed", "dealType": "Acquisition", "industry": "Energy & Utilities", "region": "North America", "headline": "Exxon Mobil to acquire Pioneer Natural Resources for $59.5 billion", "sourceName": "https://www.bloomberg.com/", "sourceUrl": "https://www.bloomberg.com/", "alsoReported": 0},
- {"acquirer": "HDFC Bank", "target": "HDFC Ltd", "dealValue": null, "valueUsdM": null, "announcedDate": "2023-07-01", "status": "Completed", "dealType": "Merger", "industry": "Financial Services", "region": "India", "headline": "HDFC Bank completes merger with HDFC Ltd", "sourceName": "https://www.livemint.com/", "sourceUrl": "https://www.livemint.com/", "alsoReported": 0},
- {"acquirer": "Broadcom", "target": "VMware", "dealValue": "$61.0B", "valueUsdM": 61000.0, "announcedDate": "2023-05-26", "status": "Completed", "dealType": "Acquisition", "industry": "Technology & Software", "region": "North America", "headline": "Broadcom Inc. completes acquisition of VMware, Inc.", "sourceName": "https://www.businesswire.com/", "sourceUrl": "https://www.businesswire.com/", "alsoReported": 1},
- {"acquirer": "Reliance Retail", "target": "Metro Cash & Carry India", "dealValue": "$342M", "valueUsdM": 342.0, "announcedDate": "2022-12-22", "status": "Completed", "dealType": "Acquisition", "industry": "Consumer & Retail", "region": "India", "headline": "Reliance Retail to acquire Metro Cash & Carry India for Rs 2,850 crore", "sourceName": "https://economictimes.indiatimes.com/", "sourceUrl": "https://economictimes.indiatimes.com/", "alsoReported": 1},
+ {"acquirer": "HDFC Bank", "target": "HDFC", "dealValue": null, "valueUsdM": null, "announcedDate": "2023-07-01", "status": "Completed", "dealType": "Merger", "industry": "Financial Services", "region": "India", "headline": "HDFC Bank completes merger with HDFC Ltd", "sourceName": "https://www.livemint.com/", "sourceUrl": "https://www.livemint.com/", "alsoReported": 0},
+ {"acquirer": "Broadcom", "target": "VMware", "dealValue": "$61.0B", "valueUsdM": 61000.0, "announcedDate": "2023-05-26", "status": "Completed", "dealType": "Acquisition", "industry": "Semiconductors", "region": "North America", "headline": "Chipmaker Broadcom Inc. completes acquisition of VMware, Inc.", "sourceName": "https://www.businesswire.com/", "sourceUrl": "https://www.businesswire.com/", "alsoReported": 1},
+ {"acquirer": "Reliance Retail", "target": "Metro India", "dealValue": "$342M", "valueUsdM": 342.0, "announcedDate": "2022-12-22", "status": "Completed", "dealType": "Acquisition", "industry": "Consumer & Retail", "region": "India", "headline": "Reliance Retail to acquire Metro Cash & Carry India for Rs 2,850 crore", "sourceName": "https://economictimes.indiatimes.com/", "sourceUrl": "https://economictimes.indiatimes.com/", "alsoReported": 1},
  {"acquirer": "Zomato", "target": "Blinkit", "dealValue": null, "valueUsdM": null, "announcedDate": "2022-08-05", "status": "Completed", "dealType": "Acquisition", "industry": "Technology & Software", "region": "India", "headline": "CCI approves Zomato acquisition of Blinkit", "sourceName": "https://www.moneycontrol.com/", "sourceUrl": "https://www.moneycontrol.com/", "alsoReported": 0},
- {"acquirer": "Adani Group", "target": "Holcim India cement business", "dealValue": "$10.5B", "valueUsdM": 10500.0, "announcedDate": "2022-05-15", "status": "Completed", "dealType": "Acquisition", "industry": "Materials & Chemicals", "region": "India", "headline": "Indian conglomerate Adani Group acquires Holcim India cement business for $10.5 billion", "sourceName": "https://www.reuters.com/", "sourceUrl": "https://www.reuters.com/", "alsoReported": 0},
- {"acquirer": "Microsoft", "target": "Activision Blizzard", "dealValue": "$68.7B", "valueUsdM": 68700.0, "announcedDate": "2022-01-18", "status": "Completed", "dealType": "Acquisition", "industry": "Technology & Software", "region": "North America", "headline": "Microsoft to acquire Activision Blizzard for $68.7 billion", "sourceName": "https://www.reuters.com/", "sourceUrl": "https://www.reuters.com/", "alsoReported": 0},
+ {"acquirer": "Adani Group", "target": "Ambuja Cements", "dealValue": "$10.5B", "valueUsdM": 10500.0, "announcedDate": "2022-05-15", "status": "Completed", "dealType": "Acquisition", "industry": "Materials & Chemicals", "region": "India", "headline": "Indian conglomerate Adani Group acquires Ambuja Cements for $10.5 billion", "sourceName": "https://www.reuters.com/", "sourceUrl": "https://www.reuters.com/", "alsoReported": 0},
+ {"acquirer": "Microsoft", "target": "Activision", "dealValue": "$68.7B", "valueUsdM": 68700.0, "announcedDate": "2022-01-18", "status": "Completed", "dealType": "Acquisition", "industry": "Technology & Software", "region": "North America", "headline": "Microsoft Corp completes acquisition of Activision", "sourceName": "https://www.businesswire.com/", "sourceUrl": "https://www.businesswire.com/", "alsoReported": 1},
  {"acquirer": "Tata Sons", "target": "Air India", "dealValue": "$2.2B", "valueUsdM": 2160.0, "announcedDate": "2021-10-08", "status": "Completed", "dealType": "Acquisition", "industry": "Other", "region": "India", "headline": "Tata Sons to acquire Air India from the government for Rs 18,000 crore", "sourceName": "https://www.business-standard.com/", "sourceUrl": "https://www.business-standard.com/", "alsoReported": 0}
 ]};
 
@@ -229,6 +236,8 @@ let book = { deals: [] };
 let index = [];
 let starred = new Set();
 let sortMode = "date-desc";
+const PAGE = 200;
+let shown = PAGE;
 
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
   c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -372,10 +381,14 @@ function render() {
     return;
   }
 
+  const page = list.slice(0, shown);
+  const more = list.length - page.length;
+
   box.innerHTML =
     '<div class="results-bar">' +
       '<div class="count">' + list.length.toLocaleString() + ' deal' + (list.length === 1 ? '' : 's') +
-        ' <em>&middot; of ' + book.deals.length.toLocaleString() + ' on file</em></div>' +
+        ' <em>&middot; of ' + book.deals.length.toLocaleString() + ' on file' +
+        (more > 0 ? ' &middot; showing ' + page.length.toLocaleString() : '') + '</em></div>' +
       '<div class="bar-right">' +
         '<div class="sort-wrap"><span class="field-label">Sort</span><select id="sort">' +
           '<option value="date-desc">Newest first</option>' +
@@ -384,11 +397,21 @@ function render() {
         '</select></div>' +
         '<button class="btn-ghost" id="csv">Export CSV</button>' +
       '</div></div>' +
-    list.map(d => card(d, terms)).join("");
+    page.map(d => card(d, terms)).join("") +
+    (more > 0
+      ? '<div class="more-bar">' +
+          '<button class="btn-more" id="more">Show ' +
+            Math.min(more, PAGE).toLocaleString() + ' more</button>' +
+          '<button class="btn-ghost" id="all">Show all ' + list.length.toLocaleString() + '</button>' +
+        '</div>'
+      : '');
 
   $("sort").value = sortMode;
-  $("sort").onchange = e => { sortMode = e.target.value; render(); };
-  $("csv").onclick = () => exportCsv(list);
+  $("sort").onchange = e => { sortMode = e.target.value; shown = PAGE; render(); };
+  $("csv").onclick = () => exportCsv(list);   // exports every match, not just the page
+
+  if ($("more")) $("more").onclick = () => { shown += PAGE; render(); };
+  if ($("all"))  $("all").onclick  = () => { shown = list.length; render(); };
 
   box.querySelectorAll(".star").forEach(b => {
     b.onclick = () => {
@@ -457,12 +480,14 @@ function exportCsv(list) {
 
 /* ---------- wiring ---------- */
 let t = null;
-$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 90); });
+const rerender = () => { shown = PAGE; render(); };
+
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(rerender, 90); });
 ["industry","region","dealtype","status","size","from","to"].forEach(id =>
-  $(id).addEventListener("change", render));
+  $(id).addEventListener("change", rerender));
 $("period").addEventListener("change", e => {
   $("customDates").classList.toggle("on", e.target.value === "custom");
-  render();
+  rerender();
 });
 $("reset").addEventListener("click", () => {
   $("q").value = "";
@@ -471,7 +496,7 @@ $("reset").addEventListener("click", () => {
   $("period").value = "0";
   $("from").value = ""; $("to").value = "";
   $("customDates").classList.remove("on");
-  render();
+  rerender();
 });
 
 load();
