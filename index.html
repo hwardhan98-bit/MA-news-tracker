@@ -1,0 +1,469 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M&A Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper:#E7EBF1; --surface:#FFFFFF; --ink:#101C2E; --ink-soft:#46566E;
+    --ink-faint:#7C8AA0; --rule:#CBD4E0; --rule-soft:#E1E7EE;
+    --accent:#0F6E63; --accent-dk:#0A4F47;
+    --s-announced:#23508C; --s-pending:#8A5D14; --s-completed:#0F6E63; --s-terminated:#992B39;
+    --display:"Space Grotesk","Helvetica Neue",Arial,sans-serif;
+    --body:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    --data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--body);
+         font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 20px 80px; }
+
+  .masthead { padding:38px 0 22px; }
+  .eyebrow { font-family:var(--data); font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+             color:var(--ink-faint); display:flex; align-items:center; gap:9px; }
+  .dot { width:6px; height:6px; border-radius:50%; background:var(--accent); }
+  h1 { font-family:var(--display); font-weight:700; font-size:clamp(34px,6vw,52px);
+       letter-spacing:-.035em; line-height:1.02; margin:12px 0 10px; }
+  h1 .amp { color:var(--accent); font-weight:500; }
+  .standfirst { color:var(--ink-soft); max-width:56ch; margin:0; font-size:16px; }
+
+  .banner { margin-top:20px; padding:12px 15px; border-left:3px solid var(--s-pending);
+            background:var(--surface); font-size:13.5px; color:var(--ink-soft); border-radius:0; }
+  .banner b { color:var(--ink); font-weight:600; }
+
+  .console { background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+             box-shadow:0 12px 28px -24px rgba(16,28,46,.5); padding:20px; margin-top:24px; }
+  .search-field { position:relative; }
+  .search-field svg { position:absolute; left:13px; top:50%; transform:translateY(-50%);
+                      color:var(--ink-faint); pointer-events:none; }
+  input[type=text], input[type=date], select {
+    width:100%; font-family:var(--body); font-size:15px; color:var(--ink); background:var(--surface);
+    border:1px solid var(--rule); border-radius:2px; padding:12px 13px; transition:border-color .15s,box-shadow .15s; }
+  #q { padding-left:40px; font-size:16px; }
+  input::placeholder { color:var(--ink-faint); }
+  input:focus, select:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(15,110,99,.14); }
+  button:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+  .filters { display:grid; grid-template-columns:repeat(auto-fit,minmax(158px,1fr)); gap:10px; margin-top:12px; }
+  .field-label { display:block; font-family:var(--data); font-size:10px; letter-spacing:.13em;
+                 text-transform:uppercase; color:var(--ink-faint); margin-bottom:5px; }
+  select { appearance:none; cursor:pointer; padding-right:32px; background-repeat:no-repeat;
+    background-position:right 12px center;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237C8AA0' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); }
+  .custom-dates { display:none; grid-column:1/-1; gap:10px; grid-template-columns:1fr 1fr; }
+  .custom-dates.on { display:grid; }
+
+  .console-foot { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-top:14px;
+                  padding-top:14px; border-top:1px solid var(--rule-soft); }
+  .btn-reset { font-family:var(--data); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); background:none; border:none; padding:4px 0; cursor:pointer;
+    border-bottom:1px solid var(--rule); }
+  .btn-reset:hover { color:var(--accent); border-bottom-color:var(--accent); }
+  .stamp { margin-left:auto; font-family:var(--data); font-size:11px; color:var(--ink-faint); letter-spacing:.04em; }
+
+  .results-bar { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; margin:32px 0 14px;
+                 padding-bottom:12px; border-bottom:2px solid var(--ink); }
+  .count { font-family:var(--display); font-weight:600; font-size:19px; letter-spacing:-.01em; }
+  .count em { font-style:normal; color:var(--ink-faint); font-weight:400; }
+  .bar-right { margin-left:auto; display:flex; align-items:center; gap:14px; }
+  .sort-wrap { display:flex; align-items:center; gap:7px; }
+  .sort-wrap .field-label { margin:0; }
+  .sort-wrap select { padding:6px 28px 6px 9px; font-size:13px; background-position:right 9px center; width:auto; }
+  .btn-ghost { font-family:var(--data); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); background:none; border:none; padding:6px 0; cursor:pointer; border-bottom:1px solid var(--rule); }
+  .btn-ghost:hover { color:var(--accent); border-bottom-color:var(--accent); }
+
+  .tomb { background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+          padding:22px 24px 18px; margin-bottom:12px; transition:border-color .18s, box-shadow .18s; }
+  .tomb:hover { border-color:var(--ink-faint); box-shadow:0 10px 26px -20px rgba(16,28,46,.5); }
+  .tomb-top { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
+  .status { font-family:var(--data); font-size:10px; font-weight:600; letter-spacing:.13em;
+            text-transform:uppercase; padding:3px 9px; border-radius:2px; border:1px solid currentColor; }
+  .status.announced{color:var(--s-announced)} .status.pending{color:var(--s-pending)}
+  .status.completed{color:var(--s-completed)} .status.terminated{color:var(--s-terminated)}
+  .meta { font-family:var(--data); font-size:11.5px; letter-spacing:.04em; color:var(--ink-faint); text-transform:uppercase; }
+  .meta b { color:var(--ink-soft); font-weight:500; }
+  .star { margin-left:auto; background:none; border:none; cursor:pointer; color:var(--rule);
+          padding:2px; line-height:0; transition:color .15s, transform .15s; }
+  .star:hover { color:var(--s-pending); transform:scale(1.12); }
+  .star.on { color:var(--s-pending); }
+
+  .deal-line { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:18px; }
+  .party-role { display:block; font-family:var(--data); font-size:9.5px; letter-spacing:.18em;
+                text-transform:uppercase; color:var(--ink-faint); margin-bottom:3px; }
+  .party-name { font-family:var(--display); font-weight:600; font-size:clamp(17px,2.3vw,22px);
+                letter-spacing:-.02em; line-height:1.15; }
+  .party.target { text-align:right; }
+  .bridge { position:relative; min-width:118px; text-align:center; padding:0 4px; }
+  .bridge-value { display:block; font-family:var(--data); font-weight:600; font-size:15px; padding-bottom:6px; }
+  .bridge-track { position:relative; height:1px; background:var(--rule); }
+  .bridge-fill { position:absolute; inset:0; background:var(--accent); transform:scaleX(0);
+                 transform-origin:left; transition:transform .45s cubic-bezier(.4,0,.2,1); }
+  .tomb:hover .bridge-fill { transform:scaleX(1); }
+  .bridge-track::after { content:""; position:absolute; right:-1px; top:-3px; border:3.5px solid transparent;
+                         border-left-color:var(--rule); transition:border-left-color .45s .2s; }
+  .tomb:hover .bridge-track::after { border-left-color:var(--accent); }
+
+  .headline { margin:18px 0 0; color:var(--ink-soft); font-size:14.5px; }
+  mark { background:#FBEEC4; color:inherit; padding:0 1px; }
+
+  .tomb-foot { margin-top:14px; padding-top:12px; border-top:1px solid var(--rule-soft);
+               display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .tag { font-family:var(--data); font-size:11px; letter-spacing:.05em; color:var(--ink-soft);
+         background:var(--paper); padding:3px 9px; border-radius:2px; }
+  .source { margin-left:auto; display:inline-flex; align-items:center; gap:6px;
+            font-family:var(--data); font-size:11.5px; letter-spacing:.04em; color:var(--accent);
+            text-decoration:none; border-bottom:1px solid transparent; }
+  .source:hover { border-bottom-color:var(--accent); }
+  .source .domain { color:var(--ink-faint); }
+
+  .state { text-align:center; padding:60px 20px; }
+  .state h2 { font-family:var(--display); font-weight:600; font-size:21px; letter-spacing:-.02em; margin:0 0 8px; }
+  .state p { color:var(--ink-soft); margin:0 auto; max-width:48ch; }
+
+  footer { margin-top:44px; padding-top:18px; border-top:1px solid var(--rule);
+           font-family:var(--data); font-size:11px; letter-spacing:.04em; color:var(--ink-faint); line-height:1.9; }
+  footer a { color:var(--ink-soft); }
+
+  @media (max-width:620px) {
+    .deal-line { grid-template-columns:1fr; gap:12px; }
+    .party.target { text-align:left; }
+    .bridge { min-width:0; display:flex; align-items:center; gap:12px; }
+    .bridge-value { padding:0; }
+    .bridge-track { flex:1; }
+    .bar-right { width:100%; margin-left:0; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    *,*::before,*::after { transition:none !important; animation:none !important; }
+    .bridge-fill { transform:scaleX(1); }
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow"><span class="dot"></span> <span id="sourceCount">Loading deal book</span></div>
+    <h1>M<span class="amp">&amp;</span>A Tracker</h1>
+    <p class="standfirst">Search announced, pending and completed transactions by company, sector, geography and date. Every record links back to the filing or story it came from.</p>
+    <div class="banner" id="banner" hidden></div>
+  </header>
+
+  <section class="console">
+    <div class="search-field">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+        <circle cx="7" cy="7" r="5"/><path d="M11 11l4 4" stroke-linecap="round"/></svg>
+      <input type="text" id="q" placeholder="Company, acquirer, target or keyword" aria-label="Search companies or keywords" autocomplete="off">
+    </div>
+
+    <div class="filters">
+      <div><label class="field-label" for="industry">Industry</label><select id="industry"></select></div>
+      <div><label class="field-label" for="region">Region</label><select id="region"></select></div>
+      <div><label class="field-label" for="dealtype">Deal type</label><select id="dealtype"></select></div>
+      <div><label class="field-label" for="status">Status</label><select id="status"></select></div>
+      <div>
+        <label class="field-label" for="size">Deal value</label>
+        <select id="size">
+          <option value="0">Any value</option>
+          <option value="100">$100M and above</option>
+          <option value="500">$500M and above</option>
+          <option value="1000">$1B and above</option>
+          <option value="5000">$5B and above</option>
+          <option value="10000">$10B and above</option>
+        </select>
+      </div>
+      <div>
+        <label class="field-label" for="period">Date range</label>
+        <select id="period">
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+          <option value="90">Last 90 days</option>
+          <option value="365">Last 12 months</option>
+          <option value="0" selected>All time</option>
+          <option value="custom">Custom range</option>
+        </select>
+      </div>
+      <div class="custom-dates" id="customDates">
+        <div><label class="field-label" for="from">From</label><input type="date" id="from"></div>
+        <div><label class="field-label" for="to">To</label><input type="date" id="to"></div>
+      </div>
+    </div>
+
+    <div class="console-foot">
+      <button class="btn-reset" id="reset">Clear filters</button>
+      <span class="stamp" id="stamp"></span>
+    </div>
+  </section>
+
+  <div id="results" aria-live="polite"></div>
+
+  <footer>
+    Assembled from public sources by an automated job. Figures are extracted from headlines and filings and may be
+    approximate, incomplete, or superseded — check the linked source before relying on any number. Not investment advice.<br>
+    <span id="sourceList"></span>
+  </footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+
+const SEED = { sample:true, updatedAt:null, sources:["Seed data"], deals:[
+ {acquirer:"Silver Lake",target:"Endeavor",dealValue:"$13.0B",valueUsdM:13000,announcedDate:"2024-04-02",status:"Announced",dealType:"Take-private / LBO",industry:"Media & Telecom",region:"North America",headline:"Silver Lake agrees to buy Endeavor in a $13 billion take-private deal",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Endeavor%22"},
+ {acquirer:"Cisco",target:"Splunk",dealValue:"$28.0B",valueUsdM:28000,announcedDate:"2024-03-18",status:"Completed",dealType:"Acquisition",industry:"Technology & Software",region:"North America",headline:"Cisco closes acquisition of Splunk in $28 billion deal",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Splunk%22"},
+ {acquirer:"Amazon",target:"iRobot",dealValue:null,valueUsdM:null,announcedDate:"2024-01-29",status:"Terminated",dealType:"Acquisition",industry:"Consumer & Retail",region:"North America",headline:"Amazon scraps acquisition of iRobot",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22iRobot%22"},
+ {acquirer:"Pfizer",target:"Seagen",dealValue:"$43.0B",valueUsdM:43000,announcedDate:"2023-12-14",status:"Completed",dealType:"Acquisition",industry:"Healthcare & Pharmaceuticals",region:"North America",headline:"Pfizer completes acquisition of Seagen for $43 billion",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Seagen%22"},
+ {acquirer:"Nasdaq",target:"Adenza",dealValue:"$10.5B",valueUsdM:10500,announcedDate:"2023-11-01",status:"Completed",dealType:"Acquisition",industry:"Financial Services",region:"North America",headline:"Nasdaq completes acquisition of Adenza for $10.5 billion",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Adenza%22"},
+ {acquirer:"Chevron",target:"Hess",dealValue:"$53.0B",valueUsdM:53000,announcedDate:"2023-10-23",status:"Pending",dealType:"Acquisition",industry:"Energy & Utilities",region:"North America",headline:"Chevron to acquire Hess in an all-stock transaction valued at $53 billion",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Hess%22"},
+ {acquirer:"Exxon Mobil",target:"Pioneer Natural Resources",dealValue:"$59.5B",valueUsdM:59500,announcedDate:"2023-10-11",status:"Completed",dealType:"Acquisition",industry:"Energy & Utilities",region:"North America",headline:"Exxon Mobil to acquire Pioneer Natural Resources for $59.5 billion",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22Pioneer%20Natural%20Resources%22"},
+ {acquirer:"Broadcom",target:"VMware",dealValue:"$61.0B",valueUsdM:61000,announcedDate:"2023-05-26",status:"Completed",dealType:"Acquisition",industry:"Semiconductors",region:"North America",headline:"Broadcom to acquire VMware for $61 billion",sourceName:"SEC EDGAR full-text search",sourceUrl:"https://www.sec.gov/edgar/search/#/q=%22VMware%22"}
+]};
+
+let book = { deals: [] };
+let index = [];
+let starred = new Set();
+let sortMode = "date-desc";
+
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
+  c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+function fmtDate(iso) {
+  if (!iso) return "Date unknown";
+  const d = new Date(iso + "T00:00:00");
+  return isNaN(d) ? esc(iso)
+    : d.toLocaleDateString("en-GB", { day:"numeric", month:"short", year:"numeric" });
+}
+
+function domainOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
+}
+
+/* ---------- load ---------- */
+async function load() {
+  try {
+    const res = await fetch("deals.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error("no file");
+    book = await res.json();
+  } catch {
+    book = SEED;
+  }
+  if (!Array.isArray(book.deals)) book.deals = [];
+
+  index = book.deals.map(d => ({
+    d,
+    hay: [d.acquirer, d.target, d.headline, d.industry, d.region, d.dealType, d.sourceName]
+           .filter(Boolean).join(" ").toLowerCase()
+  }));
+
+  buildOptions();
+  stamp();
+  render();
+}
+
+function buildOptions() {
+  const fill = (el, values, anyLabel) => {
+    el.innerHTML = '<option value="">' + anyLabel + "</option>" +
+      values.map(v => `<option>${esc(v)}</option>`).join("");
+  };
+  const uniq = k => [...new Set(book.deals.map(d => d[k]).filter(Boolean))].sort();
+  fill($("industry"), uniq("industry"), "Any industry");
+  fill($("region"),   uniq("region"),   "Any region");
+  fill($("dealtype"), uniq("dealType"), "Any type");
+  fill($("status"),   uniq("status"),   "Any status");
+}
+
+function stamp() {
+  const n = book.deals.length;
+  $("sourceCount").textContent = n
+    ? `${n.toLocaleString()} deals on file`
+    : "No deals on file yet";
+
+  $("stamp").textContent = book.updatedAt
+    ? "Updated " + new Date(book.updatedAt).toLocaleString("en-GB",
+        { day:"numeric", month:"short", year:"numeric", hour:"2-digit", minute:"2-digit" })
+    : "";
+
+  if (Array.isArray(book.sources) && book.sources.length) {
+    $("sourceList").textContent = "Sources: " + book.sources.join(" · ");
+  }
+
+  if (book.sample) {
+    $("banner").hidden = false;
+    $("banner").innerHTML = "<b>Showing seed data.</b> Run <code>python3 ingest.py</code> " +
+      "to replace deals.json with live records from the news and filing feeds.";
+  }
+}
+
+/* ---------- filter ---------- */
+function currentFilters() {
+  const period = $("period").value;
+  let from = "", to = "";
+  if (period === "custom") { from = $("from").value; to = $("to").value; }
+  else if (period !== "0") {
+    const d = new Date();
+    to = d.toISOString().slice(0, 10);
+    d.setDate(d.getDate() - parseInt(period, 10));
+    from = d.toISOString().slice(0, 10);
+  }
+  return {
+    terms: $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean),
+    industry: $("industry").value, region: $("region").value,
+    dealType: $("dealtype").value, status: $("status").value,
+    minValue: parseInt($("size").value, 10) || 0,
+    from, to
+  };
+}
+
+function apply() {
+  const f = currentFilters();
+  return index.filter(({ d, hay }) => {
+    if (f.terms.length && !f.terms.every(t => hay.includes(t))) return false;
+    if (f.industry && d.industry !== f.industry) return false;
+    if (f.region   && d.region   !== f.region)   return false;
+    if (f.dealType && d.dealType !== f.dealType) return false;
+    if (f.status   && d.status   !== f.status)   return false;
+    if (f.minValue && d.valueUsdM != null && d.valueUsdM < f.minValue) return false;
+    if (f.from && (d.announcedDate || "") < f.from) return false;
+    if (f.to   && (d.announcedDate || "") > f.to)   return false;
+    return true;
+  }).map(x => x.d);
+}
+
+function sortList(list) {
+  const c = list.slice();
+  if (sortMode === "value-desc") c.sort((a, b) => (b.valueUsdM || -1) - (a.valueUsdM || -1));
+  else {
+    const dir = sortMode === "date-asc" ? 1 : -1;
+    c.sort((a, b) => dir * String(a.announcedDate || "").localeCompare(String(b.announcedDate || "")));
+  }
+  return c;
+}
+
+function highlight(text, terms) {
+  let out = esc(text);
+  for (const t of terms) {
+    if (t.length < 2) continue;
+    out = out.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"),
+                      "<mark>$1</mark>");
+  }
+  return out;
+}
+
+/* ---------- render ---------- */
+function render() {
+  const box = $("results");
+  const terms = currentFilters().terms;
+  const list = sortList(apply());
+
+  if (!book.deals.length) {
+    box.innerHTML = '<div class="state"><h2>The deal book is empty</h2>' +
+      '<p>Run the ingest job to populate deals.json, then reload this page.</p></div>';
+    return;
+  }
+  if (!list.length) {
+    box.innerHTML = '<div class="state"><h2>No deals match these filters</h2>' +
+      '<p>Widen the date range, clear the minimum value, or search a different company.</p></div>';
+    return;
+  }
+
+  box.innerHTML =
+    '<div class="results-bar">' +
+      '<div class="count">' + list.length.toLocaleString() + ' deal' + (list.length === 1 ? '' : 's') +
+        ' <em>&middot; of ' + book.deals.length.toLocaleString() + ' on file</em></div>' +
+      '<div class="bar-right">' +
+        '<div class="sort-wrap"><span class="field-label">Sort</span><select id="sort">' +
+          '<option value="date-desc">Newest first</option>' +
+          '<option value="date-asc">Oldest first</option>' +
+          '<option value="value-desc">Largest value</option>' +
+        '</select></div>' +
+        '<button class="btn-ghost" id="csv">Export CSV</button>' +
+      '</div></div>' +
+    list.map(d => card(d, terms)).join("");
+
+  $("sort").value = sortMode;
+  $("sort").onchange = e => { sortMode = e.target.value; render(); };
+  $("csv").onclick = () => exportCsv(list);
+
+  box.querySelectorAll(".star").forEach(b => {
+    b.onclick = () => {
+      const k = b.dataset.key;
+      starred.has(k) ? starred.delete(k) : starred.add(k);
+      b.classList.toggle("on", starred.has(k));
+      b.setAttribute("aria-pressed", starred.has(k));
+    };
+  });
+}
+
+function card(d, terms) {
+  const key = (d.acquirer + "|" + d.target).toLowerCase();
+  const status = String(d.status || "Announced");
+  const cls = status.toLowerCase().replace(/[^a-z]/g, "");
+  const url = /^https?:\/\//i.test(d.sourceUrl || "") ? d.sourceUrl : null;
+  const dom = url ? domainOf(url) : "";
+
+  return '<article class="tomb">' +
+    '<div class="tomb-top">' +
+      '<span class="status ' + esc(cls) + '">' + esc(status) + '</span>' +
+      '<span class="meta"><b>' + fmtDate(d.announcedDate) + '</b></span>' +
+      (d.dealType ? '<span class="meta">' + esc(d.dealType) + '</span>' : '') +
+      '<button class="star' + (starred.has(key) ? ' on' : '') + '" data-key="' + esc(key) +
+        '" aria-pressed="' + starred.has(key) + '" aria-label="Save this deal">' +
+        '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">' +
+        '<path d="M12 2.5l2.9 5.9 6.6.9-4.8 4.6 1.2 6.5-5.9-3.1-5.9 3.1 1.2-6.5L2.5 9.3l6.6-.9z"/></svg>' +
+      '</button></div>' +
+
+    '<div class="deal-line">' +
+      '<div class="party"><span class="party-role">Acquirer</span>' +
+        '<span class="party-name">' + highlight(d.acquirer, terms) + '</span></div>' +
+      '<div class="bridge"><span class="bridge-value">' + esc(d.dealValue || "Undisclosed") + '</span>' +
+        '<div class="bridge-track"><div class="bridge-fill"></div></div></div>' +
+      '<div class="party target"><span class="party-role">Target</span>' +
+        '<span class="party-name">' + highlight(d.target, terms) + '</span></div>' +
+    '</div>' +
+
+    (d.headline ? '<p class="headline">' + highlight(d.headline, terms) + '</p>' : '') +
+
+    '<div class="tomb-foot">' +
+      (d.industry ? '<span class="tag">' + esc(d.industry) + '</span>' : '') +
+      (d.region ? '<span class="tag">' + esc(d.region) + '</span>' : '') +
+      (url
+        ? '<a class="source" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' +
+            esc(d.sourceName || "Source") +
+            (dom ? ' <span class="domain">' + esc(dom) + '</span>' : '') + ' &#8599;</a>'
+        : '<span class="meta" style="margin-left:auto">No source link</span>') +
+    '</div></article>';
+}
+
+function exportCsv(list) {
+  const cols = ["acquirer","target","dealValue","valueUsdM","announcedDate","status",
+                "dealType","industry","region","headline","sourceName","sourceUrl"];
+  const cell = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+  const csv = [cols.join(",")].concat(list.map(d => cols.map(c => cell(d[c])).join(","))).join("\n");
+  const url = URL.createObjectURL(new Blob([csv], { type:"text/csv;charset=utf-8;" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "ma-deals-" + new Date().toISOString().slice(0, 10) + ".csv";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+/* ---------- wiring ---------- */
+let t = null;
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 90); });
+["industry","region","dealtype","status","size","from","to"].forEach(id =>
+  $(id).addEventListener("change", render));
+$("period").addEventListener("change", e => {
+  $("customDates").classList.toggle("on", e.target.value === "custom");
+  render();
+});
+$("reset").addEventListener("click", () => {
+  $("q").value = "";
+  ["industry","region","dealtype","status"].forEach(id => $(id).value = "");
+  $("size").value = "0";
+  $("period").value = "0";
+  $("from").value = ""; $("to").value = "";
+  $("customDates").classList.remove("on");
+  render();
+});
+
+load();
+</script>
