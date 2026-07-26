@@ -19,6 +19,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 
 OUT_FILE = os.environ.get("DEALS_FILE", "deals.json")
@@ -349,88 +350,195 @@ REGIONS = {
                       "canada", "canadian", "toronto", "silicon valley", "sec filing"],
 }
 
-# --- India signals -------------------------------------------------------
-# India was previously only detected when a headline literally said "india",
-# which almost never happens. These three independent signals fix that.
+# --- Region --------------------------------------------------------------
+# Region describes WHERE THE DEAL IS, not who reported it. An Economic Times
+# story about Broadcom/VMware is a North America deal, not an Indian one, so
+# the publisher's domain is deliberately NOT used as a signal here.
+#
+# Convention: region follows the TARGET's home market where known, because
+# that is what deal league tables segment on. If the target is unknown we fall
+# back to jurisdiction signals in the headline (currency, regulator, country
+# adjectives), then to the acquirer, then to "Unspecified".
 
-INDIA_TERMS = [
-    "india", "indian", "mumbai", "bengaluru", "bangalore", "delhi", "chennai",
-    "hyderabad", "kolkata", "pune", "gurugram", "gurgaon", "noida", "ahmedabad",
-    "crore", "lakh", "rupee", "₹", " sebi", " cci ", "nclt", "nse ", "bse ",
-    "reserve bank of india", "dalal street", "nifty", "sensex", "irdai",
-    "competition commission of india", "open offer",
-]
+COUNTRY_COMPANIES = {
+    "India": [
+        "reliance", "reliance industries", "reliance retail", "tata", "tata sons",
+        "tata motors", "tata steel", "tata consultancy", "adani", "aditya birla",
+        "birla", "mahindra", "bajaj", "godrej", "wipro", "infosys", "hcl",
+        "hcltech", "tcs", "tech mahindra", "hdfc", "hdfc bank", "icici",
+        "icici bank", "axis bank", "kotak", "kotak mahindra", "sbi",
+        "state bank of india", "yes bank", "idfc", "bandhan", "indusind",
+        "jio", "reliance jio", "airtel", "bharti", "bharti airtel",
+        "vodafone idea", "zomato", "swiggy", "paytm", "one97", "flipkart",
+        "myntra", "ola", "ola electric", "oyo", "byju", "byjus", "blinkit",
+        "phonepe", "nykaa", "policybazaar", "lenskart", "meesho", "razorpay",
+        "cred", "zepto", "urban company", "delhivery", "pine labs",
+        "dr reddy", "cipla", "sun pharma", "lupin", "torrent pharma", "zydus",
+        "biocon", "glenmark", "aurobindo", "divis", "piramal", "mankind pharma",
+        "apollo hospitals", "fortis healthcare", "max healthcare",
+        "larsen & toubro", "ultratech", "ambuja cements", "acc cements",
+        "shree cement", "jsw", "jsw steel", "vedanta", "hindalco", "sail",
+        "ntpc", "ongc", "indian oil", "bpcl", "hpcl", "gail", "power grid",
+        "asian paints", "britannia", "dabur", "marico", "godrej consumer",
+        "hindustan unilever", "titan", "dmart", "avenue supermarts",
+        "jubilant foodworks", "varun beverages", "havells", "voltas",
+        "maruti suzuki", "hero motocorp", "tvs motor", "eicher motors",
+        "air india", "indigo", "interglobe aviation", "spicejet", "vistara",
+        "zee entertainment", "sony pictures networks india", "pvr", "inox",
+    ],
+    "North America": [
+        "microsoft", "google", "alphabet", "amazon", "apple", "meta", "facebook",
+        "nvidia", "intel", "amd", "qualcomm", "broadcom", "cisco", "oracle",
+        "ibm", "salesforce", "adobe", "vmware", "splunk", "servicenow",
+        "workday", "snowflake", "datadog", "hubspot", "zoom", "dropbox",
+        "activision", "activision blizzard", "electronic arts", "roblox",
+        "twitter", "x corp", "uber", "lyft", "doordash", "airbnb", "stripe",
+        "paypal", "visa", "mastercard", "block", "square", "coinbase",
+        "jpmorgan", "goldman sachs", "morgan stanley", "citigroup", "wells fargo",
+        "bank of america", "blackrock", "blackstone", "kkr", "carlyle",
+        "apollo global", "tpg", "silver lake", "thoma bravo", "vista equity",
+        "berkshire hathaway", "charles schwab", "nasdaq", "adenza",
+        "pfizer", "merck", "moderna", "johnson & johnson", "abbvie", "amgen",
+        "bristol myers", "eli lilly", "gilead", "biogen", "seagen", "medtronic",
+        "exxon", "exxon mobil", "chevron", "conocophillips", "occidental",
+        "pioneer natural resources", "hess", "marathon oil", "devon energy",
+        "nextera", "duke energy", "us steel", "united states steel",
+        "walmart", "target", "kroger", "costco", "home depot", "nike",
+        "starbucks", "mcdonald", "pepsico", "coca-cola", "mondelez", "kraft",
+        "disney", "warner bros", "paramount", "netflix", "comcast", "nbcuniversal",
+        "verizon", "at&t", "t-mobile", "charter communications",
+        "boeing", "lockheed martin", "raytheon", "rtx", "northrop grumman",
+        "general dynamics", "spirit aerosystems", "general electric", "honeywell",
+        "3m", "caterpillar", "deere", "ford", "general motors", "tesla",
+        "irobot", "shopify", "brookfield", "onex", "cgi",
+    ],
+    "United Kingdom": [
+        "hsbc", "barclays", "natwest", "lloyds banking", "standard chartered",
+        "aviva", "legal & general", "prudential plc", "m&g", "schroders",
+        "bp", "shell", "rio tinto", "anglo american", "glencore", "bhp",
+        "unilever", "diageo", "reckitt", "tesco", "tesco bank", "sainsbury",
+        "asda", "morrisons", "marks & spencer", "ocado", "b&q", "kingfisher",
+        "vodafone group", "bt group", "sky", "itv", "wpp", "pearson",
+        "rolls-royce", "bae systems", "gsk", "glaxosmithkline", "astrazeneca",
+        "smith & nephew", "arm holdings", "sage group", "darktrace",
+        "national grid", "sse", "centrica", "easyjet", "iag", "whitbread",
+    ],
+    "Europe": [
+        "sap", "siemens", "bosch", "volkswagen", "bmw", "mercedes-benz", "daimler",
+        "porsche", "continental ag", "bayer", "basf", "merck kgaa", "allianz",
+        "deutsche bank", "commerzbank", "deutsche telekom", "eon", "rwe",
+        "infineon", "zalando", "delivery hero", "n26", "adidas", "puma",
+        "lvmh", "kering", "hermes", "loreal", "danone", "carrefour", "totalenergies",
+        "airbus", "thales", "safran", "schneider electric", "capgemini", "atos",
+        "bnp paribas", "societe generale", "axa", "credit agricole", "sanofi",
+        "asml", "philips", "ing group", "rabobank", "heineken", "ahold delhaize",
+        "shell plc", "stellantis", "ferrari", "enel", "eni", "intesa sanpaolo",
+        "unicredit", "generali", "telefonica", "santander", "bbva", "iberdrola",
+        "inditex", "repsol", "nestle", "novartis", "roche", "ubs", "credit suisse",
+        "zurich insurance", "abb", "nokia", "ericsson", "spotify", "klarna",
+        "volvo", "ikea", "maersk", "novo nordisk", "carlsberg", "equinor",
+    ],
+    "Asia-Pacific": [
+        "alibaba", "tencent", "baidu", "bytedance", "jd.com", "meituan", "didi",
+        "xiaomi", "huawei", "byd", "catl", "smic", "china mobile", "icbc",
+        "toyota", "honda", "nissan", "sony", "panasonic", "hitachi", "toshiba",
+        "softbank", "nintendo", "rakuten", "nippon steel", "mitsubishi",
+        "mitsui", "sumitomo", "mizuho", "nomura", "fast retailing", "shiseido",
+        "samsung", "sk hynix", "lg electronics", "hyundai", "kia", "naver",
+        "kakao", "coupang", "tsmc", "foxconn", "mediatek", "asus", "acer",
+        "grab", "sea limited", "shopee", "dbs", "ocbc", "singtel", "temasek",
+        "gic", "capitaland", "keppel", "bhp group", "woodside", "telstra",
+        "commonwealth bank", "westpac", "anz", "macquarie", "qantas", "wesfarmers",
+    ],
+    "Middle East & Africa": [
+        "aramco", "saudi aramco", "sabic", "pif", "public investment fund",
+        "mubadala", "adnoc", "adia", "emaar", "emirates", "etisalat", "e&",
+        "dp world", "qatar investment authority", "qatar national bank",
+        "teva", "check point", "wiz", "mobileye", "nice ltd", "cyberark",
+        "naspers", "prosus", "mtn group", "sasol", "standard bank",
+        "safaricom", "dangote", "attijariwafa",
+    ],
+    "Latin America": [
+        "petrobras", "vale", "itau", "bradesco", "ambev", "jbs", "nubank",
+        "mercadolibre", "b3", "braskem", "gerdau", "natura", "magazine luiza",
+        "america movil", "grupo bimbo", "cemex", "femsa", "grupo mexico",
+        "falabella", "lan", "latam airlines", "ecopetrol", "bancolombia",
+    ],
+}
 
-INDIA_DOMAINS = [
-    "economictimes.indiatimes.com", "indiatimes.com", "livemint.com", "mint.com",
-    "business-standard.com", "moneycontrol.com", "thehindubusinessline.com",
-    "thehindu.com", "financialexpress.com", "businesstoday.in", "ndtvprofit.com",
-    "cnbctv18.com", "zeebiz.com", "bqprime.com", "vccircle.com", "inc42.com",
-    "entrackr.com", "yourstory.com", "medianama.com", "hindustantimes.com",
-    "timesofindia.indiatimes.com", "deccanherald.com", "thewire.in", "scroll.in",
-]
-
-INDIA_COMPANIES = [
-    "reliance", "tata ", "adani", "birla", "mahindra", "bajaj", "godrej",
-    "wipro", "infosys", "hcl", "tcs", "hdfc", "icici", "axis bank", "kotak",
-    "sbi ", "state bank of india", "yes bank", "idfc", "bandhan",
-    "jio", "airtel", "bharti", "vodafone idea", "zomato", "swiggy", "paytm",
-    "flipkart", "ola ", "oyo", "byju", "phonepe", "nykaa", "policybazaar",
-    "dr reddy", "cipla", "sun pharma", "lupin", "torrent pharma", "zydus",
-    "biocon", "glenmark", "aurobindo", "divis", "piramal",
-    "l&t", "larsen & toubro", "ultratech", "ambuja", "acc ", "jsw", "vedanta",
-    "hindalco", "sail ", "ntpc", "ongc", "indian oil", "bpcl", "hpcl",
-    "asian paints", "britannia", "dabur", "marico", "itc ", "hul ",
-    "hindustan unilever", "titan", "dmart", "avenue supermarts", "jubilant",
-]
-
-DOMAIN_REGIONS = {
-    "United Kingdom": ["bbc.co.uk", "theguardian.com", "telegraph.co.uk", "ft.com",
-                       "thetimes.co.uk", "cityam.com", "sky.com"],
-    "Europe": ["handelsblatt.com", "lesechos.fr", "elpais.com", "dw.com",
-               "euronews.com", "politico.eu"],
-    "Asia-Pacific": ["scmp.com", "nikkei.com", "japantimes.co.jp", "straitstimes.com",
-                     "afr.com", "koreaherald.com", "channelnewsasia.com"],
-    "Middle East & Africa": ["thenationalnews.com", "arabnews.com", "gulfnews.com",
-                             "businesslive.co.za"],
-    "Latin America": ["valor.globo.com", "eluniversal.com.mx", "batimes.com.ar"],
-    "North America": ["wsj.com", "bloomberg.com", "cnbc.com", "nytimes.com",
-                      "prnewswire.com", "businesswire.com", "globenewswire.com",
-                      "sec.gov", "axios.com", "forbes.com", "barrons.com"],
+# Signals that describe the DEAL's jurisdiction. Currency and regulator
+# mentions are safe because they refer to the transaction, not the outlet.
+JURISDICTION_SIGNALS = {
+    "India": ["crore", "lakh", "rupee", "rupees", "\u20b9", "sebi", "nclt", "irdai",
+              "competition commission of india", "reserve bank of india",
+              "india", "indian", "mumbai", "bengaluru", "bangalore", "new delhi",
+              "chennai", "hyderabad", "kolkata", "gurugram", "noida", "dalal street"],
+    "United Kingdom": ["\u00a3", "pence", "takeover panel", "competition and markets authority",
+                       "britain", "british", "uk-based", "uk based", "london-listed",
+                       "london-based", "ftse", "scotland", "wales"],
+    "Europe": ["\u20ac", "european commission", "brussels", "eurozone", "germany", "german",
+               "france", "french", "netherlands", "dutch", "spain", "spanish",
+               "italy", "italian", "sweden", "swedish", "denmark", "danish",
+               "norway", "norwegian", "switzerland", "swiss", "belgium", "austria",
+               "poland", "portugal", "finland", "ireland", "irish"],
+    "Asia-Pacific": ["china", "chinese", "beijing", "shanghai", "shenzhen", "hong kong",
+                     "japan", "japanese", "tokyo", "yen", "south korea", "korean",
+                     "seoul", "singapore", "taiwan", "taipei", "australia",
+                     "australian", "sydney", "melbourne", "new zealand", "indonesia",
+                     "malaysia", "vietnam", "thailand", "philippines"],
+    "Middle East & Africa": ["saudi", "riyadh", "uae", "dubai", "abu dhabi", "qatar",
+                             "doha", "kuwait", "bahrain", "oman", "israel", "israeli",
+                             "tel aviv", "egypt", "nigeria", "kenya", "south africa",
+                             "johannesburg", "morocco", "africa", "african"],
+    "Latin America": ["brazil", "brazilian", "sao paulo", "mexico", "mexican",
+                      "chile", "chilean", "colombia", "argentina", "peru",
+                      "latin america", "latam", "real", "peso"],
+    "North America": ["united states", "u.s.", "us-based", "us based", "american",
+                      "wall street", "nasdaq-listed", "nyse-listed", "new york",
+                      "california", "texas", "silicon valley", "canada", "canadian",
+                      "toronto", "ontario", "sec filing", "ftc", "doj"],
 }
 
 
-def _urls_of(item):
-    return " ".join(filter(None, [
-        (item or {}).get("link", ""),
-        (item or {}).get("publisherUrl", ""),
-        (item or {}).get("source", ""),
-    ])).lower()
+def _compile_lexicon(table):
+    out = {}
+    for label, names in table.items():
+        alts = sorted((re.escape(n) for n in names), key=len, reverse=True)
+        out[label] = re.compile(r"(?<![a-z0-9])(?:" + "|".join(alts) + r")(?![a-z0-9])", re.I)
+    return out
 
 
-def detect_region(title, item=None, parties=""):
-    """India first, then domain of the publisher, then headline keywords."""
-    hay = f" {title.lower()} {parties.lower()} "
-    urls = _urls_of(item)
+_COMPANY_RX = _compile_lexicon(COUNTRY_COMPANIES)
+_JURIS_RX = _compile_lexicon(JURISDICTION_SIGNALS)
 
-    if any(t in hay for t in INDIA_TERMS):
-        return "India"
-    if any(d in urls for d in INDIA_DOMAINS):
-        return "India"
-    if any(c in hay for c in INDIA_COMPANIES):
-        return "India"
-    if (item or {}).get("edition") == "IN" and "crore" in hay:
-        return "India"
 
-    for label, domains in DOMAIN_REGIONS.items():
-        if any(d in urls for d in domains):
+def company_region(name):
+    if not name:
+        return None
+    n = name.lower()
+    for label, rx in _COMPANY_RX.items():
+        if rx.search(n):
             return label
+    return None
 
-    for label, keys in REGIONS.items():
-        if any(k in hay for k in keys):
-            return label
 
-    return "Unspecified"
+def jurisdiction_region(text):
+    t = (text or "").lower()
+    hits = [(label, len(rx.findall(t))) for label, rx in _JURIS_RX.items()]
+    hits = [h for h in hits if h[1] > 0]
+    if not hits:
+        return None
+    hits.sort(key=lambda h: -h[1])
+    return hits[0][0]
+
+
+def detect_region(title, item=None, acquirer="", target=""):
+    """Where the deal is, in priority order. The publisher is never a signal."""
+    return (company_region(target)
+            or jurisdiction_region(title)
+            or company_region(acquirer)
+            or "Unspecified")
+
 
 NOISE = re.compile(r"^(exclusive|update \d|breaking|analysis|opinion|report)[:\-–—]\s*", re.I)
 TRAIL = re.compile(r"\s*[-–—|]\s*[A-Z][\w .&']{2,30}$")  # " - Reuters"
@@ -440,11 +548,51 @@ TAIL_VALUE = re.compile(
     r"\s+(?:in|for|at|worth|valued at)\s+(?:an?\s+)?[$€£₹]?[\d.,].*$", re.I)
 TAIL_WORDS = re.compile(
     r"\s+(?:deal|transaction|all-cash deal|cash deal|stock deal)$", re.I)
+TAIL_FROM = re.compile(
+    r"\s+from\s+(?:the\s+)?[\w .&'-]{2,40}$", re.I)
+
+
+# A trade word is always garnish ("chipmaker Broadcom"). A country word is
+# only garnish when possessive ("Japan's Nippon Steel") or when it modifies a
+# trade word ("US chipmaker Broadcom") — otherwise it belongs to the name,
+# as in "US Steel" or "Air India".
+TRADE_WORDS = {
+    "chipmaker", "drugmaker", "carmaker", "automaker", "steelmaker", "lender",
+    "insurer", "retailer", "miner", "brewer", "telco", "conglomerate",
+    "startup", "unicorn", "fintech", "biotech", "giant", "major", "firm",
+    "billionaire", "tycoon", "group", "maker", "producer", "operator",
+}
+COUNTRY_WORDS = {
+    "us", "usa", "american", "uk", "british", "indian", "india", "chinese",
+    "china", "japanese", "japan", "german", "germany", "french", "france",
+    "dutch", "swiss", "korean", "saudi", "canadian", "australian", "european",
+    "singapore", "israeli", "brazilian", "mexican", "russian", "spanish",
+}
+
+
+def _strip_descriptors(s):
+    """Drop press garnish while protecting names like 'US Steel'."""
+    tokens = s.split()
+    while tokens:
+        raw = tokens[0].lower().strip(".,-")
+        possessive = bool(re.search(r"['\u2019]s$", raw))
+        word = re.sub(r"['\u2019]s$", "", raw)
+        nxt = re.sub(r"['\u2019]s$", "", tokens[1].lower().strip(".,-")) if len(tokens) > 1 else ""
+
+        if word in TRADE_WORDS:
+            tokens.pop(0)
+        elif word in COUNTRY_WORDS and (possessive or nxt in TRADE_WORDS):
+            tokens.pop(0)
+        else:
+            break
+    return " ".join(tokens)
 
 
 def clean_party(s):
     s = _unescape(s or "").strip(" ,.:;\"'“”")
+    s = _strip_descriptors(s)
     s = TAIL_VALUE.sub("", s)
+    s = TAIL_FROM.sub("", s)
     s = TAIL_WORDS.sub("", s)
     s = re.sub(r"^the\s+", "", s, flags=re.I)
     s = re.sub(r"\s+", " ", s)
@@ -547,7 +695,7 @@ def extract(item):
             "dealType": detect_type(title),
             "industry": (classify(title, INDUSTRIES)
                          or classify(f"{acquirer} {target}", COMPANY_SECTORS, "Other")),
-            "region": detect_region(title, item, f"{acquirer} {target}"),
+            "region": detect_region(title, item, acquirer, target),
             "headline": title,
             "sourceName": item.get("source") or item.get("feed") or "News",
             "sourceUrl": item.get("link", ""),
@@ -560,43 +708,174 @@ def extract(item):
 # 3. Merge and write
 # --------------------------------------------------------------------------
 
+LEGAL_SUFFIXES = {
+    "inc", "incorporated", "corp", "corporation", "co", "company", "ltd",
+    "limited", "llc", "llp", "lp", "plc", "pvt", "private", "group", "holding",
+    "holdings", "international", "intl", "sa", "nv", "ag", "gmbh", "ab", "as",
+    "oyj", "spa", "bv", "kk", "pte", "pty", "berhad", "bhd", "sas", "se",
+    "technologies", "technology", "solutions", "systems", "enterprises",
+    "industries", "ventures", "partners", "capital", "the",
+}
+
+# Words the press bolts onto a company name. These vary story to story and are
+# the main reason the same deal used to be stored several times over.
+DESCRIPTORS = {
+    "chipmaker", "drugmaker", "carmaker", "automaker", "steelmaker", "lender",
+    "insurer", "retailer", "miner", "brewer", "airline", "telco", "conglomerate",
+    "startup", "unicorn", "fintech", "biotech", "pharma", "giant", "major",
+    "tech", "retail", "software", "energy", "oil", "gas", "media",
+    "us", "usa", "american", "uk", "british", "indian", "india", "chinese",
+    "china", "japanese", "japan", "german", "germany", "french", "france",
+    "dutch", "swiss", "korean", "saudi", "canadian", "australian", "european",
+    "billionaire", "state", "run", "owned", "backed", "based", "led",
+    "buyout", "equity", "hedge", "fund", "firm", "pe", "vc",
+}
+
+
+def core(name):
+    """Canonical form of a company name for matching across headlines."""
+    s = re.sub(r"\([^)]*\)", " ", (name or "").lower())
+    s = s.replace("&", " and ")
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    s = re.sub(r"\bunited states\b", "us", s)
+    s = re.sub(r"\bunited kingdom\b", "uk", s)
+    s = re.sub(r"\bgreat britain\b", "uk", s)
+    tokens = [t for t in s.split() if t and t != "and"]
+    while tokens and tokens[0] in DESCRIPTORS:
+        tokens.pop(0)
+    tokens = [t for t in tokens if t not in LEGAL_SUFFIXES]
+    while tokens and tokens[-1] in DESCRIPTORS:
+        tokens.pop()
+    return " ".join(tokens[:4])
+
+
 def key_of(d):
-    norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())[:22]
-    return f"{norm(d['acquirer'])}|{norm(d['target'])}"
+    return core(d.get("acquirer")) + "|" + core(d.get("target"))
 
 
 STATUS_RANK = {"Announced": 0, "Pending": 1, "Completed": 2, "Terminated": 3}
 
+# Filings and wire services beat aggregators when two records disagree.
+SOURCE_RANK = ["sec.gov", "prnewswire", "businesswire", "globenewswire",
+               "reuters", "bloomberg", "ft.com", "wsj.com"]
+
+
+def _source_score(d):
+    u = (d.get("sourceUrl") or "").lower()
+    for i, s in enumerate(reversed(SOURCE_RANK)):
+        if s in u:
+            return i + 1
+    return 0
+
+
+def fold(items):
+    """Collapse several records of the same transaction into one."""
+    best = max(items, key=_source_score)
+    out = dict(best)
+
+    out["announcedDate"] = min(i.get("announcedDate") or "9999" for i in items)
+    out["status"] = max((i.get("status", "Announced") for i in items),
+                        key=lambda s: STATUS_RANK.get(s, 0))
+
+    valued = [i for i in items if i.get("valueUsdM")]
+    if valued:
+        v = max(valued, key=lambda i: i["valueUsdM"])
+        out["valueUsdM"], out["dealValue"] = v["valueUsdM"], v["dealValue"]
+
+    for field, blank in (("industry", ("", "Other")), ("region", ("", "Unspecified"))):
+        if out.get(field) in blank:
+            for i in items:
+                if i.get(field) not in blank:
+                    out[field] = i[field]
+                    break
+
+    # Prefer the spelling most outlets used; length only breaks ties.
+    def consensus(field):
+        names = [i.get(field, "") for i in items if i.get(field)]
+        counts = Counter(names)
+        return max(names, key=lambda n: (counts[n], -len(n))) if names else ""
+
+    out["acquirer"] = consensus("acquirer")
+    out["target"] = consensus("target")
+
+    others = [i.get("sourceUrl") for i in items if i.get("sourceUrl") and i.get("sourceUrl") != out.get("sourceUrl")]
+    out["alsoReported"] = len(others)
+    return out
+
+
+def _same_party(a, b):
+    """True when two acquirer names plausibly refer to one company."""
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if a.startswith(b + " ") or b.startswith(a + " "):
+        return True
+    at, bt = a.split(), b.split()
+    return len(at[0]) > 3 and at[0] == bt[0]
+
+
+def dedupe(deals):
+    """Cluster on the target, then on the acquirer within each target group."""
+    by_target = {}
+    for d in deals:
+        if not d.get("acquirer") or not d.get("target"):
+            continue
+        by_target.setdefault(core(d["target"]), []).append(d)
+
+    out = []
+    for group in by_target.values():
+        clusters = []
+        for d in group:
+            a = core(d["acquirer"])
+            for c in clusters:
+                if _same_party(a, c["a"]):
+                    c["items"].append(d)
+                    break
+            else:
+                clusters.append({"a": a, "items": [d]})
+        out.extend(fold(c["items"]) for c in clusters)
+    return out
+
 
 def merge(existing, fresh):
-    by_key = {key_of(d): d for d in existing if d.get("acquirer") and d.get("target")}
-
-    for d in fresh:
-        k = key_of(d)
-        if k not in by_key:
-            by_key[k] = d
-            continue
-        old = by_key[k]
-        # keep the earliest announcement date, the latest status, the best value
-        if d["announcedDate"] < old["announcedDate"]:
-            old["announcedDate"] = d["announcedDate"]
-        if STATUS_RANK.get(d["status"], 0) > STATUS_RANK.get(old["status"], 0):
-            old["status"] = d["status"]
-            old["sourceUrl"] = d["sourceUrl"]
-            old["sourceName"] = d["sourceName"]
-        if old.get("valueUsdM") is None and d.get("valueUsdM") is not None:
-            old["valueUsdM"] = d["valueUsdM"]
-            old["dealValue"] = d["dealValue"]
-        if old.get("industry") in ("", "Other") and d.get("industry") not in ("", "Other"):
-            old["industry"] = d["industry"]
-
+    combined = dedupe(list(existing) + list(fresh))
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
-    kept = [d for d in by_key.values() if d.get("announcedDate", "") >= cutoff]
+    kept = [d for d in combined if d.get("announcedDate", "") >= cutoff]
     kept.sort(key=lambda d: d.get("announcedDate", ""), reverse=True)
     return kept
 
 
+def rebuild(path):
+    """Re-run dedupe and region tagging on an existing file. No network."""
+    with open(path) as f:
+        book = json.load(f)
+    deals = book.get("deals", [])
+    before = len(deals)
+
+    for d in deals:
+        d["region"] = detect_region(d.get("headline") or "",
+                                    acquirer=d.get("acquirer", ""),
+                                    target=d.get("target", ""))
+    deals = merge(deals, [])
+
+    book["deals"] = deals
+    book["dealCount"] = len(deals)
+    book["updatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    book.pop("sample", None)
+    with open(path, "w") as f:
+        json.dump(book, f, indent=1, ensure_ascii=False)
+
+    print(f"Rebuilt {path}: {before} -> {len(deals)} deals ({before - len(deals)} duplicates removed)")
+    for r, n in Counter(d.get("region") for d in deals).most_common():
+        print(f"  {r:22} {n}")
+
+
 def main():
+    if "--rebuild" in sys.argv:
+        rebuild(OUT_FILE)
+        return
+
     print("Pulling sources...")
     items = []
     items += pull_google_news()
