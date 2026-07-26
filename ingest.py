@@ -19,6 +19,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 
@@ -145,22 +146,32 @@ def _unescape(s):
 
 
 def normalise_date(raw):
+    """Return YYYY-MM-DD, or None if the feed date cannot be trusted.
+
+    The previous version fell back to *today* whenever parsing failed, which
+    silently stamped current dates onto old articles. Indian outlets publish
+    with an "IST" timezone that strptime cannot read, so every one of those
+    deals was being dated to the day the job ran.
+    """
     if not raw:
-        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        return None
     raw = raw.strip()
-    formats = [
-        "%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z",
-        "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d",
-    ]
-    for f in formats:
+
+    try:
+        dt = parsedate_to_datetime(raw)      # RFC 2822, handles GMT/IST/PST/offsets
+        if dt:
+            return dt.date().isoformat()
+    except (TypeError, ValueError):
+        pass
+
+    for f in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
         try:
             return datetime.strptime(raw, f).strftime("%Y-%m-%d")
         except ValueError:
             continue
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
-    if m:
-        return m.group(0)
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    m = re.search(r"\d{4}-\d{2}-\d{2}", raw)
+    return m.group(0) if m else None
 
 
 def _news_url(q, hl, gl, ceid, since=None, until=None):
@@ -817,7 +828,8 @@ def fold(items):
     best = max(items, key=_source_score)
     out = dict(best)
 
-    out["announcedDate"] = min(i.get("announcedDate") or "9999" for i in items)
+    dates = [i.get("announcedDate") for i in items if i.get("announcedDate")]
+    out["announcedDate"] = min(dates) if dates else None
     out["status"] = max((i.get("status", "Announced") for i in items),
                         key=lambda s: STATUS_RANK.get(s, 0))
 
@@ -928,8 +940,9 @@ def dedupe(deals):
 def merge(existing, fresh):
     combined = dedupe(list(existing) + list(fresh))
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
-    kept = [d for d in combined if d.get("announcedDate", "") >= cutoff]
-    kept.sort(key=lambda d: d.get("announcedDate", ""), reverse=True)
+    kept = [d for d in combined
+            if not d.get("announcedDate") or d["announcedDate"] >= cutoff]
+    kept.sort(key=lambda d: d.get("announcedDate") or "", reverse=True)
     return kept
 
 
@@ -1012,6 +1025,14 @@ def main():
 
     merged = merge(existing, fresh)
     added = len(merged) - len(existing)
+
+    if not months and len(existing) < 200:
+        print()
+        print(f"  NOTE: a plain run only fetches the last {WINDOW} of news, so the book")
+        print("  starts shallow and deepens by one day per night. To load history now:")
+        print("      python3 ingest.py --backfill 12        # 12 months")
+        print("      python3 ingest.py --backfill 24 --step 14")
+        print()
 
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
