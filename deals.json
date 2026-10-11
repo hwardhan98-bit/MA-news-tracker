@@ -1,12 +1,44 @@
 {
- "updatedAt": "2026-10-10T10:54:30+00:00",
- "dealCount": 28742,
+ "updatedAt": "2026-10-11T11:09:00+00:00",
+ "dealCount": 28808,
  "sources": [
   "Google News RSS",
   "UK CMA",
   "SEC EDGAR"
  ],
  "deals": [
+  {
+   "acquirer": "Casey's",
+   "target": "Oklahoma assets & expand the brand",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-11",
+   "status": "Announced",
+   "dealType": "Asset purchase",
+   "industry": "Consumer & Retail",
+   "region": "Unspecified",
+   "headline": "Casey's agrees to acquire Oklahoma assets & expand the brand",
+   "sourceName": "The Lawton Constitution",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbzNWSjVkYnJHZmJyY2lvWk9wMWE2amNQNkFNQ21yZ0QyYTFVY1hoWUhoVThUeFRpUHZNX0xIVXpZMjVrNkgxTnJhdkt4YlNZOXN1dm81ZEFDdjdzMU1YR0lqb0tna2VJOWNJUktGRHdURDB0ZnBsZjBiaGJQbHpMZDJkNTItUGxZM1B5R1F6VXV1bXR1OEtpc0p2SWpLc1ZtTHNtaXJ3a25mUDJnNXpYWEYxZ1lNOUVISHpKVm03YTJTVEF6eFhGTTVPRUZIXzd2Wjk4bGN6T3E?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Hexagon",
+   "target": "Rocscience",
+   "dealValue": "$535M",
+   "valueUsdM": 535.0,
+   "announcedDate": "2026-10-11",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Hexagon to acquire Rocscience for $535m",
+   "sourceName": "AEC Magazine",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qR1FOaHJRTnpTRXpmdnlDRmJMTkcxb3h2emlLamlLcm4zbkF0OGRLaW5EMmw1b3Q2V2RwLVc0TncxRlRXVE9PX0twVEV0NUtINGhDeXRoblJGWnJxbkxuMWowVnpQQi1MNHUtbE5lbDk?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
   {
    "acquirer": "Purebread Brands",
    "target": "Caffe Artigiano",
@@ -20,6 +52,118 @@
    "headline": "Purebread Brands to acquire Caffe Artigiano for $7.7M",
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZk5jSU1fLUR6VWM2cXhLb3hHZGVIRXJEX3h4SVNvczBxT0pOYkN3VXBRSS1yc09vNDdTa1REUWpKSkRqbzlIM2diaGpRbGc4VnFnZGk0eHFTeWl1TDdCZHpMNVlMV0k5V0lKTFBPRXBBYkJELXg4OU5kY0ZjaXNZcG5DVm9IUGhydGU0WkZFZ0gzcjFuaXJWVG1IcVowX21QaUlCcmRSTzBURHphZVkxRXhR?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "Avolon",
+   "target": "250 Jets",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Avolon Agrees To Buy 250 Jets From Boeing, Airbus - Aero",
+   "sourceName": "Aero-News Network",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkhwVHBTRkVGZ2FGUHZfc0JuVHNZX21fNUtNYk9RZjQ3WGhwTkI5X1dOZjAtMHBhVkpQdjdKYzZyUmxTdl9pVmY0cHdWcWlrUmdoUzZHU1V6TU9lR0JzQU52MkdLT2RkUDZvY29oOGRGVTZaak9sZGU4cGJwRkVrQmdSRHRtMjBCUWhoY3Y4emhNQ0VDWEw4?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Cloudflare has",
+   "target": "Deno and will use it to boost Workers",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Unspecified",
+   "headline": "Cloudflare has acquired Deno and will use it to boost Workers",
+   "sourceName": "BetaNews",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV1VvTWs2SmNzX281YzFJd0VwMVNFQ3lMa1kwT0xMMG9DR2VZZnhDZndubEszd19heWRYTEkyZDdPaG1ORlBkMzd6YXhrME5pNWktLV9ud1FPVWZuVXVoRl9PNDhaSjJaZUtvQjA3UDhSZzc4US1KODRsX3h6aW1veUFXeEg0LTRkMDIwNXRCQVd3a0FaTVE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Luxshare",
+   "target": "BWI",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-10",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Luxshare completes acquisition of BWI, integrating automotive chassis businesses",
+   "sourceName": "Gasgoo",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMERubENHd0t0UEdzRnQtVVRsZlpBR2theUtKdmZ5Tlc2aW1fdkVHUHREYXNxYk5IeGYzOTAxM1BYbjBSSVg5Skh3UWkwcVp2eHRxTWE1c2pvSVoyUElWVmZyVmZUYTd4MGZ6ZHNlWmtfbEFfdDRFUkhwZ01tOU1yZ05vYUUtRjM5ZG5IN1Z5LUEySElIM0daa0FrZk9jSUtXck84QUJxUzNWSEdDcS11V2hwZ0FLTVF3eUZ5R3pKSkMyU3RlM0c3ZXI4ODlhZzN3aVhSRGdnVk4?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Outcry as Trump",
+   "target": "Russian diesel",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Outcry as Trump agrees to buy Russian diesel",
+   "sourceName": "The Daily Star",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSWdRdlNBMWdRNzBvaFRqX1E3TzZZRGgwaUhhZ0hlU3ZkUlBlNTF0VHdjRHpUcC1MR3dIXzdPcUo4dEh5dkJVZlBlZ2UzMU5jYV93bkhORlV0QnNyOHM2ZTY2TnY4SXNfcWEtZFNmdk1zV2ZjOVhCUktPdlhJT0FmM2ZGc1FsQzZjaXRnZDNPWTBZUVJObVE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Focus Media's $1.2 Billion",
+   "target": "Xinchao Media with Five",
+   "dealValue": "$1.2B",
+   "valueUsdM": 1200.0,
+   "announcedDate": "2026-10-10",
+   "status": "Pending",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Asia-Pacific",
+   "headline": "China Approves Focus Media's $1.2 Billion Acquisition of Xinchao Media with Five-Year Pricing and Service Commitments",
+   "sourceName": "BigGo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ON05zZWJhM1JEU0l6OERXN2RwNG53a3liTUttT2h0NHU5STdaQTlTc19SZnM1MXFobUdrbzNKSm1VRnFUVTl0WmNILXhhWDRuT25aaDFvQlJnOWVHSTlsVVBoLWZjODR0dndoQU5zMTJhWG5Eamc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Viatris",
+   "target": "pain therapy maker Pacira Biosciences",
+   "dealValue": "$1.6B",
+   "valueUsdM": 1650.0,
+   "announcedDate": "2026-10-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Healthcare & Pharmaceuticals",
+   "region": "Unspecified",
+   "headline": "Viatris to buy pain therapy maker Pacira Biosciences for $1.65 billion - pharma.economictimes.indiatimes.com",
+   "sourceName": "pharma.economictimes.indiatimes.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSDhVY0hQSmFZc21RY0JzQzlrSURmallyZXlvYmZQTW5hcnJwRTFuNWxlczhzd1B6SXpMeFFic1U0Z0czNW5yZW9xeFJCRTBkcUpwNVY5MUlCNGp3ZW5HSl85NVVkdFd1aE1ibjM4MktucmlLQ2tja2NCcTR5dzhxU2hZc2MyVEk5X3VtbzRkTzN2YmRVZ3ZNZWVBVEtFM05WMGI4QkI0VW1NNXNvM0psdHI0ZVZiZWZRYlMyWFRIa1FYV1gzQzVqaGZhaC05QW1pU0t6b0pLbHlkbVBVbGVIZFA0WGFmdXlB0gHuAUFVX3lxTFBycHRhU2FyckZiVm10N1g5dWROYUljbndZYWlzVlpZczg0T1ZqZmNNZHB5dXc4S2cya3pmalUtZHhtMUUtdTlVMEptREpaY2pLV1lkSUdlU3EtOGRpNHlKa29mc2JZSWYzNklUTUZpamtYeXpkZ0FkbUVsREJiSXhMOTU4ZDF2UWVVT2FwMmNab1EzX1hadUtTV2RDa0NGeTh5Y2lmWkFxWUhMVXVPNFptM3p6MmhpdTVEbzNiQ0xRMVM2UHFTV25WR1dMeEhaT3MwcXRPdGVxRHd5c0RJOUhzRERFQVNEd1RDUlZsSmc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Weston family agrees $8.9 billion",
+   "target": "Britain's Boots",
+   "dealValue": "$8.9B",
+   "valueUsdM": 8900.0,
+   "announcedDate": "2026-10-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "United Kingdom",
+   "headline": "Weston family agrees $8.9 billion deal to buy Britain's Boots - www.irishsun.com",
+   "sourceName": "www.irishsun.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdTBQYWxmZ09sN1lxa2dxYzB1NmJacm82MHVCRVFWemw0WkJiTHhiNlZYWEllU0w0VmtPQjJUQWV5TkQ1ei1wSDFTNDlxLWlTYlNCNnNFd2NfNFRldUcwd0lTZTM0QjloY2hPcm1oS1B4MFJ3MDA5TTV6eHV4cnFSa3p3Mjg4c2RJVEpDQzQ4TFhjbGxNeTNSMXJyTW8tWHJ6alE?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -79,13 +223,13 @@
    "announcedDate": "2026-10-09",
    "status": "Announced",
    "dealType": "Majority stake",
-   "industry": "Other",
-   "region": "Unspecified",
+   "industry": "Technology & Software",
+   "region": "Europe",
    "headline": "NBA MVP Gilgeous-Alexander buys stake in Atlético Madrid",
    "sourceName": "Dealroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc1JPekluVUVlM1A4VXRXY0l0eE95NVZLUlI2dDdVd1dMTE9LclZvSldRTkUwM2dtNFpJakxfbUtjc0ZCbzgzam1YNDl1ZGtTaXQ1OG5YNV90ZE91QWV2QzlER3hIMjFneURfTGRoYTNTT3lodmlwb2NFb1A2RVZueDdlc04zXzJ2M2FNMElod1UtZ2F2?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Shocking News at Atlético de Madrid! NBA MVP",
@@ -101,7 +245,7 @@
    "sourceName": "Al Bat",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekRLblFEWjRLejRUUVdGZHRUTjhzWXZ2ZC1lWjhNR1ZaWjVPSUF6bWktLWpzVnFSS2RMQkU0OXZvTmg2akFxZjRRbDdyYmE2MHFlU2ZCMmxxLVQzTFFrVXlBSFVkbElKZE5CVjZ1cV9JMEk4UEdGdlZSX2ZOSGlfb1Q3YzZrc001c0IwYUNOQ1dLbFBxRGlPODVUTWFQQjFVNUhvZk5yb0NpNnJhSUFEZEVyWHV2UdIBuwFBVV95cUxNdVJIQVRfYXlxNmU5eHozSWN6b0Jnb05TbnJtVVhsMDZwNmNOX2J4TDA5TGtBQUJjZHZ1d0Z0YUF2emxBVVdBSm52RkRobHFzbEtLVGNfYkVkWFlyRDlCdlhFandScm5mREt1aGpZOHUtakRuakh4TmV6VFMxcDBncXp3ZUFyYzE2dzN2U2NSazBwaG4xTjJjbS1FdXhCWDVqV2Q0MVhPeTdWNFdfUUZJYW5fQUtoVkRiNUVR?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Quantisimo agrees",
@@ -277,7 +421,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNV3pxejZ5Q29tRWZYa1U3Yi15T21PM0pFeW5PSG1VT3BZenZYaWhaeEl4TXJkZjhVaHhGeTAyRjdXQ0FzbzVfWVphWUxMekhjS01DWFhLUHBrY09sZDZVamJoYzlCRUV2ZVZJaVhzY2gxNHIwdThHeUltQVRiLWxrazR1MUNHSGtrb1lOZ3NNWHdJSUdFLW1BSTNYbFpBTFEwVWR1ek5STEJidXJ1a1FyTlVnRlFGLUR2UHM4RnJJX2QwWEFDempsWGE0aXhtVEdzTXMxaDBhN0xYTmdUSlgzMmsySFNaTGhpQV9qaUZHbWQyLXhyZWgtVzZkNDJSTXdrSVU4RW9ESQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Shell",
@@ -293,7 +437,7 @@
    "sourceName": "Oil & Gas Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdXZVVmFFTDZNNndpWXRLOUE0d2laWnVlQWNoU3hfMEU4a3dMUFFpNWdfbXRGZDNQVXdWYXVVRWxVeWNYYk1kMGtocGdYYVdacFhCUkdreUFVNUtZN21yb1dIdEFXLUc1V2tERTZXTVNsR2pnX0xzWVE5TllIclM2aDA4Z2h4bHBiYUp6Ukl6WTRpY3paSEdtN0ZZb1dMbGNkSzl1TmlmcGxtRG0xczB0UkJWVQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "SAIC",
@@ -309,7 +453,7 @@
    "sourceName": "Virginia Business",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TdDVCRkxTUVF0dkxUVUlWeGM4MVNwZHZCT3gzUmFKbjJVc3NJNk5NS21NWEJYR2M0c0RwMEplYm1heXJnOUFEa193dXRxVHV1YXpwb01sUldsR3JrX0FndUw3d1lHa3lsRXlwZmNMOGNGZWdrM2c?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Honeymoon / Funeral",
@@ -325,7 +469,7 @@
    "sourceName": "Deadline",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVERyYTRQai1oOHdsblk2NDVUZlFnWmkwWUVrZy1uWjJXb296eFFKTjgtcnlKTkRaRHZ4RE1qZkptVkJFbHdWN3hQZllqa1pLdHFzcDQ0bFZzUGVlR2R5R1BCOWZYZDh6Q2lUNWNRbWRTb3ludDJ6a21oemNIeVN2OHotQWo?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Kentucky American Water",
@@ -341,7 +485,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNnJ0MFZnUTBPX1BtOHJkZmNaOE5JTEstNEpMc1JJbUd3bnFfWGlYRmNCZUpHeF9keTQwMUN3b2RidmMxcnJBVDdMRDJnczBvWmJmVUpiRG5RdVlFU3VxNk5pZF85dG11TXk4c0hsM0QtRzRJY1c2NjR2S0tmSll5RjA4LWhGanZES19qVGQ0SW5XRm8xel96Wnpabkl6RWhvZllqX2JabjItZVVvNFFjTzMwcThqWXF3WGc3RzcyOEtYakd1UFNRVGhKNDBXVWNIY3Y4YmxDaG4tTWM?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Beijer Ref",
@@ -357,7 +501,7 @@
    "sourceName": "www.marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSENQRUZnMFVzdGR3dDVZcmZuSVFiY2x4TzF2NGt3bXIyMFEwVlFUSXZwMGRZR1FMaUZLOUswa0ctTWxmWkRVQXpFSVhYdUdPNFkzUl85SmJUaldQTUtzd21reGlNYVZydjNXaFhrVU1ITHY2QlRVV0tkYVFXeU1WUWNta3ZUWmd3ZTZxb2NKNHJHejFubmFKZTNuY0FWeFExYS1BV3ZB?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Sleep Cycle",
@@ -373,7 +517,7 @@
    "sourceName": "www.marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2ZRTFV0cllSN2tYUnM0TU5VT25GQzdSRzFyTXA0YW9neUlDT05QNlRjT1J5SUNkT2tZcGlwbjlfOVBFVUUtOFVZdVBqZ2NDRmhOTnlBSXk1WlJhWEY4OU5oMUxZZW02RThLaVhoUWVCT2ZGcmhBdmlNT2p2R3RLOW9rQ3Q3Mm4zeWhFNzgzQnNpZWtBT0xhQ3BYVEZWZUZKNHh5UWNTVXpYazFIOVZCQ0FpWTk2cEVVTGc?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "LongWater Private Equity",
@@ -389,7 +533,7 @@
    "sourceName": "Pulse 2.0",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNEh6cjJ0WHFhSzByYm11U1RtQjNRT21aWUdCa0haZWpkYUxfdmI0blRQYzVqSUttZ0xJSFdSMG9LOHg5d0d3c3V2My0yN0VZVWR3YnNHQjhuNWdvSUYxLTZnUG1xQ2RUSDNCd2tLTnN6Wk01WlByOW9paENTZ3FET2ZHbzVJd9IBiwFBVV95cUxNQUdwa1NKcnBFSmxWN1B3X3NvS3Q4RzRqNFZqUk5yc1dwTGNBOUJraVllYjItVk91V0o2dVFtd3NzZzRvc19DaWZMZVF6X0Jjbk1NZUFTU3ZDampSX2NNLVVxaTN0emk0TE0wTDVTVGdUQ2E5cnZtNDA0Xzc2N005R2dqVFpVejR0UnI4?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Salt Creek Capital",
@@ -405,7 +549,7 @@
    "sourceName": "Plastics News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa01Ha1doYzg3ZDhoR1Y1R0dpcXVVTGFVeUdhMTVyYV9WY3pRd2tUMV9CWXBlUU1UQm9iRldxalR0eHNlYmFSQ3A1RWVyMDNvOEhrdDYwTzVnTXZRSFBydEFkbXA0bGg5cEJCQ04yT3lOZGxieWxNR0EzOG5DWmxXZTQ2QjFZTDhrU1l2ZUpid3hZa0N5eHAtVDFJelc?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Mars-based student transportation provider",
@@ -421,7 +565,7 @@
    "sourceName": "The Business Journals",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLXNpV3B3YTRXcWc3Ui1WaW5CZVIxMkZEZjlLY2M1YVBiY01oNUI3RWxNdFhMckNHX01YWWNDVWRRaGNQTVNyaTlOUmt2MlNNdFJLcWhudndIYUpZM1RrTVJmWEd1ODVELW9NN1ZVdlB6ZWdiZUUtZUM0bm1yM2wzdVZ5TW9LRHhn?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "El Salvador Relaunches Chivo Wallet as Linguard Labs",
@@ -453,7 +597,7 @@
    "sourceName": "Investing.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTM0MUZ4dXlEMVpTSUs5eUhpWUlsTFpSSDd0SnkyNkhHV2pUNnliT0RINzNhclBrSHlhdDkyZE1TZURFOXRLN2hXZTdIVHRfeFVMNVVMM0NSNHhlOUFVdTBaMmFNZHkxLWZqQjhCdEg4MHBvbTVfS0k2Q2U4WmxabUVCM3hld0VHN0JQYURldnFjRmd1dWlpYmNxYjNHTlptYWJHMXJmTzNUM25kd1VIcUVNSHVLYkx6cVE?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Quantumsphere Acquisition",
@@ -469,7 +613,7 @@
    "sourceName": "marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUVMeFM0MnFoX1VJMHN5QzFSbF83QUZhZHltQllnVFh6RGNtS29fUEEzbTRqMUtzbmkzNEhoZVhva3U1dGtqUXFZb1ZZUjBMaThQTFlPLXpucV9fSkNYaTVVaGUtVmIxdnpxeUhHRmdGQ2tRUjRUZ0p4NDJWRW5Lcm9XbDFaMzVWcDdtejVVVEo3S0dGNEQ1eE55X3pydEkyLTQ4aU9jS3hrT09FdS1tU3dRdlREd29t?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Automation Anywhere",
@@ -485,7 +629,7 @@
    "sourceName": "BW Disrupt",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1kxaTNQZ2trRmNjeEd5Rm5zOE5pWHc4VXpHZGJKRjlVUzdjV3h2b3hteG44UU01dWl6MTQ0RC1OdllqX1Rhb2J4aWNFY0pVcWdjMDFPdmZPcTF3cDhqOFgtdG00RzJRWFdEel90NVU3VWw4MTFjLTZlUzFkZU11UDZGcjJ1SUdVaFhRRWZRck1CMGM?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Alpine Income Property Trust",
@@ -501,7 +645,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMV9ucTY5NmFrM3pzOFRqT2F4U1N5VHQwVFlxdi03aVg3ckFGcWc2VUV2OG9sdjliUjRlR25HVjRzTGhmOGxVVjZqdEZsNFRfbFl5d1RNcHlRN0xSQ2liNE5odGtzbjlvU3FRdzZVUVVGWkFqVGE5TkJ2Y0ZIVVpNZjBEQnJOdUdhZUZSWTNfMUpUeFNrekNGR3FmNnRzdF9ySkNtdFVSVDBzTGJZU19NRjFDWTJMbzJFYkJqN0tKaGdDdkYwSXpBSkpRaw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "XMax",
@@ -517,7 +661,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObWowQTJ4U2dvTlhFcmFlZzhTenZQX3JESDhYeHhnbnpPNkRVOFNubUFEa29vcFY3eGZwV0JMVFdvYmU2cXRpUmR3ME1Oa1VWZHZxT25MVngtMjcxOWt3VDhOTDVLLXBTVmQ2NFZnamxLUXBlaXNVNXBZaUFqZzdvbEtlMWpheVNHOWNJWXpHTS1GODZXRHZuQ2p4bU1vM1dScFB3OXpaVm9WWlc3Q0UyN25JV2Q0dw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Discovery Mining",
@@ -533,7 +677,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnZrWWZpZ2lURmcyd0pJZ0x6a2hzWkN3dXIzajhIdElOSTBGLU5aQlJRZG5wT1VMd2dUUzdPOE1saUhGUmloZm9JQUlYZWxGYjdmRFd5RDBCeXRabS0wT2dvV0RwdFpXVWJWaUJzclB2Y1lYQzctdDJubXJjQU9IZy1qd21QRHBTQ2tJYU03cjdOLUJoaEZLMHd6TXJNeW91akdKNnZvMFlIWEsteGRyb2dCaktNeTRoWTJoQTNjR29kUlRnUUU0YUN3?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Mizuho gets RBI nod",
@@ -549,7 +693,7 @@
    "sourceName": "The New Indian Express",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1dDdjNIS0pFWFlRWVZiaU5PWEJGT2paRTlJazBaZHBSZ3ZZOUROUDlQaFYxYlNLekJhbDVWdGVxdUpEd29oeDRPTUdaUV9rejEwZzRIRlQyRjBPZm9LblI4djhDT3lKT2VqSTRubEF2MmlmQXBBd2xQeTEzTDZkX1hvRkV5MnlUSTI3NEZ0ZUNCMTNmZWM2Tllfak9VeWl4WTNoOGR5NGQ1UHdKYWRwZ3I0bmFCb2I2aVpxd0pB0gHLAUFVX3lxTE11RGpNdVktZGtLYS1seXRnXzJNdkZQc3ZqbVU0eXYyTFJRQ3hzOWVxYmNxR2NxSmFacU90NXNISlQycURHSThSblk4akYwODRpTkdNM1FZQnJQRTh0MWFFOW1OVnIzTTJiLUdLWFZLdmVIQ0Z1dzIwSW1feVRiakhVV2M0dHdMcTNnTWlKX3dtNlkzRkZ0ZkxJalBfeWgtZmdjX1ItWkRHZ1dpc2x3Yzhza2IwRzJvbXZDZlJkZGNBdFRfVjRVZ2xRZmE0?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Couche-Tard",
@@ -565,7 +709,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbjNfZXVLOGljVUFEUmYtQWQwV2VaVEdjdzlDM0pEQmRYbUVFSm9FTTdBcWRkNW1Pb01CMHRHU2JraUdOTzNJTE0ySzZTSG85Y0s3dFV3SXh4dXNZZlpMNU9HdmtBaloxb0N4TzRkY3FrN1VTLVNuY1MzZHp6dWhZaFVXb3FNYjBoTk5sMklqc0hpMlJZbVRsMkNVUnpMQ1llRWJ2WnM3cWZjVmRtenpyLTcyb3plQVd3RFZEeWpnWXlmdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 2
   },
   {
    "acquirer": "Arena REIT says Goodstart",
@@ -581,7 +725,7 @@
    "sourceName": "Prop News Time",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYXZSNE01ODdjSjdhdGVHZjZxTVF1SS1pYTQ4VkF3blN5dk9SNDI4cGhXNDMtNGNzdzJDV1NTLXBhb0NGZ3N6ckVxOGd5dlA2cUFtaTljS3llVXFoWmpMdGhLWGNRcjBfOXdBdFVrNHZwOXV4ODUxVmZ4WXBZYUZ4X0tmNm56ZmNPZXN6aTdBTENnLWJPZGQ2ZlpSZTJwWElZOFZqVjh4dkpnb0xKOE9yb2VwX1N3MGpDdEJPWHdB?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Overland Park-based Conveying Components Group",
@@ -597,7 +741,7 @@
    "sourceName": "The Business Journals",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc3Y1OXB4Rm1nanpfNGo4SHRsQkxOaDFkcEFucmVZekd4SEJzdFJqLVZYT0JEeUtHNVJwLVM0UHppdldGU2RZLXRKYkxBUXhtam9uSzJUa2FPR21pSmhBeUw3UEdsQnpTNkQ0dm00MURkZUZKeVh0WGswR2RHaHR3djNtTmVmNFV4NllreUtXZ2VEVFlSVEVBby00dHUwMmVIaUw2U3pYTGliYTh6RU9B?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "AvaTrade",
@@ -613,7 +757,7 @@
    "sourceName": "LeapRate",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY1cyc2txYWt5VVhLYWJTcTJTUW5jUFQwbDlsc1otSkU1U1M2cUJZZXU4cnRSRWc1aEdFMjdBd2pJRGhhaHJIaGZEZEdfXzVjcloyenAxejc1SEM2MGFDYnM2cTN1Z2ZzWlVveUZlai1zWGRCVnJ6dzJkUGh3cTJzRlVnY1VQeXJGWUVrOTBBakw4VW5HbVdF?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "AvaTrade",
@@ -628,6 +772,70 @@
    "headline": "AvaTrade to acquire (most of) FXCM",
    "sourceName": "FX News Group",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUh3XzFIMjBRUHpYeXMzMXVya21WbS1BU3hsNF9GUmc4bUpVOHJDMnNDTjVlWFlXN2hzbkZJbnk1V044OEJxRWNKNjloVmtfUFZOZ0pTX2NTV2UyZlBROURnbk50Vk9EazNISDZRY2lMbW9zVjBnZFJqd2ZlQWU2ZlR0d2FXZjhn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "XMax",
+   "target": "Hexa Creation",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-09",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Unspecified",
+   "headline": "XMax to Acquire Hexa Creation, Developer of 1200V Vertical GaN Power Semiconductor Technology",
+   "sourceName": "GlobeNewswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNmNzcVpZT1JmOWJCZkN6ZldVN2tlaEEtVXVWdU1KQVNXamIxTGxVVU9naEN3d3ZEY0oydkR6Umxib1lmYlR0Y3E0TVBRQkhTTkRvMFNIYjE1VDkwZ2FuUkhGOTBtSGk5aHUzWUlwZVFYQkgyOEM1YmZxOFYxTGFQOUROWF9hczlLTkJXM3RoQWJja0pHYl9MdU9KTVFIa1hjOTM4VzRWQlBlSVgxZFNEcF9uWFEzN1FXZXMyRktBUUVZSm9pOU1zbV8waS0wV0R1eHFGQjVvMGtjWEg2OVZqM2lSa3I2WmZjLVJPdVVvU3JMNThjQWptQjh3QVc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Kian Capital Partners",
+   "target": "Integrity Landscape to grow essential services",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-09",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Kian Capital Partners acquires Integrity Landscape to grow essential services",
+   "sourceName": "Landscape Management",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM3JicHVxZXJhUVZTdUE3UnRLOVVXLTZObVRfazh4UkoydW54S2VocXFNTHJ3Ym9kY3AyYlJiU3dlb3dOWVgyQ2JjekZMNVN0VVFqU3dBb1BOMkxydkRIeDhiWDBoRjViZjFRWmxMU3QxSExPeGZNSE1UbG5aMjBNZUhkUm8ta000S2o4TnVZQVRiTXFDaHJQbFFKWUtEWmV1aFRCNXliVHNyUDNWemllVmp1anE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Wedmont Private Capital",
+   "target": "18",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-09",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Wedmont Private Capital Acquires 18,788 Shares of Intel Corporation $INTC",
+   "sourceName": "MarketBeat",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWXhXUm15X1JLNEFZRmtfYW0taVVQQ1FFS2h2ZndNUVFXVTFwM1ViQjVCQ1M4eEI1d1JWYkhxVGVGNmlJYWpqWVhPd25PaFJ6cl8xaVZkaUhuVUVtRW1pMU8yWDRGWlpSa2k4UGtVY0tFakRPdmlhMngyZmR4M2tROU95QjBNUEM2WjV5aVg5LXZSY1p5RjhFZnFhSGZNb3JGRWJTM0ZhWnNnTkRrSTJLd3hqUlByRGFKcFg0ZlVxLUpKT0lIZGtxNXItTTQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "El Salvador Relaunches Chivo Wallet as Linguard Labs",
+   "target": "Majority Stake",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-09",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "El Salvador Relaunches Chivo Wallet as Linguard Labs Acquires Majority Stake",
+   "sourceName": "FF News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhJV0FKLU45QV9pWUNBMnRuTGdRdlZyb2VxSDBzeDBUb01JczN6MlZZX0ZUcW9fbmtUNzk4WllVeHk1aEZGYm1wUkR1QXY0QTF5OHpVWWxmOEJCRHB5WlV6eGNONzY5UTN5N0lqcXpwWkJoTGtKQkZERC1pMF82Zzh3Sll3QVlMVFhYeG5hN1F0ZnJBenFvV1dOY3hjVU9VdmtZdUlDV05EbDZjcVJrZzctVQ?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -773,7 +981,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR2FTMmE1eFdWYkN0SG8xSFdxa3AxTUpoajRnaVNJMWZGWWZFLWVsWUJkcDZ2VUp6MTJ5QTlXMkNHaDAyR3FFVjJlb2RPME5iME1udURiekw1VVA5eVp3dGk5V2lwQ193VXA4Q3dvb3NlWnJsSk5USWhWR0RucWNMeTFNVWNVZXVCbnNwMm1yZ0JxRVF3cjlMQ2NzdGdETjhJSzItNGVjdHpCaTFFNk9nTTVKSF95YUhlOWZ2RU1n?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "BAM Groep",
@@ -885,7 +1093,7 @@
    "sourceName": "Viatris Newsroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRzZKY0RTZi1lZS1wN0Vwd3VKSFM5VC1Sd2tYcWppNW05SjRMQXBHQ0dTOGhTZUt0WFhSN1lKWG1UR29laW53ZkRqNDZYUzhfVTk1X1pIdGJldWo2SnpidFZuTktqUWZ1UUM4d2dnZ3ptSE9tZFpyMTNqQkxOcmVDcUV1NWYzZ2NyR18zcFU1anBJdFlDb0lPbGV4RE10ZXVkcHZUa2pPeTdOSGg2TExUdUhUOU41aXdWR2dwQ0hCVlpHeUJubmJXc3FrREdLOUMySWVyMzZSeU5DbFlvdTFZelRyQndVQVBNZE8tek1lcDFMTzczelRhSm53ZkxNczVoM2o2MUtIc1BQYlZG?oc=5",
    "feed": "Google News",
-   "alsoReported": 9
+   "alsoReported": 10
   },
   {
    "acquirer": "Lawmakers raise alarm at Google plan",
@@ -933,7 +1141,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWxsTmVEd0lKdHR3WDA3QzdEelJzOVd5MFo3YlpRallVN1F2bEJCaENqazFNZDhqM3p3RVpQVFYySmVKQTlxT21OVjBkT0JmcVJxcUFZdmU1SXptTk5rNUNJN2NzZC1lZXVYUmo5VWFEd2FvOWYzajFCb1FKMlVuYS1PbkJ1eC1vSmZkZVQ4T0hLWWhvNkpKN3NhVTRTUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Pacira BioSciences Jumps After Viatris",
@@ -1093,7 +1301,7 @@
    "sourceName": "Mercom Capital Group",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRjVDMXYzd28xXzBBVW1jSFBTRzJtNmxVTVBiZUlCSER2VnpXMnNBZWJtSVNQLUROTS1QdEFjVTZMb3ljMGlYU25rUkJ4TnFYWnBYRWVnN2F1S1R0Q0xQeTdQdmVaOXJuVWMyV1NJaTB5dklGeE4zYWZrOTRVczBrLXBjMEwwSW9KYXEyZUFXMzY0Zw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "PCB Technologies",
@@ -1317,7 +1525,7 @@
    "sourceName": "SeeNews",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGpPcER6ZzBIVGtON1lscmNmbTU0a2hBMWtuOE1EUGxxaS01YWxEREgxVFNJZFZFN2xLUUV1SnFEOEN5OFdJSTluUlgtSm9VOHdPamxSakQyVG5sUy1saGNZTnZRb0Z2Q1Z3OWJWOUl2aEJPamhWWmtvYTFjb1ZHREtIZzlvaEotbUhhVGEtRC1qaFpOX2tBNVBIbVA?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Northern Discovery",
@@ -1477,7 +1685,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWW5CdHhQa2t5b3lkVWJGcmc1ejBpYWZVVmZITl91SFZvUi04RGFJeHViUFp0amhZQ3RtOUt2aU82blU0eXVSZ04xUUV6blp3c1BMcXdjbkgzakI4TnpGdmpfV0hTY2VRcXlSeHJncG9GTlJpTHpwZ3l1aDBmcHpyZ01kSnl2cGRXZEJ1UnU2NmNpSFVDNVF6M1JBSW5FT2I0YWJVQmtnejhCOURaWVJKZUVBdm1ybGFZOVJPSXhWbmR2ay1oWUtGYUZEYlFDaEZ3TGZr?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Frasers Group",
@@ -1493,7 +1701,7 @@
    "sourceName": "World Footwear",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXh1dkN0b0JjT0ozWG9SdnlCRV9EdElWaVRvMkpsQ0VOSk5yN0RGdHlCb0o5c1VwZ1dMRzZ0bG5VVWo1YV94bDEzRnNvTUdzQ1NRYTBjZF9xTmZBUy1iSkZsaDhHQVJnUDR0XzBHZjBzdXl0MkxCeTV0Q3NkRXgybHRwbFFQUlBXTERXT0JGa09pMHdRdVlzVA?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "SRS Acquiom Announces Agreement",
@@ -1509,7 +1717,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNam8xekpLcl9BaGwtd2o1U1JFT21mZWk4RGYycGxEaG5kbnh6UnJVNE5QbGE5TG9BcTRQeFNUWDgweVZ4cE5jRlNiVGlUYV9uUGt0RXpPZWZUN0NXODVyQ3VHd2xkTjZYbHpvTS1qMDBsR0ljci15Y2VYVUVFakV4X2tIZXZBSTl1eWFJSUpxeVB0d0diVnZHRXJHRVN1RmRSb0IxZDVSZW1pbXFy?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Church Commissioners for England",
@@ -1524,6 +1732,38 @@
    "headline": "Church Commissioners for England acquires Wakefield retail park",
    "sourceName": "Completely Retail News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQnFDdEVtVXFmYjlkWk9oS1R2UDlSS0JkY0Rwdmh2b2VfUnd3eGVtQU9rU3d2RVZfWGIyN3ZibTVrS2RwT2tDVTI1c3JtenlCUU92M0FndDNyaGd0dllYWFNiU1dUWm8xcTM4alFDaFpOVEFmNGRLTUhCODlaRGk5ZHF4eGlJRm9Zdnd2ZHVMZzBHX1RxMm8xMU9sWWh0azBkVFE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "Pacira BioSciences Jumps After Viatris",
+   "target": "Company",
+   "dealValue": "$1.6B",
+   "valueUsdM": 1650.0,
+   "announcedDate": "2026-10-08",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Pacira BioSciences Jumps After Viatris Agrees to Buy Company in $1.65 Billion Cash Deal",
+   "sourceName": "Quiver Quantitative",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkxLS0NoZFdUTzN6TUpFNC1xdFJTU1JIcEp0M1lKWVluTkpRNXBfdk1OZExnQmdBc1dCQnljdDZxMlJrSUxQc2daSVhTd1BhYWNRZE5TVXNndlktRXJzSTYtUDhWaEczUklHMzdoNjJjeDFmdW5RY1RSQXFaVS0zT1pGMWk3SVlmR0IwZklyLTVpRGhTM0pMTUhyMTZlVW5VTGpjeG14QngwNHFYWWxXUHhvWnhsR2RXYnI3UQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Ceres Holographics",
+   "target": "by Zeiss",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-08",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Ceres Holographics acquired by Zeiss",
+   "sourceName": "TheBusinessDesk.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeVNfSHgzUElsXzc5VS1SLU8yZFZmRW5weFh1SkpNVVlQaVFNOFBaSGVKNXkxbzRBald3dUpWX2FWYm13cC11UnBMdmkxR2ZzcVo3eVlRaE9QSnJfVXBJQ3BpVmx6NGRXWWwtTXctZFBtVG5sR1pxTmJMa0VrLUlzaGZpazIyLW5xdndjZkNNbk8?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -1541,7 +1781,7 @@
    "sourceName": "PCR-online.biz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBnUVVRVFl6RmhFbDR1ZDdEUmZRTXN6THFyZkhmaF82MV93X0g0UHluSHZ5MURVZjNTVXl2V0FnN1VZd1ZqbVd6bDBDcG9hY201WFBVenVhQkdZQldWMXpZaUE1NzFLRmhUTUwwWnBaa0tEUmVxSVM1WDVXUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 8
+   "alsoReported": 5
   },
   {
    "acquirer": "Reports suggest that Xbox has",
@@ -1765,7 +2005,7 @@
    "sourceName": "Estate Agent Today",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1o0bklBMEsyR0JqOGw2OUNnOHJ3QlJaNmZubW9UOExBZDQ3SXlYcDZUX0VjaEYxRm9OQTcySWZ6XzJTVGdOWnl0SUFVeFJPS3FGNkNEejJDY3MzWll0WUprZUhVSDlOYjJvV3BmbEtRbVFRWC1kMDNOTEdCUjVhQkxPaHphN0p6VHFVYUdBOFpNSHNpekwwUDBDaHU?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Emera, Canadian Utilities",
@@ -1957,7 +2197,7 @@
    "sourceName": "restaurantonline.co.uk",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFZuNUVUbnRpN2ZiMFNLbUdLQnJUc0h1VDQzSW1mZ2ZvMmJveEtGdFJwMFVDRk15aDIwbjJRMUlCOGlvSU5meDRZblZpZnZ0Um0zQ0lMbm5lYzNVd1pIWjdBaUhjX0w3U2ItTjdMNFpZLXhnT1QzQ2diTll1NjMwN0VFbEZ6VnlWellMMi1ac0otblFNQ1Y1M1k4YzRSVTJsWGp2VF9WaklScVdtcGxj?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Trade Nation",
@@ -2021,7 +2261,7 @@
    "sourceName": "Green Street News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQngzSUVJbWs4N3ZSZVRoTTJyX3dNTGdpLTNYSUN1UXBMS2xYYzducThZUDQxNzJRbWRhTTRUZ2hxRG9vb21UX18tSUo0cXlnUEJoeTgtNXJhMXY3YmpWZlRXdllLZ3VtN25YejZOOGJRZnR3a0d5cHdXWjFVVEw3MGRrX0NJTHJJZExvWG81Zw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Scottish Friendly",
@@ -2549,7 +2789,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS2Zic3czZ0ZCZzJSdkpHNUZNaFhBMVJFYkphSUsydGRZSmhUNkdDemRUWmxGNUhEV3BPdnFYRi1mNUYyRU9pS09DQmRyMnF2ckxDcElhMGlTNXlYYnlERDBGaGEtWVVHYkFLNVNFZHhRWFhiZzFTUmg2NGlZQnBicmZtdWh5U0lManZfTWxNVGFvVDZjeW04OHB3Qy01OTNRdFZtaHdqZlQyQVo5UE10LUxhbnV1X2ZJLTJpNkZTZXVIMWM?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Naturally Amish Announces Binding Agreement",
@@ -2580,6 +2820,54 @@
    "headline": "Easton power equipment provider acquired by South Carolina company",
    "sourceName": "Lehigh Valley Business",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX19MNllJekhlV1ZCY0E1Z3ZxdFhVaXdRYmZlVnZvRGowVnFRNHJ6TV9RZnExekhCcjlQNnAwaU9aLTdXYjRSaWp3cUxBQUVkbk5tRDVjSVgyY2xLY3l5RG5Fb1ZhN05HQm9pZmRpcnhOamlSTVlGUmdORTVnSThHcTdILUM?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Trasteel Holding S.A",
+   "target": "Remaining 40% Interest in BBC Alloys S.r.l",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-07",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Materials & Chemicals",
+   "region": "Unspecified",
+   "headline": "Trasteel Holding S.A. Completes Acquisition of the Remaining 40% Interest in BBC Alloys S.r.l.",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmhEcHhKVXpTN210T1NzZWJpWUtqSThMVjJXek1GaEcwc3RNQnphTnptWjZobURDaDNjbE5KUi1xcmNzc0VTcTRpZkFQRjQ4THpxaDdnR3dzbVIxVUxsNVZPZmhxZmNhUnBFemE0MWZ4cXhaY21rRnQtaGo2MDUwNmpLaGd3V2RwZFQyTm5pMnVkVnRJWVNVYV9oMFpqcmlLeVpmSjJkUkNab2dmRVI2aVdaYw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Erez Asset Management",
+   "target": "Stake in Empire State Realty Trust",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-07",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Erez Asset Management Buys Stake in Empire State Realty Trust - www.marketscreener.com",
+   "sourceName": "www.marketscreener.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzl0Yng3bUM4eGpndVdqN3AycFlaNHdYRHVRcUI0NlRVelotV2owcFM2UXBIRW85T29yeVVjaVIwUkUta0l3OXQzLVdXcC1GaHcwSmMzeHdCRDdDOFR3MnBobUd0WXdvVHBsckxsLTBYMkViNmNvMVd5R1E3cU4tM3JhTG5WbktCMEp3RFd3aWQwTUNPZmFGczNDU0RtMXRiX18ySHc4Z0c3SlhFM3JtUmVaUWg?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Slovenia's Advance Capital Partners",
+   "target": "70% in Solviks",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-07",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Slovenia's Advance Capital Partners to acquire 70% in Solviks",
+   "sourceName": "SeeNews",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFdFOUlnSlBrMVk0c2R0ZDM5UU8zZG9UTXM2dEg0WTg1TWpQTDFKRHBQdm9BQ3N1N3FubHd0MnlNNGtvMHI2TGhyaU5VNVNYVGIzdExWdGhibzhWSFBobzVSRWVMVzJNdUc3bXBMMVN0TENpT0RGRFFPdkw0S0VKc1NWTk5IUlFfR3hjLXJCUFBhdUpyNGcweWNEUmUxeXVxZHc?oc=5",
    "feed": "Google News",
    "alsoReported": 0
   },
@@ -2629,7 +2917,7 @@
    "sourceName": "Private Banker International",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQmFmaERVRjhBYzBpOUZMQzd6cXpKWEF6QTJ6cEVrMXI2YS1RUjh5dmduYUNTUU1KMEcxZTc4UXRqVkktWFhMSlliaTlmMk5TcFFUOW4xOVgxYl91V3dCMHV3VkVvMDlNc2xISEhteTI2enVzWDlzb3lTQlh0ci1ZOVh3?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "901 Fifth Avenue",
@@ -2693,7 +2981,7 @@
    "sourceName": "GovCon Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSDR0WGVYbXB4MnFvQTBGOE1rTnliWXV1Vjdqd203aEZ2QkNRbGc1d1RPZndqYTJJM0tKM1pMRDlVbHBXZWl5eWxBRmdHdDJDdEFHbDVwbWF2a3hPUmJqX0h5T25GZDZ6bzlQcnRIdkltUFpkZzFfVDdjcEtndl9NRVowZlc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "A2Z Cust2Mate (AZ)",
@@ -2837,7 +3125,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdTBoM29fWUdWQXp2WE9CZXNJQ19JZUZDc2ZtS1Rib1p0Q2FremVtSXZQZ1BMdkFfNDhaZUR5VWlzaVBrRFdadjZnQWI2Zy1uZnlwcngxcVN5QnIxajRuVFZTYW5TNl8tZEMwc0RKeUdSRnI1MjJoOV9kVzVSSW5ENFcwOE1nWk5jaC1ZN2wyYWlwOEl2S05yRWFqNHhRek44aV9kb1lUTXZUcmRxbzJTdGdLTFFEajJyT2pZZVZTMm5RcTFFQ0E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Unit4",
@@ -2981,7 +3269,7 @@
    "sourceName": "SAP News Center",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQW9jeEE5RUI5RnJIT01IS3BDMGlmeFBFLUZDdXJjbDJiejh4YS10NldlZVlUdTBDQ0tiU2R1bC1mWl96aG1qek5lOTBKSndsYXo4dndfb3dQNlpaRlJqcUZLTWo4eW96T2FMdzBGdHFsclhlQ2ZrMzRNVUlHT19PNUw1ekt2UU85enZR?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "TowneBank",
@@ -3013,7 +3301,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaGc4eU9vMjVLaTlOUldnZmZaV0ZNdEhaMUpNSVFHWVVaekZaWW04V04zLTJjSHNjVVlBUl9VRlJLZmhsMW1tMUcxMTZqWGFialUyNFBxcWR3ZXpJR0ZhS1p5NW9fUHZ5LTY3Y1ZjR2w4MUpfRkFsemJkUkNReE9GT2hZMU14eVZCTlhZOFBB?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 1
   },
   {
    "acquirer": "GE Healthcare",
@@ -3045,7 +3333,7 @@
    "sourceName": "Barron's",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWF9DSkJzSkNpS01sUVphYzBfcGs1MFM0N2VmZHVSR0VtS21zX0NPek5CcW1WcW9vUk56Y21LMG85ZnBOcGFhSVlKMHpJQS1EZUI3WUNONi1fYmUtRHNWMFBGbFNIaE9RalQxVDdfVEcydmF2aTlTdXVyMnlmWkJraXBzTmVMSlk?oc=5",
    "feed": "Google News",
-   "alsoReported": 12
+   "alsoReported": 14
   },
   {
    "acquirer": "Energy Transfer",
@@ -3237,7 +3525,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYUpQMTgyUVo4dU5OREUwVm9udlUzTHhvYjk0ZnJ6T04tTWk5ejRXQl9fUXd6UTVfSmlXSVg3SThRdllRV3RNeFVaY2txTGNkSjU0eGl3a2d1M2RVNy1NV0pCTUJoS2Z5X25RN0hacENNNU96VjNabmxqQi15M1NVenBEY0pLRTV3TVA1UWNyLURDcnM?oc=5",
    "feed": "Google News",
-   "alsoReported": 5
+   "alsoReported": 6
   },
   {
    "acquirer": "ENERGY DEAL: Energy Transfer",
@@ -3269,7 +3557,7 @@
    "sourceName": "WTVB",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLU9lQ01NcDBXOU5QNGxJOVNvbUg1UWhiWjB4YTh4WG40eFlfMGtpREY5MUZmcFZfM1ZfWUxaSUl4SnlSZDdCN0VtZ1NacGVTczlGUy1jQnBOX1JUNFdPWVp2Z3NXUG5UUjFsLVpxRC1RZmZneHZXbmxoWnY0NXBqMS01QzZwU0lKcnZkVUtmTFY?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Uber",
@@ -3365,7 +3653,7 @@
    "sourceName": "CBC",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcWNQSGpvT3kycm5HZEF3Um1kWWRDYmdvNk5sWk1xa1NPWkFWR2RTeGRkMFdDZFJxMU1WX1pUVUhjUnl2dmVDbVZ5OG9ER2RXN2ktVndLUmZ6R3RpbEN3MDg2ZmlrdlFVc21yTTVjdFR2MTg3a0ltSk1ydmpZNWxRckFpMC11Y0VLYkl5YWg3MXJYNG5PYUNBWC1aam16a3JYZjF3ZGM0dmk0cmNtaHBmN1lyMXNRdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Lockyer Valley fires set",
@@ -3413,7 +3701,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVFdweHk3RWVEVmZEdzY0c2QzTVJqYUZiTTdnVHpxQ0s4aEwxOUxCSUZaa1BtOEo2dl9kSDQ4ZVBpblA2ak5YaE94bVJqUTZhV0FiRkN4ai1SRENIVzVLLURlTlpJU3pwN055S1EybXhvNlVXMFl5Vy1IQmpiaFlNLUZxaEs5V1ZDMUVTTkZNRThYc0V5X1RzWEhfYk1FbG1WRnBPSTk3a0JYd21oaXNQbzFkdjg?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Vivakor enters non-binding",
@@ -3461,7 +3749,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUGE0LU9ibXcwZVVzY1ROUDVSeXJDekFJNXF6R2tSb0laVlRTOFVFQkdLZjMtbUJWbUVrMGZSR2Q1dXNzc1RFcklULTZnU3BmR201THkwSkVuRWM5VFRPeWh3RTVpWURZSVNuMzZRZWFOM1g1c2JPY2hxYlpFLXNkZXBXWFdyOGE1czdLZnYtRU5sWkNhdDF3bVNsVFV5eHpzeFdSbkhLVllOVlNfTnFDNjdSYjRZRHd4NHZrd1pFRElyZ3RHd29HNWJyRUNabWF2QXdmaDlQYXZxRHNqQ3JJRFVkYkE0aHJQNHdQd3g0LVVnQUxBUHUyUTNId1A?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Rubico",
@@ -3509,7 +3797,7 @@
    "sourceName": "Developing Telecoms",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbkpfVlBTb2R2eFZxaGptS1IwTTlOcEpXek9hYmZZM1p3N000cERtbVIySExDQ0NnOVoxUnd5QUs5S1Fib2J5R0p2elAtdG9WcFhKZVJaR2FQR2kzRVpqdXZad3JEVnc3d0tBcDlEYWoyYXBaZl9ueW05eWNMc3dyZlhQZjJCRWdsRllXZFRmNmJPeGw5QmY0aWVVX2I3WmdWaDc0YXk3T0RBejNpZ1dUU1p1S2pPU2pKZ0ZiTDZMaEFSM1FsVWU0TUdWdGl3WFYxWGRLbjFvWjN0eExhei1veHV0N3Y?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Arvind",
@@ -3605,7 +3893,7 @@
    "sourceName": "Indian Startup News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTU5Dbm9URGhmR3VPcEZNa1l5R01PWEF0Ylh6c0hXQmR0Rm5XVlJHd19NdW1qNHVRWGQxY2FCbFdYaEpJZXU1NDZ1ZzBzYW9Lbl9fUkxJSHlKTFBrTWE2YTQ2V0RJRkRZRkZJcTRmMUxTZndGczRtMkt4QXZ3azlSWjRTTDNLNTdibXFLTnJNdFBjN2xsWDhyeFR3eGtXVXhNM1lveUdTWldwV1lQQUVmS0hXTkRnbUtOOGlaSzdOcVFIUVnSAcMBQVVfeXFMUE1OQ25vVERoZkd1T3BGTWtZeUdNT1hBdGJYenNIV0JkdEZuV1ZSR3dfTXVtajR1UVhkMWNhQmxXWGhKSWV1NTQ2dWcwc2FvS25fX1JMSUh5SkxQa01hNmE0NldESUZEWUZGSXE0ZjFMU2Z3RnM0bTJLeEF2d2s5Ulo0U0wzSzU3Ym1xS05yTXRQYzdsbFg4cnhUd3hrV1V4TTNZb3lHU1pXcFdZUEFFZktIV05EZ21LTjhpWks3TnFRSFFZ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "BabyMD",
@@ -3877,7 +4165,7 @@
    "sourceName": "Whalesbook",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOWc0cUlmNGZyVlRkYy1ZTWJkd2U5R3RXWVVwU3FnZ2NMeXloZWZnVzJzSS01UktkenVwMEVRVW5obmwzWDZXdTUxcV9WMXNiMThQbU1qVWJHTmRVT0ZkMDBxUkl4QWcxdXZRTlk4VkJmVVMyRkhkLUhiRUF5MkRXUjIyT0x5OHlHMEhHLUdwMHIxajQxcXdENGNaWFNISC1hRExlS2RBeVhsQjhJYW9zRVFBYllCZ3VRZWFPS1NsOF8yWnlCdnh2Vk5Bc1ZWdzBNUUVlVXVJZTdET19iUmFVWEJlbEREekZtdG96SDVfQmlPc0lSOHRXNw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "CD&R, McKesson",
@@ -3989,7 +4277,7 @@
    "sourceName": "Brewbound",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNemdNY0NRbVAza0FOaXBvd1lxNzVabXd4Q1dhVWxtYTlhYkpLSlZGT0N5aE9qUElqM001TkxzM0ZtVmhXZjlIbWdHRmNHaFpYNFNxck9kYkI1S2ZZWXk2eVFtQW52RjVuYWQydGJSdFBpb0prOUlCMW5mVEY4Uk4zcHloSUZhSk96Z2FhT3Q2RGNjQjg5RWNxNXBjTTF6WXMwaHE0VHZPSG5ZdHAwUFhmdGRhNVZRSlVlN0dHSE0zbw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Team",
@@ -4005,7 +4293,7 @@
    "sourceName": "The Hollywood Reporter",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0ZpcmVhdHE3aXkwSEd5WmVBelVfQk5NY1VnN1Z1THllZHNfUnJJS0Z0VTMxRVNlRzJCWFFTbFh2cUhyWTJFWUlBdzRVTWpYZVU5WExoV1NvOHQxT19ldllpd0tkMXN1b2RCRTdPdFY4NVNFYkV4TUkzN2dtRm1NVzMwT2pyaVhvYmJrY2xIUkFXM21lTWFKWElGNmgwWTRRTHhOMXUxLXRCSE94ZVNZWQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "KKR Strikes",
@@ -4072,6 +4360,102 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "CD&R, McKesson",
+   "target": "At",
+   "dealValue": "$5.8B",
+   "valueUsdM": 5800.0,
+   "announcedDate": "2026-10-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "CD&R, McKesson to Acquire At-Home Infusion Therapy Provider for $5.8 Billion",
+   "sourceName": "WSJ",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRU5VOGN3LUtwVXdmQUJHb0staTZ4TjNFQmlSR2Z2aWpSV1BadVczSUtwcW1kejZZaGhBenhwT0NqNHRtU0VaeUZIRUo2a2ttRlpFZDJtZDVsbVgwbDdVZEFUbU1ScS1lQzJvOWx5bkVjU1FKa1E2bV84a1l1TjdMcHQ4ZFE4ek1XZWo3SnpSRVM0R2NPUDMycXNRMzZScjlSUGJXVkd3QUZjRUpYQVE2REQ4aTFkdG9RN3c?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "KKR Strikes",
+   "target": "Private",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Financial Services",
+   "region": "North America",
+   "headline": "KKR Strikes Deal to Buy Private-Capital Fund Administrator Gen II",
+   "sourceName": "WSJ",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZudVNxdXFZQktZalJqQXRUS1NDSWdhVk1NTFFqa1pzUlBrVDlrUTdVbnpPTUxYWHJwMVR4YnN4bktxeGhvNm9JRGFDVkYzWVJkNDVHbEZ3QkZCVklZWkdHbTlLVG5EUG0yRmY4dDBoTWdBTHhQeWVGcVk0aDFLUy1aNzdua09BUm83VVZPaTR5U1ZZaVc2YVI1c2ZkU3hCNXFnT3Y5SjJOR2x6Ukg0ZnNn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Private Equity Group",
+   "target": "Licksy Alcohol",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private Equity Group Acquires Licksy Alcohol-Infused Lollipop Formula",
+   "sourceName": "BevNET.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3JvZlR2b3FCdngwbHpPUERYV01OcGlwMzVBV0dsZXJGNUlDaTFMQzNSU2hLa1hPSHM5ejc3cldDWk9HRmJJQjlXLUxOR0E5OF9SZE9iZ0dZLWlHLXVwN2pianNLbkw4b1pZMk8xcWdEdHRNa1N0cl9qX0RXc1RRN0RBR3Eta1pEeDJ4OTlUZVdRSXJLNnJKTUlmQ0phWHVhX3l2V3VRY00?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Is TKE Europe set to be",
+   "target": "by a private equity firm?",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Is TKE Europe set to be acquired by a private equity firm? - https://megaproject.com/",
+   "sourceName": "https://megaproject.com/",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFM1MHIwa1JtcVg2R0pwdTJSNVdOYmVRcWlBUDlmYkZrMDlSUWZPOGRMbURwaXByVWNfTTVCc2E0RTN5Q3UtZ1NxUllkbGFEdUxwY1VsM0EtYWtiVVExbU5ZTW5sU0ZXcmx5d2hvd0IwV29oZmx1elBGdDJPSWhRU2JBejc2TThrUGZObWRmb0dtUm02TGt3M2pMMA?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "₹40 crore",
+   "target": "22% stake",
+   "dealValue": "$5M",
+   "valueUsdM": 4.8,
+   "announcedDate": "2026-10-06",
+   "status": "Pending",
+   "dealType": "Minority stake",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "KIMS approves ₹40 crore acquisition of 22% stake in Splendid Hospitals - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOW4yTmFZZFdlUDFuUlRNRWxraVFTVDhmczNpU0szR01YOWg2OHhlMXVLT1JPaUhlQXFwYXV6ODM3WjN4UGNXcjNVVkhORXptNGdPb2JCY1VqRE1zUnZCZzg2ZlJaZS0xUmk3UnJXVmlCU2d3cnQtMGNsWWJUVFozd3NKbzJ6NVNkT3FHZlNtSWRpVXFzelhDaTJCV3ZsUFROUXpNZ3IwVVNNcXI3OXpsLVBxQjRaaGtEOWFV?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Byline Bancorp",
+   "target": "Illinois State Bancorp",
+   "dealValue": "$88M",
+   "valueUsdM": 87.9,
+   "announcedDate": "2026-10-06",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Byline Bancorp to acquire Illinois State Bancorp for $87.9 million By Investing.com",
+   "sourceName": "Investing.com UK",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZjNfRlp6bjFmYzNSLXFiVGdXZHVHYm4tZHBMSEc2T3ZKQUs1VV9LNVc0ZFB1NlZ0czFuTnpic1hkRmRnWXgyMldvODJCUXlVSGdMVlI0RHdVODZzOUVrSEZCbE5QMUVFa0hxVlB4azBWSjV6QjJTVVN3cmtJTFN1b0h0ZEVEZk1qX1JjbTNvRVgyVUFFaFFSOEN6eEhwcERXazdhRU9sUkJqLTJ6dFpqdjdsQjFtZGlrZ3BfTnI0dmx3ODg?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Shionogi",
    "target": "IntraBio",
    "dealValue": "$2.0B",
@@ -4085,7 +4469,7 @@
    "sourceName": "wsj.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNXd1emZBNDM0UENPOFFSR2pQNmppamxZQUs5RGd0bU16TDJxcEhVRTg1cGdUZDN2TnZZME52M09xYkwxZDRMOFVyMENMOGRLaUF3aUlpLV9TNWFza19fZmFqc0VtcHEyeTg2bVpHSWRXMExBMktGNmN4eTVCdnJ2a0NncGxCQU0?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "TDR Capital",
@@ -4117,7 +4501,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOENqTF9TOXYwaEJuRWFjaktxUS12TWo4SkNsSTBlOGtBYlFpbmhZV2dqc1A0TlhUbW54dHJ5MmtWSWcwSEVvWVJUenl3OTZXSGgzZi05cGx1ZHZYVk1vT2V5NzhVRzUySHVqMHhST2VqSVp4THJPS2FMYzl0MHhQcmo2X0pXRTluTHg2Q1JyQ3VOOGp0RGFnZjJCd0NzLW9kV19KVVMzVUduOWZGN3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "BT agrees rescue",
@@ -4277,7 +4661,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWWlORzR4XzE1blZiSVhxVFJiSGMzRWFjemVCSHBtVFVxa01SeEczckVJekhRajBRNGhleDhXbGotN09LQnl1X0NUeTlOa3VGOTRhOWRhM1JwMGtDSDhOZlJ3TEx5SzJqWjh1R0hrLTE4QmRzREFza0lrSDlKNHRrcEtjMlQ4Sm5leDQ1YTk2ZS1ZNHJhYTg2VlJTMjB3eWdCQ2RaMHF3VGhxNVBrNnJra21JM29PWXdGRWQ1YmZzQkg?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Cenovus",
@@ -4341,7 +4725,7 @@
    "sourceName": "MLex",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uSEdBaHo1N1NfQWswcEpULUdDUTNLRlp1WVVvTUNPbTg5S0daTmdNeHdLc3lsanhqT2ZKbXBjS2FGYmI0a21pcmdJbUhJMTlWWlhFX05yN0tEZ9IBWkFVX3lxTE9uSEdBaHo1N1NfQWswcEpULUdDUTNLRlp1WVVvTUNPbTg5S0daTmdNeHdLc3lsanhqT2ZKbXBjS2FGYmI0a21pcmdJbUhJMTlWWlhFX05yN0tEZw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Atlas Copco",
@@ -4416,12 +4800,12 @@
    "status": "Announced",
    "dealType": "Divestiture / carve-out",
    "industry": "Other",
-   "region": "Unspecified",
+   "region": "Asia-Pacific",
    "headline": "Nippon Paint to buy Akzo’s Southeast Asia unit for $1.35 billion",
    "sourceName": "The Japan Times",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWWhGSXp1aWxXeFRTd0RmN2x1TW8wSEV5QTQ2MEhEejhrUUFGdmJMbS1kNzNUWG1KcnctN2NfbFNhdlJmUng2V0VrUjY4aTdwMElHREQzelIwakM0amZtYTVzTWRFaXlOQ3YzNGVnZmlWZ3NiaFRsZVJVcVRHakpUZ2lNVGVPRGNJbU55akJuRjRCV3doSVdPQldwV3Zsb0E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Schneider Electric in advanced talks",
@@ -4533,7 +4917,7 @@
    "sourceName": "Green Street News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFblF6RHh0VGlRYnFMNU85TUd3YVlpLWdhSEdnbzV4SWszclJYeVY3MWo4U2FERkE5TDJzY0gyaGxWRWVkQmlfeUhZbnpwZ3dvRWU4SGY5X2RsODA1c1RGYV9LQzhlOTlwVDJ4UU1OdTJaLWllbVE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "QPE-backed Lemonaid Motor Legal",
@@ -4661,7 +5045,7 @@
    "sourceName": "Briefs Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYUxrUUJqYWJocU9hOUpydEJLcjZvSFNMaU1QX0dMaE5INC14UFRWV1VOTVVLb3h3UFBFMEhtZDdySjVja0dQb3hzZ2lKUGdRd1l4ajBkNDhYQnlsWnUxNWpEaGlyYmlsdE9LZjZCQ3RCaVNfOFBrU3FFZTNwb3RyVTk0aFIyZWhJaVQycWZWaEk?oc=5",
    "feed": "Google News",
-   "alsoReported": 5
+   "alsoReported": 7
   },
   {
    "acquirer": "Hilb Group",
@@ -5145,7 +5529,7 @@
   },
   {
    "acquirer": "Marico",
-   "target": "24% Stake In Satiya Nutraceuticals",
+   "target": "Additional Stake In Plix",
    "dealValue": "$121M",
    "valueUsdM": 121.4,
    "announcedDate": "2026-10-05",
@@ -5301,7 +5685,7 @@
    "sourceName": "Telecompaper",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGlaX0ZnX3RxenNGVGR4Y01PX3RhUXdyV0xQZnJPQmRtQWswVWxnaGJUYjE4aDFORER5YWtyeXN2MDJudXRiLWxPVXBhSDl1UUxfWlFFQ2piTFVaVlVGeGlRYXNoWFhSWEdjYUNvM29uZHBDbTZucFN4QkI3Q0pyNlBydUhjMXg3QW9ZRjdqYXVlVU5NSUh2ZVZIc0l2blpGX2owVW1veHJxOXpzeVhNLXFnWWEtMXlPaUtuVlNWVGY2NTQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Empira Group",
@@ -5397,7 +5781,7 @@
    "sourceName": "EurobuildCEE",
    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrbm10SzRCYmdCdUFxZG9HTWgwbGlFSXQ4RDBCS1JITjRQRTgwOFVKZS1zd3hpUkc0X3JodGwxLVFsUzZIUXBNTHlod1YtZE4zWncyV1Ntd1VVdVB4bFRlRVRQS2Z1djQ0eHpmeHlaQy13QQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "An SVP",
@@ -5605,7 +5989,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcDk0blNCWktLVktrSHVReFJYdThZN2taZEtQdV9GcS13TU9tSjNYMXdCeE51NF9MazhURGRzLUU0bVJWZTdhdE5OYk5WZEM1a0czMlVjYXFkMXNiczh6N0tON2d3WHFZV1U2YzhMOHVmNVFEVFN2WFBoa0dDSW03aFFzcVRlSHZlN1I1RWxBZFVrdnpha3BnRw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Private equity firm",
@@ -5653,7 +6037,7 @@
    "sourceName": "eHealth Magazine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdHo5LV9pWTZsVUJsdEMyUUJyZnZfdUsxaURabHRhejE3d1ZwNHBHSF9manlTS1pmaWhqN0RnemxfQmxZNHV1eS1pckR4cW50cHpxQnV1S1FYNmhSdjJkZmM4LXJfejZPdklYQm5tMEpGMFZEWGFyZENyQ3FCNHl3OHBEbUU3X3RmSWg1RmZSQ3pFWHZ1b1FxZTNB?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Generation Essentials Group - AMTD's TGE in Negotiations",
@@ -5912,6 +6296,86 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "AI Study Platform StudyStash",
+   "target": "by Kortext After Rapid Global Expansion",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-05",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Unspecified",
+   "headline": "AI Study Platform StudyStash Acquired by Kortext After Rapid Global Expansion",
+   "sourceName": "Konsulteer",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDRJX2gtcGxBd2h3UF9YZUd2Mm1sVGlFZ2F4TnJRaHhVOTRIVDAtSllpRHhXY0d0Vmk2NVJHb3g0eHZoWkdlUE9JS1h6WTZRcUU1ekZHTnBSeXdlaFd1SjBzd3l0UlZSWTJ2VXl0M0ZwUkJWNUc4TjNFQkZrSjF5dC1zRkI1aW5BUGQ3YWhYQWh1bnNKUno4d0dRcTQ0TWR6Ym80UFBKdlNndG9ibXp5U3VB?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "An SVP",
+   "target": "18",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-05",
+   "status": "Announced",
+   "dealType": "Merger",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "An SVP acquires 18,717 award shares and disposes of Qorvo (QRVO) shares in the Skyworks merger.",
+   "sourceName": "Stock Titan",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXoyM1NQd2ZpUGpJTWszQmFQb0VQRGVweHREa0RzRjloYkN3TUZ3TTFGcTZpM0tLT000eFYwSU1WeGgzOTVxTDZ0c2dhNzdJNUUyQkxmNmNrY0F0Z0lxUnItTmJlRmZUVjhXTWg1VEhVQnF1RlI4dkJLUmI0d2RUaGtRMHhpN215ck5Zcm5sTUJFNFJOVGQzMkdQZ1g2RnVUbHlzbUVn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "This comes a year after Paramount explored a",
+   "target": "Warner Bros. Discovery",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-05",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Media & Telecom",
+   "region": "North America",
+   "headline": "This comes a year after Paramount explored a deal to acquire Warner Bros. Discovery, a month after Skydance closed its deal to buy Paramount. Read more below.",
+   "sourceName": "Facebook",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMkw5MDJvelNLWnFFc2xGNXQxazBTQVAwZGhRc3FJMk9sckpITDdHc01za0hqdkk0TlJLTmZpaVR1QXFjZEZiYk43VXR6VlVUQUo0WXRoRUFTYlNqRFItX25vLWRSZnlydkFxZVRCWllUYzhITWVNQ2ZhLVdLNDhPWDM3bzZJQUJGdTFiS1JFSHlLanFXdzdGS3N4al80UUtBalpIWXF3S2hfeGc3eUhKd0N0MWJib05sN2JvZlU4NzBsTDBVb3ZVTmZUdExfelFZWmItWA?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Schneider Electric in advanced talks",
+   "target": "US",
+   "dealValue": "$20.0B",
+   "valueUsdM": 20000.0,
+   "announcedDate": "2026-10-05",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Europe",
+   "headline": "Schneider Electric in advanced talks to buy US-based software firm PTC for roughly $20 billion: What we know",
+   "sourceName": "Livemint",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaEJmNDFiVUQ5bTlqSmNGeVc2X0R5OG1wOFJhYk5sZWNxYzBSdEZUN2FZVU1yS3lwZmltQzh1VHBsMmVCandxVXRQbzlaU1lEcTNVclpxMWtQYnQ2N1pyWnpKdUhMSmlTeTZNU0tTWVh2aTdXR0g1enNleGM5NHFla2JlX3BPeWhmbVBqdkdWMjZYNFFVdGpKeVNaU0drdkxmQWRqTFhZU0Rmd3RybGtlSTFKU09pN0poZ2tuUGtjbExPT0tpVkxaczhfMjdzbXhCdEMySXRVWWFSMnB0dzRQekJwSE5kLWlWdXpZS2NnR1JhN2ZJb2JBM3h30gH_AUFVX3lxTFBya1pURlp6UkQ5MG9BQmM1S25pS1czaGJmNnZlbWNuR2RubEdVQVlGYkpfSUljZWpMM2ZEeWpVc3FhRlRqSF9TSlRzMEEzUEVuMGIySURyNjZTX3hXNkpHaFc2VmZYRHR3Yy1QeVhMZVVycFZqR19QSzZqbU53eHdMbk9VVEVjajF6R2lxNDNnMGJfS2hyUGVCZkFGTWJWUWg0UFAycjZqdUxXQ3JUTmhhVGxFeVBfZF9jQ2RlV1BVT1FYd0diRVkzTmQ2ZEJPanQ1OHJSNjNoNkRrb3BKcDBqQ2MyVzNfQ3k5dFFyT2k5dEwwNWZ0VmhWMGZSc2hFTQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Canadian equity firm",
+   "target": "Salford healthcare tech business",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-05",
+   "status": "Completed",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "North America",
+   "headline": "Canadian equity firm completes acquisition of Salford healthcare tech business",
+   "sourceName": "TheBusinessDesk.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaFRDcHo5R0RjZ3dhZEtsYWFzZkRqaWk4d05LZWwzS2t1WEtZcmxHLVAxQTZDcW45UVY5MmpJeG1iRENjeHZOamtVd1dwdzJ3QVlpTmc1WE9TdUJaYXhRZXlvb3FfRC1EZ283aHQ2NjFqRUlhZHJiZUdLZ3l4cWxrbVJkZHhMSGJmZlNuRWhwNklpZ1FlODhHdmpvN3ZIMk5pdWxNOWpQcXJkM0JIY3NGUDFsOGRNcHAxdFNfQVlsMnFwczU0ZWJRNjRiRWFPQQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "TEAM",
    "target": "Lancashire wealth management firm",
    "dealValue": "$4M",
@@ -5973,7 +6437,7 @@
    "sourceName": "Bloomberg.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHdIR1FBOE1KenM2UjFYYUtoZXl1c0FZeHlKUEhuWUtyTkZDMnJQZG9ud0pUUllhd2RmVTBmMG0yVGZBNU9KOUtRbnBYRHp3ODFIMm00V1F4ZjQtanBMeUQ2N2RHR0RzQmhzeFN3cHZRSjd4T2YwTjBRUnhOWXE2ZzZhTExmbG9Rd0JubzhGakIwMmRna1MzRHZIRUdqVDZJUlpwRUhhTTY?oc=5",
    "feed": "Google News",
-   "alsoReported": 38
+   "alsoReported": 33
   },
   {
    "acquirer": "Sources: Josh Harris has nonexclusive",
@@ -6085,7 +6549,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmpTVUFsRTkzaTU0NTJlZldBdmRXVlpHclhBZUEwUUc2WUFNb2NaeWJ5X3BCOHdaR1FURTJKUFVEd0hFaEFncjlpcW5yb3dVQUtsN3ZqQ1Q5RTdIT1pPSFdMMnYxeHN6OFIxWjNQQXBaTms2dTAzbVRGQmxmcDlTQUtZcEc1dndDeHJTUU9uaDhtRDlDUDdSam5YMG4?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Nova Capital",
@@ -6293,7 +6757,7 @@
    "sourceName": "ADS Advance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG5SVFloZk1ZMGEyMHlBMWR6cjM4R1JXVlRfenp2MkZpWVVDX2c2QXlSeXFYenJvUFpnM28yZTBrOHF6OS00QVE1Y2VoQmpPQkhoLXdMa2ZKaWloZlQyRHdjVDBzOGVRNF9jbEhUNHMtRVNKNmFfdkdEOExrNHBFbl9KRmhLdzA?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Samfara",
@@ -6309,7 +6773,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUk9LU3FlUTNjRTMxWkxyUzExbkRNbWpDMzd1ZkZfMl9ISFNDZ3RiTFIwNlZjbDZobWdzYmZPdUpqQ1dkY2pmektoV1RRM0NITHZVVDhQcFZUaU84NmM5aG4xbHE5eXB2MUE4ZEFpVmpEQlZmTlRCZjF6TDRZeHY5QjN4OVZZeklobU51bk5qWDR3UTNUd2FYU2tEd2h6TlVRZzIyZWFhdjZiekd3TXdFZ2E0cHB5QWJfZ3NQb3dObXlhNGdnUnFZc2FvOWRjOGFzejZoSFpUUEhJNm0tbExSWlBqelVGYzUtZWJPcjA4cw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Enel",
@@ -6373,7 +6837,7 @@
    "sourceName": "marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQS0hWMi03X0lBQ0d3Nlg2QUg4d0trcE40bkNxb1N1cHU5dVpVVncyTndiNW53eWlBM19oR3VQV1Z3VmtMbUtxdUFNcFdBcTl2Qjg1aGVvY3dUMjlUMGN0aUhtcDE3MzlDcnM3ZGF4cVBZSEhwOE5aUTVMTGMxSXpqMHI3VTM0eHpYdHM4Y1JzLWY4YVdONnFUZGctWWVheFFabkdQX2ZPUkdueklNMTcxZlgzdFVZeU9SanU0NXNySHlUNWtMQ253Uzg2VVZIbGxaRTFaOEJoQnpKWk5xM2UxR3NySHo?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 3
   },
   {
    "acquirer": "PwC Australia",
@@ -6485,7 +6949,7 @@
    "sourceName": "route-one.net",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVl4dXdsSTZoN3REcFI4TVU0bllHMXNzQ1Z6Z1JQc2JuMkJOLXhRME9EUTlqSkU2WDJQOHMyOU1KUVhmem9HWUx2SjRTOVY1eGN6My15VVlScXBFMDNPdk5sSHQ3ZU44N2FETDU4UzhESktyNkQtOXlPQ1VseW9wRVBQQm1ubGNmZ0JJeXMydkMySElLTnc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Blackhawk Bank",
@@ -6501,7 +6965,7 @@
    "sourceName": "quadcitiesbusiness.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaGQzcnB2ekplSkUwWmdDRXQ2V2hSRlNaczlJcEhUbnJYLUF2dlF4TWVyU29EOFJscnVEcno2REkyd2hnd3BaLVd3cnRZYlJXaTZFcWNNajlHWXlNTWxrcUJaaWdOV1BySWtRZERwTHdQaGlyTDhlVVV5eEFlUUtvSC1LYTN1UQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Yanmar",
@@ -6549,7 +7013,7 @@
    "sourceName": "AviTrader Aviation News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tcU5GeEw4UUVjaGRPNnFqdmFBSEZfNm1UZ1dTWEpEbzUxamtHd1dPb1R2MkFGd2RKLXBjMnhMWlppN2VGR1hJTmxqWnNrcjQySWl2Z083QXNicTlEX2Y0ZGNQRjhnWWZNS0VOLUJuelBoWENSMVhF?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Vermont Historical Society has",
@@ -6581,7 +7045,7 @@
    "sourceName": "European Spaceflight",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQlNocUlZWnZ1RUdsNWdxWDhYS1BfcEp4UGVpSW5RT01NRDdpa3UyTXF4OGtrcFJ3WUNsVVZaYVBKbDVNTXFIN0Jja0ZuOWpJVTg4ek1WNS03ZHRXY0pCQUNSS2xhQ3hVd3hjZk43TXY4c09tZWdyZW1wSExudjg5dmhqTGl0aHZlUEpLd0Qyd1FHVkV0NGVOUjJn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Award-Winning Emirati Horror Film ‘HOBA’",
@@ -6741,7 +7205,7 @@
    "sourceName": "Engineering News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNlgwRkd0M3pCWGpjdnBieVNGU2tROWpINUI0TXZuNzdfbVhGcVRBelVfVWtkQ2VPMGVSRmJPanR2blVzLU4xX1FwUzdtd3FRZS1oVkZLVFNDbzNPUFNjWm5jT3RIZ05GYVNEdkx5Z1FhY2JsOUFrWXJqRklZQzVUWHd0bERnaXRSZzNqNko1XzF5cDM2RlBZRHBXQ0RWNGJsaElJdlFIVDdGNmc?oc=5",
    "feed": "Google News",
-   "alsoReported": 5
+   "alsoReported": 4
   },
   {
    "acquirer": "Messi",
@@ -6869,7 +7333,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeERLUWJBMmhIczhFSVpSMlpON3F2Zk5veTdWVHRDRGRZX0phaks5ODdjN2pCa2tTYk16RFByc2phUl95M3cwTlBjU2QxLTFRcFA3N3FPY0xHTGF6N1dhNXpWWUZER0VFWklFRC0tcXV5cXJyVnBFaFY1QXBRTGh4R2RsaEE3VW5RVlFUNHFCcFMzZ3BYVTY4aXpCVkN6ODRHdnAxb0FfLTVZZzNXVTcxdGZTNA?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "StoneX",
@@ -6981,7 +7445,7 @@
    "sourceName": "Motilal Oswal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMYmd4RnpDaUZ2LVk3WHpFRkY4WkVaUHJhUTVRNW9SRjFxU05EVTFPZlBtbTB3ZG1NdU93UUZteHFWZ3YyZV82d29xNVZlRlE5VDFCektwOVJHVHM?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Marsh",
@@ -7109,7 +7573,7 @@
    "sourceName": "health.economictimes.indiatimes.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQakNHZVMwbHU3SUNBdmRCZnMtclR1bTdIWEtQVWctYWtMQzJMYjZSYXpZNEpLajF5Qmx0RmwzUVhXeWZaVVVkTDhjWFY4U3lLQUVRTzRIX1AyOTgtcmtTVWN5RFFkWnNNb291Zzc2ZXdBcFpQajFZUVgycTVxUG9JSWFKeXdHbFlBTmZWdDE4UFZjR1N4Umtqc1lSOUM5QUNjeUczU3dyZEtaYTZZcmNFdU10VjdsRVVNRE1UVzFvN1NKUFVtUEp5YXlTY3Zicm11bjVRbnZNSFFhbEF6ak5GaXFuQUVDQdIB6wFBVV95cUxNOGRKY0ZZX0tnQkFKalM3QlpqOFhoOHFHLXRiUENxSG56MGJaYmIwVy1GQTN4eXF2anpyazdRaGtCNlVZMUNEblpnUGFlOXBETDRGNUNMRktWSmZGRHhsYzYxNTQtMGQzR0Z5X21yOW1naEZfZEJ3VTZ0eVZoYzZfYkdZcTZISlpKSlc1YnE0TEhHX0tCcFN4a1owZWdFNGJyTEw2M3JISWtCTmhLQXYtTmQ4QmFCU3o3LUNJeENMYkEtbWJMQkpmbl95Y3dGVUhxdXFqN3p4RlZLVFJVLWxpaDZKd0hGd3BDZk8w?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "WVU Health System",
@@ -7141,7 +7605,7 @@
    "sourceName": "Consulting.us",
    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT1NLeUVaeXRuMUlIX0FfMjFSdW96QXVyLTl6UC1KNmo1cDk5al9Pa2VHS0lkMXZ0OVJyb2tlZVFWaV9hX1h1QkFfZ00ydHlibmptajFYVHFQZ1VrTXFLRS1ZNmRKaXlId0EzWlBYQkF4SG1JZDhCNHFPT1A4RHlGWS1nRmlEZDhtaFNEeHJmRFNFUXV4QU8wUlJNZW1LTFRv0gGmAUFVX3lxTFBybUpidl9UTFlNbjBHanlzdm0taUZXbXRESXRVekRpajlIRTF2REhMR3lMSGhOTnZHSkZVUEZPMDBRdUo3MGRyRFduelotUWdNUGxpRFhQMlVRNS1WNjFwSFprQXlxV2xSNWQyUjh3a18yOEZfazdXVkdfTktCQWlhT2VpWHZma1Rvd2x0dW5MelZLTEl4dzFnTWQ3WkdsSHBPd2RfZFE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Italy’s beauty retail chain Pinalli",
@@ -7541,6 +8005,54 @@
    "sourceName": "Salmon Business",
    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWGUtWU5kM1QxeTdxbkMzS1RVeDNqVi0zSW1zeUtzTE8tZ0J3R29xdS1Dd3RpQjl0XzdQdmhsdEhHTVcwZ2E3R1dSYk5adDlsNVlsVHhoN1JEZWFzMUhQeFZST2N1S2dtcVVjYUszU2N6eWptZG5fR2Y3VjlqS195MXJQalRIaDF5YzA1eXJoSjJvajF2ak1jWGpMQzFRdw?oc=5",
    "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "Amy Goodman Documentary ‘Steal This Story, Please!’",
+   "target": "by Music Box in North America",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-02",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Amy Goodman Documentary ‘Steal This Story, Please!’ Acquired by Music Box in North America, Home Entertainment Release Set for Oct. 20 (EXCLUSIVE)",
+   "sourceName": "Variety",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3RqbUZKR3RhNVhnUlRycW1lVWFGeTloSUtjMkRtbHNsbmMzMVk5Nkx5cjk3aVZYNWFub0VvMWlDS3A3RHZEWmhtcUlGZ1pGZG51SVF1SzZsWHZGeVZpTU5Nem85SFFMXzNMOFE3UU9tRTloU0ltRHNvTXVNX1hfdzlObDdlYlpraWV5YktUQ2hKNS1VczBVR1Fn?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "11 Skies",
+   "target": "HK$100bn Skytopia project",
+   "dealValue": "$100.0B",
+   "valueUsdM": 100000.0,
+   "announcedDate": "2026-10-02",
+   "status": "Announced",
+   "dealType": "Merger",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "'11 Skies to merge with HK$100bn Skytopia project' - 香港電台",
+   "sourceName": "香港電台",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1dEb0VEaDBKT1F0MEg1TTlyT3dQbW44UGFSNV9qT2kyLTZNVExxOXNPcTJEU3VBZG5jblR0RjY1bXhva3NVTll0ZjVjZVdoSm1IZmZGYkswVlJhRlYwZWFSQ3g5MFRSOENkVlhVd1M1S2FVM2tndzZ6XzNabU9uaVJWTVJYaWZVOTY4?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Italgas",
+   "target": "Floene stake in Portugal",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-02",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Energy & Utilities",
+   "region": "Europe",
+   "headline": "Italgas agrees to buy Floene stake in Portugal for about 120 million euros",
+   "sourceName": "Traders Union",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzRsUVNMb1VOQlRoNWxTWWdtcmx0eHhsTlN2a0FTYWNyVTR4TVl1T2luZkRSOWMxWThSMVU1VzZKQ2N3ZE5KMlc0NG55Qkx2MDRZOU9qQ3drdkNkNWxITGlnS0tzMmNqVVpnVkYxZTQ5MUh5ZHhGblJZb0ZoQ3J5aHZYd0NETUE2eV9uQ1RlWXpoSUdRWVBDLQ?oc=5",
+   "feed": "Google News",
    "alsoReported": 0
   },
   {
@@ -7573,7 +8085,7 @@
    "sourceName": "SaasRise",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbHJ1Rkthdm5KbjZRZG04SklKQllpanpqdmVfRzB6SmNqaC1Lai14aEZTZVRyYUlFTVk5WUxKdGlNaTRidFg2QksyQThuNTZ0alRsSUVNbEczU2FaY1l1c1VyM1dwbGZvbGRhb2JWQkJQbHl1WTRpTWJiSUNDdS1XMXk2dVhPeU1sU29xQlZ3cHZ2RFBtTTJTZVJPeFo4WGVqSW05a2ZYdXJ5MmhDMW1YQ3d1NngyWlNsMU9BX2J2bkJnX3FvVm84dlhPZmFTLWJwNlhfTzc2VklRUTBJUTVYajBrZTRwN3hKREU1VVdrX1pmanpz?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "EGGER",
@@ -7653,7 +8165,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQemRFWDBNV0xRY2pMT2piYTFSNElWRjE1Vm9iMHRJY2dDelFEQUhnc3gyME03VUFqZk5Fb0FTQUlrcFhIR0hWUVgxeFN3dU5UYkVLaldvYWtIblNocHpPT3ZCQWFBMzVpb1F5OXR2emw5MmlaeUZHUWlDaVE2cWpmWVpOczlqRXkzcU41cEhPZkJSbE5qT0hPb1E3Z3dYZEY4RFA1akVVWVdkNG04Nl8zSncyM0ZtM0dGejdlRk1fUmxteFpJQXdv?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "SEG",
@@ -7669,7 +8181,7 @@
    "sourceName": "Mumbrella",
    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hMm9BOU9xWGlUazlHdGowa1hEZmthc3dOaUlqT3RzZ3J3V3BVRmtlVHByZFhGbGJBWWZRU1BsX0pqOUROVnc4U1RTRVlKZkh2d0JHblYtWkdkRVROSE9vYzRJYkNaQ0NfYjVfcWNQeXFINUhITFdJR0pHVQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Serica Energy",
@@ -7686,22 +8198,6 @@
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0pWNG9VVWJtaUpCVnhpU1lWNldXSGw0WmxSTzluSnBwUGNtS0U5eTBYeDBYdGhEU2lFUUZaUVpzVVlEa3FBY2wwU3IyU0FodDI2V0VsMng4MHVPTHJuUFYyYWJLOG4tM3M0S0JwY09yQkREMHMyeVpITkhzdkxpTndkZk8tSW5Lb0pQWUFfRmRBbVljWWRPa3JxLTBITVgzUUVLTld2RlRWVkZid0duRm9ManZ2aFFnSWs2V0Rab2w?oc=5",
    "feed": "Google News",
    "alsoReported": 1
-  },
-  {
-   "acquirer": "Lynas",
-   "target": "Meteoric Resources",
-   "dealValue": "$968M",
-   "valueUsdM": 968.0,
-   "announcedDate": "2026-10-01",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Technology & Software",
-   "region": "Latin America",
-   "headline": "Lynas Rare Earths to Buy Meteoric Resources in $672 Million Deal",
-   "sourceName": "WSJ",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHl4XzhwNmR0Q3VSUG5XX01wTzFhS3l6QjFGZXpjdlMxNjdUZXZLZkRHM1YyazlJdDRpR3VRSGtRTVlGb1czQkhpaGFjUE1aMWdvU3NWNjl4YWZPa1AxNll4UDNjUFFTSFU4WkluYXc0SzVNaW1LOWwyWUZ0UzR4YmlOaVZ5MGQzV0pFWDhlVEMwdVNzZVhvWUo0T1FTZ1cweEc0?oc=5",
-   "feed": "Google News",
-   "alsoReported": 2
   },
   {
    "acquirer": "Crystal Crop’s",
@@ -7829,7 +8325,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlZiTGc0RUxicjVWajA5MXFJbm01VzRla2NqaXJUdldwOFNld3NVU1VwUVk0WFZxNXBPNi1yYm1UaC1lak5uVFpkdm12VURfejBDTElER3pyRi12NnZ3MWpuWDRxUGlFbzBWSkFzdVowV1djaTh1aUNFaDFSZWx5anJ2Vl9yRUZ1a2lSR3lDWVFrY3NzMVc5WFZPeU5mQjRIU0c0WjhvQmcxTTMtZEVZdm9nUElpRjZmUV8zOXl2X2E?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Stripe",
@@ -7893,7 +8389,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSUR6cW5TRnViODRFT1dub1lMbGxvcjhEckZVTVQ1X0F4MTk2a1NaMmROMzlpeG5YSm94Vl8zZDdXOEp1bVVLSWptSEJyT2lNZ05FS0FiRWRLNEtidHpXb1Z0RnZ5dGVHVkNDdnhTTTVxZjZPRmFFZVVIUjhNT3gtaHdoT01QbEdoY2RrV3hLS2g?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Arcus",
@@ -8085,7 +8581,7 @@
    "sourceName": "finance.yahoo.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNHllcG1TMGNCRE1PS2Z0aTNFb0MyVnJubFpOb1hlQnAtaEhQOXJfX0kyczlwUmpBODBpbjVBTlBMOEVjWkx3QUNTdklydVNOaGZqcmljSlpSaGE2WmZPQ1dvWmVPcW1HZDNLNndaNFFTNjNUY3dGRUdZN3d0d0pNZ0dwVGJFSVNoSnlJLWFfTnNaSDNsRnJWWEdpLWRCREEzOUpmbWRR?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Rightfiber",
@@ -8245,7 +8741,7 @@
    "sourceName": "L’Express Franchise",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNjQtRWdjeldQVTJyVUEyV3RBZzluMzVBa3VOb0xaVFZORFNLN3h0dVB1dW5rQXoweHQ5LXB4OXdLb0xqc0pnYkhMdUhtYkNfZV91aGpjZEU0Z1ZZaUExODVzdEdsOWtwTzM4SElXMl9UT0FvM0s5Sk1LTUo5TnZtNWZaVVhFZ2M?oc=5",
    "feed": "Google News",
-   "alsoReported": 8
+   "alsoReported": 9
   },
   {
    "acquirer": "Antin",
@@ -8261,7 +8757,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMk91dlV5SloySy1pY2V2WG5Na2tpMkRYVjRwTERDTndYanc1MzEtZFItNEptS29tX0J1N2doR1paWTdWR1NORUthclh6ZnIzU09VbFJJX3VhOVBTYllCTmZudjZHSXZDSTN2LTJCSHlwZG1HMHVZVm45elExUkxOdmc0NlVqTG53UTJjaVdRcGM2X2k3dXU1M0d2T0lxc1MtekFkX1d3?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "GII",
@@ -8501,7 +8997,7 @@
    "sourceName": "SeeNews",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMVNqcndrQU93ZUFzSG5DemFNa3hLc0xTLU4wYjdGNEVxSXByVjJ3a083TlFEVDhadGRLN0VZZTBSMGtwcHdmcHZ6cUhCUmVUbllCRnFLcmhYNHU0VFRuZTBnOHJGcy05U2FHU0toXzZEWDhTamNQTm01SjRVRm5iM2lmcm40ckN3WmFjQlhxM1R0SHM?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Pegasus Airlines Says It",
@@ -8725,7 +9221,7 @@
    "sourceName": "TipRanks",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbW0zRGc4QjNCTjFpYXFhX3lsMklKa0RlX2hQbUFxNTJxNjI2YzNTRjZqc1BKWnBHZjIzWG0wSVNBNjZFUmJ1XzhIc1JiM29BM2YtZmZYS2I2QmVsWWdxUDM4UFpYM3hsUi1Jc1FZNzdGeDhJMldSWDk1SUJvcXFhLTZxVmx2TFRYcGo3anFtUmZneHM1VkFqV2szTDI2U2dSc3dndXJwYzVabk95REJ6bw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "AEW JV",
@@ -8757,7 +9253,7 @@
    "sourceName": "The Edge Malaysia",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RN2pUc1A2ZFlOSkVHRnROMkdaTENvbmNmVHFxRlptOWdMVWlFcWJZcUZ0Q1N5dlUzOHRtS3c0QnlUdXlzSXJiZEpCNnJreWZR?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Plutus Wealth",
@@ -8773,7 +9269,7 @@
    "sourceName": "ascendants.in",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3lNc05pU3J1U1FYaEpGZEttaG83NGJVT2p0djgySDhWZ1BKVEs2bzFINEI5WWVyM0lfR2lDZzQ5QTFRcVFNZTFMazJnekd0VG0yaVROdHJYWDB1cWVYVDVsOXA4ako2ODYySm5iR1c0OE1ick81QWZmLVp2d2drSWxkblJxS2xzcDRWRXpvOXpTTnc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "end of petrol? Fuel giant",
@@ -9048,6 +9544,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "U.K. Safety Distributor",
+   "target": "by Florida Investment Firm",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-10-01",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "United Kingdom",
+   "headline": "U.K. Safety Distributor Acquired by Florida Investment Firm",
+   "sourceName": "Industrial Distribution",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNmNzNGN1dTNkaXFfMUpRekt5TTV5djlvUWo2blNRMGNiaEMxbDcwbG14eTlqdFZCanJZcFEwOTFOR282dTFfNHQxX0JJeks0WFZHYzdqdnhZaVExaHFRYVY0SktLOVIteWJJd2gtZjFlc1MtVFlNcmFmVHZrYXhDdWZ0N2dxRk8xWXg1SXJ6V1RLZmlRV3JKVmIzMURaS0xxbEVUUV9MWnFtbmF2R1RvYllaZVhkRWc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Lynas",
+   "target": "Meteoric Resources",
+   "dealValue": "$968M",
+   "valueUsdM": 968.0,
+   "announcedDate": "2026-09-30",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Latin America",
+   "headline": "Lynas Rare Earths to Buy Meteoric Resources in $672 Million Deal",
+   "sourceName": "WSJ",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHl4XzhwNmR0Q3VSUG5XX01wTzFhS3l6QjFGZXpjdlMxNjdUZXZLZkRHM1YyazlJdDRpR3VRSGtRTVlGb1czQkhpaGFjUE1aMWdvU3NWNjl4YWZPa1AxNll4UDNjUFFTSFU4WkluYXc0SzVNaW1LOWwyWUZ0UzR4YmlOaVZ5MGQzV0pFWDhlVEMwdVNzZVhvWUo0T1FTZ1cweEc0?oc=5",
+   "feed": "Google News",
+   "alsoReported": 3
+  },
+  {
    "acquirer": "Logistea",
    "target": "Cold Storage Property In Vantaa",
    "dealValue": null,
@@ -9157,7 +9685,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWXhlbTJSSTkxbTZzR21ianVjM2RhRU53TVg4aWNHMmlVRTY4d1o0ZDNGQ2QzRDBzX2hYT0kxci0yTXVEMEhMV013T2dTVjJxSlAtemx4MERGVWE4bFlBcnQxU2NNWUZsbmJMeU94YW43N2JQLTN6N3FnZFJoY0RJM3VxbUx2UExpZEpDdXhMWnZ4VFFaUld2d0V1bVdvalpLc1FKb2tubG1aUERaVm1XVE90cmRMbmxlWEJQMHNCZjdNeThzSEpBX21ESGJ2S1FiRVFqTVAyTzVwV2Q1elFJOGhFeEUybVdtQjM5ZU5kYw?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 2
   },
   {
    "acquirer": "Pamal Broadcasting",
@@ -9205,7 +9733,7 @@
    "sourceName": "Hartford Business Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNamJSeG11UnNnWUFZUHdqUWt0LVdoVVdxeWtVM1lXZHdxWktBR0Q5aUJWQXRmQkttQ3lSS0hXbG0xMWt4VUFGc2JpaUdQRkZjaVhSb0VMYmdJQ0tycHJ4R1JMd1pabXM0cXVKdVlZZk4zazV5cmF0SnhINzJNMUwtbWt1N08wNERkbzZmajhtR0RFNXdHeXF2WW5yOV96OFdSaVlLQkFrN3R3cVVXNVFHTExsQkJCUlZoTmNZa3o1M3Zob256Y1h6RVd4QjlaaVU5Z2NBaHVWZG1OaFZRcGc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Chibundu Onuzo’s New Novel The Great Shaking",
@@ -9525,7 +10053,7 @@
    "sourceName": "Hotel Dive",
    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPXzZ0eXhJeVVpOGNxbzI4TFAzNDVhVm9OMnZEOVJNU2tGcFBneDF3QTZITENVaUswLVBTRjI1ZE85eUFJNU4zRC1GanFqRDE1dEg5X3dVU2h3Rzk4U1FMRVlhQWpoZ0xmbWFIUW5KNm43ZloxZkYxT2NYeHBxVEtjaA?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "WHYY finalizes deal with Penn State",
@@ -9541,7 +10069,7 @@
    "sourceName": "WHYY",
    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WTkVxa21mYVZnbVdyZGlyS0h1bnpjajFGYzdUNklFOGpnUWlNNzhNdjBLZVN3VFptdVM5bF9VUnoyeExENnNsdU55S0IxUENEZC1HRzYwVWZXNUNUaV9RNnl4THIwcDNGRXNGRm5DVQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 2
   },
   {
    "acquirer": "News | Choice Hotels",
@@ -9605,7 +10133,7 @@
    "sourceName": "WSJ",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQkdrUlI1ekJYRzJxVjEwdzc5OWY2NDAyLXFKSEc2NEZMbHBMb3ZYY3Q4dGZmNWMwSXRZb3NQLTRkVFZfLXp4NFYtQUJXSnVwRERLMTB6VV9iMlNkakNobDVWVmVCVG1acXJJMkxqVlMtNGdqU2RIR05MTlV1MWNMWUtseG4xZF9qamF5clF1cWdKSi04YllNTTJFUi1oVEtsdWo2WXNXcUNla3p3em1JdkpzdzlMRE5B?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Wealth Enhancement",
@@ -9637,7 +10165,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOclFjdHRUTDBXcVpNZE9LbzV3SC1rcHQyd3ZmWEhFVGtvdEhSWlFiaXN4d1Izei1rMGg3MkdLZnRTWV9iUnNWLUJnX3I5dEF1TnNkUEFrV2lfVGExcHRjaEE5TzAwVHJqRDZzc1kzZ19rNWFzdEFPLTVGS2NQVWNOM051MmhiVUtrUHlLakZKeE9LN0pCSzhPQmQ3NU1PT0t0ZGlsZTFnZ05oekl0aDlKOV9JLVg3RFVPR1RuTmY2Yw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "US Navy",
@@ -9669,7 +10197,7 @@
    "sourceName": "Airways Magazine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPakNoTUo3cDBtT005UWlqdVkzZS1QbGlJRU1Ud1Fmc1pCY1JuZUxNTnlzSkJvOElMQjZRNi11b3owX0MwemJZdDU1OHM3OGJuMktieC1QNFBZd0VUQzU5ZC1PLTJqNWRIX09yRUFLenQySFJWeFJPbS05LUlydUZFZVFGUmVzQVY0b3lVQkxB?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Sold: A Beloved Pizza Chain Has Been",
@@ -9721,7 +10249,7 @@
   },
   {
    "acquirer": "Peoples",
-   "target": "Capital Bancorp",
+   "target": "Capital Bancorp in ~$728M all",
    "dealValue": "$728M",
    "valueUsdM": 728.0,
    "announcedDate": "2026-09-30",
@@ -9733,7 +10261,7 @@
    "sourceName": "tradingview.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUlc4R3BqNW42LXJUWFF2a2VtcGxaU1BoZWtPUEFJQTc0UjdpZzBIVGpHQVlJTnVHNFl3NEdPenVoYUh6MTJRMDMxZ1FobVdVZ3BzVGcteGo4NENxMDZtZi00R0FGa0Vwb0pDdkNMVkFBRFJBU3lPNGtoU0o1bXNlLUZSSFZhandveXVnUld5TFpTWTQ1WVdoQ212V0w0V2hHYUowQWxVTUctZjlzUXdZRGwxZjd3SXVrNVlHWU53V1pqTl9IOVVwYkV0eFdKLXFMUXhVdllHa1JPNS1XczBCd19n?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "UPMC",
@@ -9749,7 +10277,7 @@
    "sourceName": "TribLIVE.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbllWdjJkN0o0YnZFZzFfcXBDaDNGLUtxOXVYT2xnY0M0OENlRGd0STBQdnBSd1ZaMV9NdFJFZkh1RVpvN0lSZDc5aEtnQ2ZvMVdKUnA5SGVXUlRmQlBqbmZyNFRJNFB6SWhPYXFadFcwWFFSTVVDUUE1bmFLZndxSWJvZEpLdTVzUTlaVXNsVUZhQjBDV25Qcm40eUlIWlhHQUE?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "ArcLight",
@@ -9765,7 +10293,7 @@
    "sourceName": "POWER Magazine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWmlNZUc2ODJ4QWRNd0o5OGpkWlM0TXVxMEgtVDRyVTJJMHBjOVdvSmlKR3BERmpoQVJLWmhYYjNJWWRiemhhYXFBUm9VNmhtY0xYTTZ0eHlrZHhmendKVHphazBFSnlqNjJJc2NiZFhmelZHNk9vaTEzRk1reElQekpOME8yQm5vTVhpcDBXcUg1dHBfbFVtU0djVkVhZklndEhrLVlUWkF4UVBKajhMN0s1d0dvSEJYLVhCejJn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "ArcLight",
@@ -10277,7 +10805,7 @@
    "sourceName": "Paul, Weiss",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaFhmajdyME9zSEhyR2dXTHV1LUU2WmQwc0dqZ3lTN3p0cnoxeWE1dDc5WmFiRVVON21ycjBBcUs3U2pycTU5TmFFRWpuZFh6ODVNUVhBcU5iWlFOOVc4c1JuRjlqRFQ3ckx0dXNGcEpSYmNLZV9hdkNOYWllOENZMkhB?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "A.P. Moller Capital",
@@ -10485,7 +11013,7 @@
    "sourceName": "GeekWire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTzlNZ1ZaQlRBbzVfajRDVTk0cWc1M2RqWXREZnljUzlVYTFRMHg1NzRwbXBmeEVqQ1JmMGxpOEZkRlJaNllkN2VtZ1JsUm5GR21pNzdKSHJwTVNtR1NpazFENk1qcWpCRU0xQkFJSm1sMmt4Q3JCRFFZNWpmVnRabi10MG84UG0wOHZGYi1iQ0lBLXUtTldLUE9CVQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "LT Foods Subsidiary Nature Bio Foods",
@@ -10549,6 +11077,22 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcVFNM2NEeE94bGdoSmhUVTFZQXNxOTVuTVRhRTNQZHQ3aXJ2c0F1TUFLM2I1dENHN19oQUx2WGlWcTI0ZXJYb3dnVUpsZVhCYkZ2WEpPVjRieFhpd1k0UUtob1lMZE02SDkwblBIblZSbVRWQ09CQnJGV0JGSC1yWWxGZGdJRDBuaXJwY2tKdzR5cnpLcE9JbVBJTXNhX1FsbEJvVDJkWVprR3JCV1JLLWxXaGU4YU96eG5RaTZSWHJHY0w1Q1p2QnYyQVNVQUp2WWNqeTRBQkg1NjNzdU8zVmJMSQ?oc=5",
    "feed": "Google News",
+   "alsoReported": 1
+  },
+  {
+   "acquirer": "LT Foods Subsidiary Nature Bio Foods",
+   "target": "40.75% Stake In Leev.nu B.V",
+   "dealValue": "$2M",
+   "valueUsdM": 1.8,
+   "announcedDate": "2026-09-30",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Consumer & Retail",
+   "region": "India",
+   "headline": "LT Foods Subsidiary Nature Bio Foods To Acquire 40.75% Stake In Leev.nu B.V. For ₹15.39 crore",
+   "sourceName": "Free Press Journal",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZGNOZkNFOV9oemhLS0NkNzhuWUVpVzBOeUdmbVBmeDZRbndJTnkxYmlJdVpLUFZQMXZ3OEtOemctaklHckZtV2tVYjNEbnF1MDhzdHV1TVV3OF90bE5kUm9sMFNWb3cwbWhVVlM2VlpHSjRXYTMwOFl0YlhaZEl0UmIyajN0T1d0b09UdWRPRTVqOWQ1NzBuekNNR0JhOVJlQm53TFg3MVkwYjE4YVBGU25idEVqZE5LWDNWR3poNWxMOWJSelHSAcsBQVVfeXFMTUg5MmJ3RC1yNjhobUEwX29kdlZiNm1hblVvQmhmZXVzTmZLYVQxdGJwMS05dTNsekNfWnJJcS1teUFLTFZHTklmcjY1bEUycmlubUs0Wk9sZzlSVDV4OU5MS3VzeWhOaHZVaHNxRUUtM2JUVmUtQXk0TlJVRklDRG5HWFZGS2FKUGRlMjZJMGVYcnQxc1ZQLXFBQVNMSXItTWVLV1FiTWZYR1hNSVpmcEtiNTl4dWRSNkJDQXZMX2ZwVW9HSVRyVDBWd1U?oc=5",
+   "feed": "Google News",
    "alsoReported": 0
   },
   {
@@ -10581,7 +11125,7 @@
    "sourceName": "Hydrocarbon Engineering",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS0hsbHZIS0JpS0dDeS1QTGR4VHdyQmNOYlVieVRIYndoQVgwVTJxem45a3pKTjhnTmo1U3ljN0J0UEc0SjZfREZIVFJzM055VzJoU1hNR3phdGR5RHVuY0lzdWloYzVLVG1sNG1Ra05hTEFXUmFhb3lrcW5aUkRteFVENExjWEVQSmpTekJET044c094dVVoR283WVpoRGZtOVN1VFhHSVJRaXExYWhuaXdzdFh1MGdIQm5pbWcxN0QxTVRDWDkxaF82elRiaXo0ek9zadIB2gFBVV95cUxQSkJTSUFHckUzRFp0MFRnWEZkQzVjSUVSUGRPbTdldl9fN2JpVlo5X0dLZVN1OEpUSHhVS04ydWczOEdpMVVkREd1ZUhzMzkzXzNXdEF0NzZGNFFNeGVnRHowMm1CeVQtNlBRMW93NEZTcXlBam05ai1CVjNURzNjLTg4ZkxZeml6U1d5R0N3SVpsRmQ0dkdUTjR6UVVwcFJkN1VSYzVhWWZGS1hmWDNIOEdUYlZuQnlpOUNORjNIckE5bGlrUVZfMllPcndjTTVRSS1vSGw1WnByQQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Hines",
@@ -10757,7 +11301,7 @@
    "sourceName": "CEEnergynews",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zQUFtSExFRVl0dUh3bnJEMjd0RHNGQjNEcFNFYTMxNEZQY1NjZ05wWEFCeTNUZnB3M0laLXBqMU43b3pqVy1NRU1OamFYd1RvMlpNakVHTWRzb2JZbnZCd0RVa3NwcUFqNC1OTDlQbGJ2cl9rR3lIa3Rn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "HCLSoftware",
@@ -10981,7 +11525,7 @@
    "sourceName": "Securities Finance Times",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX0ZnbzRsdXhQbW0tT25iY1NiNThFWThqM0c1M2ZGbEhaRXJCZ2pfeHlDc2tROVY3SjhVVkFYOG5rNEVBMVlxSjU4b0otR2dUbkh4RWhkeU5yenRIRjhKVmlVcGctOVZVVk92Y3ZCMTNiQTJSZmh2aEN6Wkp4S1dpYXhmZENJNDVDQTNwMEFyeVhOcENtd1lpd1ByQjdXWVE?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Caterpillar Inc. Enters into Agreement",
@@ -10997,7 +11541,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLVJWSHBqY0gtRXRFTmEtTU13dUx4N3VqYmlERE56MFBrWGNHQXA4Z1RRQm1PSUJpM3dOOTBxWTBrOFR5VFZ0a29TY2tuVnRraWxMNVI1LUFLTVlNVFAxYTR5ZG5XU3pnN2ROQ0VYWExBU2lMTDdUV1Iwa3JsRGxNdXg4azNaZkdxWkpiN1pxakFpVTJMOWJIejFJa2o4aFFCOGhaaTJTOTB5cTVHTmoydnJrWkRaMDRYY290THVRdGhHVjU5?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Gen Digital submits preliminary offer",
@@ -11013,7 +11557,7 @@
    "sourceName": "ABC15 Arizona",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYXl0V3oxZ2owQTNPeTRVR0dkZlNCSnk3VXlGMjZza2FKaUN2cjdUUzVZREV3cUY2Z18wYXk4UVVJdEdveUFkNEV1Q2Nna0NhM2YwWXpJclRKY3NFN0FzNUI2eHRWcHNPalpiZGliZjhFaGJXYV9RZ0xnbGg2cnFaZ2dSdHFWSWdkRzlONUtDYWRoUHdlcWlDVjNHZ2hySTZ0cExqX1hTYVVzTFFKY2w5ZE5GaGxmMXBaQkhtUzlxOA?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "AMD",
@@ -11637,7 +12181,7 @@
    "sourceName": "Investing.com UK",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXBaNFJ4Y0Eyei1yWlpxWTN0YmxnaXNDUmJ2akg3M2dZbkhEQlpQeFFYMHdadTZpdGdaSi1vcU5TU19iaVlJWG1NdVF5RVNqUVNlSV9VclAwd2dPT01iLWpDTkIydHdVamVHenZlMk80cUZINTZPTTFvS290YWJWdk93djZRaDRYVllrbmxJV0tDcGI0Y2laYUJnMGU1N2VTeWtZeERRV2dJbjFRY1A3OURDeTctQldfSkE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Euroports Group announces agreement for A.P. Moller Capital",
@@ -11653,7 +12197,7 @@
    "sourceName": "drybulkmagazine.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbzV4UDBBN1ZfU1Z3Q2IzRGloOWVWcF9ndlBWM1Z2MXR4SmFxcmp0dm1peXV0cWNHdHVTaEJCV1pxb3Nybzg2T2NlZ2hXNEFva0xaZXB6NkQwSmJDQkdvTllMNjRlVFM1U0xGSU1PdzJZZ19BV3dILWw1dnVOcktiWUk0dG9QRk5NSjgtRFNybFVLYmpLTUlLN2d5OVlaR1Y1WUhWbkxYUXM0UQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "GAC",
@@ -11765,7 +12309,7 @@
    "sourceName": "WKRG",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDctSk1tNU9rdzlWbkRFZDRuWkVqSmFYZnQ1UXVyaUExZW91U21xb1M5dkpvWTlDeDkxR0xkOVoxWmpRY3BjS2oxTFZtZlJJSG53WFVHQWgzVFYzUS1kRzhkaHEzdGM5cUszT0h3eVg5OXI4VjFQQ0JyeVRvdmd1ZnROdElCX0R2WHpGSmNVNGl4dFk0MW0ydmxKYzJoOFpoSTlITVB6dXhsTEt3SGlvTVExb3RLa3BJUW9OUXNZNjJQSF9laXJYdDhENFo2N3FWcVViUmhyZHgyUdIB3wFBVV95cUxOVFNfeTAwTzA0b0M0NDRNeTc5T19YUDktNWVEY3JPc3R6SC1GN3lfY0JNRG91dHcyWjRoUWI1UTh2dVQyV2NQLUlXZWFsamdPNk1kUThCRlEwMl9BRU5kV0h5UHlSckZMa0JaWjZtUVhwYTM0WnJVQzJhX3VlODc2ai1SNlNIcnU3VnFSOExuQjA5UEdDUEN0WkpDZnFieUt1c2F1bHlrbG9CT0dWN3BqS1VaaExjaUg3RG82eW45aGhDTlhRU3pndUItVkVLQ252bEpvMF96VjlRd3haNHA4?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Kirloskar Oil Engines",
@@ -12245,7 +12789,7 @@
    "sourceName": "Banking Dive",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUVaOS1kXzFNNVgyc3ZZRGN2ekpnLWpPWW80aDlWTkRVOEY4aUNYMEVwS3R3MDloVkNmZTFlRFpIM0VJQVFlVVRNbFJ5c25YNnVrR3hzTFdteUVfNkFiM1dMLWVxS0hMeDVBbk1uT1BHX3hTSGR2R2EwaWZDdVM4WngwY08zTkJIZEFvd0hLZDgwMlJ6dXNpdm9VZTQtdUhEWlhWcGd3VE80MC01ZktGVVlycU4?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "AMD",
@@ -12277,7 +12821,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXlBQldWbHhBVmMxQkxRNGREQm92SDd2RlBhMG1BUjBQaDlEc19LQ01ua1NUNURIWXFuZDBBLXE4dDRXaWN4cnEzOEE3UHdnNHJjcm5UblpiTjVuWXRjaEE2b2V0enkyaFVwZjR2aGFxWTFPa1ltWjZIRzR1LW5Pam9ZX0xWX1VPc2libEJsdVRRUEVaS1NMai1jbGZJY2RVdXlDUklEOWtqcVNRRUE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "MyEyeDr",
@@ -12341,7 +12885,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRPUnlnZTE5dUVVeEpKV1NqeUxzcWRqdWhha3I2OW94NGs1anY0ekVjWDVvbU5tWE8teEpvX2NlMGgwNHZ4NDNJM0VSbFY0Z2FZYkloX3d2TW1xQWxRQV9DRmRfLVNiOHJURzViZ1Bjc2JpOVdrU0Q5RUhneU1raGQtNnNrc0RFYkF2SUxza254bm9uTEtaQXh4NWdRT1RKeHdYR0ozbld1MjU3RWx0cU9hYkpBYzZGM01F?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "APM Group",
@@ -12389,7 +12933,7 @@
    "sourceName": "Investing.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3FWUDNTeXB1WDhWb1Q0dkpmSkVjMFF2bmw1TW5welJCNDI3ZHRzS2tkRWVJaVFMeHctTERGbk42VEhHLThYRkxlbkFlQk1xQzBaaXRtNVQtNG5ldDN5N2Z1Mm1uTVJoaDVaRXZLV2tBV0I3Zkl1bWFLR2E4SVhKUE01MXZTZElBRzNMRlVsMmR1MnpNTElhS2tBTndnYkZXVlYyVWxkeFVraHBkemw0bEd0aTJsRXc5ckFpQU16SQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Valley National",
@@ -12421,7 +12965,7 @@
    "sourceName": "finance.biggo.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BaWdHbnRfZmNHdlAxeUVnTjNwV1VuOGJhOGpSNjlGZGttWXFobjYwcS1RMTFUV0tWS2tTOGllQlhFU2IyQ1pzWmYyYy1BU29lOFR4R0hycElGdjlyNlRBTmxnRkNramVRM19yc0lmRmY1d0FSUFE?oc=5",
    "feed": "Google News",
-   "alsoReported": 9
+   "alsoReported": 8
   },
   {
    "acquirer": "Greenville’s Pelham Hills shopping center",
@@ -12885,7 +13429,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS0ZQZjlzQU1FaTRFbm9zLTY2Tk5zZjFNYUktb3QwQ19lcXBNZ2RzaC1JdlYzNkE0eC1YT2NhX2cxWUV1UUo2SDRQRUxyY0RLYnpkUlozTGRqRnFCUkpzaTFXT3BmR1BmTjNrWElMLWZPMWJtUmZlLWVGRHpuU3ZjSnB5SHpFUGFnUm9WZGhHdi0tdEJaVjFMaUtaSGIwclp0N2syTUZqbExKN0dmeG9mOEp3?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "AP Moller Capital",
@@ -12917,7 +13461,7 @@
    "sourceName": "Moneycontrol.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONlZzTGU3TDBqQWk2R2p4ZmRXZC1IZ184UXpFSzJjRnpjbUotaU9DVUJZNms4bjcxZlRsX29KVTFyTTgxaVlwdW5YdkZNZkIxeU41SUVSUW5tVkR3M2thajFsb2FJSkRCQTBkUENsdjZGdGtMOVBUdElveGFZRHpsRVlLXzd0UUUzcm1sa2NJa2E2WFhsbHFldkVfX1ZTU3VvTWxUSWxfTFNWanlLazBMdFl0bnJaVEViZFdfVF9aVkJKLWZZUGhn0gHMAUFVX3lxTFB1UUZ1UG9GbHBOQ1FfTU1OWG95WXdkOVdLTjJCcE8xNl84eHYyV1Z1UTFLOHVTX0t1NWxLUFV5RXA1bFQ5bFRkbDdqRzNxYUNGdGw0Wkl4Qjg0dkVqSWwtOG9NYWpxejZLNDBlYXE0WjJVMHhCN3NMUWp5cEdyQ2ZYbjR1RlhUQzIyMUpWaDhSRDVic1B0UlNSX1p2TTlEZFZIMzFHM3ZFNzkyT2RUQmRybFJPY0dJSW5FXzJsdU9HbUtxbko0ZFJ0WkVhcg?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Silah Gulf",
@@ -12981,7 +13525,7 @@
    "sourceName": "CNBC TV18",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQalM0eVE5QW9XYy0tNDFpbUo4QjZYdjlhWDlIeENnSW1nS3BiUE53M2FPeWRBT2RiSXN0R1c0N0NHVUx1azBLR0xTR0VQYW5XVTN4T0drMTlMOU1jS2oyeDR2ejJ0cjJ2Y3hvRHA3dDdJSVA2WTFLOElYbmplaEhtT0JHUkpGYjVXemZxbG8tTDEzN19sSE1JOXctMXhUcWkwMWI3bWVUS3ZCaVFnLXhXUE9kalFHcFBldnVMTWhDRkdRZndkckQ5MTVkVW9mZkF3eGd4UllEcEFnX1M4Yl9TS1FKanM0YURs0gHuAUFVX3lxTE9uRlJuc3ZxMzBVSHRNQUlZYUxRbmFtV2RiaTU5dzNFN2lYUENBSkpnSEhaZ0RWWmFDMnprWVg5VW5IWXZBVmR2QzZyYkF4Ri1mLWNlT2k1ay1wT1Jpb2JvZE5KaFhBVFRvVmJsRmNOUUNNbS1vcWtvV24tYndUSmluSEkxa1IxZVlOeXpvZGNqVDBGVmJ4M01GTE85akFwM01mcF9JZVNsckJRN3FIaFdmSElJV09aU3NmWVhuTU1oUzNvVUVKWmtUeUlIcHRCZWNReUwxbXBacklMWl9xRHQxa3VDM2lzaktSTENOekE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Sudarshan Chemical",
@@ -12997,7 +13541,7 @@
    "sourceName": "Trade Brains",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV1U4U0g1Q0RzRUlNZW5XNHVKSzRJZUd0bVJLSTRBVDBaUTJwS3RBVHhRTlFJUTVyTDdoRlA3TjRlTllXSHJJaXcyRjRpYnlabVRVVG8zTGVlRkF2Sm9EREdqM2Jja3ljaGlWQ01tTWJ2SVNoX1JfZzlmYjZ4Zmp2YXVCVG13UEgxb1pRQjJISWlPZmFuU3NfbWNsd284Y19fY1Z4VHhDN2liR1dXa2hhSHB4ajZXRzk2RDdIQVBVUVJsa2hTUkplaGtTdjNFbDNB?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "63 Moons WOS",
@@ -13125,7 +13669,7 @@
    "sourceName": "Breakbulk.News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLUVSOGpGTm51TXh3bm1aMmxvTEo0RFgxODYwcnI4Qm1IUGQtR3BULUJSbEZRS192c0liOWw0OUY0UXNIOC1CVkhjMVA1RHAySkhWX2xGejFobEJmeUJTSVdnZFVyZzl6SnIzZHJPdmRqdVF6U2VfNlkwR3g5eEJQTWllTmJ1QjJpVlBobG91LVFQZGpKdkV6cjdWd2g3YnJ6Y2VLN0Foa2VFdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "A.P. Moller Capital",
@@ -14037,7 +14581,7 @@
    "sourceName": "Arab News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0laVHpkYXlTeHlpTDV6dmdLMVJRd09OdkVaYmxXaVh1Nms1bFd6WldaMmdYSERRZzJ1b1hXWk9QQ2NwYThqR1hqdFlVRnhweHUtazNncXg3YnNTSE9ERGFsU1JqdVVhMGFscmgyUHJ2SUJXSl9lSk9mT1ZWby1UaThBeEVyUkZ2R29vSi1OVUY3TXRuQjIyVzB3VlhhdmlxTlhMYnNrb3pUbnhlOHFKWk1iMkpOWHVIdngtMHlnZUI1S1JXWlE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "A.P. Moller Capital",
@@ -14504,6 +15048,86 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "A.P. Moller Capital",
+   "target": "a Majority Stake in Euroports Group",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-28",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Transport & Logistics",
+   "region": "Unspecified",
+   "headline": "A.P. Moller Capital Agrees to Acquire a Majority Stake in Euroports Group",
+   "sourceName": "GlobeNewswire",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVl9iNUVvV0g3S2RKZmlvdS1FQmY2WHBEMWtEeXRrUWFwR2tXNlpWeW9OUllkemN6V25MRzd5RTBFT1Jkb3dqTkU0TE0yRm14YVVuUjRXSUlNMmxKUUlkRFpabkNSdjlIRE1HeXhKT0hRVllfWUsxZU11eHgwMThOSEUtODhhNzlFaVI1ZHEtWG5HWkEybVBrU2ozcmxrM3hVMnVmbFpGZ29tTWxiMnBpLTlCR2xacUFUeTBCbi1hMG5CbkxJSWlNWXNDMHpIZzRvWGs1d24yOFFUVnNW?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Private Equity Daily: GTCR",
+   "target": "PE",
+   "dealValue": "$1.0B",
+   "valueUsdM": 1000.0,
+   "announcedDate": "2026-09-28",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private Equity Daily: GTCR Buys PE-Backed Tactacam in Over $1 Billion Deal",
+   "sourceName": "WSJ",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaG1Pd2xWMVkzZzhFdnFWSWZHZzc2TjZWZGpBSXNraXVWLUwyUWxnd3BGSG5DZTdkMi16MUhlcmtZbkJkOXdTVFhfS1FITUk2OG1BRzRfZ0x1aXE4dFVuVUVRYUI3TTc3ZnRRRHF5enZrakt2d2ZDc28zRWR5cUhoX0xITDB2WVJWLXE1djBlaXJUUHA5R3RESHF2LVJseDJtZGt0cmxzMkRSLUJ6X2NHeVppSlJfQ09sUG42Sg?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "B.Grimm Power's Unit",
+   "target": "Majority Stake in PV Unity Solar",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-28",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Energy & Utilities",
+   "region": "Unspecified",
+   "headline": "B.Grimm Power's Unit Acquires Majority Stake in PV Unity Solar - www.marketscreener.com",
+   "sourceName": "www.marketscreener.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ00tNlhJdi1TbENKeTQ3ZGZIWFEweW5jSWoybWtBdWM5aE1LcEx1X002SFVVTUExdjM5aVpWcGdobDdxQS1uUUdNVGs2SHN0WVp6YkZTS1FaZ0FBcThmeXlRU015NThyck9iTnlCX0szejRITGVTbHU3VlMyZHZ6MUVRZHJPYi15VWNLR0tIdndfY1hxdTVNVU5jTmRLT2Y4SVJSMnR3dUNXTEdrcTR2Y3F0aWJ1UQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "AP Moller Capital",
+   "target": "majority stake in Euroports",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-28",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Transport & Logistics",
+   "region": "Unspecified",
+   "headline": "AP Moller Capital agrees to acquire majority stake in Euroports",
+   "sourceName": "Baird Maritime",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbVBldzkwMmg1R0pNaEpSaWVsN19UTlNlZjUzSFJpNlJqbEZGd0NreTNOTVMyV3VHdl83aVIwMVh4anVDTXY4cTJocEdnSXFNc2ZhLXVmekVVOTVCY3lpczhGTnh6MzdkSmdQRy1tR1JvNUhrVkppSVpWTUpNakVJWnFsdC1zVmJ1TFpPQdIBmgFBVV95cUxPamNHdU5PTUpxY01zejRWVlJ3blA3cUs0WlhHLU1Rc21lcXBpejY0VWk2ZTUxcFQ2ZkFZOHRsQ0NCcTBCdHFXRjIzTmRZTTduYlVWZEppZG1mMkpZMUNhU0VTamhQcEhtUWdLUE9jU2QwVUx6NnVBU0J5aEdDUkQzdEhySFBYTmwycDdkLXRpcW9DcFU5LUxtZm93?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "63 Moons WOS",
+   "target": "31.5 lakh Ticker shares",
+   "dealValue": "$1M",
+   "valueUsdM": 1.0,
+   "announcedDate": "2026-09-28",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "India",
+   "headline": "63 Moons WOS acquires 31.5 lakh Ticker shares for ₹8.51 crore - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZW9mTUdaVktTU3JHQXpyWndUVG5nVUpuTFE0Qjl6Z29DTHQtSjlJNE05R1hLUU9WRExnLXppYVRHSndoRV9GTXp4V0gySTd0bUNaMnU3REZ0UVFidTdIWjA3X0tQMGczWXBKZE5oMktwcjhaT2NHUnRZVGcwa01NcHhKcV90VkRWZjJ5a3hyM1VSemhnNmp3VmU4RVBUM0FaakJ5Z1lleU5BWE5wa0N3ZE9JWV8wQUZkdlA4aU10aWdMUQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Temasek",
    "target": "9% stake in Italy's FSI",
    "dealValue": null,
@@ -14741,7 +15365,7 @@
    "sourceName": "Business Today",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdElQdnBma0hraGRoV19WQl9wSWFFQ1dwMG9HQVAxU29HV2dKOG90bnVUbHRYWW1uUFdUNll6aHNRVDFXMW5xby0xU2FwcVg1RU9XUnp2czk3Y1BTVGFhM3doOFBqbHpNZko0clFyMjc1cEo3LTFYM2g2eVEtcmhPYWNkSWp2bVdxejVXbW10OFlQdmFyeEthV2gyLXpaWlZ6WE83Z3g5RnRsakg4X2MwN2VJV1lOWENYVWlkSlp2Q2RsX2R4aTdGZXlDQTlFTjl3b1hCMWtvNzVpVnlHR0xXVVY2UWxHalc1T3B0aXlqQTFkNXVhdzJ3Q28tUHg?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Shanti Gold International",
@@ -14789,7 +15413,7 @@
    "sourceName": "Free Press Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORElLalZhLUlORzhnLVlSU1MwNUtsenp3c0pNamRqdFhFbWNGSkNaSDNHWnE0RFctcElBVTRMLXBrS2x3bGxXVkpVWVJlLTNZQWdmMnFFbkxqbi05ejFUbnU5OEJxYkFkR252c3cxZjh0QzVZTjc5c0tKOUVwbGVNX1F5UWZxeDVraHJLUkRMdzJzNzdJZ1FFTmZKdkRJbTlkQm1UMEZIbnU1ZGI3UkRZN1h30gG3AUFVX3lxTFA4c290WWN4ZzJsZ1RIRF9GT0pXcEZfLWszOHR2b2xlOGxSN1l0c1VENU5CeEtLbmhtUjVnOGZEQjBXeGRaZXZhb0JYVS1uVXM4TTdiTUdPWEt4RVdFVmlEcDJOR1JVVTFEdjV0QS1KSmstMmUtaGpYdnoxTmJ4NGJRaEwyZTJ4aFpLUFd4OUJqOWt2OGF5dUVpYjZnbTdNWHR5S253WEl5UHdnVkV3T2ZzaWZTRDhkOA?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Dr Lal PathLabs",
@@ -15656,6 +16280,54 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "China",
+   "target": "10 million tons of U.S. coal",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-26",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "North America",
+   "headline": "China agrees to buy 10 million tons of U.S. coal in 2027 and 2028",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQkI4TVR1RWxOd2hnMldhRXNSLUdWZ3ZGVzExWmhfdXhaM3JjWjRTWFhHTWF1Ym9YaGRfNVNyUWFmWUdXR0NkZnVwMDk4WjlvX3dtLWRLRElMbEU3OW1iTEE3X1NRbnhCa045QnhTSE84T2tZSEhsWWhKZEw4MUUxSWJFN1hmTnVxNXM4U1BIWUdFZlFJWUpr?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "China",
+   "target": "10 million tons of U.S. coal",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-26",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "North America",
+   "headline": "China agrees to buy 10 million tons of U.S. coal in 2027 and 2028",
+   "sourceName": "Investing.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbFM4ajJoT21BUHJsdzM1V0ZseWRzTy0xdVFzMlpORlVDN1FZSGNUcDUzRUwzc1JrcjhNZEs3SnlueWVnSnItTWNPc2xPcnEwOG9UMkpEN0RpV05LVHRpVnpDQ0kxYk15dVJ0aUg3Qi10RlRyaVR5QVJTSjRZSUJETVppcXNlMW9mSzF4cnlqcnFCdS0xZWJsamlVM3hhbEJHUnZ6OS1lRlp1Rnc2LXpKekhNOEZTZw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "MSL Global promoter Salim Govani",
+   "target": "4,751 shares",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-26",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "MSL Global promoter Salim Govani buys 4,751 shares, holding up to 19.59% - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQl8yV0o3OHJoa3dIQVQ3VmJ6ZHRTQnB0SmFNbEpTWkZRWG9HZlVZVTk3dkFpSDdfejRKNGItbzlISUFuOFBHQ2hyNlVpSmE0MUQzZXVvUWVQYWtBRTRMN0xoU2ZLRWpLUTlmOE5kdUVzazVVTVgySnRScmk2MXdyclhRWXc2T3FOYVJtVUhPQ18xWVd2bGh3bkNSNERKNFRibkJTeTFETVhFOGFUYlhyU0pYUUlSMEJqc21BZw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Divisview Antigonish Credit Union members vote",
    "target": "SAG",
    "dealValue": null,
@@ -15813,7 +16485,7 @@
    "sourceName": "KPTV",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVVF5ZFVIczYzbWdGMWdBNHlaajhwQ2lzRENHd191alJaUjN0TGF1UTlOajltdjVXMTBVdThPUlk5WEhQQlRBLVlJU3ExMmNrRG1pQ3BOVGlodkM4ckFDSGI4VHZQX1pJMzhpd0FYR09Id1hMc3FtaXJLUEdUNURqQWRDdy1PZDR6UVZKcVRhT2hsQXpvRzhGRUp2UTkxSnpUVmpiY05MSEZCdFN5SWlZa2dGVVI5WmJOd2xFatIB0AFBVV95cUxNUWJQMzdLSE8zV1dWOTlfc3ppUzF1QkFXV3pud1NRUDBfTzFISVN6RzRyUnItWmgzZ2J4WkZZdkRfR2l2elFBRm5LV0h1UHFIM1R4bEY3TThoaXJ2emE4UU5CN2gyZ1UtXzJCYUZaOEJrX2Y4MUlENnlfcWUxNDBTVWtSTXdEV3ZvZlJ2LUVycmxxZXNjZUtrZUQyWEZsX1NmY2NTWmRGd21YVUkwZzZ0QVJLbmJXcXN2eDFRSnk1NUJtbGFWUzh6V0d1WmJ4YmxU?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Rexel",
@@ -15829,7 +16501,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX0dJQ0hhVS1MeWlSYWdIRHM2RkJJOWFuOTFRbjJVd3pydnRvd2k5NTFQMjk3WUk2bWJqaDlmTXU0eDQzRHNKdFNxbk1LNnh6TzBFMDNIX3hVQXBSOWtQcjFIM3J4eU5JeGVKTHBhRzRpU2dxazR4Tk1UTk02eG9sa0U4eUpFN3VuSDNFUWl1ZUVBdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Gateway First Bank",
@@ -16549,7 +17221,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNG5aTTcwRE5sNGVzcWt4Um9pd3liTTYweF84RE5Ka3M3aEc5LXdtU0J5YWhMay01RjFheGZjOXQxbGJzSWN3bTBwdmo5Vmk1SnpnWWZpSXphUGcxNlUzM0hmWXJiLTFQMHlyUE9KNVJCQkFrSkp0cXU3QmNXUzNjdi1GZGpoSUpidVBrWXRXUmc4UV8wa2R1NTJRV01PYnY5ZkVz?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Court Square Capital Partners",
@@ -16693,7 +17365,7 @@
    "sourceName": "Greenville Business Magazine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1NncFNDWFR6WVcydG1sTGNObGVuelo1Y2U3TlZmZVZnRVFRbnhMRGR5aFJMTlU0X2JFRExLNVJoRkxYOEw2LXNMRzlNYW00MC1qUEhVaV9KZmU0Qkx1YkZySERJVXoxZXhNY0ZMWlVqN2drUjd4MlhicjZGSmJCa2E2VDBnbHBwb1BPVUVzVXZ6YjVMVkx4cjU0akM?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Go-To BTC, XRP, and SHIB Liquidation Tracker",
@@ -17640,6 +18312,54 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Go-To BTC, XRP, and SHIB Liquidation Tracker",
+   "target": "by CoinMarketCap",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-25",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Go-To BTC, XRP, and SHIB Liquidation Tracker Acquired by CoinMarketCap",
+   "sourceName": "TradingView",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY29qLWVpLW00TVBZNlpvQ05vNWFJT1Z5bVBUNlM2M2JQUmt1cmNOZ1V1ZVNJNmdwbVpmWWlTLS1GUFNfMGVTR1NHems2RzZVXzdiZ0o4M282SkpwU3AtT1QydXE5N2dQVUR4S3JTY1RzTlpnalJUek1uTE9iS1B0ZGtuclZZZ191STFKUGlpZ1E0d1NoWHpiT2gwS243ZWZFZllFR1BiMUtEMHFuY0RrN3h0UWpRLTJudE9ZelAyMktST0Vo?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Cochin Shipyard",
+   "target": "23 per cent stake in Dutch shipping firm",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-25",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Transport & Logistics",
+   "region": "Europe",
+   "headline": "Cochin Shipyard acquires 23 per cent stake in Dutch shipping firm",
+   "sourceName": "The New Indian Express",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUVY4NXlvaHVzYm5ucDBKTVIzN1pRaDU1eHByUXFVOW1obk81d0hjeFR2dUtBZHFnalNCcEExYUtSWEtCQmg5RDZIalM0c1pOSlBJSDFLTHRWMDJwRlpadjFSU1N6eU9RcFJFdV93VXdrZVNjQ3QtVlNKdlFQeDVha3JSVkZxemdueVEwZUlEQzZKRVFhTGU4bG1sNHZLRU84S3BpU1g5VnVCMnExNzAwVGYwNHNnUnlYREFoY1lrcnnSAc4BQVVfeXFMTmxSc2tFSFNjNDRxV0JfRFA5eVVISGFQd2pQQjY1aEx6T2xiTW5iZXZSR0JwbFpJQmlTbE82Tm05dlFCWjFIUEdrSjZXeG9XbVdDUUVzY0dlQy00VGpvcUlMQjlHZG1QR2hPUUZuRWhzVWJUWHRVdGtSdlFCdWpqZXBOM040Z0owMDIweVA3dmxSYXRfelNvSUJDV29FMkE0dG9jT3ZCT3pzanNxSmJ5ei1WM21yVl80M2MxLUJURWtmbENuMzdwYUMxT2hnSkE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "R R Kabel executes BTA",
+   "target": "U M Cables business",
+   "dealValue": "$9M",
+   "valueUsdM": 9.2,
+   "announcedDate": "2026-09-25",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "India",
+   "headline": "R R Kabel executes BTA to acquire U M Cables business for ₹77 crore - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekdBdkJnQy1zc05YRUg5aFF1a0lwT04xNl9vZlhFaUhGVE0yeENFRkdPYWp5eW5qNGJPQ1Z5M0tIQWJTMmVBZ2NIcG13ZTFtc3FJaE9hOG1SQVk2UENVdGNWTXktTE10MGNUVmpvNkxodGg4TS1KdHFlZGprNUpZMkRsS2x6OW1LcGtSVnJPQnFvNlpOaHZZbFlnSlZ0MGtEdjdSdzVvSQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Eaton",
    "target": "COL Group",
    "dealValue": "$923M",
@@ -17701,7 +18421,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkZVY0RKUDFBanpPcVNteXpadEo2ZWgwanBnQ1JLdDI3UVBYQ1pwdzkxMmpWSmhzU2JMNG9WdFlUNWdNelo0M3NqWGZGVm9ZX3BBOFdRejZMMkpEcDRodnVMejdTUnE4UU8zbTFmVE1SZTJkMlpJWnNwdExwZUp2czQ5TUJoT25XRlNfSzBoeGt4N3dUWW5UT0xIdVNodjVreVVFWnhhemZlOUtSM2dRX2Y5Y3FUdUxf?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Cochin Shipyard signs agreement",
@@ -17781,7 +18501,7 @@
    "sourceName": "Bloomberg.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX2ZMUUE0T0s3STZwOWdzWHlYRUtjenB3cXE1M0lvNERzYjF0M1luVWd1YTA2UmlMZWwzZFQ0c0oyRFhFQ3lPLVRaT3lCZ3VCTXhIWEFSRTJDMm1sZUd5RHRQQ3NlZ0ZRcEFHM00yX1VwZGs2bmFjcDdkNklzclhWUXNpMHpKdnZ0RUxqaTZ6MkNMV1k3UEg4S0djaEFxM1pYeDdNRU85RklUZkg0RUdSbkxpcw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Realty advisory Anarock",
@@ -17861,7 +18581,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeEQzbzE0ajg5MGl3ZlBYUGg1dlVBUzhrNGdyOHBOLWZSWHVDN0JOZWV6YW5sbUFZMXZYV0FDSVliVDdFZXBBZXhpaW53bHVSSlE2TDRqQmwtdHFlX3VMc0Jwa2ZQZ2VuZEthX19mTHQzU1AzT3JOR0x5QkEtNVlMY1BjOGRnbmpJTzlPSjVpcms5Q3FOeEExOGJ2Ul93LUI3Y2xDc0Y0STdmZnNwdko3MlZQakVJZGFNRmt2RHkyVVRmQkRNWUZ5MVA0Rjhya1Q3cUpyQzgweGlpVkpTeGlWWFE4MV9HM3AyUW1LbDJLS3R2dHBnUjJIRHFaeWk?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Databricks",
@@ -17957,7 +18677,7 @@
    "sourceName": "Power Technology",
    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UZEIzSGtTSkZCYVlnZzhEM2RaUzd0Q3Vjd2RTWm1DX0J5d2lEd3NtT04zaURrSUNtd0dKLXg4bVh3RG4wODMxM24zcmwxRDhQckluSlZ0LXN3TWlYaEtWbUVIOHd5dWZHYl9uVVJ5MFhMM1MwLVdUVXM0RUFNQUk?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Canada’s Oscar Entry, Berlin Prizewinner ‘Nina Roza’",
@@ -18005,7 +18725,7 @@
    "sourceName": "indiewire.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmpRQjlPcENjeUtzNWdWNERPdklZdDFRTUd4aGR6bXpEV0pRbEc4bkRZZHpJXzRVdUFjZXJ3NFBTN3FnYUxqdzRfMExWV2RiVUZDWWprR25FTnFEZVM2MmVwWGsxQ1FGeW53ejhxcWJLeGQ0M1I2M2NuTDE3M1RnUlJsV3ZFWU90SG5IMFNKZzRPUU5JOFR0SkZSaTZHRXYtbVNKYTNoTmY?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Village Hotel Club",
@@ -18229,7 +18949,7 @@
    "sourceName": "Condia",
    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hSUs2dlpQWWlPeENTX1czbnZ5RFdLby1xdm1jRWdSRlhWdkFEWktwck1jMjFCYVNGenRuU2pxTUxSYmRocC05NjQ0SldDenU2VWRWU3hLYnl3S3RuRkN6dF9selJSMXptMG1JMVU5TU1SdDF3dlM1Ykp5QXh2Zw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Eastnine",
@@ -18517,7 +19237,7 @@
    "sourceName": "The Herald",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbU9GcGNNTUplNVF4RzBEOEFmMjQ0X25rMEVoeU5WdGlRVzBkb3VCX21TcFVOYUhwNWtpQkdNTE1zUElZQk5MNTJlZ3NnT0o0dmxBRG5yS3pOSDFVXzJBSkFZeDl2VFUzY2V4WFR5TkM5b1RmY2xKWExzOG9NT2hyWHZyUHVnNFdMRkt6NWpMbVNWOVpkaGVuWmtpY0IzOFV2SXhj?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Dr Lal PathLabs",
@@ -19768,6 +20488,70 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Dr Lal PathLabs",
+   "target": "70 pc stake in SN Genelab",
+   "dealValue": "$20M",
+   "valueUsdM": 20.2,
+   "announcedDate": "2026-09-24",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "India",
+   "headline": "Dr Lal PathLabs to acquire 70 pc stake in SN Genelab for Rs 168 crore",
+   "sourceName": "The Economic Times",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWE9LSk5lMXlEWTMtREoyek9lcVVuRkdWZ1pNV1czYng3SVppajV3bXNzelpyZUoxVTVUQVZiakR4eExEUGxqQ2Vhd3d1TGFEU1BfemZuaFhJcHJNRUtBd29zR1ZvRTN4QU8yc1JldGliUEVUNlF2SDNjTUlUSXg0ZEUyMzNtREdtbldZazhDT3dTUlJnQ2F2aHNTX1owZGtrTjRjT0w5QUhlYkhfQkFWdGcyRUZPdlBnbWRIaVo0Q0JRVXBJS1EwRXlLUFVDTU1pRXhiczBqT0I2RGNRQkZGVGdKRk1GZW5DdGpzdXQ1ODJ5TjZ10gH6AUFVX3lxTE1PaEdFNTEwTS03Q0VZbW5YUk8waFp0SS1WMzFrOFpZdzBOeVVlYlc1UEFtVGRxZGhobHo3bHlWUzhHZjkxYTBJejg1UFJYTjJLdEd5cWVtTGJOUUstdE5veEEyX2ZqTFFpT2NsZEVCQTNWTkppRmNJVEJqZlo3WUMzbkRkZkhWeDBkUEJsNnVWVTQ0QTRuY1pGUUZob0paWW5oQTlRMlhVWFdGRnJ2X1h3X3pnZFV1RFYyNVVUSmNLOS12bVludThXaXFlbWIzNFVrWFctMzZIVmM1S2JqV3BtZ3dUTU16S2ttYUV4YUFEUDA3cWNSMnZfNXc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Dr Lal PathLabs",
+   "target": "70% stake in genomics firm SN Genelab",
+   "dealValue": "$20M",
+   "valueUsdM": 20.2,
+   "announcedDate": "2026-09-24",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "India",
+   "headline": "Dr Lal PathLabs to acquire 70% stake in genomics firm SN Genelab for up to ₹168 crore",
+   "sourceName": "CNBC TV18",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ2lEaC1wdnJpMkxraFkzVlF2a2s3N1N5SlBoUldHSjlCTkdTUk9PWW0zQnNJZ1ZCdDlQVlliOVpKMkVjYnVqMzJDaWM1R0Z5dEFhaENLTnBKM1BtdGphX0U5WHNOYTB6eURKRmhTQVhwVUdTQUVSQWV0dlBSaGcyNFhvSGtKYVZsVk14X1o1MEc5UDdPOUhxbmh2MThoUjJKc0FBQnZuZFBlQXZkekQ3cHNDM2lNbG9sSzRyMFo1UG1KdzRhV1NpS211dWtQR0dfeUt1N3YydzhJY0t3emV1dm80UmbSAeoBQVVfeXFMTnhLNFlLRDIxVG5HbGFFVmRPN0ZSS2wtNkJ6dzNocTd4a1lIeWowbXk4RTU0R1YtcGtTank2bzVyTm0yT1doanQ0T21HZlVzQlZvdkpqV0xXRUVXVjhLYW5xRy1rTF9NY3NmemtWY1Z1c3FNdzZaYkVzZnhhem5YZnBvQWJMY29aY1FJSk40MjRXTU4xQ3VXZU5fWE9oNlFJMkN4TW9peXFnYWQxUjNTR2VNNjJfUWNWdFpIampyZHJqSk1Ic2h4ME5yZWs0Wk95WHRCSUtpSDBGcGo2SW5BcnU2WDJ5QzE4bWhR?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Dr Lal PathLabs",
+   "target": "70% Stake In Gujarat",
+   "dealValue": "$20M",
+   "valueUsdM": 20.2,
+   "announcedDate": "2026-09-24",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "India",
+   "headline": "Dr Lal PathLabs To Acquire 70% Stake In Gujarat-Based SN Genelab For ₹168 Crore",
+   "sourceName": "Free Press Journal",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOME1wQ2wzcE16NjNQY191X2kwRXdUQnFFMDJvYmRZWlVIQ2huQk5WUHhRX0pBam5OVV9wS3BjVjBxQW9jYUlHX3NWWGxWbmJJMHpycUZFbTZVbEdydGwxWWdNdHpRUkdIbVVxTjVDa3RhaV94c3Z0WmNvLUtwdEpidDVZOEJlV1ZXMThyRmlxX1ZubUctVUEySXFrYkRJSENpZlRJQjY0S3paQ3JqeWJXVlkxVkxGeUhCdkHSAb8BQVVfeXFMT0x2Rkg0eUNOdG5ubEh3WC1SQ0V6R0pCQmQwYzlYUmFCdTdqTnRpNDZ0ckxTLUVBaWx0Wk82TUc5RFhfelFpZDNNT0xSUUdlN0wwSXBqcGZ3N1ZDVzFlS3BqTEQ3d0VWZkFad2ZoZjNMUmJRV3NDUk5LVk02QnN2cEZQaE5jY25jUzZXYzlEb2ppU0ExRHNleGo4aG1OMDZPeVV5U3kzSk94dk1odjR6VWVvZnpGUDRVV0M3R1NTb2s?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Dr Lal Pathlabs",
+   "target": "70% stake in SN Genelab",
+   "dealValue": "$20M",
+   "valueUsdM": 20.2,
+   "announcedDate": "2026-09-24",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "India",
+   "headline": "Dr Lal Pathlabs acquires 70% stake in SN Genelab for up to ₹168 crore - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQTJYMDhMdGo3LXhRWHBqQ0hYT0E0d0oydDhCcjZBLWxtbVc3R2o0LVhhX0dwV191RkgzNzZoTjFvSG42eDhRM0lfcjQwX3ZPc0tlNDdCd1VKNDl1Y0Y5anlsTlNEUDVMMkNOY2I3dDFkc2Z3VUtneE5tZXVMSG5fRVlwZ2dSMl85OXFPbmJ3dHNlTkF5NGl0bVBGekRGZlg2dmVObExNUGpzYkktbm1DbFQtaw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Tessenderlo completes $403 million",
    "target": "20% stake in US",
    "dealValue": "$403M",
@@ -19893,7 +20677,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVThpcnVBUzFicGFkUFhQcVBwdG9iVDdnR2VwVjl5ZW92SnI1amlra1FEb1BpbmE4VnlaNHBURUgxLVIxV2FfNHBNZ0ZwdmRReUlGVnNaRGJzT1hBcUlNczltbWlGckltZXkwVkU3ZXp0YXhoVVpNYkNObkF1Vi13Z3BJLXgwMURsR3R2QzhISmlqNXJucTZmZklZRDZUMFNBS3B5SHlFbElKTWpmY052aTZ5STF3ZHllMUlaZjA4Z2xPeGZaYVUw?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 2
   },
   {
    "acquirer": "Casey’s",
@@ -20037,7 +20821,7 @@
    "sourceName": "UA.NEWS",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNzRBeWI3SW00SVEyZVREdThPSFI0ZEFMOWEtTFNWRFpFWGNWS2RDX3VDdVpMMmp5YlJnOFplNVhUWmdXZjdpRVZ4cEtCU0JoOFNFemkteGxyVlE3V1VfWmJmUk1fdWdIeXNjSWJWS2lITmpMc0E1UU9mbjE4aFczdlM3MXRWZV9IX2R3V1N6U2FKM3RKSTNqZkM3RDNWdVQ4dU4yMA?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Kids Planet",
@@ -20325,7 +21109,7 @@
    "sourceName": "Business Standard",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNcjFpNUFsTW1ybXd3bHZCYzBkbmVoS3I0OW1RaGRrYkhxZ3YyTGExZjlORHdzY21MZVc3bGVOUTVBbXNONDZtZnBScVE5MDloT1NRelVCMTBuYWVib3FsOE1qU3hBNGxMaXpUZm9GOWF1Tl9vcGNkVTZkV3V4Nmdua1Z0WU9nRW93VnZZZklyd3VJYlZfczJneFBjVFlzQm03aFU0NDBJR3c0RjZZMzNhLUItcGxYczZTNE9kR1dmMTFvNGlPVkFueGlyU3hadGRCZllJX3E4ZG84bEdrSkEzNDlqckdHLTNuZkF6S3hHS0VBWGcy0gH6AUFVX3lxTE1lc1F6U2RoU1pUemxfejV1SnNSbGc3LXREOU94bERpT1ZmTlgwMzNmbDVqUnk2bUlBTm0tckIxMHR2SkQyakx2aWNvZV9CLVJGcGw1c0k1UEFPaWhyZzBEM2pyRjZMWXZyVlA2eFlRVTVMbVhrX25LX2ZyQW9UTjFCMFRUX3pSeGVwUTRtZDZCSGtyWDl6b0hsN1dJaFFMRm5zbFcxTkRJcG92SnZiMWtuaWFoelJ6M2Jpb0JaWDlBeDRGSFVBMkNqRC1Va0o5Vk5Dd3ZOT3pQb05TRHc3SUpSV3hjZnVBY3ZFU1NXSmQzNDFocjZqeWZ1UXc?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 4
   },
   {
    "acquirer": "Clarity Metals",
@@ -20453,7 +21237,7 @@
    "sourceName": "ET Realty",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ3prWjdHMHNjbk9BVTZxY1E2UHR5Slk2ZjhrQW50MGQ1ZmJubUhsZGwzMnVnTThrTjhZdGQxWm12ay1HQ2JmdzVoOUd5LXVmS05uTVZ1MVJ1MFV1QmVtS1l5SktMVmJ4TU1HczJyMkl6UUtZSGN4QVk0YlB0SWIwRWVDRDlJQjF5MGRPTkc0WjZEdnZXSlpCMUxSemxnSVFOZllPbHYtYzR1ZjhTRTZHSERYeU9wMjNsRndnZGZkSUhpRjZ3cjBGdGozcEVSUWdyeko5MUNSYV80d9IB3wFBVV95cUxPYjFBckx5akhqV0VIbG04enNXejlZUTQxMWlmQXBTNG1sUVp1VElub284ZE9GRlRQMW9MelI1aFJZcFNacDg0UzBnNzlNOFVyOExXZ0tCOHFRSW1CMERZVnpVTF9QZzY1V29IMERQME1WMDFYNXVtZWxxR0RCc0lsNVVzRkhDdXN3TVc0ZDBRLTY3TXBKWUFEclI1cFBjQ193UkpRWXVvenNOVmlyZ2xwdXgwZFNlWVlFOXhSTlgxVm5OOW1Ic1FYc3RCRTRYTkxvTlhiNnRxWXpxX3hONXJ3?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Zuari Industries",
@@ -20581,7 +21365,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1UwSWZTMEllel9vTTcwYUJIWGI2c0RIZksySFJSMGt0WEkzYXhzRF9GeUFRUWFwT0wxVzVobnRJSTFHUlRtMmRiMjRDZkJYUl82QXFTSU1qbEIyd2dzMlUxRXlUd282aGNZWS10TnVHLXpuUkduYXVJQ2loY3ZrV1FzLUZkT3M0XzdhRHZ6TFh3R3l3TUhhYTZVYzZ5cEhpRjltUE5NZVpPQnZpVlVHM0ZSZTVkVS1VYk5EcQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Zuari Industries",
@@ -20837,7 +21621,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZGtkTTFwenZzNUJkWjFqUmpFWFpBdkVyRXZLSmV6c0NUajZoY3pidG11QnVjMTVlM2I2aWYxVllzaGkxakJSeTZWR3FtSXNROEVXejA5WHBoZFNNb1dMd0dDSVozY3YwYWRGRnU0dnRZWDRDSF9kQVJNTEhlY3E1aHZGYy1LZzRpeWdqamxSYURSeVo5RmFMc2xkNnNWeHBSVGlsREJhZ3pEZEhHNEE?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Garmin's",
@@ -20853,7 +21637,7 @@
    "sourceName": "the5krunner",
    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EcHVpZU9ZVmxxZTF5NktmaFR6R1BOUVdrY2NMa1lkbnBVcjdfamp6eEJWNExXeTJ3OFJKWW1VcFlBVi0tSHowY1J6SjFUOTRLZEM1LUNVWnRGQ2pzQmM3MmFxdm5lel9PRkNkQjFnSnFQZw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "Superior Energy Services",
@@ -20933,7 +21717,7 @@
    "sourceName": "Sahi",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQm9EcHctSm1mMTJjckY1T1ZNWTVmUUNXODZHUUh0VU95YXBsZENuR0JicnNEWkUtbjNLQUFhS1lKclZ1QVNGdTF2ekdhRTlPOTlZSWdmT2NXX0o3c1pITUtFTXJZb094TW5mNl9jT3VueUR1WG1HMjdtMXE0dFo2UUFYcE9FOEFTenUzeG5aS3ptOHF6cVVzRlZBUktTSnh3LXBRd3NOM29rYzg?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "European Aviation",
@@ -20997,7 +21781,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcENBTVpXZ0V4V0FocFhoZGJFWkNQMXVTRE5DZDEtNTVGejBQZ1Q4S3BQcDhQYVJWSTA2SHh2RHRtQU5FcFh6Sllwc3d5LXZmMWVZQW5oTmJqQ3p0eklUWlZwbF85bGtCdG1DVVVxMzRwWGc3dzlDSjNKbllhc1RqSGMydDlOamJvRkJQd1NPaU0tSmxFY3VXWDc1RXdTZU5JTldPNk41ckxSZXU0eGl2ejNwRWxueUdrT3V3OHFpb2tJVU9VNUluUW4wNjV4b2MxaUxQa1Bkd3pnTXhpMXd5UGphRDBlRHRoM1BtNkZiRVdNQktF?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 3
   },
   {
    "acquirer": "Heartland Bank and Trust",
@@ -21109,7 +21893,7 @@
    "sourceName": "Variety",
    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONEtNYUl2b2FNNnJoTFp4RVhIZGhod1BJNkg5bm82dHpmZ3BuM0ZnQUdGaVJQZEdtZ25GR1E3dXhreTY4NkNmelpnemQtc3lPWnpMUEtJLXVpZ00xemtGNTFDRHZSblI4cS1EREZBRTNaMmFJQXhfdVRSUzBxS0tCOWpTdkJfaWFLeXdjakF0MWRKcXBMQU9MOWEyb1NfMFcx?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Michelle Yeoh Action-Thriller ‘The Surgeon’",
@@ -21125,7 +21909,7 @@
    "sourceName": "TheWrap",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRGRBWFNsZVhSRnFDMWg3ZWpKVXVCbG00SlpRUndIREpudngyc2NSMnUzWk9BZllXUHFqWWNZcW9YV3B6VmFIVWRCWjA1cmhDZW1XaUhtNU9FZVhnOEg1Qzd0WGdfRU1BdWpHbUMzTEM4UjhQZ0xQdEpHOXpnVF9OMXdxZ1RNM0tVV2ZpSXU0eDY2c1U1ZWlzZ3NLV2ZCZkk0RGM0bWJQTzFpeDNkZzN0SXJLblg3bl90a1E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Werner Aero",
@@ -21509,7 +22293,7 @@
    "sourceName": "BusinessLine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeFVwR0R5V2ZYNzNVSlNQaHhWQmRwWmdzODlJSDF2RmI3THFZSGpYZmJ5NV9jaTQwNGduZU1nTjF2RnVNMU51Z3M5NDd2VVhqdUc2OExUazZ0cDc0VXJrZDRvbUs3blA4TE44VVh3RVk5YURzd3RSWWdrckswRXF4T2c3aVhxU0hqdnhHMzVmNkFnQzZhdjQ5LURGRV8wTXlLQWM0bUVJV3Radm1jV1lzU0J6c1hiUmFiT241X3pzbDY5MzVkLThDc2IyMWdBS0tqZkV3SmtvX1E0eTduV1JxbjNpNTlwRknSAe4BQVVfeXFMT1Nsc2dJTjZpMmcwZHZzQkZ2UzJMZXdLZnhDX3J0WG9sR2VGTVA1VW94eG0ySnVOS2hkUVNFS3dDN1FxSVJfeTNHbEJwWjMxVlhvODFzQUlWUzEwY2xZV2ZzeE52TmhEYW5ULUZseTRTanlTNEtqOFFlYUpabVlXcHBfWEdnQXZTWGhyOWZCS2tsajRDMUYwWi05Ty1zQkMzcGxRd0x6RUg0ckdYd2Q3c1lWbnA1TWZRRUVGOUFzVlM4amhvS2lxZnRxYzQ5eEVKeVczWklGaHE2QkYxZ2lXclVWeTVBWGxuaW5iWVNJdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Willdan",
@@ -21733,7 +22517,7 @@
    "sourceName": "TipRanks",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmt1aURUY3VST2taZ185Yk4zNmVQYXRoM3hUTno0OXNoWHNtbkd2ZjNVbW9HLXhkdGJabUUzX3N4a0loaGlpZmZfWnhoYWFPX1hkdXhtWFdkQ2w4MTNjOXFwLVBJSTBfc2RRWnVwQi1UN2dob2N1YjR1bnFfNVpMTVN0eURsUEJOWG53TWJRb1RSb05GaFdmbGtwczN1bExOVjlOcUcxTkpnOERpQ1E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Press Release: Rocket One Signs Definitive Agreement",
@@ -22152,6 +22936,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "Hg",
+   "target": "majority stake in ENTERSOFTONE",
+   "dealValue": "$1.1B",
+   "valueUsdM": 1080.0,
+   "announcedDate": "2026-09-22",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Hg acquires majority stake in ENTERSOFTONE – Valuation at €1 billion",
+   "sourceName": "CBN.com.cy",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJraVNmdFJGdDNiTlN2bWFOb0NxWllaTEZGLUREUmtsZkwtUUhjV0w2R3RhMnFJd054MnJEc2pkNllqbjN1SW5GMVFPdGJ6R0hQSUZzY2FnMzhJNlB2M08zWHpkUURnbGxZcnlSaHVkSTBtNTNxQ1ZadWo4Y2lNc0dJWElqRnRZYVZURHpfeXRHSWVCS3RoLVoycl8wcGVzaEhfeDlR?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Fredun Pharmaceuticals",
    "target": "26% Stake",
    "dealValue": "$36M",
@@ -22309,7 +23109,7 @@
    "sourceName": "CNBC TV18",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNTlJaUI0eG5YOEpwY2tjS2tGMXJvaU9SRUdYaTF4RVN3YVk4c3h0eGtzNmUyS2pCbm5PdnpRaWlvWktMWElMekZzcjdoZl96TU9HOWdwRFBfaXBpNEFNRWRUUTdqMnI4UHNwRk5jYWlIUG14M3Z1RzBHOUFJcVFhM3BJajBpNnlTc3JIejBVOGl0SndEVVpOTkV4eWNPWnMzdWxXRVRtNlg5MHNCcEpFN011Wl9PNXQtTExWLVNnS1dpY2hKOXBack5hVTROLWFLckZaZDR0RWpRSjFIZkFmbXR2V1hEcjZhX1IwZWxkUXByRjRBTjZDU1RaMNIBgAJBVV95cUxQLXRCNDNaYlJ6bm5qMG0wM21lMm9Wek5MaDVaSWR6aWNmYmtmU2hrNkp1U3VZcUpnX2w4dW5vdnN5cnpJVmZrVkFEYlRDaC1jQUFKSHlVY3dZOFpVZXFZTVlyQ3QzTW9QbHVwUDZPNTJLLS11NFFta1NYT0lSTHV0TFlIRUc4dDBlZVRMRHNiMkFPR3YxVDZnVkVjMnNTMEdtUkZPb25MbFZkM2tIVkF6V2cwQWNnb0d2amZzUmhxN3p0NUh0LWpUOExuVjN4TWJQZEpMRm84b1g2RkE0NmZScnlHVnFVemlYR0FCOEFOZERYYXpvWG0yOFl3MFQ5YXBC?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Kamineni Hospitals",
@@ -23013,7 +23813,7 @@
    "sourceName": "finance.biggo.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hY19OdlFoRkRFTWUzdnBNLTF1c09kNkNoWlJLUkxWcHNaeVV2WEQ0UVE5LS1PcVVGdGNCUUFCLUZmLUg2ZFY5Y0JsSTFEMmxBc1hqVnVZSzdYZk5aZDVMU3Y0QkxKZjNVMVJ6al9kaUJoLWk4Y0E?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "SMAST",
@@ -23109,7 +23909,7 @@
    "sourceName": "Dealroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVpKM1hZMTE5YUx5NmI2YVdtOTliU1c0V2I1Q1pvQTRqUk1kdUZEZXNUWFNJa2Via0JIZFZoaXV1clk4TElUQnZzald6SmRMUEc1U0RoLWJpV0pLOHhYVGhPZTJEME1uSUtaMGdFSFVzTzA0VkV0dGU2aDd5Z0g2MDdxb2VYdkZETk02SHJHaTRNaUhZbUhSTGNMWHdyWERwdWdURjBycFo2TFQ2RkpHbFQxRQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "MA Financial",
@@ -24533,7 +25333,7 @@
    "sourceName": "bestmediainfo.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNXZJNzNnZjJPVEFiYnJ1bldDeTI1eXRzU1ZHQVROUFhsRGM1THl5b1g1czFvWFFmdGZYSU04VGZjcEdTbldZVUp6OEVmNEYzRWhSblktSVpjcVJfblhTbVBjdmt6OFRyZkZMN2RfWDBSZnBZWVAyTGFTY19uVjBqWWdYMUJEaXVfeE44V08zaUsxZ3AxYmZtR05Mc0FpQ0J4QmNCcGlKXzJWUklRV0l2VkYzQnBTWFhTTnFnVFFYX2ZzTG9VQ1lvWHR4Zy1kOEZ5S0pZakNqbFdmR2FqeEtZME12dVpueUJueURLQm9jY9IB7wFBVV95cUxQNXZJNzNnZjJPVEFiYnJ1bldDeTI1eXRzU1ZHQVROUFhsRGM1THl5b1g1czFvWFFmdGZYSU04VGZjcEdTbldZVUp6OEVmNEYzRWhSblktSVpjcVJfblhTbVBjdmt6OFRyZkZMN2RfWDBSZnBZWVAyTGFTY19uVjBqWWdYMUJEaXVfeE44V08zaUsxZ3AxYmZtR05Mc0FpQ0J4QmNCcGlKXzJWUklRV0l2VkYzQnBTWFhTTnFnVFFYX2ZzTG9VQ1lvWHR4Zy1kOEZ5S0pZakNqbFdmR2FqeEtZME12dVpueUJueURLQm9jYw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Sky Gold & Diamonds",
@@ -24613,7 +25413,7 @@
    "sourceName": "Dealroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRmNSWDM2QW1VUTJwX01tT0J2ZlNkQThONnk1YUxLY25lTnpKbEJ6TnRvRkdieVlZTmpqQXZORk10UkhtVmxkV0lmVkgyRm55UUxSZklCd0FGZWhnMEcwZTZodWEwbzIyd0lIN2x3ZEhqWDg4YVg3TFk0TUlQX0l6TURjSjN1N25vekNydUlQSnpvTFhpNVlZYTJZaTlJN0I0Y2ptWGk1a1A2SG13cXJsNXcwS2lJU1U?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "PB Fintech",
@@ -26821,7 +27621,7 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUUZ6YXphQ1lkTXI3QzRZUlBCVTN4S1Q0alNkdXFpOXNYMWhEdDdnUjNicHRnSGlaTngweS1UYk9hSjRkc0NHeVB3V0Jvc1Jra2tMOEM4TW04MXN2eXVOUDhVLXpINFFIVk9iMFBjUTRhZmZZWnBUaTdkempWVWxRTV8xcXFxRFItTFRDbXl4empHZzNDSXI0cGk2RVVYWmFWRGc3WjhXbjYzX3ljd1I1MS1OWXhSS3p4cDFReHBGYWpqT0J4YzNpd1pKVXN1ejZCQ2RZblpDSnBpZ1l3VkF3X1Z4S2s4MXB3a3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Niobrara Capital",
@@ -26965,7 +27765,7 @@
    "sourceName": "BusinessLine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSnlESjVYcFBTYVctVmIxai1Ec0RhNHk4c1pYTkc3Q0R5TFY4UmJaSk00U3c4c3dhaHktN2hhNnVGN0hBOXJsYy1aTDJNamozcHlEV1Fvb2lOMldDdlpTMk1UVDNkbUlLYktRaFJUeDZLdlU5MURVOGZKQ2syUlVCNnEwczhWQ0V1bUFDQ0g5LTRkQ3F2V0FZcHFRaGlqTVNCZFZQbEl4QTRJc3VmQzVEUzRETDZ1VnJnal9XSnBONnDSAccBQVVfeXFMUDFyeWRwck8tVWtWU2Z0Vy1ieGxDS01mNWlNczdBTW9wWDFSUUZUV2pudE9GeDhFVlM1TklGMTNDVGhlR3V6T25wSXNXUkd6NldDcUdKTFVpdmtWOFpqd2MwZnRRNGFRY2pub3ZvaWsyajZaaUVya2xQenN4NVQtQy1hQXhGa1Q2bm9GWUtwZ196bGpMTHJXSnpoUktwZ2N4d1J6eXpTdDVSQVFRY3NodmNQTk9UMFR1bXVPdmtZSEl3SjZlVFg5WQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 7
+   "alsoReported": 9
   },
   {
    "acquirer": "LT Foods",
@@ -27109,7 +27909,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHpaVUpZbEF6aTRfdGhmdHRXUHptdTFOeE9lVkFxOTNqWkZ3cXU5d0dPbmhaTWx3M2c5NE9aYTNhZTV2UTltVy0xNGE3bjVLSHVKcnZ6aFp5dlZUT1B4WnNVLVU2c0Q0dVJIck9NQWxVWEh6U0lNUmFtOGotalNCTEZmMUNhZmpkQU9KbEdUckJFTmRha0NRcGpXWHEzLVdKcGFNZ2hhYUpKZHNXR1VhTjFWTzBXcHRTVnItbC1FeXM?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "DRA",
@@ -29173,7 +29973,7 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemh2aGJlWWkwRlBoVFd4S09yWjhmcmkzLU4wdnlDYnJxOXBJbVRMVTRPN0lrZVptVGRpdlpuRVpPUThVdEJCWVFFVnhWbmR4bks4QjFtYy05VkNCcG5FaUdSeEVRUWNLSWhUVjRuZHp1MmRfUWM2ZlNULU9mSVVtWGJUR1RvUGtESkdoTnZ4Zl9VcTctQ0hwbGx4cDdiT1pNdkJGbWsxWWp3QkxURDhsclk5dmx0MGdyYzZYU2VpaHk5ZERHWmpoWE5BOVJtM29WcHNHYXpSS2JldHc?oc=5",
    "feed": "Google News",
-   "alsoReported": 13
+   "alsoReported": 18
   },
   {
    "acquirer": "Google",
@@ -29205,7 +30005,7 @@
    "sourceName": "CXO Digitalpulse",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZG05X0w5TGIzekpQS2RBdnBHSHlhMkxxYmZPbEVMcXphZWE4ZDhIUkZ5TkZ6RkZvRHpKcUhBSzNNOGM3bHc1NnRiM1F0cFpsQUpGMk9xRU9OMkxiel9zR1VSSVlMTnh3VnJIRkcxVzV4NkUza3lEb3llRWdrU2RqeF82ZVRKa1F3ckZMSXRYRXY1MTkxTDFfNlpHRk9xTnIzcFJ6WG1OaWhROVJDQXc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Essar's EET Retail",
@@ -29477,7 +30277,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbl9FZTN2VzhSZmtha0s0VnlER1l0SjE5Wm5peUtaaHdrRE1HWVBXODg3Z2hXdzhWdE5NRzlURTZyblZpNk5HcjBwcW0wSjRIMUR5UGNFNDFJdm5rOC11VWhTNEFfVFNZMEt2QzBfNE1pbkFsRnRaVDhCendXRE1ETHJBWkNIYV9DTm02Ym9ocTB5cS0wekpCQUYzcGpkZlFjNkUweHp2SE8yaEpDQzBieg?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Crane Company",
@@ -29557,7 +30357,7 @@
    "sourceName": "Dealroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYUtidlZ4RE83MF9sMVpPWmladFpDbmliSFdmVXcyZVlGZnAzSkJ4R1R4Y0MySUl5ak5Pczh2VDZrdC1hTHRuOVUwdkhOV3A1amhMQ3AwSnFSbUdaQk9LandWRXRWSnlPbzJhblZCNlFUTWVQajlveThJUzUyVTVKQW56d2ZXejVDcGhZbGVsTWRVZnVLWEZXbXhHb0R2RXBMOUlnQUp5RTc5MnpTb2JN?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Idaho City police",
@@ -29669,7 +30469,7 @@
    "sourceName": "GOV.UK",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVDktM2J0UEhORnY4UDVGMWU0MFJ5YURwWkJoM1Y3c2FwQU5sak1iV3pUYVhsbnZyNHNzNUVHcGFFS3FLSklzMjhaTTBheDZjZHA3RmtEak9TSy1pS1I3YUtiVEtoNVZFempRbkVCNXh3ZUhUUHotWFdBSjdtMHk5OGFtTkFrSklwVmc?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "East Riding council",
@@ -30008,22 +30808,6 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Solar Industries signs ₹12,951 crore",
-   "target": "Omnia Holdings",
-   "dealValue": "$1.6B",
-   "valueUsdM": 1554.1,
-   "announcedDate": "2026-09-14",
-   "status": "Announced",
-   "dealType": "Acquisition",
-   "industry": "Energy & Utilities",
-   "region": "India",
-   "headline": "Solar Industries signs ₹12,951 crore deal to acquire Omnia Holdings - scanx.trade",
-   "sourceName": "scanx.trade",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWEp0bDRqRHFTaVVXcXExTEl4ZjJENEtyaEFSVEJ5RHlaLU9JOTdDT3RuRjBBeGlGYWFmRFlpQkRHU1JIVU13SFIzWFVmTFdQREZDNFhfN0RHdVh3dVRia3hKQmJwWnpEOWpwOWU4QzhNV3NDWEhiZVJwVDJZX04xajhwZ19wSlBrVTJ4aHNTWFJucnVLd2dJY3FRdFpZNnQ1ZzBoRGNfekFMSmJhS3Q3VUxKRVlIUV96MmVScU1lNA?oc=5",
-   "feed": "Google News",
-   "alsoReported": 0
-  },
-  {
    "acquirer": "Jaggaer",
    "target": "Ivoflow",
    "dealValue": null,
@@ -30357,7 +31141,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGlweWRqeWlQRWJ2MVQ0c0RmcjJtV2NWQmliTTZGSUdwZDh5NXNCdnB1MkoyUDYxclNtVEhyMnJoV05qamNOVXZpNjg1YWZTRzBRSkptSXAyZFIwcHBCT3pHS1ZpY2JhVGFtQ1EwTDlUdWRFd0VnM2R2RGt3YjZVaUZmQUpNYXNZV1dRdi12Yy00X2cwa3NkRnl1YTlpbFJVWUhNaXhiV3BpajJ5bDJyX3ZNTlRLMF90cGgyV1d4clk?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Ancla",
@@ -31384,6 +32168,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "ACV Auctions surges after Copart",
+   "target": "company",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-11",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "ACV Auctions surges after Copart agrees to acquire the company in a cash deal",
+   "sourceName": "Quiver Quantitative",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdm05R2V0LXdmV0hSNHo2S25wdmVPVW83Z1lodnJYT3NGeXd6WU01eFVUT3lWa25CbWxUcWYtUmdvdEVCRWxQVGMxLTVqd1I5bTMwRHdkNFBkUXdkZ1FXejhaRy02ZHdOLVFHcjVyWWlXR1R0bjU0N0RYTTU5ZkNrZkRKaG1CUWJkbFVScG9VVEdhYWZ1RXpnWnlDMmZBYVhSekV3bzlpWXlrc214dkY0?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Govt",
    "target": "796.28 Acres in Bahadurguda",
    "dealValue": null,
@@ -31509,7 +32309,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSldXS3J5YkhhRGlJVlQzOVVHUkZXdzdwMDgtMWowaXRLWEJtTmtNMkg5dWVrU1ZjWWpYTmJvanNZUUYzRkhKdnd5X0VjeXhoSTMzZmhGUzJfOXdXZmRKX1JObHAwLVcwNEJDS1lHM1AyS0xXM01hWS1yR2lEaVFHelNKcjlzUkZXZUdpZE1tTTAxdFNkOEYycjZHeHVnQ2U3?oc=5",
    "feed": "Google News",
-   "alsoReported": 6
+   "alsoReported": 5
   },
   {
    "acquirer": "Swarmer",
@@ -31525,7 +32325,7 @@
    "sourceName": "AI Insider",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3NOQTdsdzcxalkweFlDVmZUNllLM2Y5UHNVRVdZMVZtN1FOVU9Hbm1GcFYxME5yZ3BKYTRySVhrY296RFdkYkNDYWQtYUk4WWgwX2hvbkZEWjAxbWpwQVVDVmlaN0JrMG9VSHNvUlVIRlhuZy00MFZpeGtvb2pmYVdMZ05jVzZVeGR2dG1ZdVpNV2F2MFBkTkVWZTYweHdKcnc0Nk5IUnVTRDNSdFR5c05Tcw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "ACV Auctions to Be",
@@ -31685,7 +32485,7 @@
    "sourceName": "Stock Titan",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVTlzT2gyNE84QjJBZnhMRm9vX18wRUpIYmJZUmhXbGV0VGpuNDN3RE9kRFUzdHFBcklGTVkzbXR3RW9FUVlYeUsxOUd1Sm5nd0k0c3lSS3RkclVGOGMtVmhFMDUzOVNNXzdqRXpoRnZHb3RKUHd6U29iZVBVc1c2UzBTZGFPSDA0Q2hMTG05bGQwZnd2NV9nalRJVDdGeXptNnpIWlJpaFNGRnh5VWdhd1FfTmVZV3htSUh5RGItcFE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Berkshire Residential Investments",
@@ -31941,7 +32741,7 @@
    "sourceName": "tradingview.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQW9BVXNnVlVySjk0OEpVc09KTXdsdzM4RGhvbm5jWUEyQklVb2JWcW8xRmhQRTdIanhvY0l5LUgzU3lTd09NMm1qWU9XNU5YUTJKeFpfZ05URnBaanJwLXh3M2c1RVptemlacFMtMlU0eTkzMlVHRzgtb2Yya09LSERzSWl3a2VuSnAtYnpSaVZfa2YteEVhLVllZ2x3MVlEQXdBdUEtSHVNRlg4cG1kaG5KTkNIeFhYWFZwU3lVbVhVeFNzZFh6UVVqaHpwTHhKSWlDbVRiMEFfdUQzZVBrRTlDSDBJcHZFOEZmWkpyNDMwejc2YURIZXlrMTE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Council poised",
@@ -32277,7 +33077,23 @@
    "sourceName": "Qualified Remodeler",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX0txVlZOUTl0eW9rYWFicmV1LUY3Z1o2bWV6ODVjaEJDV3htR0VrZ044WktYTEhEcU5PQXh2cDIwaU42dElpTF9ZVUxmSllVRTJDa3dYRFVXNE0zTlRuWW1rQUVWX2gzcWJOR3JRc0dLZmpLdl8xcTV0RnhqS2xlNHVJZWZiOHRzQXBVVHRqbHJFTmw0Q1JLT3drcktITFZ5WXo2bw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Asian private equity firm MBK",
+   "target": "Japan home services platform",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-10",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "Asia-Pacific",
+   "headline": "Asian private equity firm MBK to acquire Japan home services platform",
+   "sourceName": "Nikkei Asia",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMzFXTGxwWkQtam5DNFZrR0Y0azh6Nnd3aEdmdzBGRDAxb1hsbW5hMUZnal9CWkwyemZ6T0xXeExUR1ZraHF1Und1UkhmS3U2T2VrZWx0RFdtVUVjZ0tjRHg1VjZOSXhYODVTdUF4Y1UwSDVJOEhHT3BwRWRaemxzS2JCcS1iLXlGVHlDc1ctR2V1QVpjVXkxN1dIY1N0M3ItT1ItdXRJeWx1enpvQlVwRUhVdFA4a1RF?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
   },
   {
    "acquirer": "Rocky Mountain high: Enbridge",
@@ -32501,7 +33317,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODd6UGNZUEZpcXpRVXBTZUxGdjNCR0dnS3hNblRpMm5MZ3Vac3VPanNBQ1ZpeHdkV21pdWhYZVZXVnZuUUN3MGpDQWFnQ2tSVEJzRUdhOG8wNV9UT3NQVDlORDQ2SE5OdE9pRUEtVDg5Sm5UWFVCNGVXS2ppT1hQSThOWC1DeDd1OXJtNFpTQk1ETDh0bW9TQTZ6eE15MWdYeUtBYWZMZjlPZlBYTmRFOQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "Ancasta Group",
@@ -32533,7 +33349,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONWZ4cU5Ua3o0M1hlTDlXWmdITDFfWFozVWdpVTVENXlLMlhLcnRxTFE3SGd5bmJJM0RmVGxvV0pZMGRVdnR2dmM4dDFaclczb3VOS0EwbmlGcm9JUlI4TUVMWldoZ1JxaVFGcXVnLWtIcFkteXNtV1lGaHFnd25YaEg2SjdRNl9oLUZ0eTNzY2hUWWVtVXpBaU9ueU9fckU0cDhHMlVzS3JORXlyYXpBT0lQR1dyYjFFNDJGMkR6bEI5WGtFdDVJM3VKT1ptVmNRUG1uRjV4ZmFiMjVkUTFqbVQwRHFzbVFTdXFkOGp4WW91LXRtODhObmJaZXptb09UNmNlZkQ0dkR5OVVCZTZaLUY3S242UGZNTlRCQlVJQUotMHNaRXFVOFV4anFoaTNNbU50MENzZDBMZmRkUlNhaw?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 1
   },
   {
    "acquirer": "Envestnet",
@@ -32549,7 +33365,7 @@
    "sourceName": "401k Specialist",
    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX21FQ2tpalJIcXRpbWd6d1hXcmk3SlB5VkhYTjZfbVZWbjhvUUJCMmJxUWI3eDZRWVI1V0ZMZnRhMHBqSUQyXzFMMjEzWDRDZXVTR0hQbHdmdkkyQ2plelVsSDUzR3o1VE9xYmdvemFKZ3IxQ1R4QXNNUDFJY3BtUlc4MGEwQ1FDTzRYYnRTdVU1dDJycFE0UUdzNFlTeWRN?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Envestnet",
@@ -33077,7 +33893,7 @@
    "sourceName": "Business Standard",
    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQUdfU1AyQnd2aFFHSHhfdXJTS0Z3T3AzbV9jYy12ZzhzQ1FKVnVfWUE2QmF2UFdnQ0QxZ0lxOHJGZkRCZS1Bb05CM1FKaXhnSllwMjItb2lvWjNPV1RVXzJ2Z0VIM0pIbGxqOGdmNkNlRmVYVjAzNTVOVVR1M1I4NV91S3JOWEJKUGQ4V2NYb255QVpLLUg2d2hDbVh5UThBak80N2dHbUxjc2lVdjlBWHBwTnZlSXRvUHJSTVNfRzdNRjF6SGw2dm1WckN5RW_SAdQBQVVfeXFMTzYxWjJHaF9jNEZ3clh3MGQ5MHlMWVFSUGFLMUtSZEhzMnYxUkdSUmFQbWZlcGxidW4tNkhoTWg5VU4yOV9qMU9OdG5tQzJrTnduTWVfUjJuTEhKeEk3STU2SVN1ZlkwU3RuMGpNcTlMbTNnMmlnQklHOWhOUll4SHUtS1lFbmNHN01uOFNIaDJETi11emprOGd6MTEyMFNfaXJWUi1SN00xSzNkWUdlcEViNjROcVlEZWU1T3JISXdhZjRGTER1UXpUVC10QUlVVkJVQlI?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "GameSquare",
@@ -33541,7 +34357,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGtSLTd3Nk1faHN6RU9UX3gwVkxHTk5jeGlUeVIxLV9hLWVab3FaVWN0Zk1kYUdfYVltaC1rNzJsWjFyUEdMZ0JkTXYwaXJkeXFYcUEtWl8wa3JVM0N6OEEzRmJHSzM5V29YWllYMzJRTXFINEtENkEwSnJNd0x5YWMzUW93c01GRHg2YkZlZEFZMEpHRzNsQ2s3X3QtRkpwemRiN2VFRmFCN1pq?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Private Equity Firm",
@@ -34501,7 +35317,7 @@
    "sourceName": "Blockonomi",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTWdMNFg5S1d1NE9MR3hpZEVYZHRIV0JqQW5FU2lBMEZpQ2VhV0wwWWZWUjgwb1dwN3hyVGFRM2dXVkswTEtGeEVBSks1SEpyMzNjM0pBUG16bmpZb3lERWFCNVdiN19SVEUtSmVLYU1CZE95RGFteGtUbUpoNHotV0RXYmRoZw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Systematic Industries",
@@ -34693,7 +35509,7 @@
    "sourceName": "CoStar",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQnhWUVN3WnlMX2RHbWFhWkpIdzdoRUtWVVUxN1EzOEI0Y0dhaFF4czg5VU5ROUowdXdrbGRxcXdjSlN0MWowUl9BOWNVamk1c3lzSkhxZTRjMmx2eXFuTWh4dDZoMGkzaXBGQ1R0SWJ6dnhsTXFIc2xWLTdKbFdsRnA2amtYM2xLZjRzODZCYVFRVVlNY0ppRDhCZ0ZHWU0?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Circle",
@@ -35493,7 +36309,7 @@
    "sourceName": "Las Cruces Sun-News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUGpEYVRFbjNsMVAwUFFUek9KUUVZMy1BNHJTUTRwZ3pDaUtMRC1zclh2VDdRUWZhSkE5dVJheVBJYWJHT0xaWTNTM01XbTdkdk9yaUg0Y2ttXzdtODR4dG9lT0FhTEM3aklnRXdQS3ExWHFub1QzQ3FvbllmMnpFcWFkNUw1cUZsTXZEOS1zSGxyMGl0M2NGQUdnODRzUXRqZjFOM3pDWHlzSEdCNEprcnNtUmtERnpScG1KTjFMZG5NZEF0bmZ0RVFDSUxXLWc0Y0xuenpNXzRRa1UyQnVGUWJ2S3ZqR3R2YjFyd25qeTE5NHpDQWlQaUlXNV9Pdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "L Catterton-led Consortium",
@@ -36600,6 +37416,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "L Catterton-led Consortium",
+   "target": "Majority Stake in HYROX",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-08",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "L Catterton-led Consortium Acquires Majority Stake in HYROX",
+   "sourceName": "Fitt Insider",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWjBUUUVQSmU0eEFPMkdXMF9kdVJPTnVjdmk2ZFlwTi1hUTRuN05WV1FVZXFvSE1kU0I0Zkt5VDBaLTY2MFFFem1sSmpRTzF1Ni1NQ0xtNVhibUN0cTVEM1gwZXpQUWlnTnV3Zm50QTlkLTZCSW5FeHIwYTQ5OHVvRF9RTzN5RWxOLVk3WA?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "L Catterton-Led Consortium",
+   "target": "Majority Stake in Hyrox",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-08",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "L Catterton-Led Consortium Acquires Majority Stake in Hyrox",
+   "sourceName": "Bloomberg.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONjVWTGVXb3NpV1pWeWxIVERVd3ZxZWxOZG5tSVpoaUtsSFYwNXpLY053MlNaWXpCSmtkUDJGb0ZVYzhGSXFmYlBhQ3ZGY2wycGJGa3FRTjVpR1FhSDJnSkJCZkxzQnFnLUZfZ0x0LXhTUllBbkpzTXVMeHpGWlJleVRCcksxUGdqV0VVTEZEUTN2OTdmWFZ4SlVrZWdiV2VqV05YcEhPU2tzbHRMbU5B?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Takween",
    "target": "70% Equity Interest In SAAF",
    "dealValue": null,
@@ -36789,7 +37637,7 @@
    "sourceName": "theaisoftwarereport.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmFQMkN2ZHc0NXVEUndObG5IbFpaNkhHY1k5Zi0wdDdYb0tyX0VQTUo2RlhyTm9SUVdSdnZ6SE1uZXVTWXJySHM3TmVBODRFNy1kTnRfTGpyR0xROEdwc3BXaEZINFBPWl9kWXZGczVWZHlUTjEtTjRiUGI4cnJGWWc4a1psQXlfME12alNUNVJzRS1xbGJWN2RfWlBEOGliaGlZUU1qci1yOWc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Veryon",
@@ -36837,7 +37685,7 @@
    "sourceName": "financialexpress.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWjhRZzJPZmtDbGpMbFEtbnItLW1TUzA0SnZocXk0SGRsdHlZSkVCYVAwai15VmVfYVMwdWFlMllxcFZWVE9hSnM3MEl6cVJieGp5SGJPQVduc1dnbDdxaF9GRkhmYWZJQ2dubGpDb2k4ck5vcG9aMDdrODkwTFBlMW1RWHY4YWNZZ2VwN01UcENWLWRQczNadTRPNlRmTmMyWVR4M3NxaUJRY1UxbVN5cGFMTmVOS3BseTUxenJPajZoZHFiOGhSbDYzR09yTHZu0gHXAUFVX3lxTE85VHQyWXpHZmtneHBlSEVDTXJ4SDZzMWN6OFJ3ZE1PbjQ5TGlScmJLX2NOS0k0VFVtSlFlS0IxYjd0cHV4OHNSZFRJNXhQWVhhdnREZXFXWjNTZktxN3F2SVNUekVRNmRBSUVIMncxX3lOUk54dTdwOHJjMktHSnFKekVncEZpM0RNOE5YaDF0RUZ2UXYteTdVM3BmemowMGRNdy1YT3djQV96VWNMd2hYQXhvcVI0TWNDSFhCd2FUc3U1Y21KVEo0Zm5iLU1IX1BmVlhyUlFr?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Naviam Announces Definitive Agreement",
@@ -38021,7 +38869,7 @@
    "sourceName": "cfo.economictimes.indiatimes.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNejRZS3JKbk55cWZ5YXdVZUNORDFDZkdyTGw3c09GOXJKRVZVb0Q2Q1VjXzRLaXRSWE1QbzV4cjZRWlRqTFhsYVU5QllQN1FOa1ZFY2JaVHpRVnM3ZkFURFJSd2hTOGdYcGE2SUNiaUJyZUFWQ0k4UW5NYkhTRDZqLVFDMEVpdFViUkhsOGFqRVd6RW0wa0tTQjdMYlU5UlR0S1AxOS1hUDI2TlFlcGh2WDlNcmhGOVhWSFBtMi1sRFFrejhlY0RNeEc1S25pQnBSV0tHZ1V2cDhQRUZndUJZRkRYQmPSAeQBQVVfeXFMTXo0WUtySm5OeXFmeWF3VWVDTkQxQ2ZHckxsN3NPRjlySkVWVW9ENkNVY180S2l0UlhNUG81eHI2UVpUakxYbGFVOUJZUDdRTmtWRWNiWlR6UVZzN2ZBVERSUndoUzhnWHBhNklDYmlCcmVBVkNJOFFuTWJIU0Q2ai1RQzBFaXRVYlJIbDhhakVXekVtMGtLU0I3TGJVOVJUdEtQMTktYVAyNk5RZXBodlg5TXJoRjlYVkhQbTItbERRa3o4ZWNETXhHNUtuaUJwUldLR2dVdnA4UEVGZ3VCWUZEWEJj?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "RBI approves LIC",
@@ -38661,7 +39509,7 @@
    "sourceName": "fibre2fashion.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaVNXZjhBUkFzVFNvdm56WExNVEE1b1E5dHBtS1RBTDZIVkJDSTkzUWswNTRqazBaMElqYjRWQlk1ZXVLZmFoRllGTm1ZajhYZWpTSzBXZ0hmWVRCMGVoOXR6Qnd6cGtXVHE2R21NeHluUHpCV3I0dGI4NXN3RExMUm5VSFVrd2xxVHBLM2dtQ1JGSGNpTVV4eXRkM2lsSDNTOXZXQmtURjVnTmtRX3d6S2NvdU1YRjgtMmNGUER1bUlQOE9OWHFFTktoSV91OU9K?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "EQT",
@@ -39205,7 +40053,23 @@
    "sourceName": "Capital Value",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFZlWE0zQldSNjRWUkVDdVdNVWFvT19KYThwZHhxVk44YkxrLVJ2OW9lWXQ0ZjFtSE9ZLV8yMWlOZTVUQWdDOTNKaEpyOGJuOEdfVWdNem5yY3NwYnZUeDhWREZQQVQwZm40dDFQcUgyb1YxaEhhQXFnNjlDWXBXcmxGVDZJdWhHNDRHaGVVd3dZbzFvS3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Private Equity Firm",
+   "target": "Infrastructure Safety Products Company",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-04",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private Equity Firm Buys Infrastructure Safety Products Company",
+   "sourceName": "PlasticsToday",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ2M3dVRZWS0tTzJQVllIUHA5V09fT1lpekZ4aEtyUElKUE5Bc2U4SWh6UGhkUmV3T2xVV0dTZnE4LXRFTzBJb1NubEZ0Q3lxNkE5NlVrVE5iVi1SNnh4LVFQSlZmSkhZaV96OWVWeDFrY3lJVmJZNFlkT0wzWEY1ZDYzakFUNE5qaGxJT1pKZ3M?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
   },
   {
    "acquirer": "Private Equity Firm",
@@ -40776,6 +41640,38 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "C.T. Doshi Family Trust",
+   "target": "18.34% Stake in Waaree Energies Indirectly",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-03",
+   "status": "Announced",
+   "dealType": "Minority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "C.T. Doshi Family Trust: Acquires 18.34% Stake in Waaree Energies Indirectly",
+   "sourceName": "InvestyWise",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNTgwMnlKbDZPMjh2eGpVWGxkMkdFRmRrdUpSa2Q5Q3hkcFAxX2dFb3lqSXdUdXNoV1pyeVhmQlNhVUcyZU45OXlIbmUtOEpxZGxUdk84YTFwb3V2WHZ6a0ltQ1E0Wkk1REtFbUVBV1FfUXY3aUtYdmEwaURTQnVTa3RYendldDhXWUZpVy15ZXdGZ3JXa3c?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Adobe",
+   "target": "India",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-03",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Technology & Software",
+   "region": "India",
+   "headline": "Adobe Acquires India-Based AI Marketing Startup Rilo",
+   "sourceName": "AI Insider",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdnlEY2pEWTk5d3BOZS1kbDdvdnFfWDNEU05TdDR2TXA0THgxOXd1UVJ2bVNhYVVJYURWQ3l4VUhuX25xbE9uX19CNDVvYUZKUlBGbDNqVEVtQ2NlLV9UdUkxTmJmMjBIdWJJVjZub3oyYzFjbEFheW5uX3BpMG1TZjZSblQ2ZjJaYWNIMEN1NjczaE43?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Adobe",
    "target": "Rilo",
    "dealValue": "$1M",
@@ -40853,7 +41749,7 @@
    "sourceName": "Renewables Now",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbzk1eWd1Q3J6SmVKVUIzZGRSUk5Sb3lCaEVuZFR1OTBIZ25CT1lha0M4aHU0elMzcG10ZGhpcjJ5MGlYMXJHYXRCbWtOUjllQy1TLVpxU1hvUlBhMWdrWnc5Q1A3d21pYnM1NlRzNmpPZTVxWVNPYkRYS1RJQmNoRnZjVG5KWnNuYkdLaXZFSExNS2NkeUktTDJIeURXOTV2UGVfQ2FSZFlmc1E?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Jyske Bank",
@@ -41045,7 +41941,7 @@
    "sourceName": "Business Standard",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcmhQOVZhMEVBcGNTLVA1S0JLdDdWMWU1OThJd3FNR1EtLWVVLUVhWGVyTkRnYmJhTXpFZFh2T0VJb05XMFVNT0JMY0FzcGJ5N01lTU02LTdJekkyS2dmNFBIM2tIclF5VHZtVkpWUkpCelFfSXNza2JlSUk0bUVPeDdUdktta0dFYThaMl9yZGhlYnlIZExIaDF2TTZSTmFDQ05BUHZLelBib0MySy1OVTlHM2JXUHlYQ3IwY3dyNDNGd0RXSHU1X0RlYnBkN0ZTMG40dExoX1NvVlI5WFFvUGFadzRQVFZBOTEzSlA1al82a09TRU9VVDJzRjTSAYICQVVfeXFMT1RJOEF4UDBRdDlSUEdmRmFqXzRmdlpJb2c1U29xemJHanR1VTVkekVDZVVQQjJHdVpLaFNNQ0NJSkJCc0llckVFaUg5Q2VzeVFZSTdqUUUtQjg4eFppSDR6a0NXWmI2cDRkaF9jTnVCM0JGQ2ZZXzV4TEtWczF6Q2h0Y2FrQUE1aUNCRkM3UUs3enZWa0ZKaGxuWlQxZFNTN0l2akVKZFlGdUVPTUttLTFnTEl2TFB1NEJBQ0VaQjVVUmZsbmxiaHlIYWk2V2ZkS3pfdWJacV9TSHNqOTdaekIwamV0TklkNUtPWXM1X1laRU9MNjRaeGd6SXBHRGxUcTdR?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "BP names Ian Tyler as chair, Halma",
@@ -41829,7 +42725,7 @@
    "sourceName": "africaprivateequitynews.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeGE1VHpaUzdrQUZLV0hjeEZiSEgwSmJxY21xRVZVTl9ENk9ZT1Y3OFFUZ1d0X1JSVDFvLWYyaTJfb05JMFN0M3huRUFPX0t5cW9zc0pzRHdwUTQ3elYzTTdTVjFYMWFDVGI0dmYyeXBNbTl1aDNscWotQ3hVTjdzYlExRmkzUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Pinarello owner",
@@ -41893,7 +42789,7 @@
    "sourceName": "Sahi",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbDNnYzRQMkJ3anhXdGtfSG9iOHF2N1cxYTNhS1lvdEhLZm04NmY4NXQxbVlGVEJQNENDZWhaNGotTDFGYlBlSDBRdUJlaFRTTjlGcHdiNzZuR2F6ZjBPU3ZYYjFtcmxKODNSR1BBcE1pMER2TGc0aEhVZi1pUC1iYkFrOUQ3QThseGFreXI0TGVPVFFKdGt1cjFGYTBoMVlGdHp3cUkyUEtTdEVIaEM5ODBaWVBNQQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Google",
@@ -41909,7 +42805,7 @@
    "sourceName": "Pluang",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNXNkTGc0eC1TZUVlVER4MHBJTTlEem10aVFmU0ZDaldoR0lSVWd3cHByMkh1Uzl2X2puNTJRZ0J1VnpZTlRQZldkUXhPSUxlLTF1RUhsNDYxUlJxRHhQQTR2azM3ZVFadUV3bTdabEt2R3lMaWNWZG1ZTW5YUFpzRUFtZGtzbVU?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Arsenal owner set",
@@ -42053,7 +42949,7 @@
    "sourceName": "bfsi.economictimes.indiatimes.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPblc0TTlTZWtQZFpzSnpnVFNNOEwxTldXb2gydk9IYUhHdnRVaUpYamdBLUluVjFLODZZVndPc2JLSUMyLWFVYmNmVTVnQ0ZvXzFLVVZRdjhld2ZuZ2h6LThJc1NCN1E2UDdnS2FsS2NOQXl0ZVdOYVlxNV9LZXFLZV9UVVpCM2drZmFzVlV3YlBhekNSYTlZU3hKZkxwNDVpVHAwOFFGMlJhVlVmM040UlBBczItbmhxZkVpWFRkeWvSAcYBQVVfeXFMTVBuZnhvc24yVW9XVXpSZ2JGWDhuWlFjcUg1Q2c5RjlNYnBwYjFKRDFJV1ZialhIZy05TXRlcS1OU1NHTXFMRnNWeEpucDRLZXh2c1NDdE1oWUZSckREa1AzQ3dnT3VjMVlSbl8wZHRacFpqby1rQTY1RkhxbDdQSGJ2VndHdGR1TmJPZGcyM25sRGtBOVdCUUx1cmJtUlpkQVNGV191dGpnaVpyTm9aa1FhbVZqdHBOT3ZuWG9UeU1MSldNRGJn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Relocated Arctic Town: LKAB Gets Green Light",
@@ -43893,7 +44789,7 @@
    "sourceName": "TechCrunch",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUXNkV0tzaFJ2SHVnS3EwdnpKSElmaGNFcTF1aDgzZHpybm9vUFZNQlVtTy03WXlPMVV4ZndiaVVJcVo3UnZTdTh0anRSanNLZkcwa3dzR1ZFVGpyOENxaDZFMGVLWURSMTRMaUtadUJxVHY2UmZyOVpkdWduNXlrZWFXX3NORnJNdFdZX2hsa3VUS1E?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "AutoCanada",
@@ -44824,6 +45720,86 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "La Caisse",
+   "target": "24% stake in Altius Telecom Infrastructure Trust",
+   "dealValue": "$1.5B",
+   "valueUsdM": 1452.0,
+   "announcedDate": "2026-09-02",
+   "status": "Announced",
+   "dealType": "Minority stake",
+   "industry": "Media & Telecom",
+   "region": "India",
+   "headline": "La Caisse acquires 24% stake in Altius Telecom Infrastructure Trust for ₹12,100 crore",
+   "sourceName": "The Hindu",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVjl5Q2NhUHVPeUVTdGlrdTAzbmVuYUJDYlo4OVNmeU1QOThVV1AzdmQwV0NFeV9OZ2s3RTBrVjlxbUowNllPRGlRMGMyOFZjYWczY0h2LVVLdFA5Nk5fVmdQN0VGLVF6aUt1eThnNmMxX2xmckFlX0lRdmNQUk5oQXExdE1zX2NLZTVIVkQxdG5kUDREWDNPRzdlbkdZVklUTm9RM3AtOWo3S1gzM0hGUWROWmVkMWE4bHBHSnNZQXR2a0hyZjFhdXB3RVBsSndRb2NWd2gzTUJELWI0TXfSAeQBQVVfeXFMTTBENTNRTmd5MTdERENEeDlQNndETmFIdFRoLUFWanlaZFRGSHpBUFNYM29fY3prSzZGMktIdG5na0h4bTJHSG90d21jZmRrcDVJSVdHbTMtNl9seXpPX2lsTk1kYXdkeGNXQ05MNFhJUkU1VjBvUzJYRXItMVpBNVNWeHZOb1NtNUFfOGUwamc0XzVxVkhxX0FZem5RdnY4Mk83TXRvLUdaaUtPUkZicVQyUnRnaVo0VUFhUTFHaTJYWDRTdml2SF9rdlRCcmk1RXZkdnFaYXYyeDRSOHg2MDFYU0J5?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "La Caisse",
+   "target": "24% stake in Altius Telecom",
+   "dealValue": "$1.5B",
+   "valueUsdM": 1452.0,
+   "announcedDate": "2026-09-02",
+   "status": "Announced",
+   "dealType": "Minority stake",
+   "industry": "Media & Telecom",
+   "region": "India",
+   "headline": "La Caisse acquires 24% stake in Altius Telecom for ₹12,100 crore",
+   "sourceName": "Business Standard",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM09WcFpKNHZSdURiZmttdjB4anp5NVpSNW9YYkt0M0JjOGIxM3RpSDJjUzI5SnVxcUZlaHkwYTQ3WnROdWdDR0o5a2x3T1d5Z2Q2bHUtdWYzaF9CVkZsOXItVDB4Uk5sZU1Kc0ZmVEJnbXF3ZTc5TFBDRW9ZNHg1cEVYQnczbklXLWJTVnVoR0JtZG0tMXRXYThaLW1BNUNCQjBqcnNZY3REd0dyaENLYXRjNHpzdnF4UDJiNG00RjlIRGdMRnVKelZWTdIB0AFBVV95cUxQMC1OblpIR2ZaMjNMNDZrYWtBRWZzWnRLMk9CQnpDTHNPdXpsWGQ3OWk1RmNQOUlRMlRGd2U1Q3N5dkNyd0FfQWZ3SlViTVBYNkpfY1d5dEVJQ195cHBZN0d1eHVucW82Z0lEOUV1eC1YSEk4WERJS0N0Yk1tV2dRMkI4RUIzM3dZNzV3N2VYa1RfV0pYU2lEUFBEZVlEbmJqbmp3NFVPVEdvd2FxNFFJZEQxSmlTdm1kODduWkMzWVUwVjQtNUs2Y3FSVE9TN1pz?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "La Caisse",
+   "target": "24% stake in Altius Telecom Infra",
+   "dealValue": "$1.5B",
+   "valueUsdM": 1452.0,
+   "announcedDate": "2026-09-02",
+   "status": "Announced",
+   "dealType": "Minority stake",
+   "industry": "Media & Telecom",
+   "region": "India",
+   "headline": "La Caisse acquires 24% stake in Altius Telecom Infra for Rs 12,100 crore",
+   "sourceName": "Moneycontrol.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORnlLSlA3WTh0MWxfeWpyVWd4bVhhZ2NXWm0ta2hKeE9UN3BDLXYwNC0xS1pCVTdPSzdIZ3BiUm14QUctSXBnWTlfOExaVGc3bW0zN3BfZHdfWW5UTWpLeDV0ems2bFdxcVBjRXA1N3FZVWlTVU55MkhOS3lIQWhWTVNYcTlKdWVQZjZLSndaVVlOaERiSW1INDc1cnp4MTZ3dzNzbmYtNUtCNUNNUmhYeXl3SXpuMTAwazNPU1dkRUtobDJucXBKa3FPVEF0VnFpWjBlQtIB2gFBVV95cUxQRXhtS1ZyNzZIaHBrUUdwSHFhdmVRVUNsRWxkYS1rUVM3ZmZRVW5WX0JmMkg5RWFDdWVnRzF1UE1iMTczYlpoM0N4SWlzeTJYOE5Dak05WkdjRlN5SVpVYkRCSkkwdnQ2M3dYd0xacGI0azhwOTZmamJfM1JoR25CU0t3blFDSmVaOTJOdW5Wcl91TTdxcjhCTk9KSnFTUFpxR2RHbl93S1VlTnh5WkVaMzYzV0EzdHRyaXJILUY5X2RTdmJ3V0RFWFNKTHdLa05lMG43U0JSeDBqdw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "La Caisse",
+   "target": "24% Stake in Altius Telecom Infra",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-02",
+   "status": "Announced",
+   "dealType": "Minority stake",
+   "industry": "Media & Telecom",
+   "region": "Unspecified",
+   "headline": "La Caisse Acquires 24% Stake in Altius Telecom Infra",
+   "sourceName": "Rediff MoneyWiz",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFNCTEF3dF9CUnY5V1JpTDV6MHJsOURhYlhGNG5iOHpRTGRYSDhxdDB3RnBLTXdzVXNDdl9wbmhYd3hIZ1g4N2lGY1hTRXVrSllObDVzLTFfN1pUNzJMM2JyT2JXVlR1UmJpa0FuS3kyNnBqdnh5TEI5NEMtV0xSZ3cxcllKRjk5LWsxOVRHb3NhMFpBVnk4dmVIMDFhanZSN1FTY3Z30gGrAUFVX3lxTE5USmxrSHFNcWpWME50YUQ2UDBualpHRWphQ005djcxTHh5Tno1T3NqUGhTZWVwelVjQ2UzQ2tpZ2M5MlkxSlFjaUxiM1loYzF0LVlFeDhWTDlVUVRVZHFpRm1PMEdqMzJEZUJDXzBFcm1ZMC1pdmFqLVl2dTJUMlBCQzJaVGhNTENjeXdweGxBcVhtdnYwU0JHWFp2VVM2cG1kOFNyWlhVcFFUWQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "La Caisse",
+   "target": "24 Per Cent Stake In Altius Telecom Infra",
+   "dealValue": "$1.5B",
+   "valueUsdM": 1452.0,
+   "announcedDate": "2026-09-02",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Media & Telecom",
+   "region": "India",
+   "headline": "La Caisse Acquires 24 Per Cent Stake In Altius Telecom Infra For ₹12,100 Crore",
+   "sourceName": "Free Press Journal",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUh3VXd4SlY3THFDUWVyUUFwalpJdnc1WHJ1Z29EWlhQY2RRcW5KdTd1VjdnYlVucGk2bGF6ZUcxall1ck1HSGtJSjNzYm9yYUJVdGZoMWVkZmJGRlMwNkZ6dldqd0hSTG96T0xMWUtPeEZaNjdmU3QtZmZpSXdCTXZ1Z1g3ME1zNjlVbDdIQTNrY3NDOWpKMTdOZVRDTW54SDF4SVR0ZGx1RUtka1pNRWltOEl4U2pt0gG-AUFVX3lxTE11NjZSeGtaUmZDNWIwMUt2Z093aHVrVC1iV1VLcEZHZVNQLXVKei1BcUNIVHhWNExTX0VyVHFYOWlocnFJZHpyNDY2MUFqakRIVlRBUHdYNklfYndXNUM1RmRjbmozQWpDVkN1SnVFalBLUTVYWThJVFNId2hKUkdSckhJNXhsTXhobklDek9nMkJmTUYxSEdWdmhZYzlOVVFvSnNYLWViX2phWkxENW5qLVVfLVdpN09reDdGRWc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "KKR-Singtel consortium",
    "target": "STTGDC",
    "dealValue": null,
@@ -45205,7 +46181,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnhfMnc2OFowVXQyRV8xQ1NtaUZmMlFaWU9XeXVaNk1lcU1lUkQ3aFhvYi15OTZYb1dVMDdmUmNvLTNhVzNCdUVTVUxWVmMtajlZZVN2bzhpRHlXRjEyZGVDa2lCYWhtN0V3MmJueUg4VkxqZzRrbDBfWDVERzFsMENEMlNYMkh4a1NwdFdnUjFrOFRMOC1qR0ZGYWwyNU9tbDBLR015UDlERE0?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Stan Kroenke",
@@ -45397,7 +46373,7 @@
    "sourceName": "Waste Dive",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUoyeUVtNk5ILTNHc083WVp2U0RJSkk0ZnQ2XzB4cWFKLVExbjc4U2x6MGhUZkJ5em1RZjRNZ2xaRFNEOWQyNkpBMkstR2FrY0ZzZk1IOC1MZmRwU3ZCVks5VTlWdDVvZ3k3bEwxVmRudVo3UzROdkNLS3JHZm1sRndqb0ZaWXhpSGNLR3J4a1pSeDZtRloxSUZmUVZ3anpzeW5ncw?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 5
   },
   {
    "acquirer": "ASUR",
@@ -45509,7 +46485,7 @@
    "sourceName": "ColoradoBiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uY1E0aGJ1Z2M4ZWZYdkhrRTF0WnhOVjlmbEZiX0I4NUp4SHlvTmF0b05vN2pib0F3a0tCeWRwUDYwM2w0a0JxLU9LYjlnUnFOcHRWQmc5bFlVZEVubmVGY2NHWVpmSUxaS2NjcVBfaDUtQmpQUWtjdVZn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Amethis-backed Fidence",
@@ -45525,7 +46501,7 @@
    "sourceName": "africaprivateequitynews.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLTVYN2p0UTNLRlRMdV90UGlEUnBtQ1U4X1UwUGlOdVRhNTAxTHZKUDZ1VVdkcTY0YWUtd2hYU0cwLWRvdEZsMjNRa0lEY0M4X09uUUxZSzV3QnVRU3R1cnQ0RkxiZUlvVEVJMUt5SmI2UGF5STBUV201bURuTm9FWkdqTl9Vdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Private Equity Firm",
@@ -45557,7 +46533,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3BGT0hyN2IxSUdOMmMzVEF3Z0lsSWdlYVhWRXVNazZIQWtOT2R5eVc2RUtraV9FSlJfV2xPQy1wVy1nVTJSa29NTThrYjMtd251UF9oTWhEM3ppNEIyYkRxbVdhLTFXQlEyZF95RzUtYTJIYUNhZ2JYbVQ5czZJYUljUE9ueDUwd3dGOXNQcTVicFQ1MS1WR3VR?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Lifelong fan and venture capitalist with $18.5bn portfolio",
@@ -45989,7 +46965,7 @@
    "sourceName": "drinks-intel.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTU1BSDFRY2xNRXNHMTdFeGdZUUZoNFFiQ3ZCUDdXdExrOVNPVmlyejJDLWVISjdGNWNzZ0Ixa2xzbFg2SHRGXzRMeUFzbU85cUFYQ1loYUJnU3VRWjRWaDBiai05cF91TWRFNVk4RkxwWEJpSW0yWmJQRFFsTXNNVUtILTFIa085N3NBVHJmRXNIZlFjOWJvVkVUSFdhcUE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Greater Nevada set",
@@ -46229,7 +47205,7 @@
    "sourceName": "pehub.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHRnXzJzcEwwYlk2U21kTUowTkZEMElsdEt5NzZ1cHU3Zk1iQkluSzJhUndHeXJHSC05RlhEMjhVZ09lakQxejVNc19yM2xIZ1NHWWRWX0RwNUU5YVNfWTgwWE1OdTExS2tBTEJrNGdOWXpPUGIwN0JmOE1ZTEZKSm05QzZnRzA3YVVXVmNzSTBTMDJubXpPR2Rzb013dDN4X2dYX0x6VQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Private Equity",
@@ -47989,7 +48965,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWDZoMTYyWW1CWWlaNlhMaWVoSk93T0F0MVlXUWdmUFZmTmlCLW5ETU9oUnB3SHlyWVd5a213TmZIbC1iVF95UUpvbGNRcUtYb3JCN2xUcUtwaEM4eTl4VXFrN0hpQURLdzFTU3c3eUpWNzhuOXpwRlg5MTdhNWxqVEZIek1lWmFLazdGVnctWjNsdjFuNU5kWm5QeGd2NUQxaHhlRS1VSEx4RHYxZEUzWGY3ZHNMTUhFUFJyZVdn?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "SJ Corp promoter Pintu Kalavadia",
@@ -48728,6 +49704,54 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "GI Partners",
+   "target": "majority stake in vehicle tracking tech provider Otodata",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-01",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Technology & Software",
+   "region": "Unspecified",
+   "headline": "GI Partners acquires majority stake in vehicle tracking tech provider Otodata",
+   "sourceName": "PE Hub",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObWR5RENieUtuZXpQVHljZ3RRNW9VNkxnSGZwelpQNWNEVE9TZlZnVXdBdVg0Zmx0OGpON1IxNUFhRkxoaG9RbzdQVXltYUc2ci1xMWhrQ2VlOWw0X3ZLakZfR0h2QVEwakxYUGt0UnhXY0YzU1ZYbWFHMVFORWVjcHZkMGJZNkdBcWxtWkpOYjEwSU8tSG85d0dQUlMydU4wSnc?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "Private Equity",
+   "target": "Bodycote",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-01",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "Private Equity to Buy Bodycote, Gamma in Latest London Takeovers",
+   "sourceName": "Bloomberg.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYUdydmlDM3llTGtpRi1tZEhhR2liNUprOG52ZERmZ3JTMVg3ZzludDMyb2xrLVRTS21fOWNDVnRQOU11WUxPSUd2eUFxYW5NdU9oWjJKb3pKazdOQmVkbjB5YnUzdlpLUk5scHNydnRKMWRTNUJLaEpOM3VnYzFYWm1ZemFKeUpTaHJYQ3MzblcxR3FBaldLRk5zaFd5RXJUZklQcHZRMVRUWUxEYTE4UTF5Smw?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
+   "acquirer": "SJ Corp promoter Pintu Kalavadia",
+   "target": "55 shares via open offer",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-09-01",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "SJ Corp promoter Pintu Kalavadia acquires 55 shares via open offer - scanx.trade",
+   "sourceName": "scanx.trade",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT0xwWGlzdTQ4WGZ5bnlHVDVBUEZEcjZjWkpKRmN3cEN1QXJjUVhXWUctQ3U1QUxUaHJ5RnhEU0RZbzM5RTViSTdSWXB3MFU4dU5KTk00TUZDSDMyNFE3VmlMOVZMdWxlRUl5Yk5TS0dGY0pwYmhSTVZJZWEyRUlZZlUxN2VIb0xXUG5YdGJiRXRqZ1J2Z2o1UUxtc1pOd1FDajNwVjY2REdMR2REUHlCR2pZVVBuc1hZQWFSMHpTQUE?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Keppel DC REIT, Keppel",
    "target": "two Tokyo data centres",
    "dealValue": "$1.2B",
@@ -48757,7 +49781,7 @@
    "sourceName": "Sports Business Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcFpJNGN4UHRLeHFnaTVOeVV3TGU4X2U5bDJIa0NGYUFqUUdpV1pNV3JOX1VuTGFzYVZya1V1TzkzN3VJRmxvNWF5LXBzb1dTQ0VTS09WOHllcjVrMUFIa0lHdEtYZjhZaDhzSmlDcDNJTk0xOVNxd0RkRzJ1M2xqUGhaOVRTY3RRUi1rYVE2YUt2N21UeFNid3Nna1ZjNVFtdWdDRHpWWVpISzc1SU9IUG0yTXRoTUxtcklvQnNlOVlzdG10WTZhNg?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Orient Bell promoter group",
@@ -48885,7 +49909,7 @@
    "sourceName": "Investing.com India",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnRtbjVqbG5iUVZKczdjblMxQzRUbDZrTGh2MmRpVDdWekFvVG1HS1Y3WDdZcGhqZ1FSZllGNW9yck5ac2hacG1MU1FjZWEtX3h6c2lwNmt5NlNEVEhFQ05aVU81X2xtdC1DZ29LNkstR0k3bmF1MDh6TnBjZXBEbGo2cDRRcWFQYXVxRU5qbFhSWFFuS0V1aVNSMTZHU0RHUTN5UzFsNkhhSk56aE9PNVNyLWYxZ3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Ranger Energy",
@@ -50456,6 +51480,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "LG Energy",
+   "target": "$1.5 Billion in Lithium Carbonate",
+   "dealValue": "$1.5B",
+   "valueUsdM": 1500.0,
+   "announcedDate": "2026-08-31",
+   "status": "Announced",
+   "dealType": "Acquisition",
+   "industry": "Energy & Utilities",
+   "region": "Unspecified",
+   "headline": "LG Energy Agrees to Buy $1.5 Billion in Lithium Carbonate from Arkansas Project",
+   "sourceName": "Industrial Equipment News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUEVkb3Q3Sjd6djgyTlVvUU5CQnREQ0VodjZzcFFqX2lBRzlXcDBUdDM0WUFmaGtQcHJfUlBwYi1FdEZuN3F3dDhaT1dTSmNDNDBlVXpwS0tEMXJCY1c2TVY5TXFSSmdpUVNXUDFJdG90V0pqSFF2UnhSdmRrQmJaQ3VqNFVvUlR4OGN2aWYwbXpKamRSVUhMS0tQU2IweGhBWWdOMEFXV1pYLUROT3J4SGNyTTZIeEU1bXR0UGtFdGY3QQ?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Aon",
    "target": "USI Insurance Services",
    "dealValue": "$17.0B",
@@ -51285,7 +52325,7 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTkFvbjFjRVFMYVN3OE9MdjdhajNGQmdpcVc0THBFOV9FOVREeEdrOFFnN1dhRUNIbW9EaTloNlRnSGRrNHI2dEpzLThJMDBOWFZDMkJJNFhRbldaTHljVVR0eE8yOHRoZXRBUnVXRVRzRERJLWlpZUR6Yk10N200dEpEaFNtN2JYeHhNekpEbW1sUHZBcmhPeHNlal8zajRRUHRuRkJrTXNaNk45YzZmcUlvRl9YQkdUalBNUWZqb0FCckJGZHNLakNrSEFPakFLeDB1ejJZbTBaa3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Homewerks",
@@ -52488,6 +53528,22 @@
    "alsoReported": 0
   },
   {
+   "acquirer": "TV presenter Nick Knowles",
+   "target": "stake in Championship side Cornish Pirates",
+   "dealValue": null,
+   "valueUsdM": null,
+   "announcedDate": "2026-08-28",
+   "status": "Announced",
+   "dealType": "Majority stake",
+   "industry": "Other",
+   "region": "Unspecified",
+   "headline": "TV presenter Nick Knowles buys stake in Championship side Cornish Pirates",
+   "sourceName": "Dealroom",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLURESHliZ051elNndnpSR29ucUI1Y09pQ3d5RGwyOVhtTndCRnlvZ0RhV21hMlFwckFJaXhpSGllcTd1WDAwUGp0RHQxODRGU2l5TFNObWxnZW9IVUktVEZNdmVVM2hwZ2NLM1VkbUFnaFF3N1V4NGptQ0pwZmZ0QUh2OXpBZS16Yk8tM1FGVzdyLUczYzdxOHdfUEVWLTJwVTFZbkFrYmZDSjA?oc=5",
+   "feed": "Google News",
+   "alsoReported": 0
+  },
+  {
    "acquirer": "Inspirit Equity",
    "target": "Valiant O&M",
    "dealValue": null,
@@ -52581,7 +53637,7 @@
    "sourceName": "Dealroom",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOU45a3ZwM2lZYkVTNGZhcHc0NFI3RUJSVVpEdW80eVJQVjhTZDhfUTJLTDVsXzFNYXMzMFdpcUVQSnVVR2FEMTIyNzBFS1dtYXpVVk8yOFVTVEtkSFJudVNDTnlpd1ltZW1OOFpTaHZyN090dkFvZlFMUWMwN0tpdVd1ME15dnY0SWNWRG1nc2Q4aFZCMGZHVUdjeHZCMFA1Q3BUNDN2c3g?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "IHCL",
@@ -52629,7 +53685,7 @@
    "sourceName": "citybiz",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbmpKYjJRQWdvdkROV3ZySXJVT1otVWdQM2pVMklpdGowS25LU1FrZXVfZ0xzM250ajVtU0RsemVJVUI5YVRjd2tVS0xvdzRBX3REdlQzYzhPY1dhclFZVnFzekFaQndjMjJhYURJc1JDVlI3VnRObHNRSDNkdGpFWVRpRXBjRkJNcnkwdHdKNzlhSFNGbG8tS1dSMURVbGw0TmdlaGs1anUybE5LWkl0eEZ3ZFJKRFRnMlB5SFZ4bw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Beijer Ref",
@@ -52709,7 +53765,7 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPekxHZUplQmVEaTNVUXV5MUpIQ0c2Vk9McGIwbHBkazZmX2JxTjRZcjU1VHBMcGlYbzJiRGpvcGQ2VloyVEx3d0pFSkpDRWVoSDdYd2dib21TLUFUVlQxcGNpTS1uLWNlbmc4QmR4SzlxcUc3ZGlMcllSdXhPMlM3QUoxQXBWUl9VaFIzS1RoRGs2amV3WUhTWDR1SmczNFYtazhnZ0R4WTNWbWVsZzN1UDU2OTVGVjgxc1JhRWFJdkVGS2h1TXA2dDZ5RWtXVlNZUUdSOENod0wyN0F1dUppamVWR2NtZGNwb29jdGpqUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "TE Connectivity",
@@ -52949,7 +54005,7 @@
    "sourceName": "Moomoo",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVHlDMDBVS19ucHZWb2lwM1RqdHhMNnNod0ptN0J2NXNZNWF3NTdoNDVPM21wdmc5OXNzaGtfN1hSWVRqQ0Noa0hEQ3R2Q3FKaUJRY3Rkb2VVa21yTTVJeGR0OEZpd0VLbHFjQmNuN1RkSndxYVRmVHZ6YkJONkVheU5OYkt6UUdvMk1paTcxd2R5WmJ0Q3B2aUVyWlNJU0lrN0ZiV3ZzY3NoTEw5?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Oriental",
@@ -52981,7 +54037,7 @@
    "sourceName": "finance.biggo.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96VjBqQk5KUGFsR2RmN3NWaVdBZlN6YW81TlRIMHFoR0Nkb2pPeHZ3TnpaeTZMbjg2T0tjclRGTURuMTB3OHZ3TTNjQk5CS01oSXdLeC1KUk5mZ3BmRzd3QkpUS09TeTM3dERRQWVycUtud0xiTlE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Balentine",
@@ -53029,7 +54085,7 @@
    "sourceName": "jawlah.co",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5GSUpVWjlXTy1Ya25fSEJOZkRRX0tSRHRZTnJkUFgtaXZGYndpRVg4X29qd2RySWJ5b0Ryb0pwaw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Saudi Arabia’s Master Works",
@@ -53157,7 +54213,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekh6WHJUeWRsMmhGdHUwbjM4N3dJUHVXWGhsYUNlTHJjTGd0X0RDUUFLdUcxY1dEM2JzbUtBTEFpX2Y0M1ZySUtEbHFhdDMtX2RPWTB2Y3R1TE1VaWx6MDdWZmN3WE5KR3BEZjdpQjZqT0xubjFoUGJRRlR3cGtmVjFscFgwY1EtUnRtVTU5VThPZTJFa1JDRkNabEV1cDFxSW91TDYzUFU1ckFENVdZ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "News Content Hub - Hexagon set",
@@ -53413,7 +54469,7 @@
    "sourceName": "scanx.trade",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRkxoNVpRNWtreXlUaXhPWFZJTm9aRFQ4TFF3cEJSM3g0UUNZLTVHenNScDhmYkFnYUpNV3o3aVl5d2ZtTFFuUmNfMHFlVDJFTmVoQmNjQ2lRbW1jVGk1T1hWekpnTnExZ0x3SlhreUxPZENGMjRtenB5N1R2bFlCX1ZINkZ2WXZ5MUZpOVVkRnVPVGs3X3RSZUIzaWpqNVZ3cHkyN2dnRGNjSHVDRnQ2bXNqWUkxSzRvNm5OUEFaWk0?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Boliden",
@@ -53433,7 +54489,7 @@
   },
   {
    "acquirer": "Vanguard",
-   "target": "wealth tech platform Altruist",
+   "target": "Platform Altruist",
    "dealValue": "$4.6B",
    "valueUsdM": 4600.0,
    "announcedDate": "2026-08-26",
@@ -53445,7 +54501,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU1VQSXUtQjJpNTN1N0cxNkxnMWtxeGpxbmR0VHpnZWR5Y25TRnBmWWFtaktmNkhLM1drWGRXQlNPVWhmUWZmMWZ2dHZ3Tm5JTTZpVnI3VFRyMTU3RXNhWU9aampEMEZWOURDZnc1TV84WXZxVWZ4WXkxRWVUbHZkelF1SWwtc2pkYVI3VmZLOEN2dkItbEJSRHY0Wkt5WDZrS3c?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 1
   },
   {
    "acquirer": "DigitalBridge",
@@ -53573,7 +54629,7 @@
    "sourceName": "About Amazon",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40S2JJbEVhVWJaQUs0eUFDdTFvbjNGTFppdDRGUlVxaEhGU1BxdkZLdlU5bkp5Nk5yZWlQQlEzMUhWMDFSLU9GR21uRW8tcVFhNlltWU1rOXVQVW1qdVB4YmNFNHk5WDQzVEE?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Victory Capital",
@@ -53829,7 +54885,7 @@
    "sourceName": "realcommercial.com.au",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbzRobDd4aFNoY1JTRWx0S3J4V3JUU29mYVQ2aUdlSnlFR3dRRXM2b1NWLVF1ajNMWkpLY2xrYWlWb01ZaU5UbFo3djNaTjA5cDZaX1dsd3dtc1FwX09VM1lIUFZmeWMwMWdmOVFlMkEwdmJhLTV4YVJhbU1WbUFfRThNTDJPLTlBTWlVVVZzZkNDbWc?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Volato",
@@ -56149,7 +57205,7 @@
    "sourceName": "The Information",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZEI3RDRQUjhES3VnelJ4ZmtWUFdsWUJYVGpNQlV6ZTJnU2RySjQ4SnRhNmhWN09kaEx6elNSVThrSzUyS1lWVVY2d0VpeEVtVjlBX3pIUk0tNjhIM3FHZmxqS3JBOHN1VXdTNTNYMjdwbUVoS0Q5Z3d5Y3pRbnhaTUlwck5BNEdxV2ZoV3ItTGlIekJiWGNKRmJUdzdJUWpFQjQ2S0s0cEtLd016T21GRC1B?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "SJ Corp promoter Kalpesh Patel",
@@ -56376,7 +57432,7 @@
    "alsoReported": 0
   },
   {
-   "acquirer": "Sword Health",
+   "acquirer": "Sword",
    "target": "Headspace",
    "dealValue": "$300M",
    "valueUsdM": 300.0,
@@ -56389,7 +57445,7 @@
    "sourceName": "STAT",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM0xLalUwT3Rna2l2NzRReHVWVkpuUy1tM3U1bDBiWjNNNnlxVTRUcE5ycVZ2QkhQYWwzWElkSExYYUViWGFHVFpIalRsaklsNk1Pcll1TWpieVByaXJiajlVLWxiU2ZYUTR0VGRORTVFeExPVTNCVTRCUnJkT01vYjhSMkJGekx4OEdJcmlkYURfX2N4dGxJ?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 1
   },
   {
    "acquirer": "Accenture",
@@ -65557,7 +66613,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivAJBVV95cUxONjN1UE11SXJ2c29IdDUtemxsQ0ZhNFY4OHZ0b2pEZlNwdTJMVWxMMWtiRlNVMnpvcGtoUkFnTXU5R3lZS3hBWVc4VlJaVTdZbGJ4eDIySGYxZ1NkdXVFSlFlaldOWmRsWWwzb2RzVDdFb1NjQWljdmpJc1FpbTdLLWQxcFN0U1Vha2llaUQ5YjUwY2RXWERxR2pvWEhMcy1GVDlpS0FXTjRHWlVRZW1FWEQyTFB1WlBabzF2RF85a0RTZnN1dGwxMjUyb0NTaHdqUjl2cU1tWTRGT1pyMWdLZGlOYkk3RjJVVzZKZ1ZhV3A4MC1Xb0t6amRKOTFNYjRtdmp0VE5aZlVsM205MUhqckRRODFRTktjanBpSFUtVnV3SC10RWJ5ejFuTzIwRTNrOWUtalNxaC1vYWdY?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "A.P. Moller Capital",
@@ -66629,7 +67685,7 @@
    "sourceName": "Orange County Business Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OYWhXc2FiVzZBTVZkdnQyTnhSQkN5ampxajhpWm9Mb1N2aENTVnU2eG9STVRNSFdiS3JzaXlmVGV1U1ZodTI1ODR3VFpYbUU1NVZTTVctakZaTjBMck8zWXdZZ1lIOHpfUmhObmpuaHU?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "PE investor",
@@ -69109,7 +70165,7 @@
    "sourceName": "tradingview.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXNObVBONWlQX2VBOHFUbzI4R0d0TzNRV2J3N1NzYUthYTFGbFdEVnBXQU9LWU1JMW8zakpEb3J3QVh1YVZ2dktHMUdRQmU4RzJFWXVubmxTLWplcnpkY2FEbnN1LTV4X1V3Z2hJb2psRldfa0VSem1ueWhwYWhDSXh3SGZUamNwNXFMZE5jd3hVbkNJYVhRVFZ5S3J5UFRBSmhzbTlJcDZWZ2ZNbzNFOG8xcGhza3VsNWVBV1c5Z3JFa0U?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "Lactalis",
@@ -69925,7 +70981,7 @@
    "sourceName": "fastcasual.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelpXOTBmR2JINFl2b1JrOU9GX2ZNX1lhMDJDNm9jdThMTV9fd1gzUTY2NV92SXJsM3h2cldibk1SaVVsdkJXODNJUmNUYm9KdHJRcVZRSmxlWlc0ZDBucTRCb3VGekd5TnpzbXZuQ0V5OUF0bzlIQldMTDJGM1VySmp1anBnTDllX0RhX0tXbw?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "Kenosha-based RJ Underground",
@@ -72341,7 +73397,7 @@
    "sourceName": "Investing.com UK",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXU5TGE4b3NDVlQyZWpoeUVFblNBem94TkRCN2dVSFhjWVhzYlYySWxXcE9pQ0dCTE5hS1pPYjNyNS0zb1dGbTFwa0hLR1V4c1gyYThGTU9hV2RmY0tOQ0N1M2J5NlNVSnoyV0xRTE00ODJ1d1JOTWl4a0w1aEgxU1RoVVprSHh6Q0J6bUFBNVFSVk5Ic1B0ejB5ZTFnUlZlbFVvbFdqekswT3g2S2xObG4wZWdTNWNEQzg0OWdMdl8?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Brookfield Drinks",
@@ -73141,7 +74197,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWWFpOXM5dzMySkJRcUx4T0hMLVpGemlXWXEyZ09VRWdadHZIZlp5aGpfcmdNU0VmS0cxUTdoTFJCN3ZLSWNTUHpkRmNPaUxna0s2cXZ4MUxmMzlWc0FsYjd5TFhuNU1sX3dqb2x5VXZ0NEM3VV9TRXBrVG1SWmN5LTZNdFUwWU96REg2Ny1BRnVwQUxGUnJDZVRLd0ZnQ2F1ek05d19KQlo4VkNTT1g0U3gtdFZBa05tQ2RfcU9MRF9sLURXY2VVMlk5cVlhQ1pIbUhRWW1B?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Teledyne",
@@ -76501,7 +77557,7 @@
    "sourceName": "The Economic Times",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeGk4c0txU3ZSYjlCZXVUbmxzczlEaWNVNUFabVlDa3FLbU8yMGx2azBia1lCTXJSc2lUdDBjX2wzVkt6OUdyMmlDUXRRdlBsLUtkS0xadXpQV2ZrOG0zWmp0Mk9SQ1hEd213bkxlcmZKY19pWnhaRVhVWks1aUZfRXJRQnQ5NGdOZzBuUUNPRnA4WmdnNFpQaTI0VEpidnVoN0E2UEQwbTFXWC1RdDZfX0VIdkU3Uzlwai0wU3h6bFRlSTdWU2htQlJHNWtQMkdaMmtFYmV4SjFQcmfSAeABQVVfeXFMUEwzd3AxUDlua2lCdWVaTGFVS0pleW5sZDg1Ny11R2d0WnU1Q1lBcTAyaXljbzV0c2x0VDBYQkhyYjRwSWhTdVhPWi1pY3p0YmJWLS1UbnJvZ2F5bWxoRW5iT3pvNTkyOThNbE1XalFpakwyTHIyNldWeDkxXzhQYjhSVldyLWl0WHVud2FXWkJGSnBmWnBpWFVpLUNqZlhOWWZ0RWdWMld5c2tERXNKb044NWJjck9uX2hsZnNZaFhYc0x5VXQxcC1VRlBpMGd1aWpZU1VTaVFBQ1dqby16SUY?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "KKR",
@@ -82373,7 +83429,7 @@
    "sourceName": "marketscreener.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLVRzRG5SUFZvRWtmXzVweXV1bDk4Q0VRaVBnOFlLSXV4M3lVQ0VlN1NjdnRvX3dacXdJRHRXMFVMQ0t3UjdQVG5EeVlNdE53UU9tVFBXQXFSQ0NkS0ZUOVZpTm9BNHpBRUVWRG54ajF5cVd1eE03cUY0TEVfR1U5ZmxscGRONzY2TWl1RmJiSEFOVXRoMUZwMVpaOGN3UnpUVUJ2bmM0REVvcTlCWlNKY3I4ZFlReU9TSklIRVg4Si1IdWdOVExIUU85bWQ4eWFz?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Visa",
@@ -85349,7 +86405,7 @@
    "sourceName": "Onward State",
    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQemRMN2Nicjk3YjU1OS16UXVDMi1NdjMtU2ZGM1dPSUJMd0hSWW9iV2dxbUt2OWNvczRHMU9JbDBXbkxnSTVwbjNVYVppTExiNUlOYTBlYVNJV0IzZXFuS0RybDFsUzRac0liRGY1U2JrbW44YnE3cWlDQmJwU3J3ckUzbnU2d3BKQVpMMkxqU2FMbGl1d19DNUE5c3Y0aFJpbnYzcnk2WVY5S2RLNkVBRA?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Everus",
@@ -88965,7 +90021,7 @@
    "sourceName": "Asset Servicing Times",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWEFreFo4OVppLTVRQTQ5TEpLckV6bzFrdl9BaHNWU29YakF0aFFJNVBnbXFkNjZubkEwZEdGcW9wNWZGNUQ5UVY4UmFjVXBQS0xaVHRkYzNxd1BOaThuNHBrR1p1QktfdEZ0U1VqTExkaG9UZ1M1VW44LXpJdmJHVVY3dGNEaERZZFYtZVNqT3Y3bkE5?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Access Group",
@@ -91045,7 +92101,7 @@
    "sourceName": "PR Newswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONWNTaUpBUFVDcDVGdXU3R0ozeUlEaTJGN2VLSkNKb29lY3hDWVlKU1pSYkcxOVBwTlhxbzVVMFp5LUZKYllxdzRod0FONWxyMDZXTWZCTndPTEp3LVZ1b2pqUEtWLXB3UGc1di1USmhEM2ZPOEJ0aGJPa0psdDU4WXFsY0pMdmU1cHI3R1F6dTFUdGluUWlReXRNRXZRU2JyWkJYVVhfOE5VdkpJZzRBWjFBaDVFZlEtVkNsYnVrUEE5a2ZBeUY2YjM0NDlWWGZOeDlOUHJyTGV3cW85cUlMM3BLZW80ZEcyYnc?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Dover",
@@ -91269,7 +92325,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNM3BtTTdKczZ6Z2hVSlVTYnFVREJOeHRoc0xTRnhaX2FrNFIxckVwekE4WC1WelFXWm9LbW5Md3F1Q3FTRzFiYTVKSWJvaENWWW5PMWswVFIyZ3hOc0F5SDRjRlQ3ZTZoVEliMi10NXRxbm9UV3ZRamJiVVV3UXVEcl8wYk11RTNlVFV2U1lnYmV1TXBndVhlZWlSNlBpdk94RG81TXl1c2YyaXEtNmJGTTJsb1RDNEUyN2tzSUpCLTRucEJUb3RSX0FwZmFUY0M2U0VNb2dxQjJSTFVsWjFfeGFiNGJvZ3FERGRPWGxOaWRJM3hPWXhrQTBaMkw3Q0U2U0lCaUI4dHRzcGdB?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "SNITCH",
@@ -96021,7 +97077,7 @@
    "sourceName": "The Clinical Trial Vanguard",
    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZXRfUGEwZW9PdXFDVWcyWTVYTzF5VnI3UDRMR3J2ajNfRHNtSVFYV3lPb3FMOVBDa1hlbjVQWlZoUzJvQlk2LTVtUTRLVGs0cEhmZGsxOFlFTnhCcm0zWkRfS2lJZnVVakRxNEdYQ25QSG85T3pQdHB2VldweGZpSWZacHhRVnFmTVdvMzJOcmVNbk80NmNVeVdVQ3NaOVFvY3BmRU5YbWJ0czJHR3JYQkpfbzBpZlU?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Matrix Private Capital Group",
@@ -96777,7 +97833,7 @@
   },
   {
    "acquirer": "BNP Paribas Cardif",
-   "target": "26% stake in IndiaFirst Life",
+   "target": "Stake in IndiaFirst Life",
    "dealValue": null,
    "valueUsdM": null,
    "announcedDate": "2026-07-24",
@@ -96789,7 +97845,7 @@
    "sourceName": "BusinessLine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQlR6Z1o3R2s1eWllc0l0NWoyOUpBWUJZZG1JMmZrMXpHbWxzUV91SGk0MWk3bDR1UTFEZEZ4Z1VWR2tsbTEyVlcyank2TW1jWTF3TUtLU1lVemZQRlc4Sl9QQVpsNm1HZnhzSWF0NFVISFdoaTQwZU1fd3FOLU10WUtBa0g2dmNsT25adTlwMHg3NzlhWjJ3YkNZWEwyQ3NMMnItZnNPRHhxUHpNNElmT1d6LVRBTVJIRjFlN0dkeWVoVEduQWdMZTRvb2pXUlBiaVRHd3hGQ3FKLWJ5TFdqUXlaVXhOZHPSAe4BQVVfeXFMTWpWVWNIUkQyZmJiY2dEa21VSVh2WXJpR3ZXQllGS2xYcFFJZ0Nia3Y1U0hRT3pJSWhhYmpERzlxcS1Cc216R0dreEt6RzVuQWdBOTlQNndneklraFhzdXF6VlV2dHJjRzhLNTdOenJRbWZNbks4b1pUTFJGdVZub0VPQmpyYjRwQWtIUHk4QlM2RU1taUFTbkNlVnljUU5IckxvQjNWdWM3TGhuMWlGQWMzQlFkNDEzV2FwZkpfVHQxcXRLSFRPZk5XYWRsZ01kRF9GODlFNEZWWG5uZHFpVktESXJ3el9aNHQ4cks3Zw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Lactalis poised",
@@ -98389,7 +99445,7 @@
    "sourceName": "IBM Research",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JWmxBUnp0dHZaSDJwTy1qQl9TT3RDWWp3dkZHSHdydEFGbEZHWkUtdzMyRkp0MHliRzhCaUxnYmZmMFNibF9FWGhnYmdHMUdEd1JEUUlodmU3VDlwb1d3?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Mapfre",
@@ -98485,7 +99541,7 @@
    "sourceName": "GlobeNewswire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOdlNSTmV2aVJ6X01kRWQ0dWJCWHE4c1ZEUEVqdm1sTTFzY1NJYm5TeTZqSVJGUWZ0TF9KWlF0c3gwSXRDVFBNSXdSZlAtWTMzc091dGZ5cWdvcTc0YzAya1VLa1pqeDJOcHE2QklSTFhBVXI0b0lYbG9oRHVQTEozcEVnNVZqbjdRdzQ2MFlUdHRBaU1JRTB1NFREeWIwVFdzUURrRkpPWDFFT0pJS2lzcFFId0I4alVfa0tYQTI4cW5OMFhuLWRQTVhFay1NUW5pb1RLNW4zN1c3TG11aTJVUmd3OE5FQzVDYlNJUDgyTnRrZ0lzMzNyVmQ0WmNNd3dza2VuR2ZNamhkT2VHNTVHalNkVENZV055M0ZSTUhDMjdRMUhHX2xWaWVTenpNS3ROVVVkM1lVeDRCaUxPVkxaMnhobFFuY3F6UmI3U2NmTzRjY0dZdXY0Zm94NnBkTU4wcGgxNGhPaldjVGlP?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Brookfield",
@@ -99909,7 +100965,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdkF2QnNRRkdMOU8yN1JhbUJ4Z25yTzY0R0tYMUdjY2RoUGUtTEFab29OLW5WTlBRVnE1a2Q5al9vbmtRdHdtdzhsb09GZ1pXZjZxYkRENGNIbHZhN09qakFKRVdjbFVxMHV4SkRhUnFWTVRhc3dmdXAzSjBQeGpMdUlQRjV4VFJ0WTJ6Zk5DR3lPMFZWcWVTdlpsdjdtdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "City of Oak Creek",
@@ -120613,7 +121669,7 @@
    "sourceName": "Yahoo Finance",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEFFVWNqNEc2a1U5TXdVT1lzQU5yUFdDSXJQa1ZhTUhSZmd4THJOVnB2QXkyQkk2cVFuYjV2OHZOWVZINUs4RUZYTXRUX0NJaEE2cm9NWGVzMnpnRVJZeWEzNlhQbzRzQ3JIUzhjRVM4LUFSaGpYamhaX2RUbFpocVctb0pSVXR4c0d3MEt2aEFoUzhVekkxUFZCbm5PazNRR0pvc2hkb0k3ekZIVk5R?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Authentic",
@@ -120965,7 +122021,7 @@
    "sourceName": "401k Specialist",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZTdONGJMaDJzYVpYdGo0aW9jb25ETGY3VmdZMnpobmc5blhFV1BPY0dfTVludzhvV0NMaFAxOFhSZklxNmVkMW5NWlVDV2Q0a2JUYVh4elRKaV9oRjJZZzJITU1vMHd5am5iMFBsbzdTa1B5YVFRTnpHaU9NSGZpT2R6MDNBRjhQX0FWMGJWNGhYVVJUWjhYOF94TzhfZlFyVjBRZTVRRQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "Springdale-based company planning",
@@ -121525,7 +122581,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYXIzbnhSZmVURUQzQ0dNdTlmTnQ5R000TU9uVk5EeHlwQlJVM0txN3lWdWFLdG5pNE5RT1o2UGxhN1prUzhuNWJYX0JOWTZCaGwyVW1kSGpJU1lBeDNUVFpIUE1MeU5vVjdYRU5CZ0FLb2lkZkt3YzM4ZVFqT1c0X21fQkVRYnRjZGxvMzBGb3QyQXhVWlVORlNVb2RkaGpfLTFzUVZFMUhGRWJUa3BRQlpFcW1XSEQ2NEFNQ2pZT3AtNXJHODhTV0hMU0RnWWhneERfMlNfTnVvN0lmNWVxc3kyTTZIZThDc1hvUGlmaE03V3VqV0FpblRDREw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Aurobindo Pharma",
@@ -121749,7 +122805,7 @@
    "sourceName": "Insurance Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrV01KSlZwV1dKbmZ3bkhPUURid292azlmajRBay1iUFpmNGVxcGlCanVTSEU1T21aZExEYVdHeVZuX0xVSGlxQTZ5SU5USnpKNkdkQXR3azJOVDhPMUhVakNvd3N1R3dKV1JoT3l5TDJzcEk4c0d0ZkdFNzVGUQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "CVC Capital Partners",
@@ -122165,7 +123221,7 @@
    "sourceName": "The Business Journals",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY1dmRFhWUUdhQWk0bkp5RjVXd2Q3Y0xfVGtmMjFPWGhhTDR5djhKeEIxUnFNWnBaVVRhMHk1NHdEa1ZKcnkyRTFsQmQxdzNzdldiMlBETGQtSUdKRkEzbGE3VERtOXN1V184UzVlOHpRN3VyV2NXYzRaQUtWcU1HSzItUFFyZDJGLXBuYnBxX0p3RkR6ZjZnX3FzNS1TdXU3Rng3bTZvOVlja00?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 3
   },
   {
    "acquirer": "BMO",
@@ -127429,7 +128485,7 @@
    "sourceName": "PitchOnnet",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOXcyVDFjcWNYRkNuVnhTMlBwbEhtVjFJVHd0WDZlN0g1b2F2Z2hnSXBlN3EzaUZCYzM4anRCUUVXRzlGNGJzdmpwWEJLYVNwSnFhdkVObzF5SzhfTWE3akRvbnhhVDdBeHZYZElHRi1VdUwzZUZIdVBqM0xuWGw0cHVZbWM3OWhWdmU1R2paQ2xFTzRkZDhwWnZWTzg4d1FfcGI2VDFXUnZyN1E3SGJfcG5FN1d0U3hMNDhOUy1VMHc?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "GTPL Hathway",
@@ -138309,7 +139365,7 @@
    "sourceName": "EquityBulls",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRN2llNGJIUk1JR0txQzRKNkJKMTJockNrYjdyQUNNSkRQdi1CYWUyek4tWnhMOEVRY3NKcHdCbGh2bnB0NDBhYXAwajBrd0kzWW9nR0pTM2F6Y01fWnpN?oc=5",
    "feed": "Google News",
-   "alsoReported": 4
+   "alsoReported": 3
   },
   {
    "acquirer": "Figure",
@@ -139413,7 +140469,7 @@
    "sourceName": "Trade Brains",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMG9JMlVUTHZYMEZTZ3ZyRzZGeE5mSnVmOENEWjJCWTEtaUZvV05VNjQ2QUUwd2k3cjNocl9uY3JoTUYwbmtQRXpHeVBtemJDd2tGVVhPVk96dEk0eDh2Q291Y3liT0VIaVRPOUZtSDVrNk5fOGxVajY4WEhpU0JqVXMwN3R2SFNlTFFEYUlJT0lnQW1LZVd4MGxOZUhEWHNFS1pweTRCdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Nuvei",
@@ -145013,7 +146069,7 @@
    "sourceName": "FOX5 Vegas",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPamFxdWRQNGI0RWI4Z1lFZmtfX0FQZkxyejQyVEk1ek1YZjV6eHhneEdCTnB3dTVqcjdaOTJYUEZqWGFSV1I4UnVVb2NtcnJxX010UWc5UmZvNEk5RVBOQUphV0hOQzNnbFVVOG1IM1BDNC10UUMwMGs3Tm5kTy0taEZra0NpTmx2TExR?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "La Martiniquaise-Bardinet",
@@ -173605,7 +174661,7 @@
    "sourceName": "In Compliance Magazine",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTWZReDdJVk5aUXFERmRXX09rNzBFbm1fRDZaTkpRZFczb24tdklZM0R4VGRybGVoYmVfV2VSUEdzaVo5eXBnc3dDSHdtNWNrV0ZBWkdoVWhoTXZmbGNZVXdKaU1DTVpJYmlpdk84SFFQYmVhcFZYVUhxblA3Z3dQZTIwZ21FUGhxVkVyLTdEa0JCYWhjczEyOW5RU3NFcU45dXpEWjdNLXRZMzRhdC1iOTA5eWpzR2kxNnZkNTVKUlBndVlHczdfTk5BVkpnLXNTWm5WYmVfTFVIVlXSAeMBQVVfeXFMT1J3LUZFUkJQX1F4U3hXOUIwdGdsRGdPcjVFcExleGpyb1VudTJfajdzeVdKVG9lX1lHWnNZd0N3cnJOZXpNcHVjejlPc1ZaTmw5dFJBTW9QelRHdDVnbnhwU0pjc1g2ek9EN25hczB2dlZrN2NvTUpCM3l3d2ROVzQyWV9hSjd1cjVQbnpEUkNHM3dRT084RHZjN2NQekYySzMyM3VvVUpxOTI4Wk9NdU81MmhoSXJfdnFNUnowLUlKV2Z4c01lR0FfVGt0MDJQUkQzMFo3YTZsU0I5ckUtTnRHamM?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Palisade signs",
@@ -198597,7 +199653,7 @@
    "sourceName": "Turkmenportal.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeERua3dKcmFZMXlPVmZRU1F0Z2JfbUNiZUlCN2c0Y2RtOTMwcXdDak1jdjFvZG1SN2xsUzBpTDNwaUg4NENzbHlNYk5EUkRCdFluTzE2UEZCOWllQWJHYWNVa0FzdE54THV5cEUzZ0JUaWVzOFppUmV1dWJEaXIwOWNXdFBoUkp6VGJiWHlRZDNobFp3bm9haFo5WTNIRWNSNEIwYzdySTAzME5ZdHVlemU5WjZ5NmlEbUlfcGRhRDE5SUJEMm5BZllhNmVnS2ZhU1BQeGl5bGg5ZDJW?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Primary Wave",
@@ -199109,7 +200165,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZDU3enlIak9pVG4xS3VzZ19nY2hLT3BHSUdXSW84bEtEWFFNUmlkM3RqQmE4WUVzZFhfV1dDdFdPbUFwNDc1SElYdlhRLWhCZEoxUnh3QTVOZHhlVjcteXV3NDJQeF9oUHBTODBjek9uTGpVTWNha1d6U2gxOG5IMW5wcUVoSFhLRVJ5Z3RGeDJmU3Z6a1p0V2FVYmcyMVNuWlByb1h6T090YW1NYUV0SHY3X0djQmpVXzdEakFVRkg5eGRndkZ4MWE2Ni00VmlfQWVvRlNJSXFRLXkyc2p3TFRoZEllb2FDNlR0YVdMZExrT3hONF9sYnlZYm90OG9vOWtaM3owZW9QLUZMUHM2dQ?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Private Equity Firm",
@@ -207173,7 +208229,7 @@
    "sourceName": "Protect Democracy",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTjlQal9EbjhtUUU1RzMxbVA0c2g1NzN2SHRMT0NNV095dmtHS3hTdm5MdkFuUHZYVjcxSmV1c0tMaE1jZHl0Zkd2ZWJLR0NmSkNQSGk2ZjdWVzFtVlktTS1nSWdNREdjT3lMRVZLSTg3dlZham5LSmxSNTFmcDFrTWVldmZXM1JqblcycmFn?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "KPS",
@@ -239605,7 +240661,7 @@
    "sourceName": "Investors in Healthcare",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ1J4bkw1NkFiV0tnVGp6eWJpalNiaWloVDR0MEtndWN3MXBHWXJYWlRnLUZyVWJ5Wm9nc1ZQTTIzUnhaaGZoU2ZXMmpHTC02UHE3VkNPT3Z0dnQtbHJZbjBKRzZFdk5NNXd5U2E2RnREMjY2T1NINzNyWjFzVDhJZ0RkRFNoUXVObjhZc3haRDNtWExiS1RpRnUwcUM0VUx2WE1WYkRmdlA5VlBBY2dNTEhDV09ORFdkY3Z5ZThpYnJpaHM3RU40YzlnWkJ3UWxUbWZMaUxPU3F2bjF2aS1xZU15Zy1lU0E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "ZCG-Backed Unimed",
@@ -242121,7 +243177,7 @@
   },
   {
    "acquirer": "Pegasus Airlines",
-   "target": "Czech Airlines and Smartwings",
+   "target": "Czech Airlines",
    "dealValue": "$166M",
    "valueUsdM": 166.3,
    "announcedDate": "2025-12-08",
@@ -242133,7 +243189,7 @@
    "sourceName": "Pulse 2.0",
    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUm1qWmlfWjA1VlVnYUE5c2JFUTdnU2JIQzdRNVd0NU5tNzVEWV9ESkJLYTZkYXRXRzYwUGZXTHNVR1FHTTBTUXZ5TzJ2alEwMjVXeDRPU0g3VHI1VFFjOXd4aXNEcmRGV3IteDZ0My04blpuZmFtQ0k5MjJRakUyY21FRXdDcFJEZ2MxY0hGcnNSNDdhR0pDcWx1N2hLSGPSAaQBQVVfeXFMT3NhOGYzdlhVWGJZS2dHcF90c3h6OUY4Q0RKYUh2TkpwcWpGSnlDZ0pIQ19xTy1CT19ROFg5UE03dWx1YjRfVzZldGw2TUFSOTllSjVyd19aT3paSmhjN2FlVDc4ZFhqeGRTUTBYTUFoWG9DMFRWa2wwUjZ2UkRjajhsaE9rTlk4Yl9iOG92eGlQdHF6Q1o5Q3A0MzVBTG55XzFuQ04?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 2
   },
   {
    "acquirer": "Diginex",
@@ -248765,7 +249821,7 @@
    "dealValue": "$2.5B",
    "valueUsdM": 2540.0,
    "announcedDate": "2025-11-21",
-   "status": "Announced",
+   "status": "Completed",
    "dealType": "Acquisition",
    "industry": "Technology & Software",
    "region": "Unspecified",
@@ -248773,7 +249829,7 @@
    "sourceName": "Coverager",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43a0lxZGI3RWFuY2RXYWpGTl9TZU4tQUVoTmg0VWsxVVc1bzVJeG1jQUt4Rk9TNkpBem9sVzYwZHdJc1VaUG82YnRtVURIaE80UDBXU3VCano0WVI1bjVjeFlfMlpnaHVSQUE?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "Mitsubishi",
@@ -265465,7 +266521,7 @@
   },
   {
    "acquirer": "KKR",
-   "target": "stake in Malaysia’s Avisena in healthcare push",
+   "target": "stake in Malaysia's Avisena in healthcare push",
    "dealValue": "$5.2B",
    "valueUsdM": 5200.0,
    "announcedDate": "2025-10-20",
@@ -265477,7 +266533,7 @@
    "sourceName": "Reuters",
    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ1ZFZGpwTDFiNW9INmdjbWV3Z25jNmV3V1ZsQmVYZHlUUWMtNkZ3NXNBY2E3RUowanBoTVhleGlNelc4em9PLW5lajZET0IxbEktMEF0OEwzaGUwTHZVZ1p3QjBtelZtQmlyYjl3dF8xa0c2RGdZVzJZcC1Oam53V3BnbFFtZkFrXy16Wkt5VUZ6U1lxNXVRUnVDRDF5b0txcHVtUk8zQWNuQ05sRDloRDE4OWw2Ym9BVWkzdVZ1MUtkZ21VbkR3?oc=5",
    "feed": "Google News",
-   "alsoReported": 3
+   "alsoReported": 4
   },
   {
    "acquirer": "DocGo Q2 Net Loss Widens, Revenue Falls; Company",
@@ -268841,7 +269897,7 @@
   },
   {
    "acquirer": "Brookfield",
-   "target": "ESR",
+   "target": "ESR India's logistics portfolio",
    "dealValue": "$516M",
    "valueUsdM": 516.0,
    "announcedDate": "2025-10-14",
@@ -268853,7 +269909,7 @@
    "sourceName": "financialexpress.com",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0N3OGFuMEwzUGx4aFk1SGgwM3VJdngtWFhNWWU2Q1ZhZmwxVW15Tmx2c3llSHpmR3Fyemx0TG1fSWVJYkUtYTFNaXg4cnU5S0Y4dm9HZVlLVVlDaGMtc2VQLWV6ZFptSzMxQnZUQWFfQ0NXdS1TWGV5UzI2c1g5ZHhHV0tRYmxmczd2Z29wcXRKQjE4ZlcxZW9va29TLXdZZjBFRlVKUkNGeWMw0gGzAUFVX3lxTE5nRlhURkRuTmphbzViMjg0T2duQ0pGZE5HcnVBdzRuMWdqMlhwM284bW0xSmpoMUJ0Nkxwd3RXREU0WmdwdUFMWWh4VUpmWkIzQjBTQ1Y2ZEVCZklXZGNQd3JIU2JldTY4RHBwUjJ5RjdoRFRlWjlWWjBmUWFUc1dfaE1CcV8zSUR4OGlCZlpwWTdQc0lqZVlrbjFPX1gtWkxHX0ljQkFaWkdZYmhiN05rVjNZ?oc=5",
    "feed": "Google News",
-   "alsoReported": 5
+   "alsoReported": 6
   },
   {
    "acquirer": "Datavault AI",
@@ -284501,7 +285557,7 @@
    "sourceName": "International Business Times",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlZZaGFpY3dKT2c1Ums5clh0MnVlTFdJLWtVWEpvajNtQnQ3VzVzM0Z2dG5Ca1ZvdHBscGxxWURiSndMa2JJdDZxS29UbTg4a1FfSzBYMk1RZ2h6MzhSNzhHb0tOSGk4anBkS1VUUXE1VTFWS2dhREFjbG95Wm5XbWs4amJGcldGQTZEdjRDS2pvSGdGVmZoWGUwWjR2X1lTRW4wYUl5UWp0TXdMU2V3d0FqNm03TmNo?oc=5",
    "feed": "Google News",
-   "alsoReported": 9
+   "alsoReported": 8
   },
   {
    "acquirer": "GTCR",
@@ -285253,7 +286309,7 @@
    "sourceName": "Boutique Hotelier",
    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OTVM2S2lSM2hoUzdkY3lmeGlUdnBmTHBLd1RMdUdtR2cwSVhyWU15SmlhcUNDR3FfbUlTTTREdk5ucC02YzBsRURWc3E3T3ZJR09JVlJDNHpKVy1aSEl0Yy05VDZqLWY5blFfMVR5RURxTU1KLU5aam9PQlI?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Tega Industries",
@@ -294853,7 +295909,7 @@
    "sourceName": "Retail Dive",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX3d2ZkxGLXVoZVJTTHIwMUdUOG80SUdDbzJJMWpqNEZab2k4emZnQjlsZ1RZUmFVM240VWRtZ0xqd2wyMnJ5N3hGeEhDNkZVYWVFYkNjQW1rb1dpTGh2WHR0QjVfaFhVaTRJbUNxbmxybk1aMjFpajNkQUJ0OUNObmhINXR1S3hVT0dHSE8wSFR4b0JpMDc0?oc=5",
    "feed": "Google News",
-   "alsoReported": 10
+   "alsoReported": 5
   },
   {
    "acquirer": "Lowe’s",
@@ -308981,7 +310037,7 @@
    "sourceName": "Hürriyet Daily News",
    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZmhzS09UYmdmWExGaXpqYWlHakhMWlhkZlluc1c0WGxLb05wNUtmZzZkOGJTanh5U2FYblVVWjdkLVpaSWVJSml2WWdHR1YtcW9XSnkxT043WFdZZG9NVVpHRUQ4X2dNaVNmZTF6N0prMWhWNlpEUGlfOVlIYWQ1SUJTTTlFb2lLOXItQkpFbkpOX3FLOXZHYUZybw?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 1
   },
   {
    "acquirer": "S&P Dow Jones Indices",
@@ -338917,7 +339973,7 @@
    "sourceName": "Hartford Business Journal",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbk15alFjZjlkWjZkc1p2WEFkZDViMURZM09VblVrcHNDa2hmWV8zaFEtdko0MlpSYnFaNThQLXhra2xFZjJsSTcxWmVLVXdIUzFyNHY0eWNmblpma05iX3NraTVLUVlWb3psaDljcUxJa3BLVUJDNTFUWEc2TWNrZzRtcTUyVEVrSnRGaUEwajBxQUtKb0h6NkR0MnU0UE5EeW9FYWNMR2Vmdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Honeywell Technologies",
@@ -343189,7 +344245,7 @@
    "sourceName": "This is Money",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOWVlQm55TG9mX1RIUmJoOGkzMWZ2T1l2Z0lfRk0ycHJWMnNWVzhNWkVRV3lwbmJPVUphVWdNV2NHdjI3akpUMmpXWDUyMDdEZFlwbExRYWNHYzBXRkU0VlN2a08yRG8zSlNMS0N4MkkyNVJSa2g2YmxnUDFzSERnSXo1TDM2R3JjZm5xMU5LWDJDdjVFRmQwazZLdEYzUnZBMHpkeUtBdWdIWEFVMnZuQkM5cUZfdFNiSFd30gHAAUFVX3lxTFBlel85dFJjWlJJUnAzdHNpYUZkaExDMWVvMlduVk1BSkg4QUpIX1ZOVEJFdUR6WkRtMUY1WjNIYVlLOHB0dU9mMEVjaXdFVm9wOFhDMUNzUF9hLU9NUXBjTVYtMFk4dDNTanFTVEpfc1FJUWZ4UDZ3YWt6SmxCT3diWGw0SEx0ZzU3azVlNEZhT0I4SXNHX0c1OVJjRHNSbEpfcS1mM1YxNWEwS01CTnVyYlpBSGo4VFlDSk9XVVU4dA?oc=5",
    "feed": "Google News",
-   "alsoReported": 0
+   "alsoReported": 2
   },
   {
    "acquirer": "STAMPER ANNOUNCES DEFINITIVE AGREEMENT",
@@ -391909,7 +392965,7 @@
    "sourceName": "Insurance Business",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ2t4TnV6Qm54RTRhRVA4OGpWZFVUT3E4QzB6RWlmUjYzeUkyRU5ydWxfNUc1VHFFNU9CQmRwbzZKQkxpUzNISElWNC1XUTNYeFdzTXR5SDVzYXlWN0tmb2hHNldqZ204VzFtX05oLVBFVFBPWXNUZk9pVEpnb1JTOXBTUE5fZGczNlNBODg2eDhlalRUWXpNcWpzZjBjVHMwRnNZaFBBVmtBbUZSaGVnMnlxQ0NfbEFRYm5yUFpCVm93RnItSkVNTG9Md01meG93ZmNv?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "A&D Mortgage",
@@ -401413,7 +402469,7 @@
    "sourceName": "Fortune",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ29WMFkzS2o3SzRwekc5Yk5BbWJPQy1KTGRhZVFTZkVvLVpYV25rTUFhODhpYWk1TnpVdnJjUUdsMW1IV1dYSi1haHpLYUV4RlRSbmE1MFd5ZzVlMGFLZ1hSenJGOUQxODZMR1pELTEtRlc5aVlKZGZabFdaOFh5cEpoM2prRnNIYVhqcGFjdw?oc=5",
    "feed": "Google News",
-   "alsoReported": 34
+   "alsoReported": 16
   },
   {
    "acquirer": "Trio Petroleum",
@@ -407717,7 +408773,7 @@
    "sourceName": "The Business Journals",
    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeDI5MmMwRUltSUsyY012MUNXdjJ4T25UTlEydkNka3hpOWppWVYtMjJsN1ZWelg0NTNZV09SNzgzNGlDWmNYZXpBOGdQbUhQdzhtV3lXbk5vSjI5X1A5ekRuT0dLc2prdGVJU2JwQU9DZjFkcVJ1bHFRU3Bna3c4MEtjXzdRSmJHMEhna05LNEFlWUtlaEY1bUhYZTg3cUJZNFNHMzRZU0dWNWhWaEE?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Ace Green",
@@ -423589,7 +424645,7 @@
    "sourceName": "Gulf Business",
    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGVkdVhnYXBYSm96VDhPc2F4UjVxYXNDTDRnbllWeHdsRWh1Z3VhdGxUc1RtR1gwZnVnTmJjcG8yX3haZk9jVHNOZHNxS1RPV0NFT0lReWJLazJ5b0hjUWxqLUhHbjVQbVNCcDVtemZBNF85eTViWWZqblN3cTlFdDYyYXl1OVF5NTBYRXhjVWl2eWV3NkE?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 1
   },
   {
    "acquirer": "Ixigo",
@@ -438069,7 +439125,7 @@
    "sourceName": "Washington Technology",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTk5ieEdxUktpd0dOR1BHLXZabHVWR1BpTi0xSFFnZENTcTBoQWIwejBJck1MZzQ5NkJPMHhPYTc0ZWM3aHdmQl9vVnBaSVlmYi1VeGhvSk5IVkFQcGczQ051MDJaY3VrMThMYVRQM1BLTkN0MWhVVXdhU1BySk90bXJqRFlUbWhHZWN2VENkRm1hVzBXcDZTdDVhd1lCejl6b0E?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 0
   },
   {
    "acquirer": "Rise Baking Co",
@@ -438837,7 +439893,7 @@
    "sourceName": "Business Wire",
    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTWp0MWNROW9KOVZicnhMcnp6TDI0aU5yYUdNSlh4LXo1aHBTNnZudGJTTFRua01oN0lROGpJM3hjcjNhdXMwZmQzeXNmNV9nb3dOUDZjZnBOOE1PcWVieGpMRkZrc2tKdURUMEpMV3FHT3FHLWF4UDFJczZTSklqajVxTERmV3EwZjExM3V0WDRsZHJaWW9GRWtyWmJ0akR5bXVVc3psdkx5U05BeEUwbWIwcjBDY055ZllnelF5MnlfakdpSGpyYkxR?oc=5",
    "feed": "Google News",
-   "alsoReported": 2
+   "alsoReported": 0
   },
   {
    "acquirer": "Mitsubishi",
@@ -454037,7 +455093,7 @@
    "sourceName": "TradingView",
    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTzVlWEFnczFPVG1Rdm9VcTRreXdMb0RLMEJEWTRpd2o2bHl3R3BtTmlkVXY4VHQ5aU8tdHRwdTRzMnU2VVRyek84TkRkakFlWWo4YTM5aEI1WWlvWEhTT1VRbU85UDJPVll3STE1WnhhUFo3eHJ4WnVVdXE3M043alVIZ2NCc0hHSnFsZjNWSG44YmhpSGlsaVR2RGlWenR1SjhDRnp2RWQ5Y1d0QjFSWk04eU9DVVlGeDBRenhKUG5CTThuZ1dieHI3TElldlRmWTVzdmxzVWVjaWFSNzNEOW5ST2g?oc=5",
    "feed": "Google News",
-   "alsoReported": 1
+   "alsoReported": 2
   },
   {
    "acquirer": "KKR",
